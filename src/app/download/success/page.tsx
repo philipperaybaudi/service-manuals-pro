@@ -1,5 +1,11 @@
+import { Metadata } from 'next';
 import { CheckCircle, Mail, Clock, HelpCircle } from 'lucide-react';
 import Link from '@/components/ExternalLink';
+
+export const metadata: Metadata = {
+  title: 'Payment Successful',
+  robots: { index: false, follow: false },
+};
 
 export default function DownloadSuccessPage() {
   return (

@@ -44,6 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = doc.seo_title || `${doc.title} - Service Manual PDF Download`;
   const description = doc.seo_description || doc.description || `Download ${doc.title} service manual. Professional technical documentation in PDF format.`;
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
   return {
     title,
     description,
@@ -51,7 +52,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       type: 'website',
-      images: doc.preview_url ? [{ url: doc.preview_url }] : undefined,
+      url: `${siteUrl}/docs/${doc.slug}`,
+      images: doc.preview_url ? [{ url: doc.preview_url, width: 1200, height: 630 }] : undefined,
+    },
+    alternates: {
+      canonical: `${siteUrl}/docs/${doc.slug}`,
     },
   };
 }

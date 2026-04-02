@@ -62,12 +62,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = await getCategory(params.slug);
   if (!category) return {};
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
   return {
     title: `${category.name} Service Manuals | Repair Guides & Schematics`,
     description: category.description || `Download professional ${category.name.toLowerCase()} service manuals. Repair guides, schematics, and technical documentation.`,
     openGraph: {
       title: `${category.name} Service Manuals`,
       description: category.description || `Professional ${category.name.toLowerCase()} technical documentation`,
+      url: `${siteUrl}/categories/${params.slug}`,
+    },
+    alternates: {
+      canonical: `${siteUrl}/categories/${params.slug}`,
     },
   };
 }

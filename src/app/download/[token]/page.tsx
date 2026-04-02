@@ -1,7 +1,13 @@
+import { Metadata } from 'next';
 import { getServiceClient } from '@/lib/supabase';
 import { redirect } from 'next/navigation';
 
 export const runtime = 'edge';
+
+export const metadata: Metadata = {
+  title: 'Download Your Manual',
+  robots: { index: false, follow: false },
+};
 import { Download, Clock, AlertTriangle, CheckCircle, FileText } from 'lucide-react';
 import Link from '@/components/ExternalLink';
 

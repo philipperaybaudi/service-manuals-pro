@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Terms of Service | Service Manuals Pro',
     description: 'General Conditions of Sale for Service Manuals Pro.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/terms`,
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/terms`,
   },
 };
 

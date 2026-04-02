@@ -7,6 +7,14 @@ import CategoryCard from '@/components/CategoryCard';
 export const metadata: Metadata = {
   title: 'All Categories | Browse Technical Documentation',
   description: 'Browse all categories of professional service manuals and technical documentation. Find repair guides, schematics, and workshop manuals organized by equipment type.',
+  openGraph: {
+    title: 'All Categories | Browse Technical Documentation',
+    description: 'Browse all categories of professional service manuals and technical documentation.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/categories`,
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/categories`,
+  },
 };
 
 export const revalidate = 3600;

@@ -22,14 +22,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com',
     siteName: 'Service Manuals Pro',
     title: 'Service Manuals Pro | Professional Technical Documentation',
     description: 'Download professional service manuals, repair guides and schematics. Instant PDF delivery.',
+    images: [{
+      url: '/og-image.svg',
+      width: 1200,
+      height: 630,
+      alt: 'Service Manuals Pro - Professional Technical Documentation',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Service Manuals Pro',
     description: 'Professional technical documentation for instant download.',
+    images: ['/og-image.svg'],
   },
   robots: {
     index: true,

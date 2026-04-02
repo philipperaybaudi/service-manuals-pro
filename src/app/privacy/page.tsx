@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Privacy Policy | Service Manuals Pro',
     description: 'Privacy Policy and GDPR compliance for Service Manuals Pro.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/privacy`,
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/privacy`,
   },
 };
 

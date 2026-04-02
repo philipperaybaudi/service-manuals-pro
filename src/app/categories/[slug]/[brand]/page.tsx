@@ -47,12 +47,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, brand } = await getCategoryAndBrand(params.slug, params.brand);
   if (!category || !brand) return {};
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
   return {
     title: `${brand.name} ${category.name} Service Manuals | Repair Guides`,
     description: `Download ${brand.name} ${category.name.toLowerCase()} service manuals. Professional repair guides, schematics, and technical documentation for ${brand.name} equipment.`,
     openGraph: {
       title: `${brand.name} ${category.name} Service Manuals`,
       description: `Professional ${brand.name} technical documentation for download`,
+      url: `${siteUrl}/categories/${params.slug}/${params.brand}`,
+    },
+    alternates: {
+      canonical: `${siteUrl}/categories/${params.slug}/${params.brand}`,
     },
   };
 }

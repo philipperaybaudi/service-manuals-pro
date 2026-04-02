@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Us | Service Manuals Pro',
     description: 'Supporting the Right to Repair. Find the documentation you need.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/about`,
+  },
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/about`,
   },
 };
 
