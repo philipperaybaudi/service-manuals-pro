@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 import { supabase } from '@/lib/supabase';
+
+export const runtime = 'edge';
 import CategoryCard from '@/components/CategoryCard';
 
 export const metadata: Metadata = {
