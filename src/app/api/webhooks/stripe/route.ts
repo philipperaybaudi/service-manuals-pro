@@ -27,6 +27,13 @@ export async function POST(req: NextRequest) {
 
   if (event.type === 'checkout.session.completed') {
     const session = event.data.object as Stripe.Checkout.Session;
+
+    // Verify payment was actually received
+    if (session.payment_status !== 'paid') {
+      console.error('Payment not completed:', session.payment_status);
+      return NextResponse.json({ received: true });
+    }
+
     const documentId = session.metadata?.document_id;
     const customerEmail = session.metadata?.customer_email || session.customer_email;
 
@@ -36,6 +43,19 @@ export async function POST(req: NextRequest) {
     }
 
     const supabaseAdmin = getServiceClient();
+
+    // Idempotency: check if order already exists for this session
+    const { data: existing } = await supabaseAdmin
+      .from('orders')
+      .select('id')
+      .eq('stripe_session_id', session.id)
+      .single();
+
+    if (existing) {
+      // Already processed, skip
+      return NextResponse.json({ received: true });
+    }
+
     const token = generateDownloadToken();
     const expiresAt = new Date(Date.now() + 24 * 60 * 60 * 1000); // 24h
 
@@ -56,9 +76,6 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Failed to create order' }, { status: 500 });
     }
 
-    // Increment download count
-    await supabaseAdmin.rpc('increment_download_count', { doc_id: documentId });
-
     // Get document title
     const { data: doc } = await supabaseAdmin
       .from('documents')
@@ -67,8 +84,6 @@ export async function POST(req: NextRequest) {
       .single();
 
     // Send download email
-    // For bundles, the download link points to /download/[token] page
-    // which will display all files. For single files, it goes to /api/download/[token].
     const downloadUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/download/${token}`;
     try {
       await sendDownloadEmail(

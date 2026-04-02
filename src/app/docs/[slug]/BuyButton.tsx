@@ -21,7 +21,9 @@ export default function BuyButton({ documentId, documentTitle, price }: BuyButto
       return;
     }
 
-    if (!email || !email.includes('@')) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email || !emailRegex.test(email.trim())) {
+      alert('Please enter a valid email address.');
       return;
     }
 

@@ -15,12 +15,8 @@ export function slugify(text: string): string {
 }
 
 export function generateDownloadToken(): string {
-  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  let token = '';
-  for (let i = 0; i < 48; i++) {
-    token += chars.charAt(Math.floor(Math.random() * chars.length));
-  }
-  return token;
+  const { randomBytes } = require('crypto');
+  return randomBytes(36).toString('base64url');
 }
 
 export function truncate(text: string, maxLength: number): string {
