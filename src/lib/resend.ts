@@ -1,6 +1,27 @@
-import { Resend } from 'resend';
+const RESEND_API_KEY = process.env.RESEND_API_KEY!;
 
-export const resend = new Resend(process.env.RESEND_API_KEY);
+async function sendEmail(payload: {
+  from: string;
+  to: string;
+  subject: string;
+  html: string;
+}) {
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${RESEND_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  });
+
+  if (!res.ok) {
+    const error = await res.text();
+    throw new Error(`Resend API error: ${res.status} ${error}`);
+  }
+
+  return res.json();
+}
 
 export async function sendDownloadEmail(
   email: string,
@@ -13,7 +34,7 @@ export async function sendDownloadEmail(
     timeStyle: 'short',
   });
 
-  await resend.emails.send({
+  await sendEmail({
     from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
     to: email,
     subject: `Your download is ready: ${documentTitle}`,
@@ -53,9 +74,6 @@ export async function sendDownloadEmail(
   });
 }
 
-/**
- * Send download email for a bundle with multiple files.
- */
 export async function sendBundleDownloadEmail(
   email: string,
   documentTitle: string,
@@ -67,17 +85,17 @@ export async function sendBundleDownloadEmail(
     timeStyle: 'short',
   });
 
-  const linksHtml = downloadLinks.map((link, i) => `
+  const linksHtml = downloadLinks.map((link) => `
     <tr>
       <td style="padding:6px 0;">
         <a href="${link.url}" style="display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:10px 20px;border-radius:6px;font-weight:500;font-size:14px;">
-          📥 ${link.label}
+          Download: ${link.label}
         </a>
       </td>
     </tr>
   `).join('');
 
-  await resend.emails.send({
+  await sendEmail({
     from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
     to: email,
     subject: `Your downloads are ready: ${documentTitle}`,
