@@ -17,7 +17,7 @@ export function slugify(text: string): string {
 export function generateDownloadToken(): string {
   const bytes = new Uint8Array(36);
   crypto.getRandomValues(bytes);
-  return btoa(String.fromCharCode(...bytes))
+  return btoa(String.fromCharCode.apply(null, Array.from(bytes)))
     .replace(/\+/g, '-')
     .replace(/\//g, '_')
     .replace(/=/g, '');
