@@ -6,7 +6,12 @@ export const runtime = 'edge';
 
 export async function POST(req: NextRequest) {
   try {
-    const { documentId, email } = await req.json();
+    let documentId: string, email: string;
+    try {
+      ({ documentId, email } = await req.json());
+    } catch {
+      return NextResponse.json({ error: 'Invalid request body' }, { status: 400 });
+    }
 
     if (!documentId || !email) {
       return NextResponse.json({ error: 'Missing fields' }, { status: 400 });

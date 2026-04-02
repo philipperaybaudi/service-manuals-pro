@@ -4,11 +4,22 @@ import { ComponentProps } from 'react';
 type ExternalLinkProps = ComponentProps<typeof Link>;
 
 /**
- * Custom Link component that opens all links in a new tab.
+ * Smart Link component: opens external links in new tab, internal links normally.
  */
-export default function ExternalLink({ children, ...props }: ExternalLinkProps) {
+export default function ExternalLink({ href, children, ...props }: ExternalLinkProps) {
+  const hrefStr = typeof href === 'string' ? href : '';
+  const isExternal = hrefStr.startsWith('http') || hrefStr.startsWith('mailto:');
+
+  if (isExternal) {
+    return (
+      <Link href={href} target="_blank" rel="noopener noreferrer" {...props}>
+        {children}
+      </Link>
+    );
+  }
+
   return (
-    <Link {...props} target="_blank" rel="noopener noreferrer">
+    <Link href={href} {...props}>
       {children}
     </Link>
   );

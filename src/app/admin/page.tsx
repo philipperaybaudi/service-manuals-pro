@@ -34,11 +34,17 @@ export default function AdminPage() {
   const [loading, setLoading] = useState(false);
   const [stats, setStats] = useState({ totalDocs: 0, totalOrders: 0, totalRevenue: 0 });
 
-  function handleAuth() {
-    if (secret === process.env.NEXT_PUBLIC_ADMIN_SECRET || secret.length > 0) {
-      localStorage.setItem('admin_secret', secret);
+  async function handleAuth() {
+    if (!secret.trim()) return;
+    const res = await fetch('/api/admin/documents', {
+      headers: { 'x-admin-secret': secret.trim() },
+    });
+    if (res.ok) {
+      localStorage.setItem('admin_secret', secret.trim());
       setAuthenticated(true);
       loadData();
+    } else {
+      alert('Invalid admin secret');
     }
   }
 
