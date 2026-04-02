@@ -61,6 +61,7 @@ export default function ContactPage() {
               <Building className="h-4 w-4 text-emerald-700" />
             </div>
             <div>
+              <h3 className="font-semibold text-gray-900">LA DOCUMENTATION TECHNIQUE</h3>
               <h3 className="font-semibold text-gray-900">SHOP OF TECHNICAL DOCUMENTATIONS</h3>
             </div>
           </div>
