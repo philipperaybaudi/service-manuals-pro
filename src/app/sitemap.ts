@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { supabase } from '@/lib/supabase';
 
+export const runtime = 'edge';
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
 
