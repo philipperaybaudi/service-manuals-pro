@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: 'Service Manuals Pro | Professional Technical Documentation',
     description: 'Download professional service manuals, repair guides and schematics. Instant PDF delivery.',
     images: [{
-      url: '/og-image.svg',
+      url: '/og-image.png',
       width: 1200,
       height: 630,
       alt: 'Service Manuals Pro - Professional Technical Documentation',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Service Manuals Pro',
     description: 'Professional technical documentation for instant download.',
-    images: ['/og-image.svg'],
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
