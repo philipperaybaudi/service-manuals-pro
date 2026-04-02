@@ -1,5 +1,7 @@
 import { getServiceClient } from '@/lib/supabase';
 import { redirect } from 'next/navigation';
+
+export const runtime = 'edge';
 import { Download, Clock, AlertTriangle, CheckCircle, FileText } from 'lucide-react';
 import Link from '@/components/ExternalLink';
 

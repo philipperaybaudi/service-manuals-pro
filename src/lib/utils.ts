@@ -15,8 +15,12 @@ export function slugify(text: string): string {
 }
 
 export function generateDownloadToken(): string {
-  const { randomBytes } = require('crypto');
-  return randomBytes(36).toString('base64url');
+  const bytes = new Uint8Array(36);
+  crypto.getRandomValues(bytes);
+  return btoa(String.fromCharCode(...bytes))
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=/g, '');
 }
 
 export function truncate(text: string, maxLength: number): string {

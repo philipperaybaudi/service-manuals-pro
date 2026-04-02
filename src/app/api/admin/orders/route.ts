@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getServiceClient } from '@/lib/supabase';
 
+export const runtime = 'edge';
+
 function checkAdmin(req: NextRequest) {
   const secret = req.headers.get('x-admin-secret');
   return secret === process.env.ADMIN_SECRET;

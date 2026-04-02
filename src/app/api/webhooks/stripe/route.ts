@@ -5,6 +5,8 @@ import { sendDownloadEmail } from '@/lib/resend';
 import { generateDownloadToken } from '@/lib/utils';
 import Stripe from 'stripe';
 
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
   const body = await req.text();
   const sig = req.headers.get('stripe-signature');
