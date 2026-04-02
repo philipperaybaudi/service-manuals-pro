@@ -18,7 +18,7 @@ export default function SearchBar({ large, placeholder, defaultValue = '' }: Sea
           name="q"
           defaultValue={defaultValue}
           placeholder={placeholder || 'Search by brand, model, or keyword...'}
-          className={`w-full border border-gray-300 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-shadow ${
+          className={`w-full border border-gray-300 rounded-xl bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-shadow ${
             large ? 'pl-12 pr-32 py-4 text-lg' : 'pl-10 pr-4 py-2.5 text-sm'
           }`}
         />

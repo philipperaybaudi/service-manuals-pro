@@ -51,7 +51,7 @@ export default function PrivacyPage() {
             <Link href="https://www.service-manuals-pro.com" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
               https://www.service-manuals-pro.com
             </Link>
-            , is published by SHOP OF TECHNICAL DOCUMENTATIONS, a company registered in Slovakia under Trade Register No. 36807516, with its registered office at Business Hub Lu&#x10D;eneck&#xe1; cesta 2266/6 &ndash; 96096 ZVOLEN &ndash; Slovakia. Direct contact via the{' '}
+            , is published by LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS), a company registered in Slovakia under Trade Register No. 36807516, with its registered office at Business Hub Lu&#x10D;eneck&#xe1; cesta 2266/6 &ndash; 96096 ZVOLEN &ndash; Slovakia. Direct contact via the{' '}
             <Link href="/contact" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
               online contact page
             </Link>.
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
             <Link href="https://www.service-manuals-pro.com" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
               https://www.service-manuals-pro.com
             </Link>{' '}
-            is composed are the exclusive property of SHOP OF TECHNICAL DOCUMENTATIONS. Any total or partial representation of this Website and its Content, by any means whatsoever, without the prior express authorization of SHOP OF TECHNICAL DOCUMENTATIONS is prohibited and would constitute infringement punishable under international intellectual property codes and laws.
+            is composed are the exclusive property of LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS). Any total or partial representation of this Website and its Content, by any means whatsoever, without the prior express authorization of LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) is prohibited and would constitute infringement punishable under international intellectual property codes and laws.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Use of the Website{' '}
@@ -81,7 +81,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 3: Content License</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            By the mere act of connecting to the Website, the user acknowledges accepting from SHOP OF TECHNICAL DOCUMENTATIONS a license to use the Website Content strictly limited to the following mandatory conditions:
+            By the mere act of connecting to the Website, the user acknowledges accepting from LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) a license to use the Website Content strictly limited to the following mandatory conditions:
           </p>
           <ul className="space-y-3 text-gray-700 text-sm leading-relaxed">
             <li className="flex items-start gap-2">
@@ -98,7 +98,7 @@ export default function PrivacyPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-emerald-700 font-bold mt-0.5">&bull;</span>
-              <span>This use includes only the authorization to reproduce for storage purposes for display on a single screen and to reproduce in one copy for backup and paper printout. Any other use is subject to the prior express authorization of SHOP OF TECHNICAL DOCUMENTATIONS.</span>
+              <span>This use includes only the authorization to reproduce for storage purposes for display on a single screen and to reproduce in one copy for backup and paper printout. Any other use is subject to the prior express authorization of LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS).</span>
             </li>
           </ul>
           <p className="text-gray-700 leading-relaxed mt-4">
@@ -110,7 +110,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 4: Data Protection &amp; Privacy</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            SHOP OF TECHNICAL DOCUMENTATIONS is the data controller for data collected on the Website{' '}
+            LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) is the data controller for data collected on the Website{' '}
             <Link href="https://www.service-manuals-pro.com" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
               https://www.service-manuals-pro.com
             </Link>.
@@ -122,7 +122,7 @@ export default function PrivacyPage() {
             Users have the right to exercise their rights of access, rectification, erasure, objection, restriction of processing, portability of personal data, the right not to be subject to automated individual decision-making, and the right to revoke consent regarding the personal data they provide.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4 font-medium">
-            None of this personal data will be transferred to third parties or companies; only SHOP OF TECHNICAL DOCUMENTATIONS will use this data to respond to user and customer requests and to inform them of its activities.
+            None of this personal data will be transferred to third parties or companies; only LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) will use this data to respond to user and customer requests and to inform them of its activities.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             In accordance with the GDPR provisions, users have the right of access, rectification, updating, and erasure of their personal data, which they may exercise by direct contact via the{' '}
@@ -168,7 +168,7 @@ export default function PrivacyPage() {
             <Link href="https://www.service-manuals-pro.com" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
               https://www.service-manuals-pro.com
             </Link>{' '}
-            are registered trademarks. Any total or partial reproduction of these trademarks without the express authorization of SHOP OF TECHNICAL DOCUMENTATIONS is therefore prohibited.
+            are registered trademarks. Any total or partial reproduction of these trademarks without the express authorization of LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) is therefore prohibited.
           </p>
         </section>
 
@@ -176,7 +176,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 7: Hyperlinks</h2>
           <p className="text-gray-700 leading-relaxed">
-            Hyperlinks set up on this Website directing to other resources on the Internet shall not engage the responsibility of SHOP OF TECHNICAL DOCUMENTATIONS. Users of the Website may not set up a hyperlink to this site without the prior express authorization of SHOP OF TECHNICAL DOCUMENTATIONS.
+            Hyperlinks set up on this Website directing to other resources on the Internet shall not engage the responsibility of LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS). Users of the Website may not set up a hyperlink to this site without the prior express authorization of LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS).
           </p>
         </section>
 
@@ -199,7 +199,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 9: Privacy</h2>
           <p className="text-gray-700 leading-relaxed">
-            SHOP OF TECHNICAL DOCUMENTATIONS respects your privacy and is committed to protecting it in accordance with the GDPR. This statement is intended to inform you of our privacy policy and practices, as well as the choices you can make about how your personal information is collected online and how it is used. SHOP OF TECHNICAL DOCUMENTATIONS guarantees the confidentiality of personal data processed and ensures that authorized persons processing said personal data also commit to respecting this obligation of confidentiality.
+            LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) respects your privacy and is committed to protecting it in accordance with the GDPR. This statement is intended to inform you of our privacy policy and practices, as well as the choices you can make about how your personal information is collected online and how it is used. LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) guarantees the confidentiality of personal data processed and ensures that authorized persons processing said personal data also commit to respecting this obligation of confidentiality.
           </p>
         </section>
 
@@ -207,7 +207,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 10: Personal Data Security</h2>
           <p className="text-gray-700 leading-relaxed">
-            SHOP OF TECHNICAL DOCUMENTATIONS commits, as part of its obligation of means, to take all necessary precautions and implements appropriate technical and organizational measures to ensure an adequate level of security and to protect users&apos; personal data against alteration, destruction, and unauthorized access.
+            LA DOCUMENTATION TECHNIQUE (SHOP OF TECHNICAL DOCUMENTATIONS) commits, as part of its obligation of means, to take all necessary precautions and implements appropriate technical and organizational measures to ensure an adequate level of security and to protect users&apos; personal data against alteration, destruction, and unauthorized access.
           </p>
         </section>
 
