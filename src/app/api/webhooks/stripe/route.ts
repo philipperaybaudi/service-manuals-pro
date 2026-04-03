@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { stripe } from '@/lib/stripe';
 import { getServiceClient } from '@/lib/supabase';
-import { sendDownloadEmail } from '@/lib/resend';
+import { sendDownloadEmail, sendOrderNotification } from '@/lib/resend';
 import { generateDownloadToken } from '@/lib/utils';
 import Stripe from 'stripe';
 
@@ -97,6 +97,21 @@ export async function POST(req: NextRequest) {
       );
     } catch (emailError) {
       console.error('Failed to send email:', emailError);
+    }
+
+    // Send order notification to admin
+    try {
+      const customerName = (session as any).customer_details?.name || 'Unknown';
+      await sendOrderNotification(
+        doc?.title || 'Service Manual',
+        customerName,
+        customerEmail,
+        session.amount_total || 0,
+        session.currency || 'usd',
+        (session.payment_intent as string) || session.id,
+      );
+    } catch (notifError) {
+      console.error('Failed to send order notification:', notifError);
     }
   }
 
