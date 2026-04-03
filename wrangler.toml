@@ -6,7 +6,6 @@ pages_build_output_dir = ".open-next/assets"
 
 [assets]
 directory = ".open-next/assets"
-binding = "ASSETS"
 
 [[r2_buckets]]
 binding = "DOCUMENTS_BUCKET"
