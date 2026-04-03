@@ -14,6 +14,14 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/google62f56280efa85760.html',
+        destination: '/api/google-verify',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
