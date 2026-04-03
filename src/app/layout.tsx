@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     'wiring diagram', 'workshop manual', 'repair guide', 'PDF download',
     'camera repair', 'electronics repair', 'automotive repair',
   ],
+  verification: {
+    google: '6tka6O5Gywb6RdJeD4_dRxEkdpAWtaRPhJmNs9Rs4LI',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
