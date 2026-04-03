@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "opennextjs-cloudflare build",
+    "pages:build": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion",
     "pages:deploy": "opennextjs-cloudflare deploy",
     "start": "next start",
     "lint": "next lint",
