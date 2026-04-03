@@ -17,14 +17,15 @@ export async function POST(req: NextRequest) {
 
   let event: Stripe.Event;
   try {
-    event = stripe.webhooks.constructEvent(
+    // Use async version for edge runtime (Web Crypto API instead of Node crypto)
+    event = await stripe.webhooks.constructEventAsync(
       body,
       sig,
       process.env.STRIPE_WEBHOOK_SECRET!
     );
   } catch (err: any) {
     console.error('Webhook signature verification failed:', err.message);
-    return NextResponse.json({ error: 'Invalid signature' }, { status: 400 });
+    return NextResponse.json({ error: 'Invalid signature: ' + err.message }, { status: 400 });
   }
 
   if (event.type === 'checkout.session.completed') {
