@@ -145,20 +145,20 @@ export async function sendOrderNotification(
   currency: string,
   paymentIntent: string,
 ) {
-  const formattedAmount = new Intl.NumberFormat('en-US', {
+  const formattedAmount = new Intl.NumberFormat('fr-FR', {
     style: 'currency',
     currency: currency.toUpperCase(),
   }).format(amount / 100);
 
-  const date = new Date().toLocaleString('en-US', {
-    dateStyle: 'medium',
+  const date = new Date().toLocaleString('fr-FR', {
+    dateStyle: 'long',
     timeStyle: 'short',
   });
 
   await sendEmail({
     from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
     to: 'vente@service-manuals-pro.com',
-    subject: `New order: ${formattedAmount} - ${documentTitle}`,
+    subject: `Nouvelle commande : ${formattedAmount} - ${documentTitle}`,
     html: `
       <!DOCTYPE html>
       <html>
@@ -166,18 +166,18 @@ export async function sendOrderNotification(
       <body style="margin:0;padding:0;background:#f4f4f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
         <div style="max-width:600px;margin:0 auto;padding:40px 20px;">
           <div style="background:#fff;border-radius:12px;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-            <h1 style="color:#18181b;font-size:22px;margin:0 0 24px;">New Order Received</h1>
+            <h1 style="color:#18181b;font-size:22px;margin:0 0 24px;">Nouvelle commande</h1>
             <table style="width:100%;border-collapse:collapse;font-size:15px;">
               <tr>
                 <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Document</td>
                 <td style="padding:10px 0;color:#18181b;font-weight:600;border-bottom:1px solid #f4f4f5;">${documentTitle}</td>
               </tr>
               <tr>
-                <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Amount</td>
+                <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Montant</td>
                 <td style="padding:10px 0;color:#18181b;font-weight:600;border-bottom:1px solid #f4f4f5;">${formattedAmount}</td>
               </tr>
               <tr>
-                <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Customer</td>
+                <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Client</td>
                 <td style="padding:10px 0;color:#18181b;border-bottom:1px solid #f4f4f5;">${customerName}</td>
               </tr>
               <tr>
