@@ -2,7 +2,6 @@ import Link from '@/components/ExternalLink';
 import { supabase } from '@/lib/supabase';
 import SearchBar from '@/components/SearchBar';
 
-export const runtime = 'edge';
 import DocCard from '@/components/DocCard';
 import CategoryCard from '@/components/CategoryCard';
 import { FileText, Shield, Zap, Globe } from 'lucide-react';

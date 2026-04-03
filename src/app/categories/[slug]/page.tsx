@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from '@/components/ExternalLink';
 
-export const runtime = 'edge';
 import { supabase } from '@/lib/supabase';
 import BrandCard from '@/components/BrandCard';
 import DocCard from '@/components/DocCard';

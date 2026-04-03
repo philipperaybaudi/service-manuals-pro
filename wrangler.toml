@@ -1,7 +1,11 @@
 name = "service-manuals-pro"
-compatibility_date = "2024-09-23"
+compatibility_date = "2024-12-30"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".vercel/output/static"
+main = ".open-next/worker.js"
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
 
 [[r2_buckets]]
 binding = "DOCUMENTS_BUCKET"

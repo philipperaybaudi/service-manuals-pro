@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from '@/components/ExternalLink';
 
-export const runtime = 'edge';
 import { supabase } from '@/lib/supabase';
 import { formatPrice, fileSize } from '@/lib/utils';
 import { ChevronRight, FileText, Download, Shield, Clock } from 'lucide-react';

@@ -38,3 +38,4 @@ scripts/fr-products.json
 scripts/fix-*.js
 scripts/migrate-to-r2.ts
 .wrangler
+.open-next
