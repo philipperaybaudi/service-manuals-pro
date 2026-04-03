@@ -87,19 +87,19 @@ export default async function DownloadPage({
 
   if (bundleFiles.length > 1) {
     // === BUNDLE DOWNLOAD PAGE ===
-    // Generate signed URLs for all files
-    const fileLinks: { name: string; url: string; size?: string }[] = [];
+    // For bundles, each file gets its own API download link via the token
+    // We use query param ?file=index to specify which file in the bundle
+    const fileLinks: { name: string; url: string }[] = [];
 
-    for (const filePath of bundleFiles) {
-      const { data: signedUrl } = await supabaseAdmin.storage
-        .from('documents')
-        .createSignedUrl(filePath, 300); // 5 min
-
-      if (signedUrl) {
-        const fileName = filePath.split('/').pop()?.replace(/\.pdf$/i, '') || 'File';
-        const displayName = fileName.replace(/_/g, ' ');
-        fileLinks.push({ name: displayName, url: signedUrl.signedUrl });
-      }
+    for (let i = 0; i < bundleFiles.length; i++) {
+      const filePath = bundleFiles[i];
+      const fileName = filePath.split('/').pop()?.replace(/\.pdf$/i, '') || 'File';
+      const displayName = fileName.replace(/_/g, ' ');
+      // Point to the API download route with a file index param
+      fileLinks.push({
+        name: displayName,
+        url: `/api/download/${params.token}?file=${i}`,
+      });
     }
 
     // Update download count
@@ -126,7 +126,6 @@ export default async function DownloadPage({
         <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
           <p className="text-sm text-gray-500 mb-4">
             This bundle contains {fileLinks.length} files. Click each button to download.
-            Each link is valid for 5 minutes.
           </p>
 
           <div className="space-y-3">
@@ -161,40 +160,7 @@ export default async function DownloadPage({
     );
   } else {
     // === SINGLE FILE: redirect to API download endpoint ===
-    // Update download count
-    await supabaseAdmin
-      .from('orders')
-      .update({
-        download_count: order.download_count + 1,
-        downloaded_at: new Date().toISOString(),
-      })
-      .eq('id', order.id);
-
-    if (!doc?.file_path) {
-      return (
-        <div className="max-w-xl mx-auto px-4 py-16 text-center">
-          <AlertTriangle className="h-16 w-16 text-red-500 mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">File Not Found</h1>
-          <p className="text-gray-500 mb-8">The document file could not be found. Please contact support.</p>
-        </div>
-      );
-    }
-
-    // Generate signed URL and redirect
-    const { data: signedUrl } = await supabaseAdmin.storage
-      .from('documents')
-      .createSignedUrl(doc.file_path, 300);
-
-    if (!signedUrl) {
-      return (
-        <div className="max-w-xl mx-auto px-4 py-16 text-center">
-          <AlertTriangle className="h-16 w-16 text-red-500 mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Download Error</h1>
-          <p className="text-gray-500 mb-8">Failed to generate download link. Please try again or contact support.</p>
-        </div>
-      );
-    }
-
-    redirect(signedUrl.signedUrl);
+    // The API route handles R2 download with fallback to Supabase
+    redirect(`/api/download/${params.token}`);
   }
 }

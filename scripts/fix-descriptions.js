@@ -1,275 +1,79 @@
-/**
- * Fix all descriptions with proper English translations.
- * Instead of regex word-by-word, generates clean English descriptions
- * based on the FR source content patterns.
- */
-
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env.local') });
 const { createClient } = require('@supabase/supabase-js');
-const fs = require('fs');
-const path = require('path');
+const sb = createClient(
+  'https://ylsbqehotapcprfinsnu.supabase.co',
+  'sb_secret_8OoI-uxIUlL_6nlbMLvVyA_up9uZZ6X'
+);
 
-const sb = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
-const frProducts = JSON.parse(fs.readFileSync(path.join(__dirname, 'fr-products.json'), 'utf-8'));
+const fixes = {
+  '257118fe-f879-49ab-aef2-ca4557af3fa2': '<p>Complete workshop manual for the Samsung GT-B2100.</p><p>81-page complete workshop manual. Original manufacturer version for service workshops.</p><h3>Topics covered:</h3><ul><li>Specifications</li><li>Precautions</li><li>Accessories & Diagnostics</li><li>Maintenance software download & usage</li><li>Housing disassembly</li><li>Complete disassembly of all internal sub-components</li><li>Spare parts list & references</li><li>Diagrams & operation schematics</li></ul>',
 
-/**
- * Properly translate a FR description to clean English.
- * Understands the common templates used on the FR site and produces
- * natural English equivalents.
- */
-function properTranslate(frHtml, frTitle) {
-  if (!frHtml) return '';
+  'f7464390-0299-4ef4-87d0-817758ce66aa': '<p>Documentation for the Adria Prima 350 caravan brake restoration.</p><p>19-page documentation.</p><p>Essential documentation for maintenance and use of this equipment.</p>',
 
-  // Strip HTML tags for analysis, keep for output
-  const text = frHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  'dd8898d2-1d00-42e4-b8d0-e46853be25fd': '<p>Service and repair manual for the Focaflex cameras.</p><p>27-page documentation.</p><h3>Topics covered:</h3><ul><li>Top cover removal</li><li>Protective cover removal</li><li>Front plate removal</li><li>Reflex assembly service</li><li>Shutter disassembly</li><li>Sprocket wheel removal</li><li>Shutter cleaning</li><li>Collector lens cleaning</li><li>Exploded views with spare parts references</li></ul>',
 
-  // Extract key info from the text
-  const pageMatch = text.match(/(\d+)\s*pages?/i);
-  const pages = pageMatch ? pageMatch[1] : null;
+  'a9a8c989-ebc5-4414-b385-91ae7c29aab2': '<p>User manual for the FOCA PF2B.</p><p>32-page user manual.</p><h3>Topics covered:</h3><ul><li>General information</li><li>Camera description</li><li>Film loading & unloading</li><li>Handling & shutter release</li><li>Lens adjustment</li><li>Shooting operations</li><li>Important recommendations</li></ul>',
 
-  // Detect product type from title/text
-  const isServiceManual = /manuel\s*(d['']atelier|de\s*(service|d[eé]pannage|r[eé]paration))/i.test(text + ' ' + frTitle);
-  const isUserManual = /notice\s*(d['']utilisation|utilisateur)|mode\s*d['']emploi/i.test(text + ' ' + frTitle);
-  const isExplodedViews = /[eé]clat[eé]s?\s*(avec)?\s*listes?\s*des?\s*pi[eè]ces/i.test(text + ' ' + frTitle);
-  const isPartsList = /liste\s*des?\s*pi[eè]ces|catalogue\s*(complet\s*)?(des\s*)?pi[eè]ces/i.test(text + ' ' + frTitle);
-  const isWiringDiagram = /sch[eé]ma.*([eé]lectr|c[aâ]blage)/i.test(text + ' ' + frTitle);
-  const isPhotArgus = /phot\s*argus|dossier\s*(technique\s*et\s*utilisateur|mamiya|pentax|leica|nikon|rolleiflex|bronica|minolta)/i.test(text + ' ' + frTitle);
-  const isTutorial = /tutoriel/i.test(text + ' ' + frTitle);
-  const isHasselblad = /hasselblad|photographie\s*(grand|monochrome|paysage|rapproch|enfant|t[eé]l[eé]|industrielle|architecture)|vision\s*photographique|l['']œil|format\s*carr[eé]/i.test(text + ' ' + frTitle);
-  const isSewingMachine = /machine\s*[aà]\s*coudre|couture|sewing/i.test(text + ' ' + frTitle);
-  const isWoodworking = /combin[eé]\s*bois|menuiserie|lurem|dugu[eé]/i.test(text + ' ' + frTitle);
-  const isATV = /quad|polaris|sportsman/i.test(text + ' ' + frTitle);
-  const isCar = /auto|voiture|renault|scenic|lotus|mini.?cooper|simca|audi|suzuki/i.test(text + ' ' + frTitle);
-  const isMotorcycle = /moto|yamaha|virago|fazer/i.test(text + ' ' + frTitle) && !isATV;
-  const isCamera = /appareil\s*photo|bo[iî]tier|objectif|pellicule|argentique/i.test(text);
-  const isTapeRecorder = /magn[eé]tophone|enregistreur|tape\s*recorder|nagra|akai|uher|revox|studer/i.test(text + ' ' + frTitle);
-  const isChainsaw = /tron[cç]onneuse|stihl|chain\s*saw/i.test(text + ' ' + frTitle);
-  const isTV = /t[eé]l[eé]viseur|vestel|television/i.test(text + ' ' + frTitle);
+  '418b5dc6-106c-4858-a582-150a38fd16ba': '<p>Guide for camera lens doublet separation and re-cementing.</p><h3>Topics covered:</h3><ul><li>Why and how optical elements are cemented together</li><li>Canada balsam and UV adhesives (single and multi-component)</li><li>Problem solving approaches</li><li>Separating cemented doublet elements</li><li>Oven separation techniques and considerations</li><li>Lens cleaning</li><li>UV re-cementing</li><li>Lens reassembly</li><li>Specialist professional contacts</li></ul>',
 
-  // Extract brand/model from title
-  let brandModel = frTitle
-    .replace(/^Dossier\s*/i, '')
-    .replace(/\s*[-–]\s*(Manuel|Notice|Mode|Documentation|Sch[eé]ma|Tutoriel|[EÉ]clat[eé]s|Liste|Catalogue).*$/i, '')
-    .replace(/\s*(Notice|Manuel|Mode d'emploi)\s*(utilisateur|d'utilisation)?\s*$/i, '')
-    .replace(/\s*Documentation compl[eè]te\s*$/i, '')
-    .trim();
+  '281f51a9-3963-4875-852c-f0addc9983f5': '<p>User manual for the EMCO Compact 8 lathe.</p><p>125-page user manual.</p><p>Essential documentation for anyone wishing to operate and maintain this machine tool.</p><h3>Topics covered:</h3><ul><li>Setup & getting started</li><li>Machine components</li><li>Control elements</li><li>Working with the Compact 8</li><li>Lathe accessories</li><li>Backlash adjustment</li><li>Lubrication plan</li><li>Wiring schematic</li><li>Complete spare parts list</li></ul>',
 
-  // Build clean English description
-  let desc = '';
+  '818bd503-0eb0-4b6e-bf40-2fbae16825f6': '<p>User manual for the FOCA PF3.</p><p>32-page user manual.</p><h3>Topics covered:</h3><ul><li>General information</li><li>Camera description</li><li>Film loading & unloading</li><li>Handling & shutter release</li><li>Lens adjustment</li><li>Shooting operations</li><li>Important recommendations</li></ul>',
 
-  // Extract list items from HTML
-  const listItems = [];
-  const liMatches = frHtml.match(/<li[^>]*>(.*?)<\/li>/gi);
-  if (liMatches) {
-    for (const li of liMatches) {
-      let item = li.replace(/<[^>]+>/g, '').trim();
-      // Simple word-level translations for list items
-      item = item
-        .replace(/Pi[eè]ce [aà] main/gi, 'Handpiece')
-        .replace(/Bouchon de chambre [aà] poudre/gi, 'Powder chamber cap')
-        .replace(/Corps/gi, 'Body')
-        .replace(/Adaptateur/gi, 'Adapter')
-        .replace(/Tube de sortie de poudre/gi, 'Powder outlet tube')
-        .replace(/Orifice de sortie d'eau/gi, 'Water outlet')
-        .replace(/Buse/gi, 'Nozzle')
-        .replace(/Bague du bouchon/gi, 'Cap ring')
-        .replace(/Coupole du bouchon/gi, 'Cap dome')
-        .replace(/Joint de chambre [aà] poudre/gi, 'Powder chamber seal')
-        .replace(/Chambre [aà] poudre/gi, 'Powder chamber')
-        .replace(/D[eé]montage/gi, 'Disassembly')
-        .replace(/Remontage/gi, 'Reassembly')
-        .replace(/R[eé]glage/gi, 'Adjustment')
-        .replace(/Entretien/gi, 'Maintenance')
-        .replace(/R[eé]paration/gi, 'Repair')
-        .replace(/Nettoyage/gi, 'Cleaning')
-        .replace(/Lubrification/gi, 'Lubrication')
-        .replace(/Mise en route/gi, 'Getting started')
-        .replace(/S[eé]curit[eé]/gi, 'Safety')
-        .replace(/Installation/gi, 'Installation')
-        .replace(/Caract[eé]ristiques techniques/gi, 'Technical specifications')
-        .replace(/Accessoires/gi, 'Accessories')
-        .replace(/Sch[eé]ma [eé]lectrique/gi, 'Electrical diagram')
-        .replace(/Diagnostic/gi, 'Diagnostics')
-        .replace(/Pannes/gi, 'Faults')
-        .replace(/Pi[eè]ces d[eé]tach[eé]es/gi, 'Spare parts');
-      if (item.length > 2) listItems.push(item);
-    }
+  '86255699-0aab-4306-8b8a-2ffdee8699ab': '<p>Repair manual for the Foca Universel R, Universel RC, and Universel URC.</p><p>60-page repair manual.</p><h3>Topics covered:</h3><ul><li>Disassembly instructions</li><li>Shutter mechanism repair</li><li>Sub-assembly separation</li><li>Rangefinder extraction</li><li>Upper mechanism</li><li>Curtain replacement</li><li>First & second curtain levers</li><li>Counter gear disassembly</li><li>Delayed release timer</li><li>Tool references</li><li>Mechanical exploded views with part numbers</li><li>Step-by-step disassembly photographs</li></ul>',
+
+  '8437a257-bdea-429a-9cee-c27f22014378': '<p>User manual for the FOCA Universel E1.</p><p>Essential documentation for use and maintenance of this camera.</p>',
+
+  '8f6a8878-bbe2-4a78-9a07-887e9d7ec533': '<p>Complete workshop manual for the AKAI GX-4000 D/DB.</p><p>Essential documentation for maintenance and troubleshooting.</p><h3>Topics covered:</h3><ul><li>Technical specifications for D & DB models</li><li>Tape recorder disassembly</li><li>Sub-assembly locations</li><li>Reel drive platter exploded view</li><li>Mechanical adjustments</li><li>Head adjustments</li><li>Playback & recording preamplifier calibration</li><li>Electronic component identification on PCBs with values</li><li>Electronic component nomenclature</li><li>Electronic schematics with component index and PCB locations</li></ul>',
+
+  '3cdb0e19-4d50-4ffc-acf7-76e02368af07': '<p>Complete workshop manual for the Pentacon Six TL.</p><h3>Topics covered:</h3><ul><li>Top cover disassembly (illustrated)</li><li>Focal plane shutter disassembly (illustrated)</li><li>Step-by-step shutter reassembly</li><li>Pentaprism & viewfinder disassembly and cleaning</li><li>Cocking arm and speed mechanism parts positioning</li><li>General notes</li><li>Pre-CLA disassembly instructions</li><li>Post-CLA reassembly instructions</li><li>Final assembly before calibration & testing</li><li>Tool list</li><li>Mechanical exploded views with part references</li></ul>',
+
+  '4ec56545-142d-4c5b-9bc6-ece12e5ed76f': '<p>User manual for the EMS Air-Flow Handy 2+ air polisher.</p><p>72-page user manual.</p><p>Essential documentation for maintenance and use of this equipment.</p><h3>Topics covered:</h3><ul><li>Handpiece components</li><li>Powder chamber cap</li><li>Body & adapter</li><li>Powder outlet tube</li><li>Water outlet & nozzle</li><li>Cap ring & dome</li><li>Powder chamber seal</li><li>Rear & front tubes</li><li>Handpiece connector & O-rings</li><li>Cleaning needles (long & short)</li></ul>',
+
+  '3202562e-7bc5-47dd-9401-bff6dd20f53d': '<p>Complete workshop manual for the Renault Scenic 2 transmission and chassis.</p><p>75-page complete workshop manual. Original manufacturer version for service workshops.</p><h3>Topics covered:</h3><ul><li>Identification</li><li>Clutch mechanism, disc & release bearing</li><li>Flywheel & gear ratios</li><li>Lubricants & ingredients</li><li>Manual gearbox removal & refitting</li><li>Clutch shaft lip seal</li><li>Differential output seal</li><li>Oil change, filling & levels</li><li>Torque converter timing check</li><li>Line pressure testing</li><li>Hydraulic distributor</li></ul>',
+
+  'a197ed12-f6e1-4d79-81eb-4f9abc1b50e8': '<p>Guide for replacing light seals on SLR cameras.</p><h3>Topics covered:</h3><ul><li>Tools and materials needed</li><li>Camera interior overview</li><li>Important notes</li><li>Replacing groove foam seals</li><li>Replacing mirror cushion foam</li><li>Additional notes</li></ul>',
+
+  'a3d476e9-fcb8-4063-92fe-fa5868819d00': '<p>Complete workshop manual for the AKAI 4000DS MKII.</p><p>43-page complete workshop manual. Original manufacturer version for service workshops.</p><h3>Topics covered:</h3><ul><li>Technical specifications</li><li>Flutter, frequency response, signal-to-noise ratio, harmonic distortion testing</li><li>Tape recorder disassembly</li><li>Reel drive platter exploded view</li><li>Head adjustments and calibration</li><li>Playback & recording preamplifier calibration</li><li>Electronic component identification on PCBs</li><li>Head assembly mechanical exploded view with part references</li><li>Reel drive & motor assembly exploded views</li><li>Control mechanism exploded view with parts list</li><li>Electronic schematics with component index and PCB locations</li></ul>',
+
+  '746f1740-6ae9-4336-b128-cab9b91e0549': '<p>Troubleshooting guide for the Pentax P30 with stuck shutter that no longer triggers.</p><p>Step-by-step diagnosis and repair instructions.</p>',
+
+  '53a11ba4-fab6-4e0e-8729-604665d5f855': '<p>Troubleshooting guide for the Leica R4-MOT / R5 with stuck shutter that no longer triggers.</p><p>Step-by-step diagnosis and repair instructions.</p>',
+
+  '96415b3b-52c9-4b86-bd04-0ea0cb2e95b7': '<p>Troubleshooting guide for the Contax 139Q with stuck shutter or irregular triggering.</p><p>33-page manual with step-by-step diagnosis and repair instructions.</p>',
+
+  'd78708a5-7281-4d6b-b23e-ebec48c14bc7': '<p>Troubleshooting tutorial for the Pentax 6x7 / 67 stuck mirror issue.</p><p>Step-by-step diagnosis and repair instructions.</p>',
+
+  '030f4658-2f01-4107-b7ab-7a52c51ac547': '<p>Complete workshop manual for the Renault Scenic 2 upholstery and trim.</p><p>Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and restoration.</p>',
+};
+
+(async () => {
+  const ids = Object.keys(fixes);
+  console.log('Rewriting ' + ids.length + ' descriptions...');
+
+  let ok = 0, fail = 0;
+  for (const id of ids) {
+    const { error } = await sb.from('documents').update({ description: fixes[id] }).eq('id', id);
+    if (error) { console.error('FAIL', id, error.message); fail++; }
+    else ok++;
   }
 
-  if (isHasselblad) {
-    // Hasselblad photography books
-    const topicMap = {
-      'grand.angulaire': 'Wide-Angle Photography',
-      'monochrome': 'Monochrome Photography',
-      'paysage': 'Landscape Photography',
-      'vision': 'Photographic Vision',
-      'enfant': 'Child Photography',
-      'rapproch': 'Close-Up Photography',
-      'œil|oeil': 'The Eye and Photography',
-      'carr[eé]': 'Square Format Composition',
-      'architecture': 'Architectural Photography',
-      'industrielle.*1979': 'Industrial Photography (1979)',
-      'industrielle.*1975': 'Industrial Photography (1975)',
-      'industrielle': 'Industrial Photography',
-      't[eé]l[eé]objectif': 'Telephoto Photography',
-    };
-    let topic = 'Photography';
-    for (const [pattern, eng] of Object.entries(topicMap)) {
-      if (new RegExp(pattern, 'i').test(text + ' ' + frTitle)) { topic = eng; break; }
-    }
-    desc = `<p>${topic} by HASSELBLAD</p><p>A guide from the prestigious Hasselblad photography series, exploring techniques and creative approaches to ${topic.toLowerCase()}.</p>`;
-    if (pages) desc += `<p>${pages} pages of technical descriptions with numerous photographs.</p>`;
-  } else if (isPhotArgus) {
-    desc = `<p>${brandModel}</p><p>THE BEST OF ALL TESTS!</p><p>The essential complement to the user manual for the passionate user. Technical and user dossier with all settings, tips, and tests.</p>`;
-    if (pages) desc += `<p>${pages} pages of technical descriptions with numerous photographs for the use of this camera body and all its accessories.</p>`;
-  } else if (isWoodworking) {
-    const machineType = isExplodedViews ? 'Exploded views with parts lists' :
-                        isWiringDiagram ? 'Electrical schematics and wiring diagrams' :
-                        'User and maintenance manual';
-    desc = `<p>${machineType} for the ${brandModel} woodworking combination machine.</p>`;
-    if (pages) desc += `<p>${pages}-page document for the use and maintenance of this machine.</p>`;
-    desc += `<p>Essential documentation for anyone wishing to install, maintain and use this machine efficiently and safely.</p>`;
-  } else if (isATV) {
-    const docType = isPartsList ? 'Parts list' : 'Complete workshop manual';
-    desc = `<p>${brandModel}</p><p>${docType} for maintenance and troubleshooting of ${brandModel} ATVs.</p>`;
-    if (pages) desc += `<p>Workshop ${isPartsList ? 'documentation' : 'manual'} (${pages} pages), original manufacturer version for service workshops.</p>`;
-    desc += `<p>Essential documentation for anyone wishing to maintain and troubleshoot this ATV efficiently and safely.</p>`;
-  } else if (isCar) {
-    const docType = isServiceManual ? 'Complete workshop manual' :
-                    isUserManual ? 'User manual' :
-                    isWiringDiagram ? 'Electrical and electronic troubleshooting manual' :
-                    'Service documentation';
-    desc = `<p>${brandModel}</p><p>${docType} for the ${brandModel}.</p>`;
-    if (pages) desc += `<p>${pages}-page manual, original manufacturer version.</p>`;
-    desc += `<p>Essential documentation for maintenance, restoration and troubleshooting.</p>`;
-  } else if (isMotorcycle) {
-    desc = `<p>${brandModel}</p><p>Complete workshop manual for maintenance and troubleshooting of the ${brandModel}.</p>`;
-    if (pages) desc += `<p>${pages}-page workshop manual.</p>`;
-    desc += `<p>Essential documentation for anyone wishing to maintain this motorcycle efficiently and safely.</p>`;
-  } else if (isCamera) {
-    const docType = isServiceManual ? 'Service manual' :
-                    isTutorial ? 'Repair tutorial' :
-                    isUserManual ? 'User manual' : 'Documentation';
-    desc = `<p>${docType} for the ${brandModel}.</p>`;
-    if (pages) desc += `<p>${pages}-page documentation.</p>`;
-    desc += `<p>This documentation will allow you to use this camera with complete confidence and discover all its features.</p>`;
-  } else if (isTapeRecorder) {
-    const docType = isServiceManual ? 'Service manual' :
-                    isUserManual ? 'User manual' : 'Documentation';
-    desc = `<p>${docType} for the ${brandModel}.</p>`;
-    if (pages) desc += `<p>${pages}-page documentation.</p>`;
-    desc += `<p>Essential documentation for maintenance and troubleshooting of this equipment.</p>`;
-  } else if (isChainsaw) {
-    desc = `<p>User manual for the ${brandModel} chainsaw.</p>`;
-    if (pages) desc += `<p>${pages}-page manual.</p>`;
-    desc += `<p>Essential documentation for safe and efficient use of this equipment.</p>`;
-  } else if (isSewingMachine) {
-    desc = `<p>User and maintenance manual for the ${brandModel} sewing machine.</p>`;
-    if (pages) desc += `<p>${pages}-page manual, fully illustrated.</p>`;
-    desc += `<p>Essential documentation for anyone wishing to maintain and use this sewing machine efficiently and safely.</p>`;
-  } else if (isTV) {
-    desc = `<p>Schematics and repair tips for ${brandModel}.</p>`;
-    desc += `<p>Repair manual for switch-mode power supply boards used in many TV brands.</p>`;
-  } else {
-    // Generic: extract key info and build clean description
-    const docType = isServiceManual ? 'Service manual' :
-                    isUserManual ? 'User manual' :
-                    isTutorial ? 'Tutorial' :
-                    isExplodedViews ? 'Exploded views with parts lists' :
-                    isPartsList ? 'Parts list' :
-                    isWiringDiagram ? 'Electrical schematics' :
-                    'Documentation';
-    desc = `<p>${docType} for the ${brandModel}.</p>`;
-    if (pages) desc += `<p>${pages}-page documentation.</p>`;
-    desc += `<p>Essential documentation for maintenance and use of this equipment.</p>`;
-  }
+  console.log('Done: ' + ok + ' updated, ' + fail + ' errors');
 
-  // Add list items if present
-  if (listItems.length > 0) {
-    desc += '<h3>Topics covered:</h3><ul>';
-    for (const item of listItems.slice(0, 20)) {
-      desc += `<li>${item}</li>`;
-    }
-    desc += '</ul>';
-  }
+  // Final check
+  const { data } = await sb.from('documents').select('id, title, description').eq('active', true);
+  const frWords = /\b(les|des|une|dans|pour|avec|vous|sont|qui|que|dont|votre|cette|mais|ses|leur|nos|vos|tous|nous|avez|faire|peut|entre|sous|vers|aussi|comme|chez|donc|selon|chaque|autre|lors|aucun|apres|avant|encore|remplacer|remplacement|interieur|importante|mousses?|isolantes?|rainures?|amortissement|miroir|obturateur|capot|demontage|platine|mecanisme|pellicule|chargement|devisser|nettoyage|boitier)\b/gi;
 
-  return desc;
-}
+  const remaining = data.filter(function(d) {
+    if (!d.description) return false;
+    var plain = d.description.replace(/<[^>]*>/g, ' ');
+    var matches = plain.match(frWords);
+    return matches && matches.length >= 2;
+  });
 
-async function main() {
-  console.log('=== Fixing All Descriptions ===\n');
-
-  // Get all active EN docs
-  const { data: activeDocs } = await sb.from('documents')
-    .select('id, slug, title, description')
-    .eq('active', true)
-    .order('slug');
-
-  console.log(`Active docs: ${activeDocs.length}`);
-
-  // Build FR lookup by matching slugs
-  // We need to find which FR product each EN doc corresponds to
-  // Use the mapping from full-sync-v2.js approach
-  const frBySlug = {};
-  frProducts.forEach(p => { frBySlug[p.slug] = p; });
-
-  let updated = 0;
-  let skipped = 0;
-
-  for (const doc of activeDocs) {
-    // Find the FR product that matches this EN doc
-    // Try to find it by checking all FR products' descriptions
-    let frMatch = null;
-
-    // Check if description contains French text (sign it needs fixing)
-    const desc = doc.description || '';
-    const hasFrench = /pour l'|d'utilisation|à toute personne|désireuse|en toute sécurité|de garage|l'maintenance|de this|for l'|and de |éditée|atelier de|proprietaire de|de ce|of the Lotus|of the sewing|de la marque|en français/i.test(desc);
-
-    if (!hasFrench) {
-      skipped++;
-      continue;
-    }
-
-    // Find matching FR product - search through all FR products
-    // to find one whose longDesc was used (partially translated) in this doc
-    for (const fr of frProducts) {
-      if (!fr.longDesc) continue;
-      // Check if the EN description contains fragments of the FR description
-      const frText = fr.longDesc.replace(/<[^>]+>/g, ' ').substring(0, 50);
-      const frWords = frText.split(/\s+/).filter(w => w.length > 4).slice(0, 3);
-      if (frWords.length > 0 && frWords.some(w => desc.includes(w))) {
-        frMatch = fr;
-        break;
-      }
-    }
-
-    if (!frMatch) {
-      // Try matching by slug patterns
-      for (const fr of frProducts) {
-        const frTokens = fr.slug.split('-').filter(w => w.length > 3);
-        const enTokens = doc.slug.split('-').filter(w => w.length > 3);
-        const overlap = frTokens.filter(t => enTokens.includes(t)).length;
-        if (overlap >= 2) {
-          frMatch = fr;
-          break;
-        }
-      }
-    }
-
-    if (frMatch) {
-      const newDesc = properTranslate(frMatch.longDesc, frMatch.title);
-      if (newDesc && newDesc !== desc) {
-        const { error } = await sb.from('documents').update({ description: newDesc }).eq('id', doc.id);
-        if (!error) {
-          updated++;
-          if (updated % 20 === 0) console.log(`  ... ${updated} fixed`);
-        }
-      }
-    }
-  }
-
-  console.log(`\nFixed: ${updated}`);
-  console.log(`Skipped (already OK): ${skipped}`);
-}
-
-main().catch(console.error);
+  console.log('Docs still with French words: ' + remaining.length);
+  remaining.forEach(function(d) {
+    var plain = d.description.replace(/<[^>]*>/g, ' ');
+    var matches = plain.match(frWords);
+    console.log('  - ' + d.title + ' (' + matches.slice(0, 5).join(', ') + ')');
+  });
+})();
