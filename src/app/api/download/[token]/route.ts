@@ -67,6 +67,25 @@ export async function GET(
     })
     .eq('id', order.id);
 
-  // Redirect to signed URL
-  return NextResponse.redirect(signedUrl.signedUrl);
+  // Download the file and serve it with Content-Disposition: attachment
+  // so the browser prompts "Save as" instead of displaying inline
+  const fileRes = await fetch(signedUrl.signedUrl);
+  if (!fileRes.ok) {
+    return NextResponse.json(
+      { error: 'Failed to download file.' },
+      { status: 500 }
+    );
+  }
+
+  const fileName = order.document.title
+    ? order.document.title.replace(/[^a-zA-Z0-9 _\-\.]/g, '').trim() + '.pdf'
+    : 'document.pdf';
+
+  return new NextResponse(fileRes.body, {
+    headers: {
+      'Content-Type': 'application/pdf',
+      'Content-Disposition': `attachment; filename="${fileName}"`,
+      'Cache-Control': 'no-store',
+    },
+  });
 }
