@@ -9,6 +9,8 @@ import BuyButton from './BuyButton';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import DownloadNotice from '@/components/DownloadNotice';
 
+export const runtime = 'edge';
+
 export const revalidate = 3600;
 
 interface Props {

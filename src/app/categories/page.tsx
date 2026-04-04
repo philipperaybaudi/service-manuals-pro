@@ -3,6 +3,8 @@ import { supabase } from '@/lib/supabase';
 
 import CategoryCard from '@/components/CategoryCard';
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: 'All Categories | Browse Technical Documentation',
   description: 'Browse all categories of professional service manuals and technical documentation. Find repair guides, schematics, and workshop manuals organized by equipment type.',

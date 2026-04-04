@@ -9,6 +9,8 @@ export const metadata: Metadata = {
 import { Download, Clock, AlertTriangle, CheckCircle, FileText } from 'lucide-react';
 import Link from '@/components/ExternalLink';
 
+export const runtime = 'edge';
+
 /**
  * Extract bundle file paths from seo_tags (entries prefixed with "file:").
  */

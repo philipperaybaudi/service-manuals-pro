@@ -1,11 +1,11 @@
-import { getCloudflareContext } from '@opennextjs/cloudflare';
+import { getRequestContext } from '@cloudflare/next-on-pages';
 
 /**
  * Get the R2 bucket binding for document storage.
  * Only works in Cloudflare Pages runtime (not local dev).
  */
-export async function getDocumentsBucket(): Promise<R2Bucket> {
-  const { env } = await getCloudflareContext();
+export function getDocumentsBucket(): R2Bucket {
+  const { env } = getRequestContext();
   return (env as any).DOCUMENTS_BUCKET as R2Bucket;
 }
 
@@ -17,7 +17,7 @@ export async function getDocumentFromR2(
   filePath: string,
   downloadFileName: string
 ): Promise<Response | null> {
-  const bucket = await getDocumentsBucket();
+  const bucket = getDocumentsBucket();
   const object = await bucket.get(filePath);
 
   if (!object) {

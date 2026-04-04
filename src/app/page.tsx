@@ -6,6 +6,7 @@ import DocCard from '@/components/DocCard';
 import CategoryCard from '@/components/CategoryCard';
 import { FileText, Shield, Zap, Globe } from 'lucide-react';
 
+export const runtime = 'edge';
 export const revalidate = 3600;
 
 async function getCategories() {

@@ -7,6 +7,7 @@ import DocCard from '@/components/DocCard';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import { ChevronRight } from 'lucide-react';
 
+export const runtime = 'edge';
 export const revalidate = 3600;
 
 interface Props {

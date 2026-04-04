@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getServiceClient } from '@/lib/supabase';
 import { getDocumentFromR2 } from '@/lib/r2';
 
+export const runtime = 'edge';
+
 /**
  * Extract bundle file paths from seo_tags (entries prefixed with "file:").
  */
