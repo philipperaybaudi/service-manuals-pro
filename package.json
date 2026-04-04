@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && cp .open-next/worker.js .open-next/assets/_worker.js",
+    "pages:build": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && mkdir -p .open-next/assets/_worker.js && cp .open-next/worker.js .open-next/assets/_worker.js/index.js && cp -r .open-next/cloudflare .open-next/middleware .open-next/.build .open-next/server-functions .open-next/assets/_worker.js/",
     "pages:deploy": "opennextjs-cloudflare deploy",
     "start": "next start",
     "lint": "next lint",
