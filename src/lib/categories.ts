@@ -30,9 +30,9 @@ export const CATEGORY_CONFIG: Record<string, {
   'BRICOLAGE': {
     name: 'Workshop & DIY',
     slug: 'workshop-diy',
-    description: 'Service manuals for power tools, woodworking machines and sewing equipment',
+    description: 'Service manuals for power tools, woodworking machines, machine tools (lathes, milling machines), and sewing equipment',
     seoTitle: 'Workshop & DIY Tool Service Manuals | Repair Guides PDF',
-    seoDescription: 'Download professional service manuals for workshop tools and DIY equipment. Repair guides for power tools, woodworking machines, and sewing machines.',
+    seoDescription: 'Download professional service manuals for workshop tools and DIY equipment. Repair guides for power tools, woodworking machines, machine tools (lathes, milling machines), and sewing machines.',
   },
   'CAMPING CARAVANING': {
     name: 'Camping & RV',
