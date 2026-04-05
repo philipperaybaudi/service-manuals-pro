@@ -29,10 +29,14 @@ async function getCategory(slug: string) {
 async function getBrands(categoryId: string) {
   const { data } = await supabase
     .from('brands')
-    .select('*')
+    .select('*, documents(count)')
     .eq('category_id', categoryId)
+    .eq('documents.active', true)
     .order('name');
-  return data || [];
+  return (data || []).map((b: any) => ({
+    ...b,
+    document_count: b.documents?.[0]?.count || 0,
+  }));
 }
 
 async function getDocuments(categoryId: string) {
