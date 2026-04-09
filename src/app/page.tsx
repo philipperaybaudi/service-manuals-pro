@@ -263,19 +263,13 @@ export default async function HomePage({
           </h2>
           <div className="prose prose-sm text-gray-600 max-w-none columns-1 md:columns-2 gap-8">
             <p>
-              Service Manuals Pro is the world&apos;s leading marketplace for professional technical documentation.
-              We provide high-quality service manuals, repair guides, schematics, and wiring diagrams
-              for a wide range of equipment and devices.
+              Service Manuals Pro is a marketplace dedicated to professional technical documentation. We provide service manuals, repair guides, electronic and mechanical schematics, and wiring diagrams for a wide range of equipment and devices.
             </p>
             <p>
-              Whether you&apos;re a professional technician, a repair shop owner, or an enthusiast who loves
-              restoring vintage equipment, our comprehensive library of technical documentation will help you
-              get the job done right. From vintage camera repair manuals to modern automotive workshop guides,
-              we have the documentation you need.
+              Whether you&apos;re a professional technician, a repair shop owner, or an enthusiast who enjoys restoring vintage equipment, our technical documentation library will help you get the job done right. From repair manuals for vintage cameras, telecommunications and sound recording equipment, biomedical devices, and more, to automotive workshop manuals and machine tool guides, we source the documentation you need.
             </p>
             <p>
-              All documents are available for instant download in PDF format after secure payment via Stripe.
-              No subscription required — pay once and download immediately.
+              All documents are available for instant download in PDF format after secure payment via Stripe. No subscription required—pay once and download immediately.
             </p>
           </div>
         </div>

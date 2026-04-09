@@ -63,6 +63,16 @@ export async function sendDownloadEmail(
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
               This link expires on ${expiresFormatted}. If you need assistance, reply to this email.
             </p>
+
+            <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
+              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">&#9888; Copyright Notice</p>
+              <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
+                Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
+                This document is the property of its rights holders and is protected by international copyright law.<br>
+                Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
+                <strong>All Rights Reserved &copy;</strong>
+              </p>
+            </div>
           </div>
           <p style="color:#a1a1aa;font-size:12px;text-align:center;margin:16px 0 0;">
             Service Manuals Pro &mdash; Professional Technical Documentation
@@ -126,6 +136,16 @@ export async function sendBundleDownloadEmail(
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
               Each link expires on ${expiresFormatted} and can be used up to 3 times. If you need assistance, reply to this email.
             </p>
+
+            <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
+              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">&#9888; Copyright Notice</p>
+              <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
+                Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
+                This document is the property of its rights holders and is protected by international copyright law.<br>
+                Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
+                <strong>All Rights Reserved &copy;</strong>
+              </p>
+            </div>
           </div>
           <p style="color:#a1a1aa;font-size:12px;text-align:center;margin:16px 0 0;">
             Service Manuals Pro &mdash; Professional Technical Documentation
