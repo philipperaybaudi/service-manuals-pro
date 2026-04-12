@@ -19,32 +19,14 @@ async function getCategories() {
 }
 
 async function getFeaturedDocs() {
-  // Fetch the 4 manuals from the photography/collection brand
-  const { data: brandData } = await supabase
-    .from('brands')
-    .select('id, category:categories!inner(slug)')
-    .eq('slug', 'collection')
-    .eq('categories.slug', 'photography')
-    .single();
-
-  if (brandData) {
-    const { data } = await supabase
-      .from('documents')
-      .select('*, category:categories(*), brand:brands(*)')
-      .eq('active', true)
-      .eq('brand_id', brandData.id)
-      .order('title')
-      .limit(4);
-    if (data && data.length > 0) return data;
-  }
-
-  // Fallback: any featured documents
+  // Only show manually selected featured documents
   const { data } = await supabase
     .from('documents')
     .select('*, category:categories(*), brand:brands(*)')
     .eq('active', true)
     .eq('featured', true)
-    .limit(4);
+    .order('title')
+    .limit(8);
   return data || [];
 }
 
