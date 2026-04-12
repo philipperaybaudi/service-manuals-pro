@@ -1,7 +1,9 @@
-export function formatPrice(cents: number, currency = 'USD'): string {
-  return new Intl.NumberFormat('en-US', {
+export function formatPrice(cents: number, currency = 'USD', locale = 'en'): string {
+  const cur = locale === 'fr' ? 'EUR' : currency;
+  const fmt = locale === 'fr' ? 'fr-FR' : 'en-US';
+  return new Intl.NumberFormat(fmt, {
     style: 'currency',
-    currency,
+    currency: cur,
   }).format(cents / 100);
 }
 

@@ -2,7 +2,7 @@ import Link from '@/components/ExternalLink';
 import { FileText, Download } from 'lucide-react';
 import { formatPrice } from '@/lib/utils';
 import type { Document } from '@/lib/types';
-import { t } from '@/lib/locale';
+import { t, getLocale } from '@/lib/locale';
 
 interface DocCardProps {
   doc: Document;
@@ -10,6 +10,7 @@ interface DocCardProps {
 }
 
 export default function DocCard({ doc, showCategory }: DocCardProps) {
+  const locale = getLocale();
   return (
     <Link
       href={`/docs/${doc.slug}`}
@@ -52,7 +53,7 @@ export default function DocCard({ doc, showCategory }: DocCardProps) {
           </p>
         )}
         <div className="flex items-center justify-between mt-3 pt-3 border-t border-gray-100">
-          <span className="text-lg font-bold text-gray-900">{formatPrice(doc.price)}</span>
+          <span className="text-lg font-bold text-gray-900">{formatPrice(doc.price, 'USD', locale)}</span>
           <span className="flex items-center gap-1 text-xs text-gray-400">
             <Download className="h-3 w-3" />
             PDF

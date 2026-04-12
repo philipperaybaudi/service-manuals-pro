@@ -204,7 +204,7 @@ export default async function DocumentPage({ params }: Props) {
           <div className="lg:col-span-1">
             <div className="bg-white rounded-xl border border-gray-200 p-6 sticky top-24">
               <div className="text-3xl font-bold text-gray-900 mb-4">
-                {formatPrice(doc.price)}
+                {formatPrice(doc.price, 'USD', locale)}
               </div>
 
               <BuyButton documentId={doc.id} documentTitle={doc.title} price={doc.price} locale={locale} />
@@ -275,7 +275,7 @@ export default async function DocumentPage({ params }: Props) {
                 >
                   <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">{r.title}</h3>
                   {r.brand && <p className="text-xs text-gray-500 mt-1">{r.brand.name}</p>}
-                  <p className="text-lg font-bold text-gray-900 mt-2">{formatPrice(r.price)}</p>
+                  <p className="text-lg font-bold text-gray-900 mt-2">{formatPrice(r.price, 'USD', locale)}</p>
                 </Link>
               ))}
             </div>

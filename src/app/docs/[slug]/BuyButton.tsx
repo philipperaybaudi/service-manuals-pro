@@ -70,8 +70,8 @@ export default function BuyButton({ documentId, documentTitle, price, locale = '
           <>
             <ShoppingCart className="h-5 w-5" />
             {showEmail
-              ? `${tr(locale, 'docpage.pay')} ${formatPrice(price)}`
-              : `${tr(locale, 'docpage.buy_now_prefix')} ${formatPrice(price)}`}
+              ? `${tr(locale, 'docpage.pay')} ${formatPrice(price, 'USD', locale)}`
+              : `${tr(locale, 'docpage.buy_now_prefix')} ${formatPrice(price, 'USD', locale)}`}
           </>
         )}
       </button>
