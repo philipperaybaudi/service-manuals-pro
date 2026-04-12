@@ -254,7 +254,7 @@ const fr: Record<keyof typeof en, string> = {
   'home.hero_title_line1': 'Manuels de service professionnels',
   'home.hero_title_line2': 'Téléchargement PDF immédiat',
   'home.hero_subtitle':
-    "La plus grande collection mondiale de documentation technique. Guides de réparation, schémas et manuels d'atelier pour professionnels et passionnés.",
+    "Une des plus grandes collections de documentations techniques. Guides de réparation, schémas et manuels d'atelier pour professionnels et passionnés.",
   'home.hero_search_placeholder': 'Rechercher par marque, modèle ou mot-clé...',
   'home.stats_manuals': 'Manuels',
   'home.stats_brands': 'Marques',
