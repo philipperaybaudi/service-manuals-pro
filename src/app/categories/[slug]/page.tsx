@@ -9,7 +9,7 @@ import CategorySidebar from '@/components/CategorySidebar';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import { ChevronRight } from 'lucide-react';
 import { getLocale, t } from '@/lib/locale';
-import { SITE_URLS, tr } from '@/lib/i18n';
+import { SITE_URLS, tr, getCategoryName, getCategoryDescription } from '@/lib/i18n';
 import { headers } from 'next/headers';
 
 export const runtime = 'edge';
@@ -72,14 +72,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
   const siteUrl = SITE_URLS[locale];
+  const catName = getCategoryName(params.slug, category.name, locale);
+  const catDesc = getCategoryDescription(params.slug, category.description, locale);
   const suffix = tr(locale, 'category.meta_title_suffix');
-  const title = `${category.name} ${suffix}`;
-  const description = category.description || tr(locale, 'category.meta_description_fallback');
+  const title = `${catName} ${suffix}`;
+  const description = catDesc || tr(locale, 'category.meta_description_fallback');
   return {
     title,
     description,
     openGraph: {
-      title: `${category.name} ${tr(locale, 'category.service_manuals_suffix')}`,
+      title: `${catName} ${tr(locale, 'category.service_manuals_suffix')}`,
       description,
       url: `${siteUrl}/categories/${params.slug}`,
     },
@@ -101,12 +103,14 @@ export default async function CategoryPage({ params }: Props) {
 
   const locale = getLocale();
   const siteUrl = SITE_URLS[locale];
+  const catName = getCategoryName(category.slug, category.name, locale);
+  const catDesc = getCategoryDescription(category.slug, category.description, locale);
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${category.name} ${tr(locale, 'category.service_manuals_suffix')}`,
-    description: category.description,
+    name: `${catName} ${tr(locale, 'category.service_manuals_suffix')}`,
+    description: catDesc,
     url: `${siteUrl}/categories/${category.slug}`,
     numberOfItems: documents.length,
   };
@@ -114,7 +118,7 @@ export default async function CategoryPage({ params }: Props) {
   const breadcrumbs = [
     { name: tr(locale, 'category.home'), url: siteUrl },
     { name: tr(locale, 'category.categories'), url: `${siteUrl}/categories` },
-    { name: category.name, url: `${siteUrl}/categories/${category.slug}` },
+    { name: catName, url: `${siteUrl}/categories/${category.slug}` },
   ];
 
   return (
@@ -132,7 +136,7 @@ export default async function CategoryPage({ params }: Props) {
           <ChevronRight className="h-3 w-3" />
           <Link href="/categories" className="hover:text-gray-700">{t('category.categories')}</Link>
           <ChevronRight className="h-3 w-3" />
-          <span className="text-gray-900 font-medium">{category.name}</span>
+          <span className="text-gray-900 font-medium">{catName}</span>
         </nav>
 
         <div className="flex gap-8">
@@ -143,9 +147,9 @@ export default async function CategoryPage({ params }: Props) {
 
           {/* Main content */}
           <div className="flex-1 min-w-0">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">{category.name} {t('category.service_manuals_suffix')}</h1>
-            {category.description && (
-              <p className="text-gray-500 mb-8 max-w-2xl">{category.description}</p>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">{catName} {t('category.service_manuals_suffix')}</h1>
+            {catDesc && (
+              <p className="text-gray-500 mb-8 max-w-2xl">{catDesc}</p>
             )}
 
             {/* Brands grid */}
@@ -171,8 +175,8 @@ export default async function CategoryPage({ params }: Props) {
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-4">
                 {locale === 'fr'
-                  ? `Tous les manuels ${category.name} (${documents.length})`
-                  : `All ${category.name} Manuals (${documents.length})`}
+                  ? `Tous les manuels ${catName} (${documents.length})`
+                  : `All ${catName} Manuals (${documents.length})`}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
                 {documents.map((doc: any) => (

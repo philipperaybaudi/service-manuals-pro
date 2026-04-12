@@ -1,6 +1,7 @@
 import Link from '@/components/ExternalLink';
 import { ChevronRight } from 'lucide-react';
-import { t } from '@/lib/locale';
+import { t, getLocale } from '@/lib/locale';
+import { getCategoryName } from '@/lib/i18n';
 
 interface SidebarCategory {
   name: string;
@@ -14,6 +15,7 @@ interface CategorySidebarProps {
 }
 
 export default function CategorySidebar({ categories, currentSlug }: CategorySidebarProps) {
+  const locale = getLocale();
   return (
     <nav className="bg-white rounded-xl border border-gray-200 p-4 sticky top-24">
       <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-3 px-2">
@@ -32,7 +34,7 @@ export default function CategorySidebar({ categories, currentSlug }: CategorySid
                     : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
                 }`}
               >
-                <span>{cat.name}</span>
+                <span>{getCategoryName(cat.slug, cat.name, locale)}</span>
                 <div className="flex items-center gap-1">
                   <span className={`text-xs ${isActive ? 'text-emerald-600' : 'text-gray-400'}`}>
                     {cat.documentCount}

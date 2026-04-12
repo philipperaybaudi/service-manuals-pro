@@ -9,7 +9,7 @@ import BuyButton from './BuyButton';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import DownloadNotice from '@/components/DownloadNotice';
 import { getLocale, t } from '@/lib/locale';
-import { SITE_URLS, tr } from '@/lib/i18n';
+import { SITE_URLS, tr, getCategoryName } from '@/lib/i18n';
 import { headers } from 'next/headers';
 
 export const runtime = 'edge';
@@ -98,7 +98,7 @@ export default async function DocumentPage({ params }: Props) {
 
   const breadcrumbs = [
     { name: tr(locale, 'category.home'), url: siteUrl },
-    ...(doc.category ? [{ name: doc.category.name, url: `${siteUrl}/categories/${doc.category.slug}` }] : []),
+    ...(doc.category ? [{ name: getCategoryName(doc.category.slug, doc.category.name, locale), url: `${siteUrl}/categories/${doc.category.slug}` }] : []),
     ...(doc.brand && doc.category ? [{ name: doc.brand.name, url: `${siteUrl}/categories/${doc.category.slug}/${doc.brand.slug}` }] : []),
     { name: doc.title, url: `${siteUrl}/docs/${doc.slug}` },
   ];
@@ -119,7 +119,7 @@ export default async function DocumentPage({ params }: Props) {
           {doc.category && (
             <>
               <Link href={`/categories/${doc.category.slug}`} className="hover:text-gray-700">
-                {doc.category.name}
+                {getCategoryName(doc.category.slug, doc.category.name, locale)}
               </Link>
               <ChevronRight className="h-3 w-3" />
             </>
@@ -253,7 +253,7 @@ export default async function DocumentPage({ params }: Props) {
                   {doc.category && (
                     <div className="flex justify-between">
                       <dt className="text-gray-500">{t('docpage.category')}</dt>
-                      <dd className="text-gray-900 font-medium">{doc.category.name}</dd>
+                      <dd className="text-gray-900 font-medium">{getCategoryName(doc.category.slug, doc.category.name, locale)}</dd>
                     </div>
                   )}
                 </dl>

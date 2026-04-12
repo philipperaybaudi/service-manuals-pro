@@ -7,7 +7,7 @@ import DocCard from '@/components/DocCard';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import { ChevronRight } from 'lucide-react';
 import { getLocale, t } from '@/lib/locale';
-import { SITE_URLS, tr } from '@/lib/i18n';
+import { SITE_URLS, tr, getCategoryName } from '@/lib/i18n';
 import { headers } from 'next/headers';
 
 export const runtime = 'edge';
@@ -52,13 +52,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
   const siteUrl = SITE_URLS[locale];
+  const catName = getCategoryName(params.slug, category.name, locale);
   const serviceSuffix = tr(locale, 'category.service_manuals_suffix');
   const title = locale === 'fr'
-    ? `${brand.name} ${category.name} — Manuels de service | Guides de réparation`
-    : `${brand.name} ${category.name} Service Manuals | Repair Guides`;
+    ? `${brand.name} ${catName} — Manuels de service | Guides de réparation`
+    : `${brand.name} ${catName} Service Manuals | Repair Guides`;
   const description = locale === 'fr'
-    ? `Téléchargez les manuels de service ${brand.name} pour ${category.name.toLowerCase()}. Guides de réparation, schémas et documentation technique professionnelle.`
-    : `Download ${brand.name} ${category.name.toLowerCase()} service manuals. Professional repair guides, schematics, and technical documentation for ${brand.name} equipment.`;
+    ? `Téléchargez les manuels de service ${brand.name} pour ${catName.toLowerCase()}. Guides de réparation, schémas et documentation technique professionnelle.`
+    : `Download ${brand.name} ${catName.toLowerCase()} service manuals. Professional repair guides, schematics, and technical documentation for ${brand.name} equipment.`;
   return {
     title,
     description,
@@ -81,14 +82,15 @@ export default async function BrandPage({ params }: Props) {
 
   const locale = getLocale();
   const siteUrl = SITE_URLS[locale];
+  const catName = getCategoryName(category.slug, category.name, locale);
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${brand.name} ${category.name} ${tr(locale, 'category.service_manuals_suffix')}`,
+    name: `${brand.name} ${catName} ${tr(locale, 'category.service_manuals_suffix')}`,
     description: locale === 'fr'
-      ? `Manuels de service et guides de réparation ${brand.name} ${category.name.toLowerCase()} professionnels`
-      : `Professional ${brand.name} ${category.name.toLowerCase()} service manuals and repair guides`,
+      ? `Manuels de service et guides de réparation ${brand.name} ${catName.toLowerCase()} professionnels`
+      : `Professional ${brand.name} ${catName.toLowerCase()} service manuals and repair guides`,
     url: `${siteUrl}/categories/${category.slug}/${brand.slug}`,
     numberOfItems: documents.length,
     about: {
@@ -101,7 +103,7 @@ export default async function BrandPage({ params }: Props) {
   const breadcrumbs = [
     { name: tr(locale, 'category.home'), url: siteUrl },
     { name: tr(locale, 'category.categories'), url: `${siteUrl}/categories` },
-    { name: category.name, url: `${siteUrl}/categories/${category.slug}` },
+    { name: catName, url: `${siteUrl}/categories/${category.slug}` },
     { name: brand.name, url: `${siteUrl}/categories/${category.slug}/${brand.slug}` },
   ];
 
@@ -120,7 +122,7 @@ export default async function BrandPage({ params }: Props) {
           <ChevronRight className="h-3 w-3" />
           <Link href="/categories" className="hover:text-gray-700">{t('category.categories')}</Link>
           <ChevronRight className="h-3 w-3" />
-          <Link href={`/categories/${category.slug}`} className="hover:text-gray-700">{category.name}</Link>
+          <Link href={`/categories/${category.slug}`} className="hover:text-gray-700">{catName}</Link>
           <ChevronRight className="h-3 w-3" />
           <span className="text-gray-900 font-medium">{brand.name}</span>
         </nav>

@@ -458,3 +458,58 @@ export const messages: Record<Locale, Record<MessageKey, string>> = {
 export function tr(locale: Locale, key: MessageKey): string {
   return messages[locale][key] ?? messages.en[key] ?? key;
 }
+
+// Traductions des noms de catégories (slug → nom FR)
+const categoryNamesFr: Record<string, string> = {
+  'pet-care': 'Animaux & Soins',
+  'automotive': 'Automobile',
+  'biomedical': 'Biomédical',
+  'machine-tools': 'Machines-Outils',
+  'camping-rv': 'Camping & Camping-Cars',
+  'cinema-video': 'Cinéma & Vidéo',
+  'drones': 'Drones',
+  'home-appliances': 'Électroménager',
+  'electronics': 'Électronique',
+  'computers-it': 'Informatique',
+  'outdoor-power': 'Motoculture',
+  'marine': 'Marine',
+  'photography': 'Photographie',
+  'radio-communications': 'Radio & Communications',
+  'audio-hifi': 'Audio & HiFi',
+  'sports-equipment': 'Équipements Sportifs',
+  'phones-telecom': 'Téléphonie & Télécom',
+  'television': 'Télévision',
+  'machining': 'Usinage',
+};
+
+const categoryDescriptionsFr: Record<string, string> = {
+  'pet-care': "Manuels de service pour équipements et accessoires de soins animaliers",
+  'automotive': "Manuels d'atelier, guides de réparation et schémas pour voitures, motos et véhicules",
+  'biomedical': "Manuels techniques pour équipements biomédicaux et dentaires",
+  'machine-tools': "Manuels de service pour machines-outils (tours, fraiseuses), machines à bois et équipements de couture",
+  'camping-rv': "Documentation technique pour caravanes, camping-cars et équipements de camping",
+  'cinema-video': "Manuels de service pour projecteurs, caméras vidéo et équipements cinématographiques",
+  'drones': "Manuels techniques et guides de réparation pour drones grand public et professionnels",
+  'home-appliances': "Manuels de service pour appareils électroménagers, chauffages et équipements domestiques",
+  'electronics': "Manuels techniques pour instruments de mesure, oscilloscopes et équipements électroniques",
+  'computers-it': "Manuels de service et guides techniques pour ordinateurs et équipements informatiques",
+  'outdoor-power': "Manuels de service pour tronçonneuses, tondeuses et équipements de motoculture",
+  'marine': "Manuels techniques pour moteurs marins, systèmes embarqués et équipements nautiques",
+  'photography': "Manuels de service pour appareils photo, objectifs, flashs et équipements photographiques",
+  'radio-communications': "Manuels de service pour radios, émetteurs-récepteurs, CB et radioamateur",
+  'audio-hifi': "Manuels de service pour amplificateurs, magnétophones, platines et équipements audio",
+  'sports-equipment': "Manuels techniques pour équipements et machines de sport",
+  'phones-telecom': "Manuels de service pour smartphones, téléphones mobiles et équipements télécom",
+  'television': "Manuels de service pour téléviseurs, moniteurs, alimentations et écrans",
+  'machining': "Guides techniques pour tours, fraiseuses et équipements de travail des métaux",
+};
+
+export function getCategoryName(slug: string, name: string, locale: Locale): string {
+  if (locale === 'fr') return categoryNamesFr[slug] ?? name;
+  return name;
+}
+
+export function getCategoryDescription(slug: string, description: string, locale: Locale): string {
+  if (locale === 'fr') return categoryDescriptionsFr[slug] ?? description;
+  return description;
+}
