@@ -38,7 +38,7 @@ const en = {
   'home.hero_title_line2': 'Instant PDF Download',
   'home.hero_subtitle':
     "One of the largest collections of technical documentation. Repair guides, schematics, and workshop manuals for professionals and enthusiasts.",
-  'home.hero_search_placeholder': 'Search by brand, model, or keyword...',
+  'home.hero_search_placeholder': 'Search...',
   'home.stats_manuals': 'Manuals',
   'home.stats_brands': 'Brands',
   'home.stats_categories': 'Categories',
@@ -255,7 +255,7 @@ const fr: Record<keyof typeof en, string> = {
   'home.hero_title_line2': 'Téléchargement PDF immédiat',
   'home.hero_subtitle':
     "Une des plus grandes collections de documentations techniques. Guides de réparation, schémas et manuels d'atelier pour professionnels et passionnés.",
-  'home.hero_search_placeholder': 'Rechercher par marque, modèle ou mot-clé...',
+  'home.hero_search_placeholder': 'Recherche...',
   'home.stats_manuals': 'Manuels',
   'home.stats_brands': 'Marques',
   'home.stats_categories': 'Catégories',
