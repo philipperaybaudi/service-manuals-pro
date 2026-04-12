@@ -1,5 +1,7 @@
 'use client';
 
+export const runtime = 'edge';
+
 import { useState, useEffect } from 'react';
 import { FileText, DollarSign, ShoppingCart, Upload, Loader2, Trash2, Edit3, Save, X } from 'lucide-react';
 import { formatPrice } from '@/lib/utils';
