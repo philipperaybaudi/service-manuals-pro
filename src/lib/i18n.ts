@@ -379,7 +379,7 @@ const fr: Record<keyof typeof en, string> = {
   'contact.response_card_text_suffix': 'les jours ouvrés.',
   'contact.company_title': "Informations sur l'entreprise",
   'contact.company_name_1': 'LA DOCUMENTATION TECHNIQUE',
-  'contact.company_name_2': 'BOUTIQUE DE DOCUMENTATIONS TECHNIQUES',
+  'contact.company_name_2': 'SHOP OF TECHNICAL DOCUMENTATIONS',
   'contact.company_register_label': 'Registre du commerce de Zvolen :',
   'contact.for_inquiry_prefix': 'Pour toute demande, contactez-nous à',
   'contact.how_help_title': 'Comment pouvons-nous vous aider ?',
