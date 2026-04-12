@@ -1,5 +1,6 @@
 import Link from '@/components/ExternalLink';
 import { ChevronRight } from 'lucide-react';
+import { t } from '@/lib/locale';
 
 interface SidebarCategory {
   name: string;
@@ -16,7 +17,7 @@ export default function CategorySidebar({ categories, currentSlug }: CategorySid
   return (
     <nav className="bg-white rounded-xl border border-gray-200 p-4 sticky top-24">
       <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-3 px-2">
-        All Categories
+        {t('header.all_categories')}
       </h3>
       <ul className="space-y-0.5">
         {categories.map((cat) => {

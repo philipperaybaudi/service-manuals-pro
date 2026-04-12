@@ -2,6 +2,7 @@ import Link from '@/components/ExternalLink';
 import { FileText, Download } from 'lucide-react';
 import { formatPrice } from '@/lib/utils';
 import type { Document } from '@/lib/types';
+import { t } from '@/lib/locale';
 
 interface DocCardProps {
   doc: Document;
@@ -25,12 +26,12 @@ export default function DocCard({ doc, showCategory }: DocCardProps) {
         ) : (
           <div className="flex flex-col items-center gap-2 text-gray-300">
             <FileText className="h-12 w-12" />
-            <span className="text-xs font-medium">PDF Document</span>
+            <span className="text-xs font-medium">{t('doc.pdf_document')}</span>
           </div>
         )}
         {doc.featured && (
           <span className="absolute top-2 left-2 bg-amber-500 text-white text-xs font-semibold px-2 py-1 rounded">
-            Featured
+            {t('doc.featured_badge')}
           </span>
         )}
       </div>

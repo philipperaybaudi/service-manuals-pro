@@ -1,9 +1,12 @@
 import { MetadataRoute } from 'next';
+import { headers } from 'next/headers';
+import { SITE_URLS } from '@/lib/i18n';
 
 export const runtime = 'edge';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const baseUrl = SITE_URLS[locale];
 
   return {
     rules: [

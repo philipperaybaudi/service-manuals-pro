@@ -1,21 +1,242 @@
 import { Metadata } from 'next';
 import Link from '@/components/ExternalLink';
 import { AlertTriangle } from 'lucide-react';
+import { getLocale } from '@/lib/locale';
+import { SITE_URLS } from '@/lib/i18n';
+import { headers } from 'next/headers';
 
-export const metadata: Metadata = {
-  title: 'Privacy Policy | Service Manuals Pro',
-  description: 'Privacy Policy, Terms of Use and GDPR compliance for Service Manuals Pro. Learn how we protect your personal data.',
-  openGraph: {
-    title: 'Privacy Policy | Service Manuals Pro',
-    description: 'Privacy Policy and GDPR compliance for Service Manuals Pro.',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/privacy`,
-  },
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/privacy`,
-  },
-};
+export const runtime = 'edge';
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const title = locale === 'fr'
+    ? 'Politique de confidentialité | Service Manuels Pro'
+    : 'Privacy Policy | Service Manuals Pro';
+  const description = locale === 'fr'
+    ? 'Politique de confidentialité, conditions générales d\u2019utilisation et conformité RGPD de Service Manuels Pro. Découvrez comment nous protégeons vos données personnelles.'
+    : 'Privacy Policy, Terms of Use and GDPR compliance for Service Manuals Pro. Learn how we protect your personal data.';
+  const base = SITE_URLS[locale];
+  return {
+    title,
+    description,
+    openGraph: { title, description, url: `${base}/privacy` },
+    alternates: { canonical: `${base}/privacy` },
+  };
+}
 
 export default function PrivacyPage() {
+  const locale = getLocale();
+  if (locale === 'fr') return <PrivacyFr />;
+  return <PrivacyEn />;
+}
+
+function PrivacyFr() {
+  const siteUrl = 'https://www.service-manuels-pro.fr';
+  return (
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1 className="text-3xl font-bold text-gray-900 mb-8">Conditions générales d&apos;utilisation et RGPD</h1>
+
+      <div className="bg-white rounded-xl border border-gray-200 p-8 space-y-8">
+
+        {/* Attention */}
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
+          <div className="flex items-start gap-3">
+            <AlertTriangle className="h-5 w-5 text-amber-600 mt-0.5 shrink-0" />
+            <div>
+              <h2 className="font-semibold text-amber-900 mb-2">Attention</h2>
+              <p className="text-sm text-amber-800 leading-relaxed">
+                L&apos;enregistrement des documentations se déroule correctement sur un ordinateur connecté à Internet et dont les applications sont à jour. Les smartphones et tablettes sont à éviter car ils ne disposent pas toujours du bon lecteur de PDF et/ou de la capacité mémoire pour « digérer » des documentations dont le contenu numérisé peut être conséquent.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Paiements */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Paiements</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Comme de nombreuses entreprises, nous utilisons les services de{' '}
+            <Link href="https://stripe.com/fr" className="text-emerald-700 hover:text-emerald-800 font-semibold underline underline-offset-2">
+              STRIPE.COM
+            </Link>{' '}
+            pour sécuriser les paiements en ligne par carte bancaire de nos clients.
+          </p>
+        </section>
+
+        {/* Article 1 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 1 : Éditeur</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Le présent site web accessible à l&apos;adresse{' '}
+            <Link href={siteUrl} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              {siteUrl}
+            </Link>{' '}
+            est édité par SHOP OF TECHNICAL DOCUMENTATIONS, établissement inscrit en Slovaquie sous le numéro de RCS 36807516, dont le siège social est situé Pôle d&apos;activité Lu&#x10D;eneck&#xe1; cesta 2266/6 &ndash; 96096 ZVOLEN &ndash; Slovaquie. Contact direct via le{' '}
+            <Link href="/contact" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              formulaire en ligne
+            </Link>.
+          </p>
+        </section>
+
+        {/* Article 2 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 2 : Contenu du site</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Le contenu du Site, la structure générale, les textes, les sons, les images animées ou non, dont le Site{' '}
+            <Link href={siteUrl} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              {siteUrl}
+            </Link>{' '}
+            est composé sont la propriété exclusive de Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS). Toute représentation totale ou partielle de ce Site et de son Contenu, par quelques procédés que ce soient, sans l&apos;autorisation préalable expresse de Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) est interdite et constituerait une contrefaçon sanctionnée par les codes et lois internationales sur la propriété intellectuelle.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            La consultation du Site{' '}
+            <Link href={siteUrl} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              {siteUrl}
+            </Link>{' '}
+            est subordonnée à l&apos;acceptation intégrale et au respect par les utilisateurs des conditions d&apos;utilisation suivantes.
+          </p>
+        </section>
+
+        {/* Article 3 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 3 : Licence d&apos;utilisation du contenu</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Du seul fait de sa connexion au site, l&apos;utilisateur reconnaît accepter de Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) une licence d&apos;usage du Contenu du Site strictement limitée aux conditions impératives suivantes :
+          </p>
+          <ul className="space-y-3 text-gray-700 text-sm leading-relaxed">
+            <li className="flex items-start gap-2">
+              <span className="text-emerald-700 font-bold mt-0.5">&bull;</span>
+              <span>La présente licence est accordée à titre non exclusif et n&apos;est pas transmissible.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-emerald-700 font-bold mt-0.5">&bull;</span>
+              <span>Le droit d&apos;usage conféré à l&apos;utilisateur est personnel et privé : toute reproduction du contenu du site sur un quelconque support pour un usage collectif ou professionnel, même en interne dans l&apos;entreprise, est prohibée. Il en est de même pour toute communication de ce contenu par voie électronique, même diffusé en intranet ou en extranet d&apos;entreprise.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-emerald-700 font-bold mt-0.5">&bull;</span>
+              <span>Le droit d&apos;usage comprend seulement l&apos;autorisation de consulter le site et son contenu.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-emerald-700 font-bold mt-0.5">&bull;</span>
+              <span>Cet usage comprend seulement l&apos;autorisation de reproduire pour stockage aux fins de représentation sur écran monoposte et de reproduction en un exemplaire, pour copie de sauvegarde et tirage papier. Tout autre usage est soumis à l&apos;autorisation expresse préalable de Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS).</span>
+            </li>
+          </ul>
+          <p className="text-gray-700 leading-relaxed mt-4">
+            La violation de ces dispositions soumet le contrevenant et toutes personnes responsables aux peines pénales et civiles prévues par la loi et le RGPD.
+          </p>
+        </section>
+
+        {/* Article 4 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 4 : Loi informatique, fichiers et libertés</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) est le responsable du traitement des données collectées sur le Site{' '}
+            <Link href={siteUrl} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              {siteUrl}
+            </Link>.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            L&apos;utilisateur est notamment informé que les informations personnelles qu&apos;il communique par les formulaires présents sur le Site sont nécessaires pour répondre à sa demande.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Les utilisateurs ont la possibilité d&apos;exercer leurs droits d&apos;accès, de rectification, d&apos;effacement, d&apos;opposition, de limitation du traitement, de portabilité de leurs données personnelles, droit de ne pas faire l&apos;objet d&apos;une décision individuelle automatisée et droit de révocation de leur consentement, concernant les données personnelles qu&apos;ils fournissent.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4 font-medium">
+            Aucune de ces données personnelles ne seront cédées à des tierces personnes ou sociétés ; seul Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) utilisera ces données pour répondre aux demandes des utilisateurs et clients et pour les informer de ses activités.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Conformément aux dispositions du RGPD, l&apos;utilisateur bénéficie d&apos;un droit d&apos;accès, de rectification, de mise à jour et d&apos;effacement des informations qui le concernent, qu&apos;il peut exercer par contact direct via le{' '}
+            <Link href="/contact" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              formulaire en ligne
+            </Link>
+            , en précisant dans l&apos;objet du message « Droit des personnes » et en joignant en pièce jointe la copie de son justificatif d&apos;identité.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            L&apos;utilisateur bénéficie également du droit de donner des directives sur le sort de ses données personnelles après son décès.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Conformément aux dispositions du RGPD, l&apos;utilisateur peut également s&apos;opposer, pour des motifs légitimes à ce que ses données fassent l&apos;objet d&apos;un traitement et, sans motif et sans frais, à ce que ses données soient utilisées à des fins de prospection commerciale.
+          </p>
+        </section>
+
+        {/* Article 5 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 5 : Utilisation des cookies</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            L&apos;utilisateur est informé que lors de ses visites sur le Site{' '}
+            <Link href={siteUrl} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              {siteUrl}
+            </Link>
+            , des cookies peuvent s&apos;installer automatiquement sur son logiciel de navigation. Le Site utilise des cookies nécessaires au bon fonctionnement du Site. Certains cookies permettent au site d&apos;identifier votre navigateur afin de conserver l&apos;information de connexion à votre compte, des informations concernant votre panier d&apos;achat, vos préférences, etc.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Les informations recueillies sur ce site seront conservées pendant une durée légale maximale de 3 ans, sauf obligation légale ou réglementaire contraire.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            L&apos;utilisateur dispose d&apos;un droit d&apos;accès, de retrait et de modification des données à caractère personnel communiquées par le biais des cookies dans les conditions décrites par le RGPD.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            L&apos;utilisateur du Site est tenu de respecter la loi dont la violation est passible de sanctions pénales. Il doit notamment s&apos;abstenir, s&apos;agissant des informations nominatives auxquelles il accède, de toute collecte, de toute utilisation détournée et, d&apos;une manière générale, de tout acte susceptible de porter atteinte à la vie privée ou à la réputation des personnes.
+          </p>
+        </section>
+
+        {/* Article 6 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 6 : Les marques</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Les marques pouvant figurer sur le Site{' '}
+            <Link href={siteUrl} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              {siteUrl}
+            </Link>{' '}
+            sont des marques déposées. Toute reproduction totale ou partielle de ces marques sans autorisation expresse de Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) est donc prohibée.
+          </p>
+        </section>
+
+        {/* Article 7 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 7 : Liens hypertextes</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Les liens hypertextes mis en place dans le cadre du présent Site en direction d&apos;autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS). Les utilisateurs du site ne peuvent mettre en place un lien hypertexte en direction de ce site sans l&apos;autorisation expresse et préalable de Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS).
+          </p>
+        </section>
+
+        {/* Article 8 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 8 : Autorisation de reproduction de contenus et de mise en place d&apos;hyperliens</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Pour toute information et demande de reproduction d&apos;un contenu paru sur le Site{' '}
+            <Link href={siteUrl} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              {siteUrl}
+            </Link>{' '}
+            (textes, graphiques, illustrations, etc.) quel qu&apos;en soit le support, comme pour toute autorisation de mise en place d&apos;un hyperlien, l&apos;utilisateur est invité à adresser sa demande par contact direct via le{' '}
+            <Link href="/contact" className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2">
+              formulaire en ligne
+            </Link>.
+          </p>
+        </section>
+
+        {/* Article 9 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 9 : Respect de la vie privée</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) respecte votre vie privée et s&apos;engage à la protéger en conformité avec le RGPD. La présente déclaration est destinée à vous informer de notre politique et de nos pratiques en matière de respect de la vie privée, ainsi que des choix que vous pouvez opérer sur la manière dont vos coordonnées sont recueillies en ligne et comment elles sont utilisées. Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) garantit la confidentialité des données personnelles traitées et veille à ce que les personnes autorisées à traiter lesdites données personnelles s&apos;engagent également à respecter cette obligation de confidentialité.
+          </p>
+        </section>
+
+        {/* Article 10 */}
+        <section>
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Article 10 : Sécurité des données personnelles</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Service Manuels Pro (SHOP OF TECHNICAL DOCUMENTATIONS) s&apos;engage, au titre de son obligation de moyens, à prendre toutes les précautions utiles et met en œuvre des mesures techniques et organisationnelles appropriées en la matière pour garantir un niveau de sécurité adapté et pour protéger les données personnelles des internautes contre les altérations, destructions et accès non autorisés.
+          </p>
+        </section>
+
+      </div>
+    </div>
+  );
+}
+
+function PrivacyEn() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold text-gray-900 mb-8">Privacy Policy &amp; Terms of Use (GDPR)</h1>

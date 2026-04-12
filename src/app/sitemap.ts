@@ -1,10 +1,13 @@
 import { MetadataRoute } from 'next';
 import { supabase } from '@/lib/supabase';
+import { headers } from 'next/headers';
+import { SITE_URLS } from '@/lib/i18n';
 
 export const runtime = 'edge';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const baseUrl = SITE_URLS[locale];
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [

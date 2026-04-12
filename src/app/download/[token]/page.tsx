@@ -1,11 +1,17 @@
 import { Metadata } from 'next';
 import { getServiceClient } from '@/lib/supabase';
 import { redirect } from 'next/navigation';
+import { t } from '@/lib/locale';
+import { tr } from '@/lib/i18n';
+import { headers } from 'next/headers';
 
-export const metadata: Metadata = {
-  title: 'Download Your Manual',
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  return {
+    title: tr(locale, 'download.meta_token'),
+    robots: { index: false, follow: false },
+  };
+}
 import { Download, Clock, AlertTriangle, CheckCircle, FileText } from 'lucide-react';
 import Link from '@/components/ExternalLink';
 
@@ -39,12 +45,12 @@ export default async function DownloadPage({
     return (
       <div className="max-w-xl mx-auto px-4 py-16 text-center">
         <AlertTriangle className="h-16 w-16 text-red-500 mx-auto mb-4" />
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Invalid Download Link</h1>
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">{t('download.invalid_title')}</h1>
         <p className="text-gray-500 mb-8">
-          This download link is not valid. Please check your email for the correct link.
+          {t('download.invalid_text')}
         </p>
         <Link href="/" className="text-emerald-700 hover:text-emerald-800 font-medium text-sm">
-          &larr; Back to homepage
+          {t('download.back_homepage')}
         </Link>
       </div>
     );
@@ -55,12 +61,12 @@ export default async function DownloadPage({
     return (
       <div className="max-w-xl mx-auto px-4 py-16 text-center">
         <Clock className="h-16 w-16 text-orange-500 mx-auto mb-4" />
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Download Link Expired</h1>
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">{t('download.expired_title')}</h1>
         <p className="text-gray-500 mb-8">
-          This download link has expired. Please contact support for assistance.
+          {t('download.expired_text')}
         </p>
         <Link href="/" className="text-emerald-700 hover:text-emerald-800 font-medium text-sm">
-          &larr; Back to homepage
+          {t('download.back_homepage')}
         </Link>
       </div>
     );
@@ -71,12 +77,12 @@ export default async function DownloadPage({
     return (
       <div className="max-w-xl mx-auto px-4 py-16 text-center">
         <AlertTriangle className="h-16 w-16 text-orange-500 mx-auto mb-4" />
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Download Limit Reached</h1>
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">{t('download.limit_title')}</h1>
         <p className="text-gray-500 mb-8">
-          You have reached the maximum number of downloads (3). Please contact support if you need further access.
+          {t('download.limit_text')}
         </p>
         <Link href="/" className="text-emerald-700 hover:text-emerald-800 font-medium text-sm">
-          &larr; Back to homepage
+          {t('download.back_homepage')}
         </Link>
       </div>
     );
@@ -117,7 +123,7 @@ export default async function DownloadPage({
       <div className="max-w-2xl mx-auto px-4 py-16">
         <div className="text-center mb-8">
           <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Your Files are Ready</h1>
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">{t('download.files_ready')}</h1>
           <p className="text-gray-500">
             {doc?.title}
           </p>
@@ -125,7 +131,7 @@ export default async function DownloadPage({
 
         <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
           <p className="text-sm text-gray-500 mb-4">
-            This bundle contains {fileLinks.length} files. Click each button to download.
+            {t('download.bundle_contains_prefix')} {fileLinks.length} {t('download.bundle_contains_suffix')}
           </p>
 
           <div className="space-y-3">
@@ -149,11 +155,11 @@ export default async function DownloadPage({
         <div className="text-center text-sm text-gray-400">
           <p>
             {remainingDownloads > 0
-              ? `You can access this page ${remainingDownloads} more time${remainingDownloads > 1 ? 's' : ''}.`
-              : 'This was your last access to this download page.'}
+              ? `${t('download.remaining_prefix')} ${remainingDownloads} ${remainingDownloads > 1 ? t('download.remaining_more_times') : t('download.remaining_more_time')}.`
+              : t('download.last_access')}
           </p>
           <Link href="/" className="text-emerald-700 hover:text-emerald-800 font-medium mt-4 inline-block">
-            &larr; Back to homepage
+            {t('download.back_homepage')}
           </Link>
         </div>
       </div>

@@ -8,6 +8,9 @@ import { ChevronRight, FileText, Download, Shield, Clock } from 'lucide-react';
 import BuyButton from './BuyButton';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import DownloadNotice from '@/components/DownloadNotice';
+import { getLocale, t } from '@/lib/locale';
+import { SITE_URLS, tr } from '@/lib/i18n';
+import { headers } from 'next/headers';
 
 export const runtime = 'edge';
 
@@ -42,10 +45,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const doc = await getDocument(params.slug);
   if (!doc) return {};
 
-  const title = doc.seo_title || `${doc.title} - Service Manual PDF Download`;
-  const description = doc.seo_description || doc.description || `Download ${doc.title} service manual. Professional technical documentation in PDF format.`;
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const title = doc.seo_title || (locale === 'fr'
+    ? `${doc.title} — Manuel de service PDF à télécharger`
+    : `${doc.title} - Service Manual PDF Download`);
+  const description = doc.seo_description || doc.description || (locale === 'fr'
+    ? `Téléchargez le manuel de service ${doc.title}. Documentation technique professionnelle au format PDF.`
+    : `Download ${doc.title} service manual. Professional technical documentation in PDF format.`);
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
+  const siteUrl = SITE_URLS[locale];
   return {
     title,
     description,
@@ -68,7 +76,8 @@ export default async function DocumentPage({ params }: Props) {
 
   const related = await getRelatedDocs(doc);
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
+  const locale = getLocale();
+  const siteUrl = SITE_URLS[locale];
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -88,7 +97,7 @@ export default async function DocumentPage({ params }: Props) {
   };
 
   const breadcrumbs = [
-    { name: 'Home', url: siteUrl },
+    { name: tr(locale, 'category.home'), url: siteUrl },
     ...(doc.category ? [{ name: doc.category.name, url: `${siteUrl}/categories/${doc.category.slug}` }] : []),
     ...(doc.brand && doc.category ? [{ name: doc.brand.name, url: `${siteUrl}/categories/${doc.category.slug}/${doc.brand.slug}` }] : []),
     { name: doc.title, url: `${siteUrl}/docs/${doc.slug}` },
@@ -105,7 +114,7 @@ export default async function DocumentPage({ params }: Props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Breadcrumbs */}
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6 flex-wrap">
-          <Link href="/" className="hover:text-gray-700">Home</Link>
+          <Link href="/" className="hover:text-gray-700">{t('category.home')}</Link>
           <ChevronRight className="h-3 w-3" />
           {doc.category && (
             <>
@@ -144,7 +153,7 @@ export default async function DocumentPage({ params }: Props) {
                 ) : (
                   <div className="flex flex-col items-center gap-3 text-gray-300">
                     <FileText className="h-20 w-20" />
-                    <span className="text-sm">PDF Document</span>
+                    <span className="text-sm">{t('doc.pdf_document')}</span>
                   </div>
                 )}
               </div>
@@ -159,7 +168,7 @@ export default async function DocumentPage({ params }: Props) {
                   {doc.brand.logo_url && (
                     <img src={doc.brand.logo_url} alt={doc.brand.name} className="h-6 object-contain" />
                   )}
-                  <span className="text-sm text-gray-600">by {doc.brand.name}</span>
+                  <span className="text-sm text-gray-600">{t('docpage.by')} {doc.brand.name}</span>
                 </div>
               )}
 
@@ -198,52 +207,52 @@ export default async function DocumentPage({ params }: Props) {
                 {formatPrice(doc.price)}
               </div>
 
-              <BuyButton documentId={doc.id} documentTitle={doc.title} price={doc.price} />
+              <BuyButton documentId={doc.id} documentTitle={doc.title} price={doc.price} locale={locale} />
 
               <div className="space-y-3 mt-6 pt-6 border-t border-gray-100">
                 <div className="flex items-center gap-3 text-sm text-gray-600">
                   <Download className="h-4 w-4 text-gray-400 shrink-0" />
-                  <span>Instant PDF download after payment</span>
+                  <span>{t('docpage.instant_download')}</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm text-gray-600">
                   <Clock className="h-4 w-4 text-gray-400 shrink-0" />
-                  <span>Download link valid for 24 hours</span>
+                  <span>{t('docpage.link_valid_24h')}</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm text-gray-600">
                   <Shield className="h-4 w-4 text-gray-400 shrink-0" />
-                  <span>Secure payment via Stripe</span>
+                  <span>{t('docpage.stripe_secure')}</span>
                 </div>
               </div>
 
               {/* Details */}
               <div className="mt-6 pt-6 border-t border-gray-100">
-                <h3 className="text-sm font-semibold text-gray-900 mb-3">Document Details</h3>
+                <h3 className="text-sm font-semibold text-gray-900 mb-3">{t('docpage.details')}</h3>
                 <dl className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <dt className="text-gray-500">Format</dt>
+                    <dt className="text-gray-500">{t('docpage.format')}</dt>
                     <dd className="text-gray-900 font-medium">PDF</dd>
                   </div>
                   {doc.page_count && (
                     <div className="flex justify-between">
-                      <dt className="text-gray-500">Pages</dt>
+                      <dt className="text-gray-500">{t('docpage.pages')}</dt>
                       <dd className="text-gray-900 font-medium">{doc.page_count}</dd>
                     </div>
                   )}
                   {doc.file_size && (
                     <div className="flex justify-between">
-                      <dt className="text-gray-500">Size</dt>
+                      <dt className="text-gray-500">{t('docpage.size')}</dt>
                       <dd className="text-gray-900 font-medium">{fileSize(doc.file_size)}</dd>
                     </div>
                   )}
                   {doc.language && (
                     <div className="flex justify-between">
-                      <dt className="text-gray-500">Language</dt>
-                      <dd className="text-gray-900 font-medium">{doc.language === 'en' ? 'English' : doc.language}</dd>
+                      <dt className="text-gray-500">{t('docpage.language')}</dt>
+                      <dd className="text-gray-900 font-medium">{doc.language === 'en' ? (locale === 'fr' ? 'Anglais' : 'English') : doc.language}</dd>
                     </div>
                   )}
                   {doc.category && (
                     <div className="flex justify-between">
-                      <dt className="text-gray-500">Category</dt>
+                      <dt className="text-gray-500">{t('docpage.category')}</dt>
                       <dd className="text-gray-900 font-medium">{doc.category.name}</dd>
                     </div>
                   )}
@@ -256,7 +265,7 @@ export default async function DocumentPage({ params }: Props) {
         {/* Related */}
         {related.length > 0 && (
           <section className="mt-12 pt-8 border-t border-gray-200">
-            <h2 className="text-xl font-bold text-gray-900 mb-6">Related Manuals</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-6">{t('docpage.related')}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {related.map((r: any) => (
                 <Link

@@ -1,24 +1,29 @@
 import { Metadata } from 'next';
 import Link from '@/components/ExternalLink';
 import { Search, Mail, BookOpen, Archive, Globe } from 'lucide-react';
+import { getLocale, t } from '@/lib/locale';
+import { SITE_URLS, tr } from '@/lib/i18n';
+import { headers } from 'next/headers';
 
-export const metadata: Metadata = {
-  title: 'About Us | Service Manuals Pro',
-  description: 'Service Manuals Pro supports the Right to Repair. Find user manuals, service manuals, schematics and technical documentation for any brand.',
-  openGraph: {
-    title: 'About Us | Service Manuals Pro',
-    description: 'Supporting the Right to Repair. Find the documentation you need.',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/about`,
-  },
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/about`,
-  },
-};
+export const runtime = 'edge';
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const title = tr(locale, 'about.meta_title');
+  const description = tr(locale, 'about.meta_description');
+  const base = SITE_URLS[locale];
+  return {
+    title,
+    description,
+    openGraph: { title, description, url: `${base}/about` },
+    alternates: { canonical: `${base}/about` },
+  };
+}
 
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-3xl font-bold text-gray-900 mb-6">About Us</h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-6">{t('about.title')}</h1>
 
       <div className="bg-white rounded-xl border border-gray-200 p-8 space-y-6">
         {/* Right to Repair */}
@@ -26,12 +31,12 @@ export default function AboutPage() {
           <BookOpen className="h-6 w-6 text-emerald-700 mt-1 shrink-0" />
           <div>
             <h2 className="text-xl font-semibold text-gray-900 mb-2">
-              The{' '}
+              {t('about.right_to_repair_heading_prefix')}{' '}
               <Link
                 href="https://en.wikipedia.org/wiki/Right_to_repair"
                 className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2"
               >
-                Right to Repair
+                {t('about.right_to_repair_link')}
               </Link>
               *
             </h2>
@@ -39,42 +44,44 @@ export default function AboutPage() {
         </div>
 
         <p className="text-gray-700 leading-relaxed">
-          Find the documentation you need on this site!
+          {t('about.intro')}
         </p>
 
         <div className="flex items-start gap-3">
           <Search className="h-5 w-5 text-emerald-700 mt-0.5 shrink-0" />
           <p className="text-gray-700 leading-relaxed">
-            Find a user manual, an instruction booklet, a service manual, or any technical documentation regardless of the brand.
+            {t('about.search_text')}
           </p>
         </div>
 
         <div className="flex items-start gap-3">
           <Archive className="h-5 w-5 text-emerald-700 mt-0.5 shrink-0" />
           <p className="text-gray-700 leading-relaxed">
-            You can archive your user manuals and instruction booklets (or your workshop service manuals) to consult them later and ensure the maintenance or repair of your equipment.
+            {t('about.archive_text')}
           </p>
         </div>
 
         <div className="bg-emerald-50 rounded-lg p-4 border border-emerald-100">
           <p className="text-gray-700 leading-relaxed">
-            Enter your search in the <span className="font-semibold text-emerald-800">&ldquo;Search manuals...&rdquo;</span> field at the top of the page.
+            {t('about.search_hint_prefix')}{' '}
+            <span className="font-semibold text-emerald-800">&ldquo;{t('about.search_hint_field')}&rdquo;</span>{' '}
+            {t('about.search_hint_suffix')}
           </p>
         </div>
 
         <div className="flex items-start gap-3">
           <Globe className="h-5 w-5 text-emerald-700 mt-0.5 shrink-0" />
           <p className="text-gray-700 leading-relaxed">
-            If you cannot find the documentation you are looking for on this site, we can search for you across the vastness of the Internet and even the Deep Web, at no additional research cost.
+            {t('about.deep_web_text')}
           </p>
         </div>
 
         <div className="flex items-start gap-3 bg-gray-50 rounded-lg p-4 border border-gray-100">
           <Mail className="h-5 w-5 text-emerald-700 mt-0.5 shrink-0" />
           <p className="text-gray-700 leading-relaxed">
-            Don&apos;t hesitate to{' '}
+            {t('about.contact_prefix')}{' '}
             <Link href="/contact" className="text-emerald-700 hover:text-emerald-800 font-semibold underline underline-offset-2">
-              contact us
+              {t('about.contact_link')}
             </Link>
             .
           </p>

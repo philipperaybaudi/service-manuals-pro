@@ -3,14 +3,16 @@
 import { useState } from 'react';
 import { ShoppingCart, Loader2 } from 'lucide-react';
 import { formatPrice } from '@/lib/utils';
+import { tr, type Locale } from '@/lib/i18n';
 
 interface BuyButtonProps {
   documentId: string;
   documentTitle: string;
   price: number;
+  locale?: Locale;
 }
 
-export default function BuyButton({ documentId, documentTitle, price }: BuyButtonProps) {
+export default function BuyButton({ documentId, documentTitle, price, locale = 'en' }: BuyButtonProps) {
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState('');
   const [showEmail, setShowEmail] = useState(false);
@@ -23,7 +25,7 @@ export default function BuyButton({ documentId, documentTitle, price }: BuyButto
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email || !emailRegex.test(email.trim())) {
-      alert('Please enter a valid email address.');
+      alert(tr(locale, 'docpage.email_invalid'));
       return;
     }
 
@@ -39,7 +41,7 @@ export default function BuyButton({ documentId, documentTitle, price }: BuyButto
         window.location.href = data.url;
       }
     } catch {
-      alert('Something went wrong. Please try again.');
+      alert(tr(locale, 'docpage.generic_error'));
     } finally {
       setLoading(false);
     }
@@ -52,7 +54,7 @@ export default function BuyButton({ documentId, documentTitle, price }: BuyButto
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Your email address"
+          placeholder={tr(locale, 'docpage.email_placeholder')}
           className="w-full px-4 py-3 border border-gray-300 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
           onKeyDown={(e) => e.key === 'Enter' && handleBuy()}
         />
@@ -67,7 +69,9 @@ export default function BuyButton({ documentId, documentTitle, price }: BuyButto
         ) : (
           <>
             <ShoppingCart className="h-5 w-5" />
-            {showEmail ? `Pay ${formatPrice(price)}` : `Buy Now — ${formatPrice(price)}`}
+            {showEmail
+              ? `${tr(locale, 'docpage.pay')} ${formatPrice(price)}`
+              : `${tr(locale, 'docpage.buy_now_prefix')} ${formatPrice(price)}`}
           </>
         )}
       </button>

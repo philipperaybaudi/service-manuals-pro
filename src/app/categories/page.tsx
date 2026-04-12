@@ -2,21 +2,28 @@ import { Metadata } from 'next';
 import { supabase } from '@/lib/supabase';
 
 import CategoryCard from '@/components/CategoryCard';
+import { getLocale, t } from '@/lib/locale';
+import { SITE_URLS, tr } from '@/lib/i18n';
+import { headers } from 'next/headers';
 
 export const runtime = 'edge';
 
-export const metadata: Metadata = {
-  title: 'All Categories | Browse Technical Documentation',
-  description: 'Browse all categories of professional service manuals and technical documentation. Find repair guides, schematics, and workshop manuals organized by equipment type.',
-  openGraph: {
-    title: 'All Categories | Browse Technical Documentation',
-    description: 'Browse all categories of professional service manuals and technical documentation.',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/categories`,
-  },
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com'}/categories`,
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const title = locale === 'fr'
+    ? 'Toutes les catégories | Parcourir la documentation technique'
+    : 'All Categories | Browse Technical Documentation';
+  const description = locale === 'fr'
+    ? 'Parcourez toutes les catégories de manuels de service professionnels et de documentation technique. Trouvez guides de réparation, schémas et manuels d\u2019atelier classés par type d\u2019équipement.'
+    : 'Browse all categories of professional service manuals and technical documentation. Find repair guides, schematics, and workshop manuals organized by equipment type.';
+  const base = SITE_URLS[locale];
+  return {
+    title,
+    description,
+    openGraph: { title, description, url: `${base}/categories` },
+    alternates: { canonical: `${base}/categories` },
+  };
+}
 
 export const revalidate = 3600;
 
@@ -29,8 +36,8 @@ export default async function CategoriesPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">All Categories</h1>
-      <p className="text-gray-500 mb-8">Browse our complete collection of technical documentation</p>
+      <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('categories.title')}</h1>
+      <p className="text-gray-500 mb-8">{t('categories.subtitle')}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {(categories || []).map((cat: any) => (

@@ -6,6 +6,9 @@ import { supabase } from '@/lib/supabase';
 import DocCard from '@/components/DocCard';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import { ChevronRight } from 'lucide-react';
+import { getLocale, t } from '@/lib/locale';
+import { SITE_URLS, tr } from '@/lib/i18n';
+import { headers } from 'next/headers';
 
 export const runtime = 'edge';
 export const revalidate = 3600;
@@ -47,13 +50,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, brand } = await getCategoryAndBrand(params.slug, params.brand);
   if (!category || !brand) return {};
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
+  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const siteUrl = SITE_URLS[locale];
+  const serviceSuffix = tr(locale, 'category.service_manuals_suffix');
+  const title = locale === 'fr'
+    ? `${brand.name} ${category.name} — Manuels de service | Guides de réparation`
+    : `${brand.name} ${category.name} Service Manuals | Repair Guides`;
+  const description = locale === 'fr'
+    ? `Téléchargez les manuels de service ${brand.name} pour ${category.name.toLowerCase()}. Guides de réparation, schémas et documentation technique professionnelle.`
+    : `Download ${brand.name} ${category.name.toLowerCase()} service manuals. Professional repair guides, schematics, and technical documentation for ${brand.name} equipment.`;
   return {
-    title: `${brand.name} ${category.name} Service Manuals | Repair Guides`,
-    description: `Download ${brand.name} ${category.name.toLowerCase()} service manuals. Professional repair guides, schematics, and technical documentation for ${brand.name} equipment.`,
+    title,
+    description,
     openGraph: {
-      title: `${brand.name} ${category.name} Service Manuals`,
-      description: `Professional ${brand.name} technical documentation for download`,
+      title: `${brand.name} ${category.name} ${serviceSuffix}`,
+      description,
       url: `${siteUrl}/categories/${params.slug}/${params.brand}`,
     },
     alternates: {
@@ -68,13 +79,16 @@ export default async function BrandPage({ params }: Props) {
 
   const documents = await getDocuments(brand.id);
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.service-manuals-pro.com';
+  const locale = getLocale();
+  const siteUrl = SITE_URLS[locale];
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${brand.name} ${category.name} Service Manuals`,
-    description: `Professional ${brand.name} ${category.name.toLowerCase()} service manuals and repair guides`,
+    name: `${brand.name} ${category.name} ${tr(locale, 'category.service_manuals_suffix')}`,
+    description: locale === 'fr'
+      ? `Manuels de service et guides de réparation ${brand.name} ${category.name.toLowerCase()} professionnels`
+      : `Professional ${brand.name} ${category.name.toLowerCase()} service manuals and repair guides`,
     url: `${siteUrl}/categories/${category.slug}/${brand.slug}`,
     numberOfItems: documents.length,
     about: {
@@ -85,8 +99,8 @@ export default async function BrandPage({ params }: Props) {
   };
 
   const breadcrumbs = [
-    { name: 'Home', url: siteUrl },
-    { name: 'Categories', url: `${siteUrl}/categories` },
+    { name: tr(locale, 'category.home'), url: siteUrl },
+    { name: tr(locale, 'category.categories'), url: `${siteUrl}/categories` },
     { name: category.name, url: `${siteUrl}/categories/${category.slug}` },
     { name: brand.name, url: `${siteUrl}/categories/${category.slug}/${brand.slug}` },
   ];
@@ -102,9 +116,9 @@ export default async function BrandPage({ params }: Props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Breadcrumbs */}
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6 flex-wrap">
-          <Link href="/" className="hover:text-gray-700">Home</Link>
+          <Link href="/" className="hover:text-gray-700">{t('category.home')}</Link>
           <ChevronRight className="h-3 w-3" />
-          <Link href="/categories" className="hover:text-gray-700">Categories</Link>
+          <Link href="/categories" className="hover:text-gray-700">{t('category.categories')}</Link>
           <ChevronRight className="h-3 w-3" />
           <Link href={`/categories/${category.slug}`} className="hover:text-gray-700">{category.name}</Link>
           <ChevronRight className="h-3 w-3" />
@@ -119,9 +133,11 @@ export default async function BrandPage({ params }: Props) {
             </div>
           )}
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">{brand.name} Service Manuals</h1>
+            <h1 className="text-3xl font-bold text-gray-900">{brand.name} {t('category.service_manuals_suffix')}</h1>
             <p className="text-gray-500 mt-1">
-              {documents.length} manual{documents.length !== 1 ? 's' : ''} available for download
+              {locale === 'fr'
+                ? `${documents.length} manuel${documents.length !== 1 ? 's' : ''} ${t('category.brand_subtitle_suffix')}`
+                : `${documents.length} manual${documents.length !== 1 ? 's' : ''} ${t('category.brand_subtitle_suffix')}`}
             </p>
           </div>
         </div>
@@ -134,7 +150,7 @@ export default async function BrandPage({ params }: Props) {
             ))}
           </div>
         ) : (
-          <p className="text-gray-500 py-12 text-center">No manuals available yet for {brand.name}.</p>
+          <p className="text-gray-500 py-12 text-center">{t('category.no_manuals_for')} {brand.name}.</p>
         )}
       </div>
     </>

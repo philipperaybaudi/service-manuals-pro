@@ -1,5 +1,6 @@
 import Link from '@/components/ExternalLink';
 import { ChevronRight } from 'lucide-react';
+import { getLocale } from '@/lib/locale';
 
 interface CategoryCardProps {
   name: string;
@@ -10,6 +11,14 @@ interface CategoryCardProps {
 }
 
 export default function CategoryCard({ name, slug, description, documentCount, brandCount }: CategoryCardProps) {
+  const locale = getLocale();
+  const manuals = locale === 'fr'
+    ? `${documentCount} manuel${documentCount !== 1 ? 's' : ''}`
+    : `${documentCount} manual${documentCount !== 1 ? 's' : ''}`;
+  const brands = locale === 'fr'
+    ? `${brandCount} marque${brandCount !== 1 ? 's' : ''}`
+    : `${brandCount} brand${brandCount !== 1 ? 's' : ''}`;
+
   return (
     <Link
       href={`/categories/${slug}`}
@@ -22,13 +31,9 @@ export default function CategoryCard({ name, slug, description, documentCount, b
           </h3>
           <p className="text-sm text-gray-500 mt-1 line-clamp-2">{description}</p>
           <div className="flex items-center gap-4 mt-3">
-            <span className="text-xs font-medium text-gray-400">
-              {documentCount} manual{documentCount !== 1 ? 's' : ''}
-            </span>
+            <span className="text-xs font-medium text-gray-400">{manuals}</span>
             {brandCount > 0 && (
-              <span className="text-xs font-medium text-gray-400">
-                {brandCount} brand{brandCount !== 1 ? 's' : ''}
-              </span>
+              <span className="text-xs font-medium text-gray-400">{brands}</span>
             )}
           </div>
         </div>

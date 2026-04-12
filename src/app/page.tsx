@@ -5,6 +5,7 @@ import SearchBar from '@/components/SearchBar';
 import DocCard from '@/components/DocCard';
 import CategoryCard from '@/components/CategoryCard';
 import { FileText, Shield, Zap, Globe } from 'lucide-react';
+import { getLocale, t } from '@/lib/locale';
 
 export const runtime = 'edge';
 export const revalidate = 3600;
@@ -69,6 +70,7 @@ export default async function HomePage({
 }: {
   searchParams: { q?: string };
 }) {
+  const locale = getLocale();
   const query = searchParams.q;
 
   if (query) {
@@ -76,12 +78,15 @@ export default async function HomePage({
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
-          <SearchBar large defaultValue={query} />
+          <SearchBar large defaultValue={query} locale={locale} />
         </div>
         <h1 className="text-2xl font-bold mb-2">
-          Search results for &ldquo;{query}&rdquo;
+          {t('home.search_results_for')} &ldquo;{query}&rdquo;
         </h1>
-        <p className="text-gray-500 mb-6">{results.length} document{results.length !== 1 ? 's' : ''} found</p>
+        <p className="text-gray-500 mb-6">
+          {results.length}{' '}
+          {results.length !== 1 ? t('home.documents_found') : t('home.document_found')}
+        </p>
         {results.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {results.map((doc) => (
@@ -91,7 +96,7 @@ export default async function HomePage({
         ) : (
           <div className="text-center py-16">
             <FileText className="h-16 w-16 text-gray-200 mx-auto mb-4" />
-            <p className="text-gray-500">No documents found. Try different keywords.</p>
+            <p className="text-gray-500">{t('home.no_results')}</p>
           </div>
         )}
       </div>
@@ -114,36 +119,36 @@ export default async function HomePage({
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           <div className="max-w-3xl mx-auto text-center">
             <p className="inline-block text-xs font-semibold uppercase tracking-widest text-emerald-300 bg-emerald-800/50 border border-emerald-600/30 rounded-full px-4 py-1.5 mb-6">
-              Right to Repair — Access Technical Documentation
+              {t('home.hero_badge')}
             </p>
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
-              Professional Service Manuals
-              <span className="block text-emerald-300 mt-2">Instant PDF Download</span>
+              {t('home.hero_title_line1')}
+              <span className="block text-emerald-300 mt-2">{t('home.hero_title_line2')}</span>
             </h1>
             <p className="text-lg text-emerald-100 mb-8 max-w-2xl mx-auto">
-              The world&apos;s largest collection of technical documentation.
-              Repair guides, schematics, and workshop manuals for professionals and enthusiasts.
+              {t('home.hero_subtitle')}
             </p>
             <div className="max-w-xl mx-auto">
               <SearchBar
                 large
-                placeholder="Search by brand, model, or keyword..."
+                placeholder={t('home.hero_search_placeholder')}
+                locale={locale}
               />
             </div>
             <div className="flex items-center justify-center gap-6 sm:gap-8 mt-8 text-sm text-emerald-200">
               <div className="text-center">
                 <span className="block text-2xl font-bold text-white">{stats.documents.toLocaleString()}+</span>
-                <span className="text-xs text-emerald-300">Manuals</span>
+                <span className="text-xs text-emerald-300">{t('home.stats_manuals')}</span>
               </div>
               <div className="w-px h-10 bg-emerald-700" />
               <div className="text-center">
                 <span className="block text-2xl font-bold text-white">{stats.brands}+</span>
-                <span className="text-xs text-emerald-300">Brands</span>
+                <span className="text-xs text-emerald-300">{t('home.stats_brands')}</span>
               </div>
               <div className="w-px h-10 bg-emerald-700" />
               <div className="text-center">
                 <span className="block text-2xl font-bold text-white">{stats.categories}</span>
-                <span className="text-xs text-emerald-300">Categories</span>
+                <span className="text-xs text-emerald-300">{t('home.stats_categories')}</span>
               </div>
             </div>
           </div>
@@ -157,29 +162,29 @@ export default async function HomePage({
             <div className="flex items-center gap-3 bg-emerald-50 rounded-xl px-4 py-3">
               <Zap className="h-7 w-7 text-emerald-700 shrink-0" />
               <div>
-                <p className="text-sm font-semibold text-gray-900">Instant Download</p>
-                <p className="text-xs text-gray-500">Immediate access</p>
+                <p className="text-sm font-semibold text-gray-900">{t('home.trust_instant_title')}</p>
+                <p className="text-xs text-gray-500">{t('home.trust_instant_desc')}</p>
               </div>
             </div>
             <div className="flex items-center gap-3 bg-emerald-50 rounded-xl px-4 py-3">
               <Shield className="h-7 w-7 text-emerald-700 shrink-0" />
               <div>
-                <p className="text-sm font-semibold text-gray-900">Secure Payment</p>
-                <p className="text-xs text-gray-500">Powered by Stripe</p>
+                <p className="text-sm font-semibold text-gray-900">{t('home.trust_secure_title')}</p>
+                <p className="text-xs text-gray-500">{t('home.trust_secure_desc')}</p>
               </div>
             </div>
             <div className="flex items-center gap-3 bg-emerald-50 rounded-xl px-4 py-3">
               <FileText className="h-7 w-7 text-emerald-700 shrink-0" />
               <div>
-                <p className="text-sm font-semibold text-gray-900">Quality PDFs</p>
-                <p className="text-xs text-gray-500">Professional docs</p>
+                <p className="text-sm font-semibold text-gray-900">{t('home.trust_quality_title')}</p>
+                <p className="text-xs text-gray-500">{t('home.trust_quality_desc')}</p>
               </div>
             </div>
             <div className="flex items-center gap-3 bg-emerald-50 rounded-xl px-4 py-3">
               <Globe className="h-7 w-7 text-emerald-700 shrink-0" />
               <div>
-                <p className="text-sm font-semibold text-gray-900">Worldwide</p>
-                <p className="text-xs text-gray-500">190+ countries</p>
+                <p className="text-sm font-semibold text-gray-900">{t('home.trust_worldwide_title')}</p>
+                <p className="text-xs text-gray-500">{t('home.trust_worldwide_desc')}</p>
               </div>
             </div>
           </div>
@@ -190,11 +195,11 @@ export default async function HomePage({
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900">Browse by Category</h2>
-            <p className="text-gray-500 mt-1">Find the documentation you need</p>
+            <h2 className="text-2xl font-bold text-gray-900">{t('home.browse_title')}</h2>
+            <p className="text-gray-500 mt-1">{t('home.browse_subtitle')}</p>
           </div>
           <Link href="/categories" className="text-sm text-emerald-700 hover:text-emerald-800 font-medium">
-            View all &rarr;
+            {t('home.view_all')}
           </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -215,7 +220,7 @@ export default async function HomePage({
       {featured.length > 0 && (
         <section id="featured" className="bg-white border-y border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Featured Manuals</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">{t('home.featured_title')}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {featured.map((doc: any) => (
                 <DocCard key={doc.id} doc={doc} showCategory />
@@ -228,7 +233,7 @@ export default async function HomePage({
       {/* Recent */}
       {recent.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Recently Added</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">{t('home.recent_title')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {recent.map((doc: any) => (
               <DocCard key={doc.id} doc={doc} showCategory />
@@ -241,18 +246,12 @@ export default async function HomePage({
       <section className="bg-gray-100 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <h2 className="text-xl font-bold text-gray-900 mb-4">
-            Your Source for Professional Technical Documentation
+            {t('home.seo_title')}
           </h2>
           <div className="prose prose-sm text-gray-600 max-w-none columns-1 md:columns-2 gap-8">
-            <p>
-              Service Manuals Pro is a marketplace dedicated to professional technical documentation. We provide service manuals, repair guides, electronic and mechanical schematics, and wiring diagrams for a wide range of equipment and devices.
-            </p>
-            <p>
-              Whether you&apos;re a professional technician, a repair shop owner, or an enthusiast who enjoys restoring vintage equipment, our technical documentation library will help you get the job done right. From repair manuals for vintage cameras, telecommunications and sound recording equipment, biomedical devices, and more, to automotive workshop manuals and machine tool guides, we source the documentation you need.
-            </p>
-            <p>
-              All documents are available for instant download in PDF format after secure payment via Stripe. No subscription required—pay once and download immediately.
-            </p>
+            <p>{t('home.seo_p1')}</p>
+            <p>{t('home.seo_p2')}</p>
+            <p>{t('home.seo_p3')}</p>
           </div>
         </div>
       </section>

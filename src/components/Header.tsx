@@ -3,9 +3,15 @@
 import Link from '@/components/ExternalLink';
 import { useState } from 'react';
 import { Search, Menu, X, FileText } from 'lucide-react';
+import { tr, type Locale, SITE_NAMES } from '@/lib/i18n';
 
-export default function Header() {
+export default function Header({ locale = 'en' }: { locale?: Locale }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const siteName = SITE_NAMES[locale];
+  // Split "Service Manuals Pro" / "Service Manuels Pro" en 2 parties (prefix + "Pro")
+  const parts = siteName.split(' ');
+  const pro = parts.pop() || 'Pro';
+  const prefix = parts.join(' ');
 
   return (
     <header className="bg-emerald-900 sticky top-0 z-50 shadow-lg">
@@ -15,8 +21,8 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <FileText className="h-8 w-8 text-emerald-300" />
             <div>
-              <span className="text-xl font-bold text-white">Service Manuals</span>
-              <span className="text-xl font-bold text-emerald-300"> Pro</span>
+              <span className="text-xl font-bold text-white">{prefix}</span>
+              <span className="text-xl font-bold text-emerald-300"> {pro}</span>
             </div>
           </Link>
 
@@ -27,7 +33,7 @@ export default function Header() {
               <input
                 type="text"
                 name="q"
-                placeholder="Search manuals... (e.g. Nikon F3, Stihl MS 250)"
+                placeholder={tr(locale, 'header.search_placeholder')}
                 className="w-full pl-10 pr-4 py-2 bg-emerald-800 border border-emerald-700 rounded-lg text-sm text-white placeholder-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent"
               />
             </div>
@@ -36,10 +42,10 @@ export default function Header() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-6">
             <Link href="/categories" className="text-sm text-emerald-200 hover:text-white transition-colors">
-              All Categories
+              {tr(locale, 'header.all_categories')}
             </Link>
             <Link href="/#featured" className="text-sm text-emerald-200 hover:text-white transition-colors">
-              Featured
+              {tr(locale, 'header.featured')}
             </Link>
           </nav>
 
@@ -47,7 +53,7 @@ export default function Header() {
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden p-2 text-emerald-200"
-            aria-label="Toggle menu"
+            aria-label={tr(locale, 'header.toggle_menu')}
           >
             {menuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -62,7 +68,7 @@ export default function Header() {
                 <input
                   type="text"
                   name="q"
-                  placeholder="Search manuals..."
+                  placeholder={tr(locale, 'header.search_placeholder_mobile')}
                   className="w-full pl-10 pr-4 py-2 bg-emerald-800 border border-emerald-700 rounded-lg text-sm text-white placeholder-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400"
                 />
               </div>
@@ -72,14 +78,14 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
               className="block py-2 text-emerald-200 hover:text-white"
             >
-              All Categories
+              {tr(locale, 'header.all_categories')}
             </Link>
             <Link
               href="/#featured"
               onClick={() => setMenuOpen(false)}
               className="block py-2 text-emerald-200 hover:text-white"
             >
-              Featured
+              {tr(locale, 'header.featured')}
             </Link>
           </div>
         )}
