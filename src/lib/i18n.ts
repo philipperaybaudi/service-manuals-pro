@@ -37,7 +37,7 @@ const en = {
   'home.hero_title_line1': 'Professional Service Manuals',
   'home.hero_title_line2': 'Instant PDF Download',
   'home.hero_subtitle':
-    "The world's largest collection of technical documentation. Repair guides, schematics, and workshop manuals for professionals and enthusiasts.",
+    "One of the largest collections of technical documentation. Repair guides, schematics, and workshop manuals for professionals and enthusiasts.",
   'home.hero_search_placeholder': 'Search by brand, model, or keyword...',
   'home.stats_manuals': 'Manuals',
   'home.stats_brands': 'Brands',
