@@ -450,3 +450,11 @@ export const messages: Record<Locale, Record<MessageKey, string>> = {
   en,
   fr,
 };
+
+/**
+ * Traduit une clé pour un locale donné explicitement.
+ * Utilisable dans les Client Components (pas de dépendance à headers()).
+ */
+export function tr(locale: Locale, key: MessageKey): string {
+  return messages[locale][key] ?? messages.en[key] ?? key;
+}
