@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = doc.seo_title || (locale === 'fr'
     ? `${doc.title} — Manuel de service PDF à télécharger`
     : `${doc.title} - Service Manual PDF Download`);
-  const description = doc.seo_description || doc.description || (locale === 'fr'
+  const description = doc.seo_description || (locale === 'fr' && doc.description_fr ? doc.description_fr : doc.description) || (locale === 'fr'
     ? `Téléchargez le manuel de service ${doc.title}. Documentation technique professionnelle au format PDF.`
     : `Download ${doc.title} service manual. Professional technical documentation in PDF format.`);
 
@@ -172,10 +172,10 @@ export default async function DocumentPage({ params }: Props) {
                 </div>
               )}
 
-              {doc.description && (
+              {(doc.description || doc.description_fr) && (
                 <div
                   className="prose prose-sm text-gray-600 mb-6"
-                  dangerouslySetInnerHTML={{ __html: doc.description }}
+                  dangerouslySetInnerHTML={{ __html: (locale === 'fr' && doc.description_fr) ? doc.description_fr : doc.description }}
                 />
               )}
 

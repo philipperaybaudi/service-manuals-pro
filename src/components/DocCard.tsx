@@ -47,9 +47,9 @@ export default function DocCard({ doc, showCategory }: DocCardProps) {
         <h3 className="text-sm font-semibold text-gray-900 mt-1 line-clamp-2 group-hover:text-emerald-700 transition-colors">
           {doc.title}
         </h3>
-        {doc.description && (
+        {(doc.description || doc.description_fr) && (
           <p className="text-xs text-gray-500 mt-1 line-clamp-2">
-            {doc.description.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}
+            {((locale === 'fr' && doc.description_fr) ? doc.description_fr : doc.description).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}
           </p>
         )}
         <div className="flex items-center justify-between mt-3 pt-3 border-t border-gray-100">
