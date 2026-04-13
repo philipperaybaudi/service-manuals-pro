@@ -46,9 +46,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!doc) return {};
 
   const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const displayTitle = (locale === 'fr' && doc.title_fr) ? doc.title_fr : doc.title;
   const title = doc.seo_title || (locale === 'fr'
-    ? `${doc.title} — Manuel de service PDF à télécharger`
-    : `${doc.title} - Service Manual PDF Download`);
+    ? `${displayTitle} — Manuel de service PDF à télécharger`
+    : `${displayTitle} - Service Manual PDF Download`);
   const description = doc.seo_description || (locale === 'fr' && doc.description_fr ? doc.description_fr : doc.description) || (locale === 'fr'
     ? `Téléchargez le manuel de service ${doc.title}. Documentation technique professionnelle au format PDF.`
     : `Download ${doc.title} service manual. Professional technical documentation in PDF format.`);
@@ -78,12 +79,13 @@ export default async function DocumentPage({ params }: Props) {
 
   const locale = getLocale();
   const siteUrl = SITE_URLS[locale];
+  const displayTitle = (locale === 'fr' && doc.title_fr) ? doc.title_fr : doc.title;
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: doc.title,
-    description: doc.description,
+    name: displayTitle,
+    description: (locale === 'fr' && doc.description_fr) ? doc.description_fr : doc.description,
     image: doc.preview_url || undefined,
     brand: doc.brand ? { '@type': 'Brand', name: doc.brand.name } : undefined,
     offers: {
@@ -100,7 +102,7 @@ export default async function DocumentPage({ params }: Props) {
     { name: tr(locale, 'category.home'), url: siteUrl },
     ...(doc.category ? [{ name: getCategoryName(doc.category.slug, doc.category.name, locale), url: `${siteUrl}/categories/${doc.category.slug}` }] : []),
     ...(doc.brand && doc.category ? [{ name: doc.brand.name, url: `${siteUrl}/categories/${doc.category.slug}/${doc.brand.slug}` }] : []),
-    { name: doc.title, url: `${siteUrl}/docs/${doc.slug}` },
+    { name: displayTitle, url: `${siteUrl}/docs/${doc.slug}` },
   ];
 
   return (
@@ -135,7 +137,7 @@ export default async function DocumentPage({ params }: Props) {
               <ChevronRight className="h-3 w-3" />
             </>
           )}
-          <span className="text-gray-900 font-medium line-clamp-1">{doc.title}</span>
+          <span className="text-gray-900 font-medium line-clamp-1">{displayTitle}</span>
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -147,7 +149,7 @@ export default async function DocumentPage({ params }: Props) {
                 {doc.preview_url ? (
                   <img
                     src={doc.preview_url}
-                    alt={`Preview of ${doc.title}`}
+                    alt={`Preview of ${displayTitle}`}
                     className="max-w-full max-h-full object-contain"
                   />
                 ) : (
@@ -161,7 +163,7 @@ export default async function DocumentPage({ params }: Props) {
 
             {/* Description */}
             <div className="bg-white rounded-xl border border-gray-200 p-6">
-              <h1 className="text-2xl font-bold text-gray-900 mb-4">{doc.title}</h1>
+              <h1 className="text-2xl font-bold text-gray-900 mb-4">{displayTitle}</h1>
 
               {doc.brand && (
                 <div className="flex items-center gap-2 mb-4">
