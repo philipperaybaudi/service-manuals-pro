@@ -37,7 +37,7 @@ export async function sendDownloadEmail(
   await sendEmail({
     from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
     to: email,
-    subject: `Your download is ready: ${documentTitle}`,
+    subject: `Votre documentation est disponible - Your download is ready: ${documentTitle}`,
     html: `
       <!DOCTYPE html>
       <html>
@@ -48,25 +48,33 @@ export async function sendDownloadEmail(
       <body style="margin:0;padding:0;background:#f4f4f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
         <div style="max-width:600px;margin:0 auto;padding:40px 20px;">
           <div style="background:#fff;border-radius:12px;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">Your Document is Ready</h1>
-            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">Thank you for your purchase!</p>
+            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">Votre Documentation est Disponible - Your Document is Ready</h1>
+            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">Merci pour votre commande - Thank you for your purchase!</p>
 
             <div style="background:#f4f4f5;border-radius:8px;padding:16px;margin:0 0 24px;">
               <p style="color:#18181b;font-weight:600;margin:0 0 4px;">${documentTitle}</p>
-              <p style="color:#71717a;font-size:14px;margin:0;">Click the button below to download your file.</p>
+	      <p style="color:#71717a;font-size:14px;margin:0;">Cliquez ci-dessous pour télécharger votre fichier - Click the button below to download your file.</p>
             </div>
 
             <a href="${downloadUrl}" style="display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px;font-weight:600;font-size:16px;">
-              Download Now
+              Télécharger maintenant - Download Now
             </a>
 
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
-              This link expires on ${expiresFormatted}. If you need assistance, reply to this email.
+              This link expires on ${expiresFormatted}.
+            </p>
+            <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
+              Ce lien expire le ${expiresFormatted}.
             </p>
 
             <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
               <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">&#9888; Copyright Notice</p>
               <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
+                Reproduction et diffusion interdites sur les forums, réseaux sociaux ou autres.<br>
+                Cette documentation est la propriété de ses concepteurs et est protégée par le droit d'auteur international.<br>
+                Toute duplication ou diffusion est formellement interdite. Toute infraction sera sanctionnée.<br>
+                <strong>Tous Droits Réservés &copy;</strong><br>
+                *****<br>
                 Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
                 This document is the property of its rights holders and is protected by international copyright law.<br>
                 Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
@@ -108,7 +116,7 @@ export async function sendBundleDownloadEmail(
   await sendEmail({
     from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
     to: email,
-    subject: `Your downloads are ready: ${documentTitle}`,
+    subject: `Votre documentation est disponible - Your downloads are ready: ${documentTitle}`,
     html: `
       <!DOCTYPE html>
       <html>
@@ -119,13 +127,13 @@ export async function sendBundleDownloadEmail(
       <body style="margin:0;padding:0;background:#f4f4f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
         <div style="max-width:600px;margin:0 auto;padding:40px 20px;">
           <div style="background:#fff;border-radius:12px;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">Your Documents are Ready</h1>
-            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">Thank you for your purchase!</p>
+            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">Votre Documentation est Disponible - Your Documents are Ready</h1>
+            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">Merci pour votre commande - Thank you for your purchase!</p>
 
             <div style="background:#f4f4f5;border-radius:8px;padding:16px;margin:0 0 24px;">
               <p style="color:#18181b;font-weight:600;margin:0 0 4px;">${documentTitle}</p>
               <p style="color:#71717a;font-size:14px;margin:0;">
-                This bundle contains ${downloadLinks.length} files. Click each button below to download.
+                This bundle contains ${downloadLinks.length} files. Cliquez sur le bouton pour télécharger - Click each button below to download.
               </p>
             </div>
 
@@ -140,6 +148,11 @@ export async function sendBundleDownloadEmail(
             <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
               <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">&#9888; Copyright Notice</p>
               <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
+                Reproduction et diffusion interdites sur les forums, réseaux sociaux ou autres.<br>
+                Cette documentation est la propriété de ses concepteurs et est protégée par le droit d'auteur international.<br>
+                Toute duplication ou diffusion est formellement interdite. Toute infraction sera sanctionnée.<br>
+                <strong>Tous Droits Réservés &copy;</strong><br>
+                *****<br>
                 Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
                 This document is the property of its rights holders and is protected by international copyright law.<br>
                 Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
