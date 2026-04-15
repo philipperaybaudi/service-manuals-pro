@@ -71,7 +71,7 @@ export async function sendDownloadEmail(
                 Cette documentation est la propriété de ses concepteurs et est protégée par le droit d'auteur international.<br>
                 Toute duplication ou diffusion est formellement interdite. Toute infraction sera sanctionnée.<br>
                 <strong>Tous Droits Réservés &copy;</strong><br>
-                *****<br>
+                _<br>
                 Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
                 This document is the property of its rights holders and is protected by international copyright law.<br>
                 Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
@@ -149,7 +149,7 @@ export async function sendBundleDownloadEmail(
                 Cette documentation est la propriété de ses concepteurs et est protégée par le droit d'auteur international.<br>
                 Toute duplication ou diffusion est formellement interdite. Toute infraction sera sanctionnée.<br>
                 <strong>Tous Droits Réservés &copy;</strong><br>
-                *****<br>
+                _<br>
                 Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
                 This document is the property of its rights holders and is protected by international copyright law.<br>
                 Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
