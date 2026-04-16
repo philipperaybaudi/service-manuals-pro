@@ -26,6 +26,7 @@ export async function POST(req: NextRequest) {
     const validLocale: Locale = locale === 'fr' ? 'fr' : 'en';
     const currency = validLocale === 'fr' ? 'eur' : 'usd';
     const siteUrl = SITE_URLS[validLocale];
+    const siteName = validLocale === 'fr' ? 'Service Manuels Pro' : 'Service Manuals Pro';
 
     const { data: doc } = await supabase
       .from('documents')
@@ -55,6 +56,9 @@ export async function POST(req: NextRequest) {
         },
       ],
       mode: 'payment',
+      payment_intent_data: {
+        description: `${siteName} - ${doc.title}`,
+      },
       success_url: `${siteUrl}/download/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${siteUrl}/docs/${doc.slug}`,
       metadata: {
