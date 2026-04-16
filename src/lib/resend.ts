@@ -85,9 +85,15 @@ export async function sendDownloadEmail(
               <p style="color:#71717a;font-size:14px;margin:0;">${clickBelow}</p>
             </div>
 
-            <a href="${downloadUrl}" style="display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px;font-weight:600;font-size:16px;">
-              ${downloadBtn}
-            </a>
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:8px auto;">
+              <tr>
+                <td align="center" bgcolor="#16a34a" style="border-radius:50px;background:#16a34a;">
+                  <a href="${downloadUrl}" target="_blank" style="display:block;padding:18px 48px;color:#ffffff;text-decoration:none;font-weight:700;font-size:18px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;letter-spacing:0.5px;border-radius:50px;border:2px solid #16a34a;">
+                    &#9660; ${downloadBtn}
+                  </a>
+                </td>
+              </tr>
+            </table>
 
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
               ${expiresText}
