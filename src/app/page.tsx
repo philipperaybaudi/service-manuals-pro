@@ -42,12 +42,21 @@ async function getRecentDocs() {
 }
 
 async function searchDocs(query: string) {
-  const { data } = await supabase
+  const words = query.trim().split(/\s+/).filter(Boolean);
+  if (words.length === 0) return [];
+
+  // Chaque mot doit apparaître dans le titre OU la description (en substring)
+  // On construit un filtre OR par mot : title ilike %mot% OR description ilike %mot%
+  let req = supabase
     .from('documents')
     .select('*, category:categories(*), brand:brands(*)')
-    .eq('active', true)
-    .textSearch('fts', query, { type: 'websearch' })
-    .limit(24);
+    .eq('active', true);
+
+  for (const word of words) {
+    req = req.or(`title.ilike.%${word}%,description.ilike.%${word}%,title_fr.ilike.%${word}%`);
+  }
+
+  const { data } = await req.limit(24);
   return data || [];
 }
 
