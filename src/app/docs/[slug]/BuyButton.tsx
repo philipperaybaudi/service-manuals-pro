@@ -34,7 +34,7 @@ export default function BuyButton({ documentId, documentTitle, price, locale = '
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ documentId, email }),
+        body: JSON.stringify({ documentId, email, locale }),
       });
       const data = await res.json();
       if (data.url) {

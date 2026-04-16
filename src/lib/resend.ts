@@ -27,17 +27,46 @@ export async function sendDownloadEmail(
   email: string,
   documentTitle: string,
   downloadUrl: string,
-  expiresAt: Date
+  expiresAt: Date,
+  locale: 'en' | 'fr' = 'en'
 ) {
-  const expiresFormatted = expiresAt.toLocaleString('en-US', {
+  const isFr = locale === 'fr';
+  const expiresFormatted = expiresAt.toLocaleString(isFr ? 'fr-FR' : 'en-US', {
     dateStyle: 'medium',
     timeStyle: 'short',
   });
 
+  const fromName = isFr ? 'Service Manuels Pro' : 'Service Manuals Pro';
+  const subject = isFr
+    ? `Votre téléchargement est prêt : ${documentTitle}`
+    : `Your download is ready: ${documentTitle}`;
+  const heading = isFr ? 'Votre document est prêt' : 'Your Document is Ready';
+  const thankYou = isFr ? 'Merci pour votre achat !' : 'Thank you for your purchase!';
+  const clickBelow = isFr
+    ? 'Cliquez sur le bouton ci-dessous pour télécharger votre fichier.'
+    : 'Click the button below to download your file.';
+  const downloadBtn = isFr ? 'Télécharger' : 'Download Now';
+  const expiresText = isFr
+    ? `Ce lien expire le ${expiresFormatted}. Si vous avez besoin d\u2019aide, répondez à cet email.`
+    : `This link expires on ${expiresFormatted}. If you need assistance, reply to this email.`;
+  const copyrightTitle = isFr ? '&#9888; Avis de droits d\u2019auteur' : '&#9888; Copyright Notice';
+  const copyrightBody = isFr
+    ? `La reproduction et la distribution sur des forums, réseaux sociaux ou toute autre plateforme sont strictement interdites.<br>
+                Ce document est la propriété de ses ayants droit et est protégé par le droit international d\u2019auteur.<br>
+                Toute duplication ou distribution est formellement interdite. Les contrevenants seront poursuivis.<br>
+                <strong>Tous droits réservés &copy;</strong>`
+    : `Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
+                This document is the property of its rights holders and is protected by international copyright law.<br>
+                Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
+                <strong>All Rights Reserved &copy;</strong>`;
+  const footer = isFr
+    ? 'Service Manuels Pro &mdash; Documentation technique professionnelle'
+    : 'Service Manuals Pro &mdash; Professional Technical Documentation';
+
   await sendEmail({
-    from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
+    from: `${fromName} <noreply@service-manuals-pro.com>`,
     to: email,
-    subject: `Votre documentation est disponible - Your download is ready: ${documentTitle}`,
+    subject,
     html: `
       <!DOCTYPE html>
       <html>
@@ -48,39 +77,31 @@ export async function sendDownloadEmail(
       <body style="margin:0;padding:0;background:#f4f4f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
         <div style="max-width:600px;margin:0 auto;padding:40px 20px;">
           <div style="background:#fff;border-radius:12px;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">Votre Documentation est Disponible <br> Your Document is Ready</h1>
-            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">Merci pour votre commande - Thank you for your purchase!</p>
+            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">${heading}</h1>
+            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">${thankYou}</p>
 
             <div style="background:#f4f4f5;border-radius:8px;padding:16px;margin:0 0 24px;">
               <p style="color:#18181b;font-weight:600;margin:0 0 4px;">${documentTitle}</p>
-	      <p style="color:#71717a;font-size:14px;margin:0;">Cliquez ci-dessous pour télécharger votre fichier <br> Click the button below to download your file.</p>
+              <p style="color:#71717a;font-size:14px;margin:0;">${clickBelow}</p>
             </div>
 
             <a href="${downloadUrl}" style="display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px;font-weight:600;font-size:16px;">
-              Download Now <br> Télécharger maintenant
+              ${downloadBtn}
             </a>
 
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
-              This link expires on... Ce lien expire le ${expiresFormatted}.
+              ${expiresText}
             </p>
 
             <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
-              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">&#9888; Droit d'Auteur - Copyright Notice</p>
+              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">${copyrightTitle}</p>
               <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
-                Reproduction et diffusion interdites sur les forums, réseaux sociaux ou autres.<br>
-                Cette documentation est la propriété de ses concepteurs et est protégée par le droit d'auteur international.<br>
-                Toute duplication ou diffusion est formellement interdite. Toute infraction sera sanctionnée.<br>
-                <strong>Tous Droits Réservés &copy;</strong><br>
-                _<br>
-                Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
-                This document is the property of its rights holders and is protected by international copyright law.<br>
-                Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
-                <strong>All Rights Reserved &copy;</strong>
+                ${copyrightBody}
               </p>
             </div>
           </div>
           <p style="color:#a1a1aa;font-size:12px;text-align:center;margin:16px 0 0;">
-            Service Manuals Pro &mdash; Professional Technical Documentation
+            ${footer}
           </p>
         </div>
       </body>
@@ -93,12 +114,40 @@ export async function sendBundleDownloadEmail(
   email: string,
   documentTitle: string,
   downloadLinks: { label: string; url: string }[],
-  expiresAt: Date
+  expiresAt: Date,
+  locale: 'en' | 'fr' = 'en'
 ) {
-  const expiresFormatted = expiresAt.toLocaleString('en-US', {
+  const isFr = locale === 'fr';
+  const expiresFormatted = expiresAt.toLocaleString(isFr ? 'fr-FR' : 'en-US', {
     dateStyle: 'medium',
     timeStyle: 'short',
   });
+
+  const fromName = isFr ? 'Service Manuels Pro' : 'Service Manuals Pro';
+  const subject = isFr
+    ? `Vos téléchargements sont prêts : ${documentTitle}`
+    : `Your downloads are ready: ${documentTitle}`;
+  const heading = isFr ? 'Vos documents sont prêts' : 'Your Documents are Ready';
+  const thankYou = isFr ? 'Merci pour votre achat !' : 'Thank you for your purchase!';
+  const bundleText = isFr
+    ? `Ce pack contient ${downloadLinks.length} fichiers. Cliquez sur chaque bouton pour télécharger.`
+    : `This bundle contains ${downloadLinks.length} files. Click each button to download.`;
+  const expiresText = isFr
+    ? `Chaque lien expire le ${expiresFormatted} et peut être utilisé jusqu\u2019à 3 fois. Si vous avez besoin d\u2019aide, répondez à cet email.`
+    : `Each link expires on ${expiresFormatted} and can be used up to 3 times. If you need assistance, reply to this email.`;
+  const copyrightTitle = isFr ? '&#9888; Avis de droits d\u2019auteur' : '&#9888; Copyright Notice';
+  const copyrightBody = isFr
+    ? `La reproduction et la distribution sur des forums, réseaux sociaux ou toute autre plateforme sont strictement interdites.<br>
+                Ce document est la propriété de ses ayants droit et est protégé par le droit international d\u2019auteur.<br>
+                Toute duplication ou distribution est formellement interdite. Les contrevenants seront poursuivis.<br>
+                <strong>Tous droits réservés &copy;</strong>`
+    : `Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
+                This document is the property of its rights holders and is protected by international copyright law.<br>
+                Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
+                <strong>All Rights Reserved &copy;</strong>`;
+  const footer = isFr
+    ? 'Service Manuels Pro &mdash; Documentation technique professionnelle'
+    : 'Service Manuals Pro &mdash; Professional Technical Documentation';
 
   const linksHtml = downloadLinks.map((link) => `
     <tr>
@@ -111,9 +160,9 @@ export async function sendBundleDownloadEmail(
   `).join('');
 
   await sendEmail({
-    from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
+    from: `${fromName} <noreply@service-manuals-pro.com>`,
     to: email,
-    subject: `Votre documentation est disponible - Your downloads are ready: ${documentTitle}`,
+    subject,
     html: `
       <!DOCTYPE html>
       <html>
@@ -124,14 +173,12 @@ export async function sendBundleDownloadEmail(
       <body style="margin:0;padding:0;background:#f4f4f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
         <div style="max-width:600px;margin:0 auto;padding:40px 20px;">
           <div style="background:#fff;border-radius:12px;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
-            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">Votre Documentation est Disponible <br> Your Documents are Ready</h1>
-            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">Merci pour votre commande - Thank you for your purchase!</p>
+            <h1 style="color:#18181b;font-size:24px;margin:0 0 8px;">${heading}</h1>
+            <p style="color:#71717a;font-size:16px;margin:0 0 24px;">${thankYou}</p>
 
             <div style="background:#f4f4f5;border-radius:8px;padding:16px;margin:0 0 24px;">
               <p style="color:#18181b;font-weight:600;margin:0 0 4px;">${documentTitle}</p>
-              <p style="color:#71717a;font-size:14px;margin:0;">
-                This bundle contains ${downloadLinks.length} files. Cliquez sur le bouton pour télécharger <br> Click each button below to download.
-              </p>
+              <p style="color:#71717a;font-size:14px;margin:0;">${bundleText}</p>
             </div>
 
             <table role="presentation" style="width:100%;border:0;cellpadding:0;cellspacing:0;">
@@ -139,26 +186,18 @@ export async function sendBundleDownloadEmail(
             </table>
 
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
-              Each link expires on ${expiresFormatted} and can be used up to 3 times. If you need assistance, reply to this email.
+              ${expiresText}
             </p>
 
             <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
-              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">&#9888; Droit d'Auteur - Copyright Notice</p>
+              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">${copyrightTitle}</p>
               <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
-                Reproduction et diffusion interdites sur les forums, réseaux sociaux ou autres.<br>
-                Cette documentation est la propriété de ses concepteurs et est protégée par le droit d'auteur international.<br>
-                Toute duplication ou diffusion est formellement interdite. Toute infraction sera sanctionnée.<br>
-                <strong>Tous Droits Réservés &copy;</strong><br>
-                _<br>
-                Reproduction and distribution on forums, social media, or any other platform is strictly prohibited.<br>
-                This document is the property of its rights holders and is protected by international copyright law.<br>
-                Any duplication or distribution is formally forbidden. Violations will be prosecuted.<br>
-                <strong>All Rights Reserved &copy;</strong>
+                ${copyrightBody}
               </p>
             </div>
           </div>
           <p style="color:#a1a1aa;font-size:12px;text-align:center;margin:16px 0 0;">
-            Service Manuals Pro &mdash; Professional Technical Documentation
+            ${footer}
           </p>
         </div>
       </body>

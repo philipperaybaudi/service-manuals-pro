@@ -5,6 +5,7 @@ import { stripe } from '@/lib/stripe';
 import { getServiceClient } from '@/lib/supabase';
 import { sendDownloadEmail, sendOrderNotification } from '@/lib/resend';
 import { generateDownloadToken } from '@/lib/utils';
+import { SITE_URLS, type Locale } from '@/lib/i18n';
 import Stripe from 'stripe';
 
 export async function POST(req: NextRequest) {
@@ -59,6 +60,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ received: true });
     }
 
+    const locale: Locale = session.metadata?.locale === 'fr' ? 'fr' : 'en';
+    const siteUrl = SITE_URLS[locale];
+
     const token = generateDownloadToken();
     const expiresAt = new Date(Date.now() + 24 * 60 * 60 * 1000); // 24h
 
@@ -87,13 +91,14 @@ export async function POST(req: NextRequest) {
       .single();
 
     // Send download email
-    const downloadUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/download/${token}`;
+    const downloadUrl = `${siteUrl}/download/${token}`;
     try {
       await sendDownloadEmail(
         customerEmail,
         doc?.title || 'Service Manual',
         downloadUrl,
-        expiresAt
+        expiresAt,
+        locale
       );
     } catch (emailError) {
       console.error('Failed to send email:', emailError);
