@@ -85,6 +85,13 @@ export async function sendDownloadEmail(
               <p style="color:#71717a;font-size:14px;margin:0;">${clickBelow}</p>
             </div>
 
+            <div style="margin:0 0 24px;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
+              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">${copyrightTitle}</p>
+              <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
+                ${copyrightBody}
+              </p>
+            </div>
+
             <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:8px auto;">
               <tr>
                 <td align="center" bgcolor="#16a34a" style="border-radius:50px;background:#16a34a;">
@@ -98,13 +105,6 @@ export async function sendDownloadEmail(
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
               ${expiresText}
             </p>
-
-            <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
-              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">${copyrightTitle}</p>
-              <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
-                ${copyrightBody}
-              </p>
-            </div>
           </div>
           <p style="color:#a1a1aa;font-size:12px;text-align:center;margin:16px 0 0;">
             ${footer}
@@ -187,6 +187,13 @@ export async function sendBundleDownloadEmail(
               <p style="color:#71717a;font-size:14px;margin:0;">${bundleText}</p>
             </div>
 
+            <div style="margin:0 0 24px;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
+              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">${copyrightTitle}</p>
+              <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
+                ${copyrightBody}
+              </p>
+            </div>
+
             <table role="presentation" style="width:100%;border:0;cellpadding:0;cellspacing:0;">
               ${linksHtml}
             </table>
@@ -194,13 +201,6 @@ export async function sendBundleDownloadEmail(
             <p style="color:#a1a1aa;font-size:13px;margin:24px 0 0;">
               ${expiresText}
             </p>
-
-            <div style="margin:24px 0 0;padding:16px;border:2px solid #dc2626;border-radius:8px;background:#fef2f2;">
-              <p style="color:#991b1b;font-size:13px;font-weight:700;margin:0 0 8px;text-transform:uppercase;">${copyrightTitle}</p>
-              <p style="color:#18181b;font-size:13px;line-height:1.5;margin:0;">
-                ${copyrightBody}
-              </p>
-            </div>
           </div>
           <p style="color:#a1a1aa;font-size:12px;text-align:center;margin:16px 0 0;">
             ${footer}
