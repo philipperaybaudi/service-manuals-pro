@@ -7,7 +7,7 @@ export const SITE_NAMES: Record<Locale, string> = {
 
 export const SITE_URLS: Record<Locale, string> = {
   en: 'https://www.service-manuals-pro.com',
-  fr: 'https://www.service-manuels-pro.fr',
+  fr: 'https://service-manuels-pro.fr',
 };
 
 const en = {
