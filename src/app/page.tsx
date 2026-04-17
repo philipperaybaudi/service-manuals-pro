@@ -42,7 +42,10 @@ async function getRecentDocs() {
 }
 
 async function searchDocs(query: string) {
-  const words = query.trim().split(/\s+/).filter(Boolean);
+  // Supprimer les accents pour une recherche insensible aux accents
+  // "Télescope" → "Telescope" → matche "Télescope" en base
+  const normalized = query.trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const words = normalized.split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
 
   // Chaque mot doit apparaître dans le titre (substring, insensible à la casse)
