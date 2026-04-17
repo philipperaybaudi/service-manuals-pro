@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import LanguageBanner from '@/components/LanguageBanner';
 import { getLocale } from '@/lib/locale';
 import { messages, SITE_NAMES, SITE_URLS } from '@/lib/i18n';
 
@@ -124,6 +125,7 @@ export default function RootLayout({
         />
       </head>
       <body className={bodyClass}>
+        <LanguageBanner currentLocale={locale} />
         <Header locale={locale} />
         <main className="min-h-screen">{children}</main>
         <Footer locale={locale} />
