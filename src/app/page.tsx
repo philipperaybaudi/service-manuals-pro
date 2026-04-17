@@ -45,15 +45,15 @@ async function searchDocs(query: string) {
   const words = query.trim().split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
 
-  // Chaque mot doit apparaître dans le titre OU la description (en substring)
-  // On construit un filtre OR par mot : title ilike %mot% OR description ilike %mot%
+  // Chaque mot doit apparaître dans le titre (substring, insensible à la casse)
+  // .ilike() chaîné = AND entre les mots → "Nikon F4" trouve "F4S" car F4 ⊂ F4S
   let req = supabase
     .from('documents')
     .select('*, category:categories(*), brand:brands(*)')
     .eq('active', true);
 
   for (const word of words) {
-    req = req.or(`title.ilike.%${word}%,description.ilike.%${word}%,title_fr.ilike.%${word}%`);
+    req = req.ilike('title', `%${word}%`);
   }
 
   const { data } = await req.limit(24);
