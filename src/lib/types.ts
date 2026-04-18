@@ -21,8 +21,10 @@ export interface Brand {
 export interface Document {
   id: string;
   title: string;
+  title_fr: string | null;
   slug: string;
   description: string | null;
+  description_fr: string | null;
   category_id: string | null;
   brand_id: string | null;
   price: number;
