@@ -48,15 +48,16 @@ async function searchDocs(query: string) {
   const words = normalized.split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
 
-  // Chaque mot doit apparaître dans le titre (substring, insensible à la casse)
-  // .ilike() chaîné = AND entre les mots → "Nikon F4" trouve "F4S" car F4 ⊂ F4S
+  // Chaque mot doit apparaître dans title OU title_fr (AND entre les mots)
+  // → "Camera Craftsman" trouve les fiches dont title_fr contient les deux mots
+  // → "Nikon F4" trouve "F4S" car F4 ⊂ F4S
   let req = supabase
     .from('documents')
     .select('*, category:categories(*), brand:brands(*)')
     .eq('active', true);
 
   for (const word of words) {
-    req = req.ilike('title', `%${word}%`);
+    req = req.or(`title.ilike.%${word}%,title_fr.ilike.%${word}%`);
   }
 
   const { data } = await req.limit(24);
