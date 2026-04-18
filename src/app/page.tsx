@@ -8,7 +8,7 @@ import { FileText, Shield, Zap, Globe } from 'lucide-react';
 import { getLocale, t } from '@/lib/locale';
 
 export const runtime = 'edge';
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 async function getCategories() {
   const { data } = await supabase

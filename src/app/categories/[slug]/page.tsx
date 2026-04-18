@@ -13,8 +13,7 @@ import { SITE_URLS, tr, getCategoryName, getCategoryDescription } from '@/lib/i1
 import { headers } from 'next/headers';
 
 export const runtime = 'edge';
-
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 interface Props {
   params: { slug: string };
