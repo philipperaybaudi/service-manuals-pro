@@ -7,10 +7,11 @@ import { t, getLocale } from '@/lib/locale';
 interface DocCardProps {
   doc: Document;
   showCategory?: boolean;
+  locale?: 'en' | 'fr';
 }
 
-export default function DocCard({ doc, showCategory }: DocCardProps) {
-  const locale = getLocale();
+export default function DocCard({ doc, showCategory, locale: localeProp }: DocCardProps) {
+  const locale = localeProp ?? getLocale();
   return (
     <Link
       href={`/docs/${doc.slug}`}
@@ -21,7 +22,7 @@ export default function DocCard({ doc, showCategory }: DocCardProps) {
         {doc.preview_url ? (
           <img
             src={doc.preview_url}
-            alt={doc.title}
+            alt={(locale === 'fr' && doc.title_fr) ? doc.title_fr : doc.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
@@ -45,7 +46,7 @@ export default function DocCard({ doc, showCategory }: DocCardProps) {
           </span>
         )}
         <h3 className="text-sm font-semibold text-gray-900 mt-1 line-clamp-2 group-hover:text-emerald-700 transition-colors">
-          {doc.title}
+          {(locale === 'fr' && doc.title_fr) ? doc.title_fr : doc.title}
         </h3>
         {(doc.description || doc.description_fr) && (
           <p className="text-xs text-gray-500 mt-1 line-clamp-2">

@@ -179,7 +179,7 @@ export default async function CategoryPage({ params }: Props) {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
                 {documents.map((doc: any) => (
-                  <DocCard key={doc.id} doc={doc} />
+                  <DocCard key={doc.id} doc={doc} locale={locale} />
                 ))}
               </div>
             </section>

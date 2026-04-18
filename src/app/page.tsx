@@ -103,7 +103,7 @@ export default async function HomePage({
         {results.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {results.map((doc) => (
-              <DocCard key={doc.id} doc={doc} showCategory />
+              <DocCard key={doc.id} doc={doc} showCategory locale={locale} />
             ))}
           </div>
         ) : (
@@ -236,7 +236,7 @@ export default async function HomePage({
             <h2 className="text-2xl font-bold text-gray-900 mb-8">{t('home.featured_title')}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {featured.map((doc: any) => (
-                <DocCard key={doc.id} doc={doc} showCategory />
+                <DocCard key={doc.id} doc={doc} showCategory locale={locale} />
               ))}
             </div>
           </div>
@@ -249,7 +249,7 @@ export default async function HomePage({
           <h2 className="text-2xl font-bold text-gray-900 mb-8">{t('home.recent_title')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {recent.map((doc: any) => (
-              <DocCard key={doc.id} doc={doc} showCategory />
+              <DocCard key={doc.id} doc={doc} showCategory locale={locale} />
             ))}
           </div>
         </section>
