@@ -465,7 +465,7 @@ const categoryNamesFr: Record<string, string> = {
   'automotive': 'Automobile',
   'biomedical': 'Biomédical',
   'machine-tools': 'Machines-Outils',
-  'camping-rv': 'Camping & Camping-Cars',
+  'camping-rv': 'Camping & Caravaning',
   'cinema-video': 'Cinéma & Vidéo',
   'drones': 'Drones',
   'home-appliances': 'Électroménager',
