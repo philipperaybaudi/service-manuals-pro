@@ -57,7 +57,7 @@ async function getAllCategories() {
     .from('categories')
     .select('name, slug, documents(count)')
     .eq('documents.active', true)
-    .order('name');
+    .order('display_order');
   return (data || []).map((c: any) => ({
     name: c.name,
     slug: c.slug,
