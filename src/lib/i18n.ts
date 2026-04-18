@@ -515,3 +515,18 @@ export function getCategoryDescription(slug: string, description: string, locale
   if (locale === 'fr') return categoryDescriptionsFr[slug] ?? description;
   return description;
 }
+
+// Traductions des noms de marques (slug → nom FR)
+const brandNamesFr: Record<string, string> = {
+  'repair-troubleshooting': 'Réparation & Dépannage',
+};
+
+// Noms anglais normalisés (minuscules) pour certaines marques
+const brandNamesEn: Record<string, string> = {
+  'repair-troubleshooting': 'Repair & Troubleshooting',
+};
+
+export function getBrandName(slug: string, name: string, locale: Locale): string {
+  if (locale === 'fr') return brandNamesFr[slug] ?? name;
+  return brandNamesEn[slug] ?? name;
+}

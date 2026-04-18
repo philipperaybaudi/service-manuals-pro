@@ -1,6 +1,7 @@
 import Link from '@/components/ExternalLink';
 import { Package } from 'lucide-react';
 import { getLocale } from '@/lib/locale';
+import { getBrandName } from '@/lib/i18n';
 
 interface BrandCardProps {
   name: string;
@@ -34,6 +35,7 @@ function getBrandGradient(name: string): string {
 export default function BrandCard({ name, slug, categorySlug, logoUrl, documentCount }: BrandCardProps) {
   const gradient = getBrandGradient(name);
   const locale = getLocale();
+  const displayName = getBrandName(slug, name, locale);
   const manualLabel = locale === 'fr'
     ? `${documentCount} manuel${documentCount !== 1 ? 's' : ''}`
     : `${documentCount} manual${documentCount !== 1 ? 's' : ''}`;
@@ -60,7 +62,7 @@ export default function BrandCard({ name, slug, categorySlug, logoUrl, documentC
         )}
       </div>
       <h3 className="text-sm font-semibold text-gray-900 group-hover:text-emerald-700 transition-colors">
-        {name}
+        {displayName}
       </h3>
       <span className="text-xs text-gray-400 mt-1">{manualLabel}</span>
     </Link>
