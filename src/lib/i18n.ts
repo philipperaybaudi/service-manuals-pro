@@ -480,6 +480,8 @@ const categoryNamesFr: Record<string, string> = {
   'phones-telecom': 'Téléphonie & Télécom',
   'television': 'Télévision',
   'machining': 'Usinage',
+  'video': 'Vidéo',
+  'diy-home-improvement': 'Bricolage & DIY',
 };
 
 const categoryDescriptionsFr: Record<string, string> = {
@@ -502,6 +504,8 @@ const categoryDescriptionsFr: Record<string, string> = {
   'phones-telecom': "Manuels de service pour smartphones, téléphones mobiles et équipements télécom",
   'television': "Manuels de service pour téléviseurs, moniteurs, alimentations et écrans",
   'machining': "Guides techniques pour tours, fraiseuses et équipements de travail des métaux",
+  'video': "Manuels de service pour caméscopes, caméras vidéo et équipements de tournage",
+  'diy-home-improvement': "Manuels de service pour machines à coudre, outils électroportatifs et équipements de bricolage",
 };
 
 export function getCategoryName(slug: string, name: string, locale: Locale): string {
