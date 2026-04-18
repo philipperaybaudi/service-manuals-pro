@@ -6,9 +6,14 @@ import { messages, type Locale, type MessageKey } from './i18n';
  * À utiliser uniquement dans les Server Components.
  */
 export function getLocale(): Locale {
+  // Header x-locale défini par le middleware sur les vraies requêtes
   const h = headers();
   const value = h.get('x-locale');
-  return value === 'fr' ? 'fr' : 'en';
+  if (value === 'fr' || value === 'en') return value;
+  // Fallback : pendant la revalidation ISR, pas de middleware → pas de header
+  // On dérive le locale depuis NEXT_PUBLIC_SITE_URL (disponible à build-time et runtime)
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? '';
+  return siteUrl.includes('.fr') ? 'fr' : 'en';
 }
 
 /**
