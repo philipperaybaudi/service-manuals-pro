@@ -4,6 +4,7 @@ import { Mail, Clock, Globe, MessageSquare, MapPin, Building } from 'lucide-reac
 import { getLocale, t } from '@/lib/locale';
 import { SITE_URLS, tr } from '@/lib/i18n';
 import { headers } from 'next/headers';
+import ProtectedEmail from '@/components/ProtectedEmail';
 
 export const runtime = 'edge';
 
@@ -25,6 +26,7 @@ export default function ContactPage() {
   const contactEmail = locale === 'fr'
     ? 'contact@service-manuels-pro.fr'
     : 'contact@service-manuals-pro.com';
+  const encodedEmail = btoa(contactEmail);
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -43,12 +45,10 @@ export default function ContactPage() {
           <p className="text-gray-600 text-sm mb-3">
             {t('contact.email_card_text')}
           </p>
-          <Link
-            href={`mailto:${contactEmail}`}
+          <ProtectedEmail
+            encoded={encodedEmail}
             className="text-emerald-700 hover:text-emerald-800 font-semibold text-sm underline underline-offset-2"
-          >
-            {contactEmail}
-          </Link>
+          />
         </div>
 
         {/* Response time card */}
@@ -110,12 +110,10 @@ export default function ContactPage() {
         <div className="mt-6 pt-6 border-t border-gray-100">
           <p className="text-sm text-gray-600">
             {t('contact.for_inquiry_prefix')}{' '}
-            <Link
-              href={`mailto:${contactEmail}`}
+            <ProtectedEmail
+              encoded={encodedEmail}
               className="text-emerald-700 hover:text-emerald-800 font-semibold underline underline-offset-2"
-            >
-              {contactEmail}
-            </Link>
+            />
           </p>
         </div>
       </div>
@@ -163,13 +161,14 @@ export default function ContactPage() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-100 text-center">
-          <Link
-            href={`mailto:${contactEmail}`}
+          <ProtectedEmail
+            encoded={encodedEmail}
+            showAddress={false}
             className="inline-flex items-center gap-2 bg-emerald-700 text-white px-8 py-3 rounded-full font-semibold hover:bg-emerald-800 transition-colors shadow-lg"
           >
             <Mail className="h-5 w-5" />
             {t('contact.send_email_button')}
-          </Link>
+          </ProtectedEmail>
         </div>
       </div>
     </div>
