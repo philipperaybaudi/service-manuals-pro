@@ -481,6 +481,8 @@ const categoryNamesFr: Record<string, string> = {
   'television': 'Télévision',
   'machining': 'Usinage',
   'diy-home-improvement': 'Bricolage & DIY',
+  'autonomy': 'Autonomie',
+  'society-culture': 'Société & Soi',
 };
 
 const categoryDescriptionsFr: Record<string, string> = {
@@ -504,6 +506,8 @@ const categoryDescriptionsFr: Record<string, string> = {
   'television': "Manuels de service pour téléviseurs, moniteurs, alimentations et écrans",
   'machining': "Guides techniques pour tours, fraiseuses et équipements de travail des métaux",
   'diy-home-improvement': "Manuels de service pour machines à coudre, outils électroportatifs et équipements de bricolage",
+  'autonomy': "Ouvrages de référence sur l'agriculture traditionnelle, l'autonomie alimentaire et la vie rurale",
+  'society-culture': "Documentation sur la société, la culture, le développement personnel et les sciences humaines",
 };
 
 export function getCategoryName(slug: string, name: string, locale: Locale): string {
