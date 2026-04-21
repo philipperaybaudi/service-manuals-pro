@@ -483,6 +483,7 @@ const categoryNamesFr: Record<string, string> = {
   'diy-home-improvement': 'Bricolage & DIY',
   'autonomy': 'Autonomie',
   'society-culture': 'Société & Soi',
+  'heating-cooling': 'Chauffage & Clim',
 };
 
 const categoryDescriptionsFr: Record<string, string> = {
@@ -508,6 +509,7 @@ const categoryDescriptionsFr: Record<string, string> = {
   'diy-home-improvement': "Manuels de service pour machines à coudre, outils électroportatifs et équipements de bricolage",
   'autonomy': "Ouvrages de référence sur l'agriculture traditionnelle, l'autonomie alimentaire et la vie rurale",
   'society-culture': "Documentation sur la société, la culture, le développement personnel et les sciences humaines",
+  'heating-cooling': "Manuels de service pour chaudières, climatiseurs, pompes à chaleur et systèmes de chauffage",
 };
 
 export function getCategoryName(slug: string, name: string, locale: Locale): string {
