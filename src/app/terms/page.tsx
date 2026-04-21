@@ -120,6 +120,14 @@ function TermsFr() {
           </p>
         </section>
 
+        {/* Au sujet des descriptifs */}
+        <section>
+          <h2 className="text-xl font-semibold text-gray-900 mb-3">Au sujet des descriptifs</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Les descriptifs des fiches de chaque documentation ont été générés automatiquement après lecture des PDF par un programme informatique. Cela peut avoir généré des imperfections ou des erreurs dans les textes de ces descriptifs et nous ne pouvons en être tenus pour responsables, dans la mesure où lire des milliers de documentations aurait occupé un opérateur humain pendant des années (ce qui n&apos;aurait pas empêché quelques erreurs). Si vous trouvez des descriptions incorrectes ou incomplètes, n&apos;hésitez pas à nous en faire part.
+          </p>
+        </section>
+
         {/* Droit d'auteur */}
         <section>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">Droit d&apos;auteur &amp; conformité légale</h2>
@@ -262,6 +270,14 @@ function TermsEn() {
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             In effect, the service provided by Service Manuals Pro is to help customers locate these links. To access the desired documentation, simply click on the internet link. For practical purposes, Service Manuals Pro offers an online catalog. Through this service, documentation is organized by categories. This system allows users to browse the content of available documentation. Service Manuals Pro delivers this service without geographical restriction, provided the customer provides a valid email address and is able to pay for their order online.
+          </p>
+        </section>
+
+        {/* About descriptions */}
+        <section>
+          <h2 className="text-xl font-semibold text-gray-900 mb-3">About Descriptions</h2>
+          <p className="text-gray-700 leading-relaxed">
+            The descriptions on each documentation listing were automatically generated after the PDF files were read by a computer program. This process may have introduced imperfections or errors in the description texts, and we cannot be held responsible for these, given that reading thousands of documents would have kept a human operator busy for years (which would not have prevented some errors anyway). If you find any incorrect or incomplete descriptions, please do not hesitate to let us know.
           </p>
         </section>
 
