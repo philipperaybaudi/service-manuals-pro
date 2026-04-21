@@ -106,14 +106,19 @@ Lis ce PDF et réponds en JSON avec exactement ces champs :
 - **filename_clean** : nom de fichier propre et descriptif SANS extension et SANS prix (ex: "Nikon F3 Service Manual")
 - **title_en** : titre professionnel EN ANGLAIS (60 chars max)
 - **title_fr** : titre EN FRANÇAIS (60 chars max)
-- **description_en** : description professionnelle 150-250 mots EN ANGLAIS basée sur le contenu RÉEL
-- **description_fr** : description 150-250 mots EN FRANÇAIS basée sur le contenu RÉEL
+- **description_en** : description EN ANGLAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
+- **description_fr** : description EN FRANÇAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
 - **language** : langue principale du document ("fr" ou "en")
 
-RÈGLES :
-- Base-toi UNIQUEMENT sur ce que tu vois dans le PDF
-- Texte brut dans les descriptions, pas de markdown
-- Ne mentionne JAMAIS la langue du document dans les descriptions
+RÈGLES ABSOLUES :
+- Décris UNIQUEMENT ce que tu vois dans les pages. Rien d'autre.
+- Si les pages ne contiennent que des schémas électroniques : dis-le. Ne raconte pas ce que le schéma "représente" ou "inclut" si tu ne lis pas ces informations dans le document.
+- Si le document contient des tubes électroniques, dis "tubes". Si transistors, dis "transistors". Si tu ne distingues pas, ne dis rien.
+- JAMAIS d'informations générales sur le modèle ou la marque tirées de ta mémoire. Zero.
+- Un descriptif court et exact vaut mieux qu'un descriptif long et inventé.
+- Si le nom du fichier contient "Schema", "Scheme", "Schematic" ou "Parts List" : le contenu est probablement des schémas électroniques et/ou des listes de pièces avec vues éclatées. Décris uniquement ce que tu vois (ex: "Schéma électronique du [modèle]." ou "Liste de pièces avec vues éclatées pour le [modèle]."). Pas de blabla.
+- Texte brut, pas de markdown.
+- Ne mentionne JAMAIS la langue du document.
 - Ne commence pas par "Ce document..." ou "This document..."
 
 Réponds UNIQUEMENT en JSON valide.`;
