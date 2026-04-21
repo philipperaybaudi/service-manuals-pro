@@ -117,7 +117,6 @@ export default async function HomePage({
     );
   }
 
-  const locale = getLocale();
   const [categoriesRaw, featured, recent, stats] = await Promise.all([
     getCategories(),
     getFeaturedDocs(),
