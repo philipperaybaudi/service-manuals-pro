@@ -3,7 +3,7 @@ import { supabase } from '@/lib/supabase';
 
 import CategoryCard from '@/components/CategoryCard';
 import { getLocale, t } from '@/lib/locale';
-import { SITE_URLS, tr } from '@/lib/i18n';
+import { SITE_URLS, tr, getCategoryName } from '@/lib/i18n';
 import { headers } from 'next/headers';
 
 export const runtime = 'edge';
@@ -28,11 +28,18 @@ export async function generateMetadata(): Promise<Metadata> {
 export const revalidate = 3600;
 
 export default async function CategoriesPage() {
-  const { data: categories } = await supabase
+  const locale = getLocale();
+  const { data: categoriesRaw } = await supabase
     .from('categories')
     .select('*, brands(count), documents(count)')
     .eq('documents.active', true)
     .order('display_order');
+  const categories = [...(categoriesRaw || [])].sort((a, b) =>
+    getCategoryName(a.slug, a.name, locale).localeCompare(
+      getCategoryName(b.slug, b.name, locale),
+      locale === 'fr' ? 'fr' : 'en'
+    )
+  );
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

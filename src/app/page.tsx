@@ -6,6 +6,7 @@ import DocCard from '@/components/DocCard';
 import CategoryCard from '@/components/CategoryCard';
 import { FileText, Shield, Zap, Globe } from 'lucide-react';
 import { getLocale, t } from '@/lib/locale';
+import { getCategoryName } from '@/lib/i18n';
 
 export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
@@ -116,12 +117,19 @@ export default async function HomePage({
     );
   }
 
-  const [categories, featured, recent, stats] = await Promise.all([
+  const locale = getLocale();
+  const [categoriesRaw, featured, recent, stats] = await Promise.all([
     getCategories(),
     getFeaturedDocs(),
     getRecentDocs(),
     getStats(),
   ]);
+  const categories = [...categoriesRaw].sort((a, b) =>
+    getCategoryName(a.slug, a.name, locale).localeCompare(
+      getCategoryName(b.slug, b.name, locale),
+      locale === 'fr' ? 'fr' : 'en'
+    )
+  );
 
   return (
     <>

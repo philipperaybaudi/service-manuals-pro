@@ -52,17 +52,24 @@ async function getDocuments(categoryId: string) {
   return data || [];
 }
 
-async function getAllCategories() {
+async function getAllCategories(locale: string) {
   const { data } = await supabase
     .from('categories')
     .select('name, slug, documents(count)')
     .eq('documents.active', true)
     .order('display_order');
-  return (data || []).map((c: any) => ({
-    name: c.name,
-    slug: c.slug,
-    documentCount: c.documents?.[0]?.count || 0,
-  }));
+  return (data || [])
+    .map((c: any) => ({
+      name: c.name,
+      slug: c.slug,
+      documentCount: c.documents?.[0]?.count || 0,
+    }))
+    .sort((a: any, b: any) =>
+      getCategoryName(a.slug, a.name, locale as any).localeCompare(
+        getCategoryName(b.slug, b.name, locale as any),
+        locale === 'fr' ? 'fr' : 'en'
+      )
+    );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -94,13 +101,12 @@ export default async function CategoryPage({ params }: Props) {
   const category = await getCategory(params.slug);
   if (!category) notFound();
 
+  const locale = getLocale();
   const [brands, documents, allCategories] = await Promise.all([
     getBrands(category.id),
     getDocuments(category.id),
-    getAllCategories(),
+    getAllCategories(locale),
   ]);
-
-  const locale = getLocale();
   const siteUrl = SITE_URLS[locale];
   const catName = getCategoryName(category.slug, category.name, locale);
   const catDesc = getCategoryDescription(category.slug, category.description, locale);
