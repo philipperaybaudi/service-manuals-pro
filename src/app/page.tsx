@@ -43,25 +43,23 @@ async function getRecentDocs() {
 }
 
 async function searchDocs(query: string) {
-  // Supprimer les accents pour une recherche insensible aux accents
-  // "Télescope" → "Telescope" → matche "Télescope" en base
-  const normalized = query.trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  const words = normalized.split(/\s+/).filter(Boolean);
+  const words = query.trim().split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
 
-  // Chaque mot doit apparaître dans title OU title_fr (AND entre les mots)
-  // → "Camera Craftsman" trouve les fiches dont title_fr contient les deux mots
-  // → "Nikon F4" trouve "F4S" car F4 ⊂ F4S
-  let req = supabase
+  // Recherche insensible aux accents ET à la casse via RPC PostgreSQL (unaccent)
+  // "réparation" matche "réparation", "reparation", "RÉPARATION", etc.
+  const { data: rows } = await supabase
+    .rpc('search_documents_by_title', { search_words: words });
+
+  if (!rows || rows.length === 0) return [];
+
+  const ids = (rows as { doc_id: string }[]).map(r => r.doc_id);
+
+  const { data } = await supabase
     .from('documents')
     .select('*, category:categories(*), brand:brands(*)')
-    .eq('active', true);
+    .in('id', ids);
 
-  for (const word of words) {
-    req = req.or(`title.ilike.%${word}%,title_fr.ilike.%${word}%`);
-  }
-
-  const { data } = await req.limit(24);
   return data || [];
 }
 
