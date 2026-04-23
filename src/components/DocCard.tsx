@@ -19,9 +19,9 @@ export default function DocCard({ doc, showCategory, locale: localeProp }: DocCa
     >
       {/* Preview */}
       <div className="aspect-[4/3] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center relative overflow-hidden">
-        {doc.preview_url ? (
+        {(() => { const p = (locale === 'en' && (doc as any).preview_url_en) ? (doc as any).preview_url_en : doc.preview_url; return p ? (
           <img
-            src={doc.preview_url}
+            src={p}
             alt={(locale === 'fr' && doc.title_fr) ? doc.title_fr : doc.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
@@ -30,7 +30,7 @@ export default function DocCard({ doc, showCategory, locale: localeProp }: DocCa
             <FileText className="h-12 w-12" />
             <span className="text-xs font-medium">{t('doc.pdf_document')}</span>
           </div>
-        )}
+        ); })()}
         {doc.featured && (
           <span className="absolute top-2 left-2 bg-amber-500 text-white text-xs font-semibold px-2 py-1 rounded">
             {t('doc.featured_badge')}
