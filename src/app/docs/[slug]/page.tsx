@@ -249,12 +249,6 @@ export default async function DocumentPage({ params }: Props) {
                       <dd className="text-gray-900 font-medium">{fileSize(doc.file_size)}</dd>
                     </div>
                   )}
-                  {doc.language && (
-                    <div className="flex justify-between">
-                      <dt className="text-gray-500">{t('docpage.language')}</dt>
-                      <dd className="text-gray-900 font-medium">{doc.language === 'en' ? (locale === 'fr' ? 'Anglais' : 'English') : doc.language}</dd>
-                    </div>
-                  )}
                   {doc.category && (
                     <div className="flex justify-between">
                       <dt className="text-gray-500">{t('docpage.category')}</dt>
