@@ -484,6 +484,7 @@ const categoryNamesFr: Record<string, string> = {
   'autonomy': 'Autonomie',
   'society-culture': 'Société & Soi',
   'heating-cooling': 'Chauffage & Clim',
+  'alarm-security':  'Alarme & Surveillance',
 };
 
 const categoryDescriptionsFr: Record<string, string> = {
@@ -510,6 +511,7 @@ const categoryDescriptionsFr: Record<string, string> = {
   'autonomy': "Ouvrages de référence sur l'agriculture traditionnelle, l'autonomie alimentaire et la vie rurale",
   'society-culture': "Documentation sur la société, la culture, le développement personnel et les sciences humaines",
   'heating-cooling': "Manuels de service pour chaudières, climatiseurs, pompes à chaleur et systèmes de chauffage",
+  'alarm-security':  "Manuels techniques pour systèmes d'alarme, détecteurs et équipements de surveillance",
 };
 
 export function getCategoryName(slug: string, name: string, locale: Locale): string {
