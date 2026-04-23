@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: 'website',
       url: `${siteUrl}/docs/${doc.slug}`,
-      images: doc.preview_url ? [{ url: doc.preview_url, width: 1200, height: 630 }] : undefined,
+      images: (() => { const p = (locale === 'en' && doc.preview_url_en) ? doc.preview_url_en : doc.preview_url; return p ? [{ url: p, width: 1200, height: 630 }] : undefined; })(),
     },
     alternates: {
       canonical: `${siteUrl}/docs/${doc.slug}`,
@@ -86,7 +86,7 @@ export default async function DocumentPage({ params }: Props) {
     '@type': 'Product',
     name: displayTitle,
     description: (locale === 'fr' && doc.description_fr) ? doc.description_fr : doc.description,
-    image: doc.preview_url || undefined,
+    image: ((locale === 'en' && doc.preview_url_en) ? doc.preview_url_en : doc.preview_url) || undefined,
     brand: doc.brand ? { '@type': 'Brand', name: doc.brand.name } : undefined,
     offers: {
       '@type': 'Offer',
@@ -146,18 +146,21 @@ export default async function DocumentPage({ params }: Props) {
             {/* Preview */}
             <div className="bg-white rounded-xl border border-gray-200 overflow-hidden mb-6">
               <div className="aspect-[4/3] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
-                {doc.preview_url ? (
-                  <img
-                    src={doc.preview_url}
-                    alt={`Preview of ${displayTitle}`}
-                    className="max-w-full max-h-full object-contain"
-                  />
-                ) : (
-                  <div className="flex flex-col items-center gap-3 text-gray-300">
-                    <FileText className="h-20 w-20" />
-                    <span className="text-sm">{t('doc.pdf_document')}</span>
-                  </div>
-                )}
+                {(() => {
+                  const previewUrl = (locale === 'en' && doc.preview_url_en) ? doc.preview_url_en : doc.preview_url;
+                  return previewUrl ? (
+                    <img
+                      src={previewUrl}
+                      alt={`Preview of ${displayTitle}`}
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  ) : (
+                    <div className="flex flex-col items-center gap-3 text-gray-300">
+                      <FileText className="h-20 w-20" />
+                      <span className="text-sm">{t('doc.pdf_document')}</span>
+                    </div>
+                  );
+                })()}
               </div>
             </div>
 
