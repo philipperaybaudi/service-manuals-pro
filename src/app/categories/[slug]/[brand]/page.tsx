@@ -35,13 +35,14 @@ async function getCategoryAndBrand(categorySlug: string, brandSlug: string) {
   return { category, brand };
 }
 
-async function getDocuments(brandId: string, categoryId: string) {
+async function getDocuments(brandId: string, categoryId: string, locale: string) {
   const { data } = await supabase
     .from('documents')
     .select('*, brand:brands(*), category:categories(*)')
     .eq('brand_id', brandId)
     .eq('category_id', categoryId)
     .eq('active', true)
+    .or(`language.is.null,language.eq.${locale}`)
     .order('title');
   return data || [];
 }
@@ -78,9 +79,8 @@ export default async function BrandPage({ params }: Props) {
   const { category, brand } = await getCategoryAndBrand(params.slug, params.brand);
   if (!category || !brand) notFound();
 
-  const documents = await getDocuments(brand.id, category.id);
-
   const locale = getLocale();
+  const documents = await getDocuments(brand.id, category.id, locale);
   const siteUrl = SITE_URLS[locale];
   const catName = getCategoryName(category.slug, category.name, locale);
 

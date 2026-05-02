@@ -28,13 +28,14 @@ async function getCategory(slug: string) {
   return data;
 }
 
-async function getBrands(categoryId: string) {
-  // Step 1: distinct brand_ids via documents in this category
+async function getBrands(categoryId: string, locale: string) {
+  // Step 1: distinct brand_ids via documents in this category (language=null OR language=locale)
   const { data: docs } = await supabase
     .from('documents')
     .select('brand_id')
     .eq('category_id', categoryId)
-    .eq('active', true);
+    .eq('active', true)
+    .or(`language.is.null,language.eq.${locale}`);
 
   if (!docs || docs.length === 0) return [];
 
@@ -53,12 +54,13 @@ async function getBrands(categoryId: string) {
   }));
 }
 
-async function getDocuments(categoryId: string) {
+async function getDocuments(categoryId: string, locale: string) {
   const { data } = await supabase
     .from('documents')
     .select('*, brand:brands(*)')
     .eq('category_id', categoryId)
     .eq('active', true)
+    .or(`language.is.null,language.eq.${locale}`)
     .order('title')
     .limit(50);
   return data || [];
@@ -115,8 +117,8 @@ export default async function CategoryPage({ params }: Props) {
 
   const locale = getLocale();
   const [brands, documents, allCategories] = await Promise.all([
-    getBrands(category.id),
-    getDocuments(category.id),
+    getBrands(category.id, locale),
+    getDocuments(category.id, locale),
     getAllCategories(locale),
   ]);
   const siteUrl = SITE_URLS[locale];
