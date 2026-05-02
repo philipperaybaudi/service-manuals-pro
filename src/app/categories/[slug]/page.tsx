@@ -29,15 +29,27 @@ async function getCategory(slug: string) {
 }
 
 async function getBrands(categoryId: string) {
+  // Step 1: distinct brand_ids via documents in this category
+  const { data: docs } = await supabase
+    .from('documents')
+    .select('brand_id')
+    .eq('category_id', categoryId)
+    .eq('active', true);
+
+  if (!docs || docs.length === 0) return [];
+
+  const brandIds = [...new Set(docs.map((d: any) => d.brand_id))];
+
+  // Step 2: fetch brands
   const { data } = await supabase
     .from('brands')
-    .select('id, name, slug, logo_url, documents!inner(count)')
-    .eq('documents.category_id', categoryId)
-    .eq('documents.active', true)
+    .select('id, name, slug, logo_url')
+    .in('id', brandIds)
     .order('name');
+
   return (data || []).map((b: any) => ({
     ...b,
-    document_count: b.documents?.[0]?.count || 0,
+    document_count: docs.filter((d: any) => d.brand_id === b.id).length,
   }));
 }
 
