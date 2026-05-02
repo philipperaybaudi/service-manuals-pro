@@ -15,6 +15,15 @@ import { headers } from 'next/headers';
 export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
+// Documents visibles sur un seul site (filtrage par slug exact)
+const FR_ONLY_SLUGS = new Set(['mini-cooper-rover-mini-manuel-de-reparation-akm6348']);
+const EN_ONLY_SLUGS = new Set(['mini-cooper-rover-mini-repair-manual-akm6353']);
+function isSiteVisible(slug: string, locale: string): boolean {
+  if (FR_ONLY_SLUGS.has(slug)) return locale === 'fr';
+  if (EN_ONLY_SLUGS.has(slug)) return locale === 'en';
+  return true;
+}
+
 interface Props {
   params: { slug: string };
 }
@@ -29,17 +38,17 @@ async function getCategory(slug: string) {
 }
 
 async function getBrands(categoryId: string, locale: string) {
-  // Step 1: distinct brand_ids via documents in this category (language=null OR language=locale)
+  // Step 1: distinct brand_ids via documents in this category
   const { data: docs } = await supabase
     .from('documents')
-    .select('brand_id')
+    .select('brand_id, slug')
     .eq('category_id', categoryId)
-    .eq('active', true)
-    .or(`language.is.null,language.eq.${locale}`);
+    .eq('active', true);
 
   if (!docs || docs.length === 0) return [];
 
-  const brandIds = [...new Set(docs.map((d: any) => d.brand_id))];
+  const visibleDocs = docs.filter((d: any) => isSiteVisible(d.slug, locale));
+  const brandIds = [...new Set(visibleDocs.map((d: any) => d.brand_id))];
 
   // Step 2: fetch brands
   const { data } = await supabase
@@ -50,7 +59,7 @@ async function getBrands(categoryId: string, locale: string) {
 
   return (data || []).map((b: any) => ({
     ...b,
-    document_count: docs.filter((d: any) => d.brand_id === b.id).length,
+    document_count: visibleDocs.filter((d: any) => d.brand_id === b.id).length,
   }));
 }
 
@@ -60,10 +69,9 @@ async function getDocuments(categoryId: string, locale: string) {
     .select('*, brand:brands(*)')
     .eq('category_id', categoryId)
     .eq('active', true)
-    .or(`language.is.null,language.eq.${locale}`)
     .order('title')
     .limit(50);
-  return data || [];
+  return (data || []).filter((doc: any) => isSiteVisible(doc.slug, locale));
 }
 
 async function getAllCategories(locale: string) {

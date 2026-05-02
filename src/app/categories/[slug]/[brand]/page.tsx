@@ -13,6 +13,15 @@ import { headers } from 'next/headers';
 export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
+// Documents visibles sur un seul site (filtrage par slug exact)
+const FR_ONLY_SLUGS = new Set(['mini-cooper-rover-mini-manuel-de-reparation-akm6348']);
+const EN_ONLY_SLUGS = new Set(['mini-cooper-rover-mini-repair-manual-akm6353']);
+function isSiteVisible(slug: string, locale: string): boolean {
+  if (FR_ONLY_SLUGS.has(slug)) return locale === 'fr';
+  if (EN_ONLY_SLUGS.has(slug)) return locale === 'en';
+  return true;
+}
+
 interface Props {
   params: { slug: string; brand: string };
 }
@@ -42,9 +51,8 @@ async function getDocuments(brandId: string, categoryId: string, locale: string)
     .eq('brand_id', brandId)
     .eq('category_id', categoryId)
     .eq('active', true)
-    .or(`language.is.null,language.eq.${locale}`)
     .order('title');
-  return data || [];
+  return (data || []).filter((doc: any) => isSiteVisible(doc.slug, locale));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
