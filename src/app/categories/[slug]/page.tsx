@@ -31,8 +31,8 @@ async function getCategory(slug: string) {
 async function getBrands(categoryId: string) {
   const { data } = await supabase
     .from('brands')
-    .select('*, documents(count)')
-    .eq('category_id', categoryId)
+    .select('id, name, slug, logo_url, documents!inner(count)')
+    .eq('documents.category_id', categoryId)
     .eq('documents.active', true)
     .order('name');
   return (data || []).map((b: any) => ({
