@@ -16,6 +16,34 @@ export const runtime = 'edge';
 
 export const revalidate = 3600;
 
+function formatDescription(text: string): string {
+  if (!text) return '';
+  const parts = text.split('\n\n');
+  let html = '';
+  for (const part of parts) {
+    const lines = part.split('\n');
+    const hasListItems = lines.some(l => l.trim().startsWith('- '));
+    if (!hasListItems) {
+      html += `<p>${lines.join('<br>')}</p>`;
+    } else {
+      let inList = false;
+      for (const line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed) continue;
+        if (trimmed.startsWith('- ')) {
+          if (!inList) { html += '<ul class="list-disc pl-5 my-1">'; inList = true; }
+          html += `<li>${trimmed.slice(2)}</li>`;
+        } else {
+          if (inList) { html += '</ul>'; inList = false; }
+          html += `<p class="font-medium mt-2">${trimmed}</p>`;
+        }
+      }
+      if (inList) html += '</ul>';
+    }
+  }
+  return html;
+}
+
 interface Props {
   params: { slug: string };
 }
@@ -180,7 +208,7 @@ export default async function DocumentPage({ params }: Props) {
               {(doc.description || doc.description_fr) && (
                 <div
                   className="prose prose-sm text-gray-600 mb-6"
-                  dangerouslySetInnerHTML={{ __html: (locale === 'fr' && doc.description_fr) ? doc.description_fr : doc.description }}
+                  dangerouslySetInnerHTML={{ __html: formatDescription((locale === 'fr' && doc.description_fr) ? doc.description_fr : doc.description) }}
                 />
               )}
 
