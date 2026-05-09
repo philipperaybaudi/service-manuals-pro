@@ -107,7 +107,10 @@ export async function POST(req: NextRequest) {
     // Send order notification to admin
     try {
       const customerName = (session as any).customer_details?.name || 'Unknown';
-      const customerCountry = (session as any).customer_details?.address?.country || '—';
+      const countryCode = (session as any).customer_details?.address?.country || '';
+      const customerCountry = countryCode
+        ? (new Intl.DisplayNames(['fr'], { type: 'region' }).of(countryCode) || countryCode)
+        : '—';
       await sendOrderNotification(
         doc?.title || 'Service Manual',
         customerName,
