@@ -532,6 +532,8 @@ const brandNamesFr: Record<string, string> = {
 // Noms anglais normalisés (minuscules) pour certaines marques
 const brandNamesEn: Record<string, string> = {
   'repair-troubleshooting': 'Repair & Troubleshooting',
+  'defence-civile': 'CIVIL DEFENSE',
+  'ouvrages-de-reference': 'Reference Works',
 };
 
 export function getBrandName(slug: string, name: string, locale: Locale): string {

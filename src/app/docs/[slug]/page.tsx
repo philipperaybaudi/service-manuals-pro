@@ -9,7 +9,7 @@ import BuyButton from './BuyButton';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import DownloadNotice from '@/components/DownloadNotice';
 import { getLocale, t } from '@/lib/locale';
-import { SITE_URLS, tr, getCategoryName } from '@/lib/i18n';
+import { SITE_URLS, tr, getCategoryName, getBrandName } from '@/lib/i18n';
 import { headers } from 'next/headers';
 
 export const runtime = 'edge';
@@ -108,6 +108,7 @@ export default async function DocumentPage({ params }: Props) {
   const locale = getLocale();
   const siteUrl = SITE_URLS[locale];
   const displayTitle = (locale === 'fr' && doc.title_fr) ? doc.title_fr : doc.title;
+  const displayBrandName = doc.brand ? getBrandName(doc.brand.slug, doc.brand.name, locale) : '';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -129,7 +130,7 @@ export default async function DocumentPage({ params }: Props) {
   const breadcrumbs = [
     { name: tr(locale, 'category.home'), url: siteUrl },
     ...(doc.category ? [{ name: getCategoryName(doc.category.slug, doc.category.name, locale), url: `${siteUrl}/categories/${doc.category.slug}` }] : []),
-    ...(doc.brand && doc.category ? [{ name: doc.brand.name, url: `${siteUrl}/categories/${doc.category.slug}/${doc.brand.slug}` }] : []),
+    ...(doc.brand && doc.category ? [{ name: displayBrandName, url: `${siteUrl}/categories/${doc.category.slug}/${doc.brand.slug}` }] : []),
     { name: displayTitle, url: `${siteUrl}/docs/${doc.slug}` },
   ];
 
@@ -160,7 +161,7 @@ export default async function DocumentPage({ params }: Props) {
                 href={`/categories/${doc.category?.slug}/${doc.brand.slug}`}
                 className="hover:text-gray-700"
               >
-                {doc.brand.name}
+                {displayBrandName}
               </Link>
               <ChevronRight className="h-3 w-3" />
             </>
@@ -199,9 +200,9 @@ export default async function DocumentPage({ params }: Props) {
               {doc.brand && (
                 <div className="flex items-center gap-2 mb-4">
                   {doc.brand.logo_url && (
-                    <img src={doc.brand.logo_url} alt={doc.brand.name} className="h-6 object-contain" />
+                    <img src={doc.brand.logo_url} alt={displayBrandName} className="h-6 object-contain" />
                   )}
-                  <span className="text-sm text-gray-600">{t('docpage.by')} {doc.brand.name}</span>
+                  <span className="text-sm text-gray-600">{t('docpage.by')} {displayBrandName}</span>
                 </div>
               )}
 
@@ -301,7 +302,7 @@ export default async function DocumentPage({ params }: Props) {
                   className="bg-white rounded-xl border border-gray-200 p-4 hover:shadow-md transition-shadow"
                 >
                   <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">{r.title}</h3>
-                  {r.brand && <p className="text-xs text-gray-500 mt-1">{r.brand.name}</p>}
+                  {r.brand && <p className="text-xs text-gray-500 mt-1">{getBrandName(r.brand.slug, r.brand.name, locale)}</p>}
                   <p className="text-lg font-bold text-gray-900 mt-2">{formatPrice(r.price, 'USD', locale)}</p>
                 </Link>
               ))}
