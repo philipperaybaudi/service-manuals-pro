@@ -107,10 +107,12 @@ export async function POST(req: NextRequest) {
     // Send order notification to admin
     try {
       const customerName = (session as any).customer_details?.name || 'Unknown';
+      const customerCountry = (session as any).customer_details?.address?.country || '—';
       await sendOrderNotification(
         doc?.title || 'Service Manual',
         customerName,
         customerEmail,
+        customerCountry,
         session.amount_total || 0,
         session.currency || 'usd',
         (session.payment_intent as string) || session.id,

@@ -216,6 +216,7 @@ export async function sendOrderNotification(
   documentTitle: string,
   customerName: string,
   customerEmail: string,
+  customerCountry: string,
   amount: number,
   currency: string,
   paymentIntent: string,
@@ -254,6 +255,10 @@ export async function sendOrderNotification(
               <tr>
                 <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Client</td>
                 <td style="padding:10px 0;color:#18181b;border-bottom:1px solid #f4f4f5;">${customerName}</td>
+              </tr>
+              <tr>
+                <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Pays</td>
+                <td style="padding:10px 0;color:#18181b;border-bottom:1px solid #f4f4f5;">${customerCountry}</td>
               </tr>
               <tr>
                 <td style="padding:10px 0;color:#71717a;border-bottom:1px solid #f4f4f5;">Email</td>
