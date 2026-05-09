@@ -534,6 +534,10 @@ const brandNamesEn: Record<string, string> = {
   'repair-troubleshooting': 'Repair & Troubleshooting',
   'defence-civile': 'CIVIL DEFENSE',
   'ouvrages-de-reference': 'Reference Works',
+  'ouvrages-de-reference-autonomy': 'Reference Works',
+  'ouvrages-de-reference-pet': 'Reference Works',
+  'ouvrages-de-reference-nature': 'Reference Works',
+  'ouvrages-de-reference-watchmaking': 'Reference Works',
 };
 
 export function getBrandName(slug: string, name: string, locale: Locale): string {
