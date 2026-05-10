@@ -156,6 +156,7 @@ export async function POST(req: NextRequest) {
         session.amount_total || 0,
         session.currency || 'usd',
         (session.payment_intent as string) || session.id,
+        invoicePdf,
       );
     } catch (notifError) {
       console.error('Failed to send order notification:', notifError);

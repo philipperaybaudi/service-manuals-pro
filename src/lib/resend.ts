@@ -234,6 +234,7 @@ export async function sendOrderNotification(
   amount: number,
   currency: string,
   paymentIntent: string,
+  invoicePdf?: Uint8Array,
 ) {
   const formattedAmount = new Intl.NumberFormat('fr-FR', {
     style: 'currency',
@@ -245,10 +246,14 @@ export async function sendOrderNotification(
     timeStyle: 'short',
   });
 
+  const invoiceFilename = `facture-invoice-${new Date().getFullYear()}.pdf`;
   await sendEmail({
     from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
     to: 'vente@service-manuals-pro.com',
     subject: `Nouvelle commande : ${formattedAmount} - ${documentTitle}`,
+    ...(invoicePdf ? {
+      attachments: [{ filename: invoiceFilename, content: uint8ArrayToBase64(invoicePdf) }],
+    } : {}),
     html: `
       <!DOCTYPE html>
       <html>
