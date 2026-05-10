@@ -38,28 +38,54 @@ async function getCategory(slug: string) {
 }
 
 async function getBrands(categoryId: string, locale: string) {
-  // Step 1: distinct brand_ids via documents in this category
-  const { data: docs } = await supabase
-    .from('documents')
-    .select('brand_id, slug')
-    .eq('category_id', categoryId)
-    .eq('active', true);
+  // Step 1: récupérer TOUS les brand_ids par pagination (Supabase limite à 1000 par requête)
+  const allBrandIds = new Set<string>();
+  let from = 0;
+  const PAGE = 1000;
 
-  if (!docs || docs.length === 0) return [];
+  while (true) {
+    const { data } = await supabase
+      .from('documents')
+      .select('brand_id')
+      .eq('category_id', categoryId)
+      .eq('active', true)
+      .range(from, from + PAGE - 1);
 
-  const visibleDocs = docs.filter((d: any) => isSiteVisible(d.slug, locale));
-  const brandIds = [...new Set(visibleDocs.map((d: any) => d.brand_id))];
+    if (!data || data.length === 0) break;
+    data.forEach((d: any) => allBrandIds.add(d.brand_id));
+    if (data.length < PAGE) break;
+    from += PAGE;
+  }
 
-  // Step 2: fetch brands
-  const { data } = await supabase
+  if (allBrandIds.size === 0) return [];
+
+  // Step 2: récupérer les infos des marques
+  const { data: brands } = await supabase
     .from('brands')
     .select('id, name, slug, logo_url')
-    .in('id', brandIds)
+    .in('id', [...allBrandIds])
     .order('name');
 
-  return (data || []).map((b: any) => ({
+  if (!brands || brands.length === 0) return [];
+
+  // Step 3: count exact par marque (requêtes parallèles, head-only = sans données)
+  const counts = await Promise.all(
+    brands.map(async (b: any) => {
+      const { count } = await supabase
+        .from('documents')
+        .select('*', { count: 'exact', head: true })
+        .eq('category_id', categoryId)
+        .eq('brand_id', b.id)
+        .eq('active', true);
+      return [b.id, count ?? 0] as [string, number];
+    })
+  );
+
+  const countMap = new Map(counts);
+
+  return brands.map((b: any) => ({
     ...b,
-    document_count: visibleDocs.filter((d: any) => d.brand_id === b.id).length,
+    document_count: countMap.get(b.id) ?? 0,
   }));
 }
 
