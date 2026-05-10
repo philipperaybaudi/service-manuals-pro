@@ -113,12 +113,20 @@ export async function POST(req: NextRequest) {
       console.error('Failed to retrieve receipt number:', e);
     }
 
+    // Build invoice number and filename: YYYY-MM-DD_receiptNumber
+    const now = new Date();
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth() + 1).padStart(2, '0');
+    const dd = String(now.getDate()).padStart(2, '0');
+    const invoiceNumber = `${yyyy}-${mm}-${dd}_${receiptNumber}`;
+    const invoiceFilename = `facture-invoice-${invoiceNumber}.pdf`;
+
     // Generate invoice PDF
     let invoicePdf: Uint8Array | undefined;
     try {
-      invoicePdf = await generateInvoicePDF({
-        receiptNumber,
-        date: new Date(),
+      invoicePdf = generateInvoicePDF({
+        invoiceNumber,
+        date: now,
         customerEmail,
         customerName,
         customerCountry,
@@ -140,7 +148,8 @@ export async function POST(req: NextRequest) {
         downloadUrl,
         expiresAt,
         locale,
-        invoicePdf
+        invoicePdf,
+        invoiceFilename,
       );
     } catch (emailError) {
       console.error('Failed to send email:', emailError);
@@ -157,6 +166,7 @@ export async function POST(req: NextRequest) {
         session.currency || 'usd',
         (session.payment_intent as string) || session.id,
         invoicePdf,
+        invoiceFilename,
       );
     } catch (notifError) {
       console.error('Failed to send order notification:', notifError);

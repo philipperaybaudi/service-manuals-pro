@@ -2,7 +2,7 @@
 // Compatible edge runtime / Cloudflare Workers.
 
 export interface InvoiceParams {
-  receiptNumber: string;
+  invoiceNumber: string;  // format YYYY-MM-DD_receiptNumber
   date: Date;
   customerEmail: string;
   customerName: string;
@@ -41,7 +41,7 @@ function toHex(str: string): string {
 
 export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
   const {
-    receiptNumber, date, customerEmail, customerName,
+    invoiceNumber, date, customerEmail, customerName,
     customerCountry, documentTitle, amount, currency, locale,
   } = params;
 
@@ -49,6 +49,7 @@ export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
   const H = 841.89;   // hauteur A4 (points)
   const L = 50;       // marge gauche
   const R = 545.28;   // marge droite
+  const RC = 308;     // colonne droite (titre)
 
   const fmtAmount = new Intl.NumberFormat(locale === 'fr' ? 'fr-FR' : 'en-US', {
     style: 'currency', currency: currency.toUpperCase(),
@@ -59,7 +60,7 @@ export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
   }).format(date);
 
   let docTitle = documentTitle;
-  if (docTitle.length > 55) docTitle = docTitle.substring(0, 52) + '...';
+  if (docTitle.length > 60) docTitle = docTitle.substring(0, 57) + '...';
 
   // ─── Helpers du content stream ───────────────────────────────────
 
@@ -70,27 +71,30 @@ export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
     ops.push(`BT /${bold ? 'FB' : 'F'} ${size} Tf 1 0 0 1 ${x.toFixed(1)} ${y.toFixed(1)} Tm ${toHex(s)} Tj ET`);
 
   /** Ligne horizontale. */
-  const hline = (y: number, gray = 0.85) =>
-    ops.push(`${gray.toFixed(2)} G 0.5 w ${L} ${y.toFixed(1)} m ${R.toFixed(1)} ${y.toFixed(1)} l S 0 G`);
+  const hline = (y: number, gray = 0.80, lw = 0.5) =>
+    ops.push(`${gray.toFixed(2)} G ${lw} w ${L} ${y.toFixed(1)} m ${R.toFixed(1)} ${y.toFixed(1)} l S 0 G`);
 
   /** Rectangle plein. */
   const fillRect = (x: number, y: number, w: number, h: number, gray: number) =>
     ops.push(`${gray.toFixed(2)} g ${x.toFixed(1)} ${y.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)} re f 0 g`);
 
-  // ─── VENDEUR (haut gauche) ────────────────────────────────────────
-  txt(L, H - 60,  'LA DOCUMENTATION TECHNIQUE',          true,  12);
-  txt(L, H - 75,  'SHOP OF TECHNICAL DOCUMENTATIONS',    false,  9);
-  txt(L, H - 88,  'Business Hub Lucenecka cesta 2266/6', false,  9);
-  txt(L, H - 101, '96096 ZVOLEN',                        false,  9);
-  txt(L, H - 114, 'Slovaquie',                           false,  9);
-  txt(L, H - 127, 'RCS 36807516',                        false,  9);
+  // ─── FOND GRIS LÉGER POUR ZONE D'EN-TÊTE ─────────────────────────
+  fillRect(0, H - 145, W, 145, 0.95);
 
-  // ─── TITRE (centré, approximatif) ────────────────────────────────
-  txt(183, H - 92,  'FACTURE / INVOICE',          true,  22);
-  txt(241, H - 116, `n° ${receiptNumber}`,   false, 12);
+  // ─── VENDEUR (colonne gauche) ─────────────────────────────────────
+  txt(L, H - 48,  'LA DOCUMENTATION TECHNIQUE',          true,  11);
+  txt(L, H - 63,  'SHOP OF TECHNICAL DOCUMENTATIONS',    false,  9);
+  txt(L, H - 77,  'Business Hub Lucenecka cesta 2266/6', false,  9);
+  txt(L, H - 91,  '96096 ZVOLEN',                        false,  9);
+  txt(L, H - 105, 'Slovaquie',                           false,  9);
+  txt(L, H - 119, 'RCS 36807516',                        false,  9);
 
-  // ─── SÉPARATEUR ──────────────────────────────────────────────────
-  hline(H - 143);
+  // ─── TITRE + N° FACTURE (colonne droite) ─────────────────────────
+  txt(RC, H - 55,  'FACTURE / INVOICE',           true,  20);
+  txt(RC, H - 82,  `N° ${invoiceNumber}`,    true,  10);
+
+  // ─── SÉPARATEUR EN-TÊTE ───────────────────────────────────────────
+  hline(H - 145, 0.45, 1.0);
 
   // ─── DATE ────────────────────────────────────────────────────────
   txt(L, H - 168, (locale === 'fr' ? 'Date : ' : 'Date: ') + dateStr, false, 10);
@@ -111,28 +115,35 @@ export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
   const tY = H - 330;
 
   // En-tête sombre
-  fillRect(L, tY - 6, R - L, 24, 0.1);
+  fillRect(L, tY - 6, R - L, 24, 0.15);
   ops.push('1 g'); // texte blanc
-  txt(60,  tY + 3, 'Description',                          true, 9);
-  txt(388, tY + 3, locale === 'fr' ? 'Qté' : 'Qty',  true, 9);
-  txt(458, tY + 3, locale === 'fr' ? 'Montant' : 'Amount', true, 9);
+  txt(60,  tY + 3, 'Description',                              true, 9);
+  txt(388, tY + 3, locale === 'fr' ? 'Qté' : 'Qty',      true, 9);
+  txt(458, tY + 3, locale === 'fr' ? 'Montant' : 'Amount',    true, 9);
   ops.push('0 g'); // reset noir
 
-  // Ligne article
-  txt(60,  tY - 25, docTitle,    false, 9);
-  txt(393, tY - 25, '1',         false, 9);
-  txt(458, tY - 25, fmtAmount,   false, 9);
+  // Fond alternance ligne article
+  fillRect(L, tY - 42, R - L, 24, 0.97);
 
-  // Séparateur bas
-  hline(tY - 40);
+  // Ligne article
+  txt(60,  tY - 32, docTitle,    false, 9);
+  txt(393, tY - 32, '1',         false, 9);
+  txt(458, tY - 32, fmtAmount,   false, 9);
+
+  // Séparateur bas tableau
+  hline(tY - 50);
+
+  // Zone total (fond léger)
+  fillRect(310, tY - 82, R - 310, 26, 0.93);
 
   // Total
-  txt(333, tY - 62, locale === 'fr' ? 'Total payé :' : 'Total paid:', true,  11);
-  txt(458, tY - 62, fmtAmount,                                               true,  11);
+  txt(322, tY - 72, locale === 'fr' ? 'Total payé :' : 'Total paid:',  true,  11);
+  txt(458, tY - 72, fmtAmount,                                          true,  11);
 
   // ─── PIED DE PAGE ────────────────────────────────────────────────
-  hline(55);
-  txt(80, 38, 'LA DOCUMENTATION TECHNIQUE — service-manuals-pro.com / service-manuels-pro.fr', false, 8);
+  hline(55, 0.75, 0.75);
+  txt(L, 40, 'LA DOCUMENTATION TECHNIQUE', true, 8);
+  txt(L, 29, 'service-manuals-pro.com  |  service-manuels-pro.fr', false, 8);
 
   // ─── CONSTRUCTION DU PDF ─────────────────────────────────────────
   const enc = new TextEncoder();

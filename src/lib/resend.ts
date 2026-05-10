@@ -38,7 +38,8 @@ export async function sendDownloadEmail(
   downloadUrl: string,
   expiresAt: Date,
   locale: 'en' | 'fr' = 'en',
-  invoicePdf?: Uint8Array
+  invoicePdf?: Uint8Array,
+  invoiceFilename?: string,
 ) {
   const isFr = locale === 'fr';
   const expiresFormatted = expiresAt.toLocaleString(isFr ? 'fr-FR' : 'en-US', {
@@ -73,13 +74,13 @@ export async function sendDownloadEmail(
     ? 'Service Manuels Pro &mdash; Documentation technique professionnelle'
     : 'Service Manuals Pro &mdash; Professional Technical Documentation';
 
-  const invoiceFilename = `facture-invoice-${new Date().getFullYear()}.pdf`;
+  const filename = invoiceFilename || `facture-invoice-${new Date().getFullYear()}.pdf`;
   await sendEmail({
     from: `${fromName} <noreply@service-manuals-pro.com>`,
     to: email,
     subject,
     ...(invoicePdf ? {
-      attachments: [{ filename: invoiceFilename, content: uint8ArrayToBase64(invoicePdf) }],
+      attachments: [{ filename, content: uint8ArrayToBase64(invoicePdf) }],
     } : {}),
     html: `
       <!DOCTYPE html>
@@ -235,6 +236,7 @@ export async function sendOrderNotification(
   currency: string,
   paymentIntent: string,
   invoicePdf?: Uint8Array,
+  invoiceFilename?: string,
 ) {
   const formattedAmount = new Intl.NumberFormat('fr-FR', {
     style: 'currency',
@@ -246,13 +248,13 @@ export async function sendOrderNotification(
     timeStyle: 'short',
   });
 
-  const invoiceFilename = `facture-invoice-${new Date().getFullYear()}.pdf`;
+  const filename = invoiceFilename || `facture-invoice-${new Date().getFullYear()}.pdf`;
   await sendEmail({
     from: 'Service Manuals Pro <noreply@service-manuals-pro.com>',
     to: 'vente@service-manuals-pro.com',
     subject: `Nouvelle commande : ${formattedAmount} - ${documentTitle}`,
     ...(invoicePdf ? {
-      attachments: [{ filename: invoiceFilename, content: uint8ArrayToBase64(invoicePdf) }],
+      attachments: [{ filename, content: uint8ArrayToBase64(invoicePdf) }],
     } : {}),
     html: `
       <!DOCTYPE html>
