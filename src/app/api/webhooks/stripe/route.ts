@@ -99,7 +99,9 @@ export async function POST(req: NextRequest) {
       : '—';
 
     // Retrieve Stripe receipt number from the charge
-    let receiptNumber = session.id;
+    // Fallback: payment_intent ID (toujours présent, plus court que session.id)
+    // Récupère les 5 premiers chars du charge.id (sans préfixe ch_)
+    let chargeRef = 'XXXXX';
     try {
       if (session.payment_intent) {
         const pi = await stripe.paymentIntents.retrieve(
@@ -107,19 +109,21 @@ export async function POST(req: NextRequest) {
           { expand: ['latest_charge'] }
         );
         const charge = pi.latest_charge as Stripe.Charge;
-        if (charge?.receipt_number) receiptNumber = charge.receipt_number;
+        if (charge?.id) {
+          chargeRef = charge.id.replace(/^ch_/, '').substring(0, 5);
+        }
       }
     } catch (e) {
-      console.error('Failed to retrieve receipt number:', e);
+      console.error('Failed to retrieve charge:', e);
     }
 
-    // Build invoice number and filename: YYYY-MM-DD_receiptNumber
+    // Build invoice number and filename: YYYY-MM-DD-XXXXX
     const now = new Date();
     const yyyy = now.getFullYear();
     const mm = String(now.getMonth() + 1).padStart(2, '0');
     const dd = String(now.getDate()).padStart(2, '0');
-    const invoiceNumber = `${yyyy}-${mm}-${dd}_${receiptNumber}`;
-    const invoiceFilename = `facture-invoice-${invoiceNumber}.pdf`;
+    const invoiceNumber = `${yyyy}-${mm}-${dd}_${chargeRef}`;
+    const invoiceFilename = `facture-invoice_${invoiceNumber}.pdf`;
 
     // Generate invoice PDF
     let invoicePdf: Uint8Array | undefined;
