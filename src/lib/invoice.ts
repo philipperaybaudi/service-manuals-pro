@@ -1,4 +1,5 @@
-import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
+// Génère une facture PDF en raw bytes — aucune dépendance externe.
+// Compatible edge runtime / Cloudflare Workers.
 
 export interface InvoiceParams {
   receiptNumber: string;
@@ -12,136 +13,165 @@ export interface InvoiceParams {
   locale: 'en' | 'fr';
 }
 
-export async function generateInvoicePDF(params: InvoiceParams): Promise<Uint8Array> {
+/**
+ * Convertit une chaîne Unicode en hex PDF (WinAnsiEncoding).
+ * Les accents français (é, à, ü…) et le symbole € sont correctement encodés.
+ */
+function toHex(str: string): string {
+  const ext: Record<number, number> = {
+    0x20AC: 0x80, // €
+    0x201A: 0x82, 0x0192: 0x83, 0x201E: 0x84, 0x2026: 0x85,
+    0x2020: 0x86, 0x2021: 0x87, 0x02C6: 0x88, 0x2030: 0x89,
+    0x0160: 0x8A, 0x2039: 0x8B, 0x0152: 0x8C, 0x017D: 0x8E,
+    0x2018: 0x91, 0x2019: 0x92, 0x201C: 0x93, 0x201D: 0x94,
+    0x2022: 0x95, 0x2013: 0x96, 0x2014: 0x97, 0x02DC: 0x98,
+    0x2122: 0x99, 0x0161: 0x9A, 0x203A: 0x9B, 0x0153: 0x9C,
+    0x017E: 0x9E, 0x0178: 0x9F,
+    0x00A0: 0x20, // espace insécable → espace normal
+    0x202F: 0x20, // espace fine insécable → espace normal
+  };
+  let hex = '';
+  for (const ch of str) {
+    const cp = ch.charCodeAt(0);
+    const byte = cp in ext ? ext[cp] : cp < 0x100 ? cp : 0x3F;
+    hex += byte.toString(16).padStart(2, '0');
+  }
+  return `<${hex}>`;
+}
+
+export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
   const {
     receiptNumber, date, customerEmail, customerName,
     customerCountry, documentTitle, amount, currency, locale,
   } = params;
 
-  const pdfDoc = await PDFDocument.create();
-  const page = pdfDoc.addPage([595.28, 841.89]); // A4
-  const { width, height } = page.getSize();
+  const W = 595.28;   // largeur A4 (points)
+  const H = 841.89;   // hauteur A4 (points)
+  const L = 50;       // marge gauche
+  const R = 545.28;   // marge droite
 
-  const bold    = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
-  const regular = await pdfDoc.embedFont(StandardFonts.Helvetica);
+  const fmtAmount = new Intl.NumberFormat(locale === 'fr' ? 'fr-FR' : 'en-US', {
+    style: 'currency', currency: currency.toUpperCase(),
+  }).format(amount / 100);
 
-  const black     = rgb(0,    0,    0);
-  const darkGray  = rgb(0.25, 0.25, 0.25);
-  const midGray   = rgb(0.5,  0.5,  0.5);
-  const lightGray = rgb(0.88, 0.88, 0.88);
-  const white     = rgb(1,    1,    1);
-
-  // ─── VENDEUR (haut gauche) ────────────────────────────────────────
-  let y = height - 55;
-  page.drawText('LA DOCUMENTATION TECHNIQUE',          { x: 50, y, size: 12, font: bold,    color: black });
-  y -= 15;
-  page.drawText('SHOP OF TECHNICAL DOCUMENTATIONS',    { x: 50, y, size: 9,  font: regular, color: darkGray });
-  y -= 13;
-  // Note: "Lučenecká" simplifié en "Lucenecka" (caractères WinAnsi uniquement)
-  page.drawText('Business Hub Lucenecka cesta 2266/6', { x: 50, y, size: 9,  font: regular, color: darkGray });
-  y -= 13;
-  page.drawText('96096 ZVOLEN',                        { x: 50, y, size: 9,  font: regular, color: darkGray });
-  y -= 13;
-  page.drawText('Slovaquie',                           { x: 50, y, size: 9,  font: regular, color: darkGray });
-  y -= 13;
-  page.drawText('RCS 36807516',                        { x: 50, y, size: 9,  font: regular, color: darkGray });
-
-  // ─── TITRE DU DOCUMENT (centré) ───────────────────────────────────
-  const titleText = 'FACTURE / INVOICE';
-  const titleSize = 22;
-  const titleW = bold.widthOfTextAtSize(titleText, titleSize);
-  page.drawText(titleText, {
-    x: (width - titleW) / 2,
-    y: height - 88,
-    size: titleSize,
-    font: bold,
-    color: black,
-  });
-
-  const numText = `n° ${receiptNumber}`;
-  const numSize = 12;
-  const numW = regular.widthOfTextAtSize(numText, numSize);
-  page.drawText(numText, {
-    x: (width - numW) / 2,
-    y: height - 112,
-    size: numSize,
-    font: regular,
-    color: darkGray,
-  });
-
-  // ─── SÉPARATEUR ──────────────────────────────────────────────────
-  y = height - 140;
-  page.drawLine({ start: { x: 50, y }, end: { x: width - 50, y }, thickness: 0.5, color: lightGray });
-
-  // ─── DATE ─────────────────────────────────────────────────────────
-  y -= 22;
   const dateStr = new Intl.DateTimeFormat(locale === 'fr' ? 'fr-FR' : 'en-US', {
     year: 'numeric', month: 'long', day: 'numeric',
   }).format(date);
-  page.drawText((locale === 'fr' ? 'Date : ' : 'Date: ') + dateStr, {
-    x: 50, y, size: 10, font: regular, color: darkGray,
-  });
 
-  // ─── FACTURÉ À ────────────────────────────────────────────────────
-  y -= 28;
-  page.drawText(locale === 'fr' ? 'Facturé à :' : 'Billed to:', {
-    x: 50, y, size: 10, font: bold, color: black,
-  });
-  y -= 16;
+  let docTitle = documentTitle;
+  if (docTitle.length > 55) docTitle = docTitle.substring(0, 52) + '...';
+
+  // ─── Helpers du content stream ───────────────────────────────────
+
+  const ops: string[] = [];
+
+  /** Texte à position absolue (x, y compté depuis le bas de la page). */
+  const txt = (x: number, y: number, s: string, bold = false, size = 10) =>
+    ops.push(`BT /${bold ? 'FB' : 'F'} ${size} Tf 1 0 0 1 ${x.toFixed(1)} ${y.toFixed(1)} Tm ${toHex(s)} Tj ET`);
+
+  /** Ligne horizontale. */
+  const hline = (y: number, gray = 0.85) =>
+    ops.push(`${gray.toFixed(2)} G 0.5 w ${L} ${y.toFixed(1)} m ${R.toFixed(1)} ${y.toFixed(1)} l S 0 G`);
+
+  /** Rectangle plein. */
+  const fillRect = (x: number, y: number, w: number, h: number, gray: number) =>
+    ops.push(`${gray.toFixed(2)} g ${x.toFixed(1)} ${y.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)} re f 0 g`);
+
+  // ─── VENDEUR (haut gauche) ────────────────────────────────────────
+  txt(L, H - 60,  'LA DOCUMENTATION TECHNIQUE',          true,  12);
+  txt(L, H - 75,  'SHOP OF TECHNICAL DOCUMENTATIONS',    false,  9);
+  txt(L, H - 88,  'Business Hub Lucenecka cesta 2266/6', false,  9);
+  txt(L, H - 101, '96096 ZVOLEN',                        false,  9);
+  txt(L, H - 114, 'Slovaquie',                           false,  9);
+  txt(L, H - 127, 'RCS 36807516',                        false,  9);
+
+  // ─── TITRE (centré, approximatif) ────────────────────────────────
+  txt(183, H - 92,  'FACTURE / INVOICE',          true,  22);
+  txt(241, H - 116, `n° ${receiptNumber}`,   false, 12);
+
+  // ─── SÉPARATEUR ──────────────────────────────────────────────────
+  hline(H - 143);
+
+  // ─── DATE ────────────────────────────────────────────────────────
+  txt(L, H - 168, (locale === 'fr' ? 'Date : ' : 'Date: ') + dateStr, false, 10);
+
+  // ─── FACTURÉ À ───────────────────────────────────────────────────
+  txt(L, H - 200, locale === 'fr' ? 'Facturé à :' : 'Billed to:', true, 10);
+  let bY = H - 216;
   if (customerName && customerName !== 'Unknown') {
-    page.drawText(customerName, { x: 50, y, size: 10, font: regular, color: darkGray });
-    y -= 14;
+    txt(L, bY, customerName, false, 10); bY -= 14;
   }
-  page.drawText(customerEmail, { x: 50, y, size: 10, font: regular, color: darkGray });
+  txt(L, bY, customerEmail, false, 10);
   if (customerCountry && customerCountry !== '—') {
-    y -= 14;
-    page.drawText(customerCountry, { x: 50, y, size: 10, font: regular, color: darkGray });
+    bY -= 14;
+    txt(L, bY, customerCountry, false, 10);
   }
 
-  // ─── TABLEAU DES ARTICLES ─────────────────────────────────────────
-  y = height - 310;
+  // ─── TABLEAU ─────────────────────────────────────────────────────
+  const tY = H - 330;
 
-  // En-tête du tableau
-  page.drawRectangle({ x: 50, y: y - 6, width: width - 100, height: 24, color: rgb(0.1, 0.1, 0.1) });
-  page.drawText('Description',                        { x: 60,  y, size: 9, font: bold, color: white });
-  page.drawText(locale === 'fr' ? 'Qté' : 'Qty',{ x: 390, y, size: 9, font: bold, color: white });
-  page.drawText(locale === 'fr' ? 'Montant' : 'Amount', { x: 460, y, size: 9, font: bold, color: white });
+  // En-tête sombre
+  fillRect(L, tY - 6, R - L, 24, 0.1);
+  ops.push('1 g'); // texte blanc
+  txt(60,  tY + 3, 'Description',                          true, 9);
+  txt(388, tY + 3, locale === 'fr' ? 'Qté' : 'Qty',  true, 9);
+  txt(458, tY + 3, locale === 'fr' ? 'Montant' : 'Amount', true, 9);
+  ops.push('0 g'); // reset noir
 
   // Ligne article
-  y -= 28;
-  const formattedAmount = new Intl.NumberFormat(locale === 'fr' ? 'fr-FR' : 'en-US', {
-    style: 'currency',
-    currency: currency.toUpperCase(),
-  }).format(amount / 100);
+  txt(60,  tY - 25, docTitle,    false, 9);
+  txt(393, tY - 25, '1',         false, 9);
+  txt(458, tY - 25, fmtAmount,   false, 9);
 
-  // Tronquer le titre pour tenir dans la colonne
-  let displayTitle = documentTitle;
-  while (regular.widthOfTextAtSize(displayTitle, 9) > 310 && displayTitle.length > 10) {
-    displayTitle = displayTitle.slice(0, -4) + '...';
-  }
-
-  page.drawText(displayTitle, { x: 60,  y, size: 9, font: regular, color: black });
-  page.drawText('1',           { x: 398, y, size: 9, font: regular, color: black });
-  page.drawText(formattedAmount, { x: 460, y, size: 9, font: regular, color: black });
-
-  // Ligne de séparation sous l'article
-  y -= 14;
-  page.drawLine({ start: { x: 50, y }, end: { x: width - 50, y }, thickness: 0.5, color: lightGray });
+  // Séparateur bas
+  hline(tY - 40);
 
   // Total
-  y -= 22;
-  page.drawText(locale === 'fr' ? 'Total payé :' : 'Total paid:', {
-    x: 330, y, size: 11, font: bold, color: black,
-  });
-  page.drawText(formattedAmount, { x: 460, y, size: 11, font: bold, color: black });
+  txt(333, tY - 62, locale === 'fr' ? 'Total payé :' : 'Total paid:', true,  11);
+  txt(458, tY - 62, fmtAmount,                                               true,  11);
 
-  // ─── PIED DE PAGE ─────────────────────────────────────────────────
-  y = 55;
-  page.drawLine({ start: { x: 50, y }, end: { x: width - 50, y }, thickness: 0.5, color: lightGray });
-  y -= 16;
-  const footer = 'LA DOCUMENTATION TECHNIQUE — service-manuals-pro.com / service-manuels-pro.fr';
-  const footerW = regular.widthOfTextAtSize(footer, 8);
-  page.drawText(footer, { x: (width - footerW) / 2, y, size: 8, font: regular, color: midGray });
+  // ─── PIED DE PAGE ────────────────────────────────────────────────
+  hline(55);
+  txt(80, 38, 'LA DOCUMENTATION TECHNIQUE — service-manuals-pro.com / service-manuels-pro.fr', false, 8);
 
-  return pdfDoc.save();
+  // ─── CONSTRUCTION DU PDF ─────────────────────────────────────────
+  const enc = new TextEncoder();
+  const streamStr = ops.join('\n');
+  const streamBytes = enc.encode(streamStr);
+
+  const obj = (n: number, body: string) => enc.encode(`${n} 0 obj\n${body}\nendobj\n`);
+
+  const o1 = obj(1, '<</Type /Catalog /Pages 2 0 R>>');
+  const o2 = obj(2, '<</Type /Pages /Kids [3 0 R] /Count 1>>');
+  const o3 = obj(3, `<</Type /Page /Parent 2 0 R /MediaBox [0 0 ${W} ${H}] /Resources <</Font <</F 4 0 R /FB 5 0 R>>>> /Contents 6 0 R>>`);
+  const o4 = obj(4, '<</Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding>>');
+  const o5 = obj(5, '<</Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding>>');
+  const o6h = enc.encode(`6 0 obj\n<</Length ${streamBytes.length}>>\nstream\n`);
+  const o6f = enc.encode('\nendstream\nendobj\n');
+
+  const header = enc.encode('%PDF-1.4\n');
+
+  // Calcul des offsets xref
+  let off = header.length;
+  const xo: number[] = [];
+  for (const chunk of [o1, o2, o3, o4, o5]) { xo.push(off); off += chunk.length; }
+  xo.push(off); // offset obj 6
+  off += o6h.length + streamBytes.length + o6f.length;
+  const xrefStart = off;
+
+  // Table xref (chaque entrée = exactement 20 octets)
+  const pad = (n: number) => n.toString().padStart(10, '0');
+  let xref = `xref\n0 7\n0000000000 65535 f \n`;
+  for (const o of xo) xref += `${pad(o)} 00000 n \n`;
+  xref += `trailer\n<</Size 7 /Root 1 0 R>>\nstartxref\n${xrefStart}\n%%EOF\n`;
+  const xrefBytes = enc.encode(xref);
+
+  // Assemblage
+  const chunks = [header, o1, o2, o3, o4, o5, o6h, streamBytes, o6f, xrefBytes];
+  const total = chunks.reduce((s, c) => s + c.length, 0);
+  const pdf = new Uint8Array(total);
+  let pos = 0;
+  for (const chunk of chunks) { pdf.set(chunk, pos); pos += chunk.length; }
+
+  return pdf;
 }
