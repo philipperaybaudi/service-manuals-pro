@@ -38,10 +38,9 @@ async function getCategory(slug: string) {
 }
 
 async function getBrands(categoryId: string, locale: string) {
-  // Step 1: récupérer TOUS les brand_ids par pagination (Supabase limite à 1000 par requête)
-  const allBrandIds = new Set<string>();
+  // Passe unique paginée : brand_id récupéré et compté en JS — aucune requête parallèle
+  const brandIdCounts = new Map<string, number>();
   let from = 0;
-  const PAGE = 1000;
 
   while (true) {
     const { data } = await supabase
@@ -49,43 +48,29 @@ async function getBrands(categoryId: string, locale: string) {
       .select('brand_id')
       .eq('category_id', categoryId)
       .eq('active', true)
-      .range(from, from + PAGE - 1);
+      .range(from, from + 999);
 
     if (!data || data.length === 0) break;
-    data.forEach((d: any) => allBrandIds.add(d.brand_id));
-    if (data.length < PAGE) break;
-    from += PAGE;
+    data.forEach((d: any) => {
+      brandIdCounts.set(d.brand_id, (brandIdCounts.get(d.brand_id) || 0) + 1);
+    });
+    if (data.length < 1000) break;
+    from += 1000;
   }
 
-  if (allBrandIds.size === 0) return [];
+  if (brandIdCounts.size === 0) return [];
 
-  // Step 2: récupérer les infos des marques
   const { data: brands } = await supabase
     .from('brands')
     .select('id, name, slug, logo_url')
-    .in('id', [...allBrandIds])
+    .in('id', [...brandIdCounts.keys()])
     .order('name');
 
   if (!brands || brands.length === 0) return [];
 
-  // Step 3: count exact par marque (requêtes parallèles, head-only = sans données)
-  const counts = await Promise.all(
-    brands.map(async (b: any) => {
-      const { count } = await supabase
-        .from('documents')
-        .select('*', { count: 'exact', head: true })
-        .eq('category_id', categoryId)
-        .eq('brand_id', b.id)
-        .eq('active', true);
-      return [b.id, count ?? 0] as [string, number];
-    })
-  );
-
-  const countMap = new Map(counts);
-
   return brands.map((b: any) => ({
     ...b,
-    document_count: countMap.get(b.id) ?? 0,
+    document_count: brandIdCounts.get(b.id) ?? 0,
   }));
 }
 
