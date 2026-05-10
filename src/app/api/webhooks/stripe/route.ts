@@ -6,6 +6,7 @@ import { getServiceClient } from '@/lib/supabase';
 import { sendDownloadEmail, sendOrderNotification } from '@/lib/resend';
 import { generateDownloadToken } from '@/lib/utils';
 import { SITE_URLS, type Locale } from '@/lib/i18n';
+import { generateInvoicePDF } from '@/lib/invoice';
 import Stripe from 'stripe';
 
 export async function POST(req: NextRequest) {
@@ -90,7 +91,47 @@ export async function POST(req: NextRequest) {
       .eq('id', documentId)
       .single();
 
-    // Send download email
+    // Prepare customer details
+    const customerName = (session as any).customer_details?.name || 'Unknown';
+    const countryCode = (session as any).customer_details?.address?.country || '';
+    const customerCountry = countryCode
+      ? (new Intl.DisplayNames(['fr'], { type: 'region' }).of(countryCode) || countryCode)
+      : '—';
+
+    // Retrieve Stripe receipt number from the charge
+    let receiptNumber = session.id;
+    try {
+      if (session.payment_intent) {
+        const pi = await stripe.paymentIntents.retrieve(
+          session.payment_intent as string,
+          { expand: ['latest_charge'] }
+        );
+        const charge = pi.latest_charge as Stripe.Charge;
+        if (charge?.receipt_number) receiptNumber = charge.receipt_number;
+      }
+    } catch (e) {
+      console.error('Failed to retrieve receipt number:', e);
+    }
+
+    // Generate invoice PDF
+    let invoicePdf: Uint8Array | undefined;
+    try {
+      invoicePdf = await generateInvoicePDF({
+        receiptNumber,
+        date: new Date(),
+        customerEmail,
+        customerName,
+        customerCountry,
+        documentTitle: doc?.title || 'Document',
+        amount: session.amount_total || 0,
+        currency: session.currency || 'usd',
+        locale,
+      });
+    } catch (pdfError) {
+      console.error('Failed to generate invoice PDF:', pdfError);
+    }
+
+    // Send download email (with invoice PDF attached)
     const downloadUrl = `${siteUrl}/download/${token}`;
     try {
       await sendDownloadEmail(
@@ -98,7 +139,8 @@ export async function POST(req: NextRequest) {
         doc?.title || 'Service Manual',
         downloadUrl,
         expiresAt,
-        locale
+        locale,
+        invoicePdf
       );
     } catch (emailError) {
       console.error('Failed to send email:', emailError);
@@ -106,11 +148,6 @@ export async function POST(req: NextRequest) {
 
     // Send order notification to admin
     try {
-      const customerName = (session as any).customer_details?.name || 'Unknown';
-      const countryCode = (session as any).customer_details?.address?.country || '';
-      const customerCountry = countryCode
-        ? (new Intl.DisplayNames(['fr'], { type: 'region' }).of(countryCode) || countryCode)
-        : '—';
       await sendOrderNotification(
         doc?.title || 'Service Manual',
         customerName,

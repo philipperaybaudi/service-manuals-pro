@@ -1,10 +1,19 @@
 const RESEND_API_KEY = process.env.RESEND_API_KEY!;
 
+function uint8ArrayToBase64(bytes: Uint8Array): string {
+  let binary = '';
+  for (let i = 0; i < bytes.byteLength; i++) {
+    binary += String.fromCharCode(bytes[i]);
+  }
+  return btoa(binary);
+}
+
 async function sendEmail(payload: {
   from: string;
   to: string;
   subject: string;
   html: string;
+  attachments?: { filename: string; content: string }[];
 }) {
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
@@ -28,7 +37,8 @@ export async function sendDownloadEmail(
   documentTitle: string,
   downloadUrl: string,
   expiresAt: Date,
-  locale: 'en' | 'fr' = 'en'
+  locale: 'en' | 'fr' = 'en',
+  invoicePdf?: Uint8Array
 ) {
   const isFr = locale === 'fr';
   const expiresFormatted = expiresAt.toLocaleString(isFr ? 'fr-FR' : 'en-US', {
@@ -63,10 +73,14 @@ export async function sendDownloadEmail(
     ? 'Service Manuels Pro &mdash; Documentation technique professionnelle'
     : 'Service Manuals Pro &mdash; Professional Technical Documentation';
 
+  const invoiceFilename = `facture-invoice-${new Date().getFullYear()}.pdf`;
   await sendEmail({
     from: `${fromName} <noreply@service-manuals-pro.com>`,
     to: email,
     subject,
+    ...(invoicePdf ? {
+      attachments: [{ filename: invoiceFilename, content: uint8ArrayToBase64(invoicePdf) }],
+    } : {}),
     html: `
       <!DOCTYPE html>
       <html>
