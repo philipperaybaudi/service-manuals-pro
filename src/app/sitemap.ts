@@ -19,8 +19,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/privacy`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.2 },
   ];
 
-  // Categories
-  const { data: categories } = await supabase.from('categories').select('slug, created_at');
+  // Categories (≤ 100, pas de risque de troncature)
+  const { data: categories } = await supabase
+    .from('categories')
+    .select('slug, created_at')
+    .limit(500);
   const categoryPages: MetadataRoute.Sitemap = (categories || []).map((cat) => ({
     url: `${baseUrl}/categories/${cat.slug}`,
     lastModified: new Date(cat.created_at),
@@ -28,23 +31,45 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  // Brands
-  const { data: brands } = await supabase
-    .from('brands')
-    .select('slug, created_at, category:categories(slug)');
-  const brandPages: MetadataRoute.Sitemap = (brands || []).map((brand: any) => ({
+  // Brands — paginé (peut dépasser 1000)
+  const allBrands: any[] = [];
+  {
+    let from = 0;
+    while (true) {
+      const { data } = await supabase
+        .from('brands')
+        .select('slug, created_at, category:categories(slug)')
+        .range(from, from + 999);
+      if (!data || data.length === 0) break;
+      allBrands.push(...data);
+      if (data.length < 1000) break;
+      from += 1000;
+    }
+  }
+  const brandPages: MetadataRoute.Sitemap = allBrands.map((brand: any) => ({
     url: `${baseUrl}/categories/${brand.category?.slug}/${brand.slug}`,
     lastModified: new Date(brand.created_at),
     changeFrequency: 'weekly' as const,
     priority: 0.7,
   }));
 
-  // Documents
-  const { data: docs } = await supabase
-    .from('documents')
-    .select('slug, updated_at')
-    .eq('active', true);
-  const docPages: MetadataRoute.Sitemap = (docs || []).map((doc) => ({
+  // Documents — paginé (critique : 2974+ docs, sitemap tronquée sans ça)
+  const allDocs: any[] = [];
+  {
+    let from = 0;
+    while (true) {
+      const { data } = await supabase
+        .from('documents')
+        .select('slug, updated_at')
+        .eq('active', true)
+        .range(from, from + 999);
+      if (!data || data.length === 0) break;
+      allDocs.push(...data);
+      if (data.length < 1000) break;
+      from += 1000;
+    }
+  }
+  const docPages: MetadataRoute.Sitemap = allDocs.map((doc) => ({
     url: `${baseUrl}/docs/${doc.slug}`,
     lastModified: new Date(doc.updated_at),
     changeFrequency: 'monthly' as const,

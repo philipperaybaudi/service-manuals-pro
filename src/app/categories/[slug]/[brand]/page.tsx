@@ -45,14 +45,27 @@ async function getCategoryAndBrand(categorySlug: string, brandSlug: string) {
 }
 
 async function getDocuments(brandId: string, categoryId: string, locale: string) {
-  const { data } = await supabase
-    .from('documents')
-    .select('*, brand:brands(*), category:categories(*)')
-    .eq('brand_id', brandId)
-    .eq('category_id', categoryId)
-    .eq('active', true)
-    .order('title');
-  return (data || []).filter((doc: any) => isSiteVisible(doc.slug, locale));
+  const allDocs: any[] = [];
+  let from = 0;
+  const PAGE = 1000;
+
+  while (true) {
+    const { data } = await supabase
+      .from('documents')
+      .select('*, brand:brands(*), category:categories(*)')
+      .eq('brand_id', brandId)
+      .eq('category_id', categoryId)
+      .eq('active', true)
+      .order('title')
+      .range(from, from + PAGE - 1);
+
+    if (!data || data.length === 0) break;
+    allDocs.push(...data);
+    if (data.length < PAGE) break;
+    from += PAGE;
+  }
+
+  return allDocs.filter((doc: any) => isSiteVisible(doc.slug, locale));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
