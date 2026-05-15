@@ -48,7 +48,7 @@ async function searchDocs(query: string) {
     .trim()
     .split(/[\s\-–—,;:.!?()[\]{}/"'«»]+/)
     .map(w => w.replace(/[^a-zA-ZÀ-ÿ0-9]/g, ''))
-    .filter(w => w.length >= 2);  // garde les mots de 2+ chars
+    .filter(w => w.length >= 3 || /\d/.test(w));  // ≥3 chars, ou 2 chars si contient un chiffre (ex: F3, R5)
 
   if (words.length === 0) return [];
 
