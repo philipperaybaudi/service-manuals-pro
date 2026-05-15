@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /download/
+
+Sitemap: https://service-manuals-pro.com/sitemap.xml
+Sitemap: https://service-manuels-pro.fr/sitemap.xml
