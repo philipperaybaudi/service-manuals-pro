@@ -1,0 +1,53 @@
+import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env.local' });
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY
+);
+
+const translations = [
+  {
+    slug: "camera-repair-vishnevsky-english",
+    description_fr: "Guide complet de réparation d'appareils photo couvrant la structure et les mécanismes de la plupart des appareils photographiques produits par l'industrie soviétique. Décrit en détail l'interaction des pièces pour chaque unité et mécanisme, énumère les défaillances possibles et leurs remèdes. Couvre les appareils simples et complexes. Destiné aux techniciens de réparation et aux photographes amateurs avancés. Moscou, Maison d'édition « Light Industry », 1964."
+  },
+  {
+    slug: "camera-repair-vishnevsky-russian",
+    description_fr: "Guide complet de réparation d'appareils photo couvrant la structure et les mécanismes de la plupart des appareils photographiques produits par l'industrie soviétique. Décrit en détail l'interaction des pièces pour chaque unité et mécanisme, énumère les défaillances possibles et leurs remèdes. Couvre les appareils simples et complexes. Destiné aux techniciens de réparation et aux photographes amateurs avancés. Moscou, Maison d'édition « Light Industry », 1964."
+  },
+  {
+    slug: "camera-repairs-yakovlev-english",
+    description_fr: "Guide pratique de réparation d'appareils photo partageant de nombreuses années d'expérience pratique. Décrit en détail tous les défaillances des mécanismes et des dispositifs optiques rencontrés, avec des conseils spécifiques pour les éliminer. Bien illustré avec des photographies de pièces et d'assemblages montrant les séquences de démontage et de remontage. Inclut une annexe couvrant les travaux optiques-mécaniques et les outils nécessaires à la réparation. Destiné à une large gamme de photographes amateurs. Moscou, Maison d'édition « Art », 1962."
+  },
+  {
+    slug: "camera-repairs-yakovlev-russian",
+    description_fr: "Guide pratique de réparation d'appareils photo partageant de nombreuses années d'expérience pratique. Décrit en détail tous les défaillances des mécanismes et des dispositifs optiques rencontrés, avec des conseils spécifiques pour les éliminer. Bien illustré avec des photographies de pièces et d'assemblages montrant les séquences de démontage et de remontage. Inclut une annexe couvrant les travaux optiques-mécaniques et les outils nécessaires à la réparation. Destiné à une large gamme de photographes amateurs. Moscou, Maison d'édition « Art », 1962."
+  },
+  {
+    slug: "collection-russian-and-soviet-cameras-1840-1991",
+    description_fr: "<p>Documentation pour les appareils photo russes et soviétiques 1840-1991.</p><p>Cette documentation vous permettra d'utiliser et d'entretenir cet appareil photo en toute confiance.</p>"
+  }
+];
+
+async function importDescriptions() {
+  console.log(`Importing ${translations.length} descriptions...\n`);
+
+  for (const tr of translations) {
+    const { error } = await supabase
+      .from('documents')
+      .update({ description_fr: tr.description_fr })
+      .eq('slug', tr.slug);
+
+    if (error) {
+      console.log(`❌ ${tr.slug}: ${error.message}`);
+    } else {
+      console.log(`✓ ${tr.slug}`);
+    }
+  }
+
+  console.log('\n✓ Done');
+}
+
+importDescriptions().catch(console.error);

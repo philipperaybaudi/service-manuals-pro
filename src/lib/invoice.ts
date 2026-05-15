@@ -62,6 +62,10 @@ export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
   let docTitle = documentTitle;
   if (docTitle.length > 60) docTitle = docTitle.substring(0, 57) + '...';
 
+  // Troncature du n° pour éviter le débordement dans la colonne droite (max ~35 chars)
+  let displayInvoiceNumber = invoiceNumber;
+  if (displayInvoiceNumber.length > 35) displayInvoiceNumber = displayInvoiceNumber.substring(0, 32) + '...';
+
   // ─── Helpers du content stream ───────────────────────────────────
 
   const ops: string[] = [];
@@ -91,7 +95,7 @@ export function generateInvoicePDF(params: InvoiceParams): Uint8Array {
 
   // ─── TITRE + N° FACTURE (colonne droite) ─────────────────────────
   txt(RC, H - 55,  'FACTURE / INVOICE',           true,  20);
-  txt(RC, H - 82,  `N° ${invoiceNumber}`,    true,  10);
+  txt(RC, H - 82,  `N° ${displayInvoiceNumber}`,    true,  10);
 
   // ─── SÉPARATEUR EN-TÊTE ───────────────────────────────────────────
   hline(H - 145, 0.45, 1.0);

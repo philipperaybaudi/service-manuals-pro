@@ -1,0 +1,38 @@
+Found 2 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Photography/3M
+
+======================================================================
+FILE: 3m_projector_2000.pdf
+======================================================================
+Pages: 38
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/3m_projector_2000_p1.jpg (130 KB)
+
+[NO TEXT — running OCR (eng)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+3M 2000 Overhead Projector BES : EENRRAAREAR — —— — = yy E H ——— = Service Manual
+  OCR page 2/3...
+--- OCR Page 2 --- (blank)
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+3M 2000 OVERHEAD PROJECTOR TABLE OF CONTENTS TITLE PAGE NUMBER Section 1 INTRODUCTION BE A 1 POPUPS TSN R—— | | 1-2 Typical SPECHfICAtIONS ........cccerueerierrrerssetis ites assassins sess sass sasssssss sas snsssssassssssssssssssns 172) Section 2 OPERATION AND MAINTENANCE 251 {SOUP PIOCOOING ssucuivaivsinessassssasssnssssisnssssssssosistabursssostisissssei sosdisssvesssasensisnsassusessassssiaessiiastsssusiissa suis t@E] 2-2 FOIA UP PrOCEAUTE ........ooeecereeeeicesees sss assassin esas ss ss sass esas sass assess sass ssa ssbb sense 2m 219 ‘Cleaning uname as ssn snnnnnraal nesses ssn sn ONS) 2-4 Lamp REPIACEMENE ..........cooviiiniirieinisiss issn sss sass sb es ess seas saan saan sss esa snes snes 270 Section 3 TROUBLESHOOTING .......ccouuummmssssssssssmssssssssssssssssssssssssssnssssssssssssssssssssssssasssnssssssassssssssssssssasssssssssessssesess 3° 1 Section 4 ADJUSTMENTS 4-1 Projector ChECK-OUL ..........cc.coiiieiereieeetnsssesie sess sesssssses sss ssssssssssss sa ssssss sas
+
+======================================================================
+FILE: 3m_projector_9000.pdf
+======================================================================
+Pages: 122
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/3m_projector_9000_p1.jpg (167 KB)
+
+[NO TEXT — running OCR (eng)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+3M 9000 Series Overhead Projector Service Manual For: 9050 9060 9070 9075, 9080 9100 9200 9550 ) (] |) - | dL ) yy % Ay ) He" . H al S=—= 4 3M Visual Systems Division 6801 River Place Boulevard Printed in USA. Austin, Texas 78726-9000 © 3M 1996 August 78-6970-4917-5 Rev. B
+  OCR page 2/3...
+--- OCR Page 2 --- (blank)
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+3M™ Overhead Projector 9000 Series Table of Conents SECTION 1. INTRODUCTION T-1. OVEIVIEW .uneinueneeneaeronsonsonsonsecsusracsacsssssseesssscncsnsenscnsnns 1-1 1-1-1: Parts IdBRtIECAON vu wpe sommes ses asta ts Woe SITY Soviets lave err 1-1 1-1-2. Physical Dimensions .............eueniueunmnenen an anenaieieieaiaaeaaans 1-2 P2123] SATS FOAMITEE sua sumsiaimsmosmsrossssaiorstorminsaiososatoimioisininioisinteiofosoisss iinieintot sioisiotaiosisipieisiats 1-2 1-2. Principles of Operation .......ccceceeueeetacneesstentesececesctossossssssascces 1-3 1-2-1; Oplical COMPONEIES wsniwwisnmvssm Emmis TRS aE 1-3 1-2-2. CONDE «ov vette eee eee 1-5 1-2-3. Lamp Changer and High/Low Controls .................oooiiiiiiiiiiinnann. 1-5 1-2-4. Calculating Projector to Screen Distance For Desired Image Size .................. 1-6 1:2:5. COIOTTUBE wo v:niossisimimsniovmmininiassmsisiossiosmsmioissmininissossininininssin isin eivioioininininipissminisininisiastss 1-7 SECTION 2. OPERATING THE 9000 PROJECTOR
+

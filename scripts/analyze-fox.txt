@@ -1,0 +1,58 @@
+Found 5 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Machines/FOX
+
+======================================================================
+FILE: FOX 36-252B.pdf
+======================================================================
+Pages: 3
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/FOX_36-252B_p1.jpg (212 KB)
+
+[TEXT EXTRACTED]
+14 EXPLODED DIAGRAM F36-252B 15 F36-252B SCIE A ONGLET RADIALE 254 mm Rep. Référence Description Rep. Référence Description 1 36252B-1 Lock nut M10 47 36252B-47 Back bracket 2 36252B-2 Mat 48 36252B-48 Compound bearing 3 36252B-3 Rubber feet 49 36252B-49 Screw 4 36252B-4 Base 50 36252B-50 Arm 5 36252B-5 Extension wing 51 36252B-51 Bracket 6 36252B-6 Butterfly screw M6×25 52 36252B-52 Bolt M5X10 7 36252B-7 Pointer 53 36252B-53 Big flate washer φ 14X φ 5.2X1 8 36252B-8 Bolt M4x8 54 36252B-54 Tighten screw 9 36252B-9 Steel ball 55 36252B-55 Form washer φ 8 10 36252B-10 Steel ball spring 56 36252B-56 Handle ball 11 36252B-11 Operate handle 57 36252B-57 Self lock pin 12 36252B-12 Nut M10 58 36252B-58 Column pin 13 36252B-13 Spring slice 59 36252B-59 Bolt 14 36252B-14 Bolt M4X12 60 36252B-60 Linker pole 15 36252B-15 Spring washer φ 4 61 36252B-61 Big flat washer φ 4 16 36252B-16 Flat washer φ 4 62 36252B-62 Linker base 17 36252B-17 Disc 63 36252B-63 Washer φ 6 18 36252B-18 Right incise 64 36252B-64 Washer φ 6 19 36252B-19 Screw M10×65 65 36252B-65 Bolt M6X12 20 36252B-20 Rail 66 36252B-66 Locknut M5 21 36252B-21 Clamp 67 36252B-67 Big cover 22 36252B-22 Butterfly screw M6X15 68 36252B-68 Big cover slice 23 36252B-23 Bolt M8X30 69 36252B-69 Bolt 24 36252B-24 Spring washer φ 8 70 36252B-70 Twist spring 25 36252B-25 Flat washer φ 8 71 36252B-71 Screw M8X12 26 36252B-26 Bolt M5X12 72 36252B-72 Link plate 27 36252B-27 Spring washer φ 5 73 36252B-73 Bolt M5X14 28 36252B-28 Flat washer φ 
+
+======================================================================
+FILE: FOX F22-568 Manuel NEW VERSION.pdf
+======================================================================
+Pages: 30
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/FOX_F22-568_Manuel_NEW_VERSION_p1.jpg (116 KB)
+
+[TEXT EXTRACTED]
+1 RABOTEUSE/ DEGAUCHISSEUSE PLANER / THICKNESSER 250MM Model FOX F22-568 NOTICE D’UTILISATION / ASSEMBLY AND OPERATING INSTRUCTIONS 2 Raboteuse/ Dégauchisseuse de 250 mm (Modèle FOX F22-568) TABLE DES MATIERES • REGLES DE SECURITE POUR LES OUTILS Page 3 • REGLES DE SECURITE SUPPLEMENTAIRES POUR LES RABOTEUSES/DEGAUCHISSEUSES Page 4 • SPECIFICATIONS Page 7 • DEBALLAGE ET MONTAGE DU PIED Page 7 • MONTAGE DU GUIDE PARALLELE Page 8 • MONTAGE DU CAPOT LATERAL Page 8 • INSTALLATION Page 9 • PREPARATION DE LA MACHINE Page 9 • CONDITIONS DE FONCTIONNEMENT Page 9 • PROTECTION DE L’ENVIRONNEMENT Page 10 • BRANCHEMENT DE LA MACHINE AU COURANT Page 10 • INSTRUCTIONS DE MISE A LA TERRE Page 11 • CONTROLE DES FERS Page 12 - Niveau de la table de sortie par rapport aux fers Page 12 • DEMONTAGE- REMONTAGE- REGLAGE DES FERS Page 12 - Démontage des fers Page 12 - Remontage des fers Page 13 - Réglage des fers Page 13 • CONTROLE DU REGLAGE DES FERS Page 14 • UTILSATION EN DEGAUCHISSEUSE Page 14 - Réglage de la table d’entrée Page 14 - Réglage du guide parallèle Page 14 • REGLAGE ET FONCTIONNEMENT DU PROTECTEUR Page 15 - Travail à plat Page 15 - Travail sur chant Page 15 - Dressage d’une face de référence Page 15 - Dégauchissage au guide Page 16 - Dégauchissage de petites pièces Page 16 • UTILSATION EN RABOTEUSE Page 16 - Passage de la dégauchisseuse en raboteuse Page 16 - Réglage de la raboteuse Page 17 - Pour revenir en phase dégauchissage Page 17 • ENTRETIEN Page 18 • ANOMALIES DE FONCTIONNEME
+
+======================================================================
+FILE: FOX F36-252A.pdf
+======================================================================
+Pages: 23
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/FOX_F36-252A_p1.jpg (122 KB)
+
+[TEXT EXTRACTED]
+1 SCIE À ONGLET INCLINABLE À DEPLACEMENT RADIALE Lame de diamètre 250 mm (Model Fox F36-252A) SLIDE COMPOUND MITRE SAW NOTICE D’UTILISATION / ASSEMBLY AND OPERATING INSTRUCTIONS 2 Scie à onglet radial à deux barres (Modèle FOX 36-252 A) TABLE DES MATIERES • Règles de sécurité pour les outils • Règles de sécurité supplémentaires pour les scies radiales • Spécifications • Information sur le bruit • Déballage et nettoyage • Branchement et raccordements électriques • Instructions de mise à la terre • Montage - Fonctionnement du bras de coupe - Montage des rallonges de table - Montage du sac à poussières - Montage du bouton de blocage du guide d’angle - Fixation de la scie à une surface - Montage du serre-joint de la scie (presseur vertical) - Fonctionnement du serre-joint - Déplacement de la scie • Réglages - Réglage de la profondeur de coupe - Contrôle et réglage des angles par rapport à la lame Réglage du guide à 90° par rapport à la lame Réglage à 90 et 45° des butées positives de coupe en biseau - Rotation de la table pour la coupe d’onglet - Utilisation du laser - Mise en marche et arrêt de la scie - Déplacement de la tête de coupe en position arrière - Relèvement de la tête de coupe en position haute - Déplacement de la table pour une coupe à 90° - Réglage du mécanisme de blocage de la table - Zone dangereuse de la table - Inclinaison de la tête pour une coupe en biseau - Blocage des guides de la tête de coupe - Technique d’utilisation correcte pour des coupes en utilisant 
+
+======================================================================
+FILE: FOX F46-255 notice tour bois.pdf
+======================================================================
+Pages: 15
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/FOX_F46-255_notice_tour_bois_p1.jpg (176 KB)
+
+[NO TEXT — running OCR (fra)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+TOUR À BOIS A VITESSE : VARIABLE S I = (Model Fox F46-255) - VARIABLE SPEED WOOD LATHE B - : > ë : Z
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+TABLE DES MATIERES SECTION PAGE Caractéristiques techniques.….……….….....….……semenmnmennnennennannennntnnnannsnnnnnennnnnnnnndt Règles de SÉCUFItÉ ………..……vcscecssersmsercenmsremneenceneancennnnse sansasennessenmnensensenennennseensenmnnsenencaemneenme Règles de sécurité spécifiques au tour à DOÏS...…….…...….….…..……sesenmenençennneennennnnsnnnnnnnnnnd Informations ÉlectriqUeS.…………..….…snseneenennntnnennennnnnenntsnenennnnnnnnnnnnentb Connaître:son:tour à DOIS ……… vies ama sam rreraaarac 6 AGSOmDiage;.n…unrmeseenermeneen ae res iéarr éense ovine nie es sen etiiden irenen scies stisesseisacissense à D RÉQIAGES ….o…vccsvercessencsensenceanannsennsensennseneencecnantecnencentennceensiremeetencetencennsenstensensennsanensenseussencncnnnse FONCHONNEMENt 55000 amenant? ÉNtr@NON si /5eerrmeman mms sida users aecasasresseamsecrumeecninenneneds CARACTERISTIQUES TECHNIQUES Tour à bois à vitesse variable (Modèle F46-255) Moteur 450 W Alimentation 230 V 50 Hz Vitesses 10 500-620-760-300-1050-1210-140
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+DELTA INTERNATIONAL MACHINERY DIRECTEUR DES SERVICES TECHNIQUES 246 ALPHA DRIVE PITTSBURGH, PENNSYLVANIA 15238 (AU CANADA: 644 IMPERIAL ROAD GUELPH, ONTARIO N1 H 6M7) …………..( EN FRANCE 5 RUE St EXUPERY 67500 HAGUENAU ) AVERTISSEMENT: L'INOBSERVATION DE CES REGLES PEUT CONDUIRE À DES BLESSURES GRAVES ” 1. POUR VOTRE SECURITE PERSONNELLE, LIRE LA NOTICE D'UTILISATION AVANT DE METTRE EN MARCHE LA MACHINE. Apprendre l'application et les limites de la machine ainsi que les risques qui lui sont particuliers. 2. LAISSER LES DISPOSITIFS PROTECTEURS EN PLACE et en bon état. 3. TOUJOURS SE PROTEGER LES YEUX. 4 METTRE TOUS LES OUTILS A LA TERRE. Si l'outil est muni d'une fiche à trois broches, il faut la brancher dans une prise à trois trous. Ne jamais enlever la troisième broche. 5. ELOIGNER LES CLEFS DE REGLAGE ET DE SERRAGE. Prendre l'habitude de vérifier que les clés ont bien été enlevées de l'outil avant de le mettre en marche. 6. GARDER L'AIRE DE TRAVAIL PROPRE. Les zones et établis encombr
+
+======================================================================
+FILE: FOX F60-001 toupie-scie + assemblage combine bois F60-250.pdf
+======================================================================
+Pages: 38
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/FOX_F60-001_toupie-scie_+_assemblage_combine_bois_F60-250_p1.jpg (159 KB)
+
+[TEXT EXTRACTED]
+1 TOUPIE / SCIE F60-001 Et assemblage combiné à bois F60-250 COMBINED CIRCULAR SAW/ SPINDLE SHAPER F60-001 And assembling combined Woodworking machine F60-250 Model FOX F60-001 NOTICE D’UTILISATION / ASSEMBLY AND OPERATING INSTRUCTIONS 2 Toupie Scie (Modèle FOX F60-001) TABLE DES MATIERES • REGLES DE SECURITE POUR LES OUTILS Page 3 • REGLES DE SECURITE COMPLEMENTAIRES POUR LES COMBINES A BOIS Page 4 • SPECIFICATIONS Page 7 • DEBALLAGE Page 7 • INSTALLATION Page 8 • PREPARATION DE LA MACHINE Page 8 • PROTECTION DE L’ENVIRONNEMENT Page 8 • BRANCHEMENT DE LA MACHINE AU COURANT Page 8 • INSTRUCTIONS DE MISE A LA TERRE Page 9 • MONTAGE DU SOCLE DE LA TOUPIE- SCIE Page 10 • OPTION : ASSEMBLAGE DE LA TOUPIE- SCIE F60-001 ET DE LA RABOTEUSE- DEGAUCHISSEUSE F22-568 Page 11 • MISE EN MARCHE DE LA SCIE- TOUPIE Page 12 - Utilisation du panneau de contrôle pour la scie- toupie Page 12 - Interrupteur de mise en marche et arrêt coup de poing d’urgence Page 12 • MISE EN MARCHE DE LA RABOTEUSE- DEGAUCHISSEUSE F22-568 DANS LE CAS DU COMBINE F60-250 Page 13 UTILISATION DE LA SCIE • REGLES DE SECURITE SUPPLEMENTAIRES POUR LES SCIES CIRCULAIRES Page 14 • DEBALLAGE Page 16 • CHANGEMENT DE LA LAME Page 17 • MONTAGE ET REGLAGE DU COUTEAU DIVISEUR Page 17 • ASSEMBLAGE ET REGLAGE DU GUIDE PARALLELE Page 18 • MISE EN PLACE DE LA RALLONGE DE TABLE DE LA SCIE TOUPIE Page 18 • REGLAGE DE LA HAUTEUR ET DE L’INCLINAISON DE COUPE Page 19 • MONTAGE DU CHARIOT DE SCIAGE Page 19 - Montage du rail du chariot sur
+

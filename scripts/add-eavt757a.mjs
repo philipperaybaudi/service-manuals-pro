@@ -1,0 +1,36 @@
+import fs from 'fs';
+import path from 'path';
+
+const REPORT_PATH = path.join('scripts', 'docs-a-classer-report-automobile.json');
+const report = JSON.parse(fs.readFileSync(REPORT_PATH, 'utf8'));
+
+const entry = {
+  "original_filename": "EAVT757A.pdf",
+  "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Automobile\\VOLKSWAGEN\\EAVT757A.pdf",
+  "file_size": 10695494,
+  "page_count": 25,
+  "price": 1200,
+  "status": "done",
+  "preview_file": null,
+  "brand": "VOLKSWAGEN",
+  "category_fr": "Automobile",
+  "filename_clean": "Volkswagen Golf IV et Bora 1.6 Essence Schéma-Fiche 1999",
+  "title_en": "Volkswagen Golf IV and Bora 1.6 Petrol — Electrical and Mechanical Schema 1999",
+  "title_fr": "Volkswagen Golf IV et Bora 1.6 Essence — Schéma-Fiche électrique et mécanique 1999",
+  "description_en": "Auto-Volt schema card N°757 (June 1999) covering the Volkswagen Golf IV (4th generation, launched January 1998) and Bora (launched October 1998) with the 1.6L petrol engines AEH and AKL (4 cylinders in line, 1595 cm³, 81×77.4 mm, 74 kW/101 hp at 5600 rpm, 14.5 daN.m torque at 3800 rpm), aluminium cylinder block and head, A-platform shared with Audi A3, Seat Toledo, Skoda Octavia and Volkswagen Beetle. Includes full mechanical documentation (single overhead camshaft with toothed belt replaced every 90,000 km and semi-automatic tensioner, pressure lubrication with gear pump and oil/water heat exchanger, cooling with thermostat opening at 87–102°C, two-speed electric fan controlled by staged thermocontact at 92–97°C and 99–105°C, 55-litre petrol tank), complete engine management documentation (Siemens Simos 2 system with 80-pin ECU in 2 connectors placed at the centre of the scuttle compartment, sequential phased multipoint injection, variable-volume intake manifold controlled by pneumatic capsule and solenoid valve switching at 4000 rpm, throttle body with integrated potentiometer, idle speed micro-motor regulator and coolant heating, hot-film mass airflow sensor with integrated air temperature sensor, Hall-effect camshaft position sensor, inductive crankshaft speed sensor on 120-tooth ring, piezoelectric knock sensor, heated lambda sensor, coolant and air temperature CTN sensors, jumostatique lost-spark ignition with dual coil module and 4 HT outputs, NGK BKUR 6 ET 10 spark plugs at 0.9–1.1 mm, canister solenoid valve), complete automatic transmission documentation (4-speed 01M gearbox with 68-pin ECU, hydraulic block type QEB with 7 solenoid valves, torque converter with lock-up clutch type QADC, fuzzy logic DSP sport/economy gear selection, kickdown, CAN bus communication with engine and ABS ECUs), complete ABS documentation (ITT Mark 20 IE, 4 channels, 8 solenoid valves plus 2 for optional EDS electronic differential lock, EBV brake pressure distribution function, ventilated front discs 256 mm, solid rear discs 232 mm), complete electrical documentation (Bosch alternators 40/70A, 50/90A or 70/120A, Bosch starters type DBL/DWL 12V, 44Ah/220A battery, Golf H7/H1 or Bora H4 headlights, LED third brake light — 32 diodes on Golf, 18 on Bora), 12 wiring diagrams covering Simos 2 engine management, automatic transmission management, ABS with EDS, ignition and charge circuits, lighting, signalling, wipers, interior lighting, heating and ventilation, fuse and relay tables for three fuse boxes (cabin with 44 fuses, engine compartment with 8 fuses, and relay board with 13-relay and 6-relay panels), and a Volkswagen Golf IV 1595 cm³ repair time schedule.",
+  "description_fr": "Schéma-Fiche Auto-Volt N°757 (juin 1999) consacré aux Volkswagen Golf IV (4e génération, lancée en janvier 1998) et Bora (lancée en octobre 1998) à moteurs essence 1,6 L AEH et AKL (4 cylindres en ligne, 1595 cm³, 81×77,4 mm, 74 kW/101 ch à 5600 tr/min, couple 14,5 daN.m à 3800 tr/min), bloc et culasse en alliage d'aluminium, plateforme A commune à l'Audi A3, la Seat Toledo, la Skoda Octavia et la Volkswagen Beetle. Comprend la documentation mécanique complète (distribution par simple arbre à cames en tête avec courroie crantée à remplacer tous les 90 000 km et galet tendeur semi-automatique, lubrification sous pression par pompe à engrenage avec échangeur thermique eau/huile, refroidissement avec thermostat s'ouvrant entre 87 et 102°C, motoventilateur bi-vitesse commandé par thermocontact étagé à 92–97°C et 99–105°C, réservoir essence 55 litres), la documentation complète de la gestion moteur (système Siemens Simos 2 avec calculateur 80 voies sur 2 connecteurs placé au centre du compartiment d'auvent, injection multipoint séquentielle phasée, tubulure d'admission à volume variable commandée par capsule pneumatique et électrovanne commutant à 4000 tr/min, boîtier papillon avec potentiomètre intégré, régulateur de ralenti par micromoteur et réchauffage par liquide de refroidissement, débitmètre d'air massique à film chaud avec sonde de température d'air intégrée, capteur de position d'arbre à cames à effet Hall, capteur de régime inductif sur couronne 120 dents, capteur de cliquetis piézo-électrique, sonde lambda réchauffée, sondes CTN de température liquide et d'air, allumage jumostatique à étincelle perdue avec module bobine double et 4 sorties haute tension, bougies NGK BKUR 6 ET 10 à 0,9–1,1 mm, électrovanne de canister), la documentation complète de la transmission automatique (boîte 01M 4 rapports avec calculateur 68 voies, bloc hydraulique type QEB à 7 électrovannes, convertisseur de couple avec embrayage de prise directe type QADC, sélection dynamique des rapports DSP sport/économique en logique floue, kick-down, liaison CAN avec calculateurs moteur et ABS), la documentation complète ABS (ITT Mark 20 IE, 4 canaux, 8 électrovannes et 2 supplémentaires pour le blocage électronique de différentiel EDS en option, fonction EBV de répartition de pression de freinage, disques avant ventilés 256 mm, disques arrière pleins 232 mm), la documentation électrique complète (alternateurs Bosch 40/70A, 50/90A ou 70/120A, démarreurs Bosch type DBL/DWL 12V, batterie 44Ah/220A, optiques H7/H1 sur Golf ou H4 sur Bora, troisième feu stop à diodes — 32 sur Golf et 18 sur Bora), 12 schémas électriques couvrant la gestion moteur Simos 2, la gestion de la transmission automatique, l'ABS avec EDS, les circuits de charge et de démarrage, l'éclairage, la signalisation, les essuie-glaces, l'éclairage intérieur, le chauffage et la ventilation, les tableaux de fusibles et relais des trois boîtiers (habitacle avec 44 fusibles, compartiment moteur avec 8 fusibles, boîte à relais avec platines à 13 et à 6 relais), et le barème de temps de réparation Volkswagen Golf IV 1595 cm³.",
+  "language": "fr",
+  "slug": "volkswagen-golf-iv-bora-1-6-essence-schema-fiche-1999"
+};
+
+const existing = report.docs.find(d => d.slug === entry.slug || d.original_filename === entry.original_filename);
+if (existing) {
+  console.log(`⚠ Entrée existante trouvée (slug: ${existing.slug}, status: ${existing.status}) — abandon`);
+  process.exit(1);
+}
+
+report.docs.push(entry);
+report.total = report.docs.length;
+
+fs.writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2), 'utf8');
+console.log(`✓ EAVT757A ajouté au rapport — total : ${report.total} entrées`);

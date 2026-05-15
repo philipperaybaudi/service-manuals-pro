@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-04-23T03:19:13.165Z",
+  "total": 3,
+  "docs": [
+    {
+      "original_filename": "GSM_Birth-Alarm Notice.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Alarme & Surveillance\\GSM\\GSM_Birth-Alarm Notice.pdf",
+      "file_size": 982416,
+      "page_count": 41,
+      "price": 1200,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\gsm-birth-alarm-gsm-user-manual.jpg",
+      "brand": "GSM",
+      "category_fr": "Alarme & Surveillance",
+      "filename_clean": "Birth Alarm GSM User Manual",
+      "title_en": "Birth Alarm GSM - User Manual and Installation Guide",
+      "title_fr": "Birth Alarm GSM - Manuel d'utilisation et guide d'installation",
+      "description_en": "Complete user manual for Birth Alarm GSM, a foaling alert system using GSM mobile network. Covers mounting on anti-roll girth, SIM card programming with phone numbers, battery installation, system testing, LED indicator meanings, signal strength testing (Pan-Test), and maintenance tips. Includes technical specifications: GSM 1800 frequency, 9V battery, -15 to 55 degrees Celsius operating range. Manual available in Dutch, German, French, English, and Swedish.",
+      "description_fr": "Manuel complet pour Birth Alarm GSM, systeme d'alerte de naissance de poulain utilisant le reseau GSM. Couvre le montage sur une sous-ventriere anti-basculement, la programmation de la carte SIM avec numeros de telephone, l'installation de la batterie, les tests du systeme, la signification des voyants LED, le test de reception de signal (Pan-Test), et les conseils d'entretien. Specifications techniques: frequence GSM 1800, batterie 9V, plage de fonctionnement -15 a 55 degres Celsius. Manuel disponible en neerlandais, allemand, francais, anglais et suedois.",
+      "language": "multi",
+      "slug": "gsm-birth-alarm-gsm-user-manual"
+    },
+    {
+      "original_filename": "GSM_SC101 Notice.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Alarme & Surveillance\\GSM\\GSM_SC101 Notice.pdf",
+      "file_size": 464709,
+      "page_count": 21,
+      "price": 1200,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\gsm-gsm-sc101-home-alarm-system-user-guide.jpg",
+      "brand": "GSM",
+      "category_fr": "Alarme & Surveillance",
+      "filename_clean": "GSM SC101 Home Alarm System User Guide",
+      "title_en": "GSM Home Alarm System User Guide Version 2.0",
+      "title_fr": "Guide Utilisateur Système d'Alarme Maison GSM Version 2.0",
+      "description_en": "Complete user guide for GSM wireless burglar alarm system. Covers system overview with features including two groups scheduled arming/disarming, ten configurable zones (AWAY, STAY, INTELLIGENT, CLOSED types), remote phone and SMS control, four wired and six wireless zones, personalized voice message recording, remote keyfob assignment, sensor configuration, installation guidelines for door/window and PIR motion sensors, command reference for configuration and operation, troubleshooting, and system specifications. Includes front and back panel descriptions with LED indicators and connection ports.",
+      "description_fr": "Guide complet d'utilisation pour système d'alarme anti-intrusion sans fil GSM. Couvre l'aperçu du système avec fonctionnalités incluant armement/désarmement programmé à deux groupes, dix zones configurables (types AWAY, STAY, INTELLIGENT, CLOSED), contrôle à distance par téléphone et SMS, quatre zones filaires et six zones sans fil, enregistrement de messages vocaux personnalisés, assignation de télécommandes, configuration de capteurs, directives d'installation pour capteurs portes/fenêtres et capteurs PIR, références de commandes pour configuration et exploitation, dépannage et spécifications système. Inclut descriptions des panneaux avant et arrière avec indicateurs LED et ports de connexion.",
+      "language": "en",
+      "slug": "gsm-gsm-sc101-home-alarm-system-user-guide"
+    },
+    {
+      "original_filename": "GSM_YL-007M2B V1.0 Notice.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Alarme & Surveillance\\GSM\\GSM_YL-007M2B V1.0 Notice.pdf",
+      "file_size": 1092662,
+      "page_count": 35,
+      "price": 1200,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\gsm-gsm-yl-007m2b-v1-0-user-manual.jpg",
+      "brand": "GSM",
+      "category_fr": "Alarme & Surveillance",
+      "filename_clean": "GSM YL-007M2B V1.0 User Manual",
+      "title_en": "GSM Mobile Call Alarm System YL-007M2B User Manual",
+      "title_fr": "Système Alarme GSM Appel Mobile YL-007M2B Manuel",
+      "description_en": "User manual for the YL-007M2B GSM alarm system. Covers initialization, configuration mode access, remote control setup, detector and zone recognition, password changes, clock settings, scheduled arming/disarming, alert number installation, SMS notifications, zone personalization, HOME mode, voice message recording, siren programming, operation modes, remote control commands, panic mode, call features, history control, and GSM signal monitoring.",
+      "description_fr": "Manuel d'utilisation du système d'alarme GSM YL-007M2B. Couvre l'initialisation, l'accès au mode configuration, la reconnaissance des télécommandes, l'installation des numéros d'alerte, les notifications par SMS, la personnalisation des zones, l'enregistrement du message vocal, les modes de fonctionnement, l'armement/désarmement par télécommande et les paramètres horaires.",
+      "language": "fr",
+      "slug": "gsm-gsm-yl-007m2b-v1-0-user-manual"
+    }
+  ]
+}

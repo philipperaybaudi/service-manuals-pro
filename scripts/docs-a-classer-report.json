@@ -1,0 +1,926 @@
+{
+  "generated_at": "2026-04-18T11:38:23.039Z",
+  "total": 2600,
+  "docs": [
+    {
+      "original_filename": "Daitem-151-21X-153-21X-154-21X.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\ALARME\\DAITEM\\Daitem-151-21X-153-21X-154-21X.pdf",
+      "file_size": 448912,
+      "page_count": 4,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\daitem-151-21x-153-21x-154-21x.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA8E66id1CqkJ2mMxyW\"}"
+    },
+    {
+      "original_filename": "Daitem_gamme_Espace.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\ALARME\\DAITEM\\Daitem_gamme_Espace.pdf",
+      "file_size": 5109306,
+      "page_count": 54,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\daitem-gamme-espace.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA8LP8D1SqnixUEksXb\"}"
+    },
+    {
+      "original_filename": "detFum_151-21X.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\ALARME\\DAITEM\\detFum_151-21X.pdf",
+      "file_size": 65651,
+      "page_count": 2,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\detfum-151-21x.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA8PnWeTSGqmK6AbB37\"}"
+    },
+    {
+      "original_filename": "03_Tuyaux_pneumatiques_et_flexibles_a_air_comprime.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\03_Tuyaux_pneumatiques_et_flexibles_a_air_comprime.pdf",
+      "file_size": 462591,
+      "page_count": 12,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\03-tuyaux-pneumatiques-et-flexibles-a-air-comprime.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA8TK6CT8DnuQa4rRJS\"}"
+    },
+    {
+      "original_filename": "1985 Tercel 4WD Service Manual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\1985 Tercel 4WD Service Manual.pdf",
+      "file_size": 67652318,
+      "page_count": 885,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\1985-tercel-4wd-service-manual.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA8jhaBK8iv4Qw8g7rf\"}"
+    },
+    {
+      "original_filename": "1988 Toyota MR2 Repair Manual - Toyota.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\1988 Toyota MR2 Repair Manual - Toyota.pdf",
+      "file_size": 47345359,
+      "page_count": 1066,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\1988-toyota-mr2-repair-manual-toyota.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA9AJBC9f28fwuePAgR\"}"
+    },
+    {
+      "original_filename": "Alfa-Romeo GTV6 notice.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ALFA-ROMEO\\GTV6\\Alfa-Romeo GTV6 notice.pdf",
+      "file_size": 18741186,
+      "page_count": 75,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\alfa-romeo-gtv6-notice.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA9TFtveUrYS6SBd38S\"}"
+    },
+    {
+      "original_filename": "Adly_50_RS_Parts_List.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\ADLY\\Adly_50_RS_Parts_List.pdf",
+      "file_size": 4227803,
+      "page_count": 50,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\adly-50-rs-parts-list.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBA9ZCadEXw517q9nXj5\"}"
+    },
+    {
+      "original_filename": "AC_TRV_650_H1_2007_quadmanual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\ARCTIC CAT\\AC_TRV_650_H1_2007_quadmanual.pdf",
+      "file_size": 147112848,
+      "page_count": 472,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\ac-trv-650-h1-2007-quadmanual.jpg",
+      "error": "Claude error: 413 {\"error\":{\"type\":\"request_too_large\",\"message\":\"Request exceeds the maximum size\"}}"
+    },
+    {
+      "original_filename": "2006-20Outlander-20Series.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\2006-20Outlander-20Series.pdf",
+      "file_size": 35863209,
+      "page_count": 528,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\2006-20outlander-20series.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAMXicdqTcEH9cGfkhd\"}"
+    },
+    {
+      "original_filename": "2006_400_ATV_Motor.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\2006_400_ATV_Motor.pdf",
+      "file_size": 7721740,
+      "page_count": 105,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\2006-400-atv-motor.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAMfskRcozEtSehhEy6\"}"
+    },
+    {
+      "original_filename": "2007-2008_Can-Am_Rene.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\2007-2008_Can-Am_Rene.pdf",
+      "file_size": 30163033,
+      "page_count": 0,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\2007-2008-can-am-rene.jpg",
+      "error": "Expected instance of PDFDict, but got instance of undefined"
+    },
+    {
+      "original_filename": "800_Engine_manual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\800_Engine_manual.pdf",
+      "file_size": 11135983,
+      "page_count": 0,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\800-engine-manual.jpg",
+      "error": "Expected instance of PDFDict, but got instance of undefined"
+    },
+    {
+      "original_filename": "clutch_lubrication_Outlander.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\clutch_lubrication_Outlander.pdf",
+      "file_size": 440150,
+      "page_count": 7,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\clutch-lubrication-outlander.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAN45UptBKjXcXbmmKV\"}"
+    },
+    {
+      "original_filename": "LubrificationtransmissionCVC.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\LubrificationtransmissionCVC.pdf",
+      "file_size": 375266,
+      "page_count": 7,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\lubrificationtransmissioncvc.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAN7f3JYwiXWp26fVTt\"}"
+    },
+    {
+      "original_filename": "Outlander 2004 FR.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\Outlander 2004 FR.pdf",
+      "file_size": 7021254,
+      "page_count": 140,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\outlander-2004-fr.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBANNU2KWEFN5ze6DUZK\"}"
+    },
+    {
+      "original_filename": "Outlander 2006.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\Outlander 2006.pdf",
+      "file_size": 5947356,
+      "page_count": 148,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\outlander-2006.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBANaBj21zm5jpoxc1wA\"}"
+    },
+    {
+      "original_filename": "Outlander 2007.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\Outlander 2007.pdf",
+      "file_size": 9258220,
+      "page_count": 168,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\outlander-2007.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBANpctKRsUZZss4h8VC\"}"
+    },
+    {
+      "original_filename": "TSB_water_Pump_VTwin.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\TSB_water_Pump_VTwin.pdf",
+      "file_size": 2303302,
+      "page_count": 14,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\tsb-water-pump-vtwin.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBANyBaoJE6BpNcqWX44\"}"
+    },
+    {
+      "original_filename": "water_pump_rad_cap_TSB.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\water_pump_rad_cap_TSB.pdf",
+      "file_size": 2303301,
+      "page_count": 14,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\water-pump-rad-cap-tsb.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAP8ccQ118t4prAzKax\"}"
+    },
+    {
+      "original_filename": "CF500(Europe version).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CF\\CF500(Europe version).pdf",
+      "file_size": 21359772,
+      "page_count": 146,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\cf500-europe-version.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAPFDV2vyJdtthKFpEw\"}"
+    },
+    {
+      "original_filename": "CF500-A(Europe version).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CF\\CF500-A(Europe version).pdf",
+      "file_size": 21056878,
+      "page_count": 146,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\cf500-a-europe-version.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAPMupF623nyGSQJnkE\"}"
+    },
+    {
+      "original_filename": "X6 OWNER'S MANUAL(EU).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CF\\X6 OWNER'S MANUAL(EU).pdf",
+      "file_size": 18496125,
+      "page_count": 151,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\x6-owner-s-manual-eu.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAPSokDSxGkBmP1QAxV\"}"
+    },
+    {
+      "original_filename": "bruteforceshopmanual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\bruteforceshopmanual.pdf",
+      "file_size": 53206797,
+      "page_count": 523,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\bruteforceshopmanual.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAPeHospbZdDbVx9AA2\"}"
+    },
+    {
+      "original_filename": "Kawasaki_KVF_750_A_B1_Brute_Force_2005_Manual_de_reparatie_www.manualedereparatie.info.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\Kawasaki_KVF_750_A_B1_Brute_Force_2005_Manual_de_reparatie_www.manualedereparatie.info.pdf",
+      "file_size": 11850650,
+      "page_count": 532,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kawasaki-kvf-750-a-b1-brute-force-2005-manual-de-reparatie-w.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAPt9FAv6pyvBiM53pZ\"}"
+    },
+    {
+      "original_filename": "Manuel atelier 650 kvf (FR).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\Manuel atelier 650 kvf (FR).pdf",
+      "file_size": 12190402,
+      "page_count": 555,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\manuel-atelier-650-kvf-fr.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAQBRowsriWDcQYRdRS\"}"
+    },
+    {
+      "original_filename": "prairie360manual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\prairie360manual.pdf",
+      "file_size": 32921520,
+      "page_count": 408,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\prairie360manual.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAQKLKNzEQJaNrur7uQ\"}"
+    },
+    {
+      "original_filename": "788_18174312-Kymco-MXU-500-ONROAD-EN.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\788_18174312-Kymco-MXU-500-ONROAD-EN.pdf",
+      "file_size": 39099389,
+      "page_count": 664,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\788-18174312-kymco-mxu-500-onroad-en.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAQa4b6K9ipYUFPo9sp\"}"
+    },
+    {
+      "original_filename": "Kymco_KXR250.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR250.pdf",
+      "file_size": 19783296,
+      "page_count": 242,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kymco-kxr250.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAQxopMyUpppvKJEdHX\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 00 (prefazione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 00 (prefazione).pdf",
+      "file_size": 79887,
+      "page_count": 2,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-00-prefazione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAQzyHvMM7hPkKEpD8J\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 01 (info generali).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 01 (info generali).pdf",
+      "file_size": 1423735,
+      "page_count": 31,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-01-info-generali.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAR76tU3pnCdbX4FQ8o\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 02 (plastiche marmitta).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 02 (plastiche marmitta).pdf",
+      "file_size": 805553,
+      "page_count": 9,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-02-plastiche-marmitta.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARCyc7rxyU8JbHVFfw\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 03 (manutenzione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 03 (manutenzione).pdf",
+      "file_size": 1573957,
+      "page_count": 22,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-03-manutenzione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARKCAJspJ9Uk5k4JkM\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 04 (lubrificazione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 04 (lubrificazione).pdf",
+      "file_size": 1055749,
+      "page_count": 13,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-04-lubrificazione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARRxD48HDVBTFP3u4v\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 05 (alimentazione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 05 (alimentazione).pdf",
+      "file_size": 1146035,
+      "page_count": 17,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-05-alimentazione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARXM9iT2zCk5S8JgMD\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 06 (rimozione motore).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 06 (rimozione motore).pdf",
+      "file_size": 575402,
+      "page_count": 6,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-06-rimozione-motore.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARbkZtVHfbhvv5vGUt\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 07 (testa cilindro valvole).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 07 (testa cilindro valvole).pdf",
+      "file_size": 787670,
+      "page_count": 13,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-07-testa-cilindro-valvole.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARhJwB7EY7HEQXhDJF\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 08 (cilindro pistone).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 08 (cilindro pistone).pdf",
+      "file_size": 1266730,
+      "page_count": 18,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-08-cilindro-pistone.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARo5T9Mptu9LBuV4Ni\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 09 (trasmissione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 09 (trasmissione).pdf",
+      "file_size": 1940143,
+      "page_count": 16,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-09-trasmissione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBARvtkXVuUgFupVhnu5\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 10 (riduzione finale).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 10 (riduzione finale).pdf",
+      "file_size": 479791,
+      "page_count": 7,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-10-riduzione-finale.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAS1Dhe9CDYPAGGgYt3\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 11 (albero motore).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 11 (albero motore).pdf",
+      "file_size": 1075811,
+      "page_count": 13,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-11-albero-motore.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAS6pYngBuhSM2EdA39\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 12 (ruota freni sospens ant).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 12 (ruota freni sospens ant).pdf",
+      "file_size": 1129584,
+      "page_count": 19,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-12-ruota-freni-sospens-ant.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASC1qSAq8JcFkJD1QN\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 13 (ruota freno post).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 13 (ruota freno post).pdf",
+      "file_size": 1517029,
+      "page_count": 24,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-13-ruota-freno-post.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASHHqg26pusDLxp3Pz\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 14 (imp ricarica).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 14 (imp ricarica).pdf",
+      "file_size": 767884,
+      "page_count": 12,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-14-imp-ricarica.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASN7YwwzV3Z8iNBury\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 15 (imp accensione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 15 (imp accensione).pdf",
+      "file_size": 489678,
+      "page_count": 9,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-15-imp-accensione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASSKZT9L8nwsX2aCWP\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 16 (imp avviamento).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 16 (imp avviamento).pdf",
+      "file_size": 1932966,
+      "page_count": 10,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-16-imp-avviamento.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASc4hCSs6TBqBCLWLQ\"}"
+    },
+    {
+      "original_filename": "KXR50 cap 17 (luci strumentaz  clacson).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 17 (luci strumentaz  clacson).pdf",
+      "file_size": 493026,
+      "page_count": 5,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kxr50-cap-17-luci-strumentaz-clacson.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASgYpgyh8XQJ2pFofT\"}"
+    },
+    {
+      "original_filename": "kymco_MXU250(1).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\kymco_MXU250(1).pdf",
+      "file_size": 2216811,
+      "page_count": 135,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kymco-mxu250-1.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASo7Tb7PnArNLNkBBZ\"}"
+    },
+    {
+      "original_filename": "Kymco_MXU250.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MXU250.pdf",
+      "file_size": 16792191,
+      "page_count": 276,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kymco-mxu250.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBASvZgYNYx6vtqs7PWh\"}"
+    },
+    {
+      "original_filename": "kymco_MXU300.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\kymco_MXU300.pdf",
+      "file_size": 1572133,
+      "page_count": 140,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kymco-mxu300.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAT1Q9EvnhckkZ1xz3Y\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 00 (prefazione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 00 (prefazione).pdf",
+      "file_size": 66864,
+      "page_count": 1,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-00-prefazione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAT3xvm6W2V12MHFUmL\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 01 (info generali).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 01 (info generali).pdf",
+      "file_size": 4341286,
+      "page_count": 33,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-01-info-generali.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBATCMhdiTdqz2uAh5Pp\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 02 (plastiche marmitta).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 02 (plastiche marmitta).pdf",
+      "file_size": 675141,
+      "page_count": 7,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-02-plastiche-marmitta.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBATHDu1oUY2HHNBcm99\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 03 (manutenzione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 03 (manutenzione).pdf",
+      "file_size": 1565391,
+      "page_count": 17,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-03-manutenzione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBATPoHEU4qzo7tf4ia5\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 04 (lubrificazione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 04 (lubrificazione).pdf",
+      "file_size": 567406,
+      "page_count": 7,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-04-lubrificazione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBATUaXC3zFe4vYWTLQV\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 05 (alimentazione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 05 (alimentazione).pdf",
+      "file_size": 1906292,
+      "page_count": 16,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-05-alimentazione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBATc1zivitgE7KcGvRe\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 06 (rimozione motore).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 06 (rimozione motore).pdf",
+      "file_size": 531846,
+      "page_count": 5,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-06-rimozione-motore.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBATh6bDJHWGH8tYsopM\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 07 (testa cilindro pistone).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 07 (testa cilindro pistone).pdf",
+      "file_size": 1023852,
+      "page_count": 11,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-07-testa-cilindro-pistone.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAToKeGnbd4fwsBuaHo\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 08 (statore volano).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 08 (statore volano).pdf",
+      "file_size": 603264,
+      "page_count": 6,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-08-statore-volano.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBATstEJydahs8j4xUQn\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 09 (trasmissione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 09 (trasmissione).pdf",
+      "file_size": 3294863,
+      "page_count": 18,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-09-trasmissione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAU6qqut4uEcFUD35ZK\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 10 (riduzione finale).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 10 (riduzione finale).pdf",
+      "file_size": 772060,
+      "page_count": 9,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-10-riduzione-finale.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAUDE4tRXGNZQAV8PJu\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 11 (carter albero motore).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 11 (carter albero motore).pdf",
+      "file_size": 712646,
+      "page_count": 9,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-11-carter-albero-motore.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAUJNPLDF22P2AFAGTG\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 12 (ruota freno sospensione ant).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 12 (ruota freno sospensione ant).pdf",
+      "file_size": 1367781,
+      "page_count": 20,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-12-ruota-freno-sospensione-ant.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAUQdv8xGEfNGtMSKdD\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 13 (ruota freno post).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 13 (ruota freno post).pdf",
+      "file_size": 2265023,
+      "page_count": 25,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-13-ruota-freno-post.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAUXoX9s4fWK7KxmLTV\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 14 (imp ricarica).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 14 (imp ricarica).pdf",
+      "file_size": 940342,
+      "page_count": 7,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-14-imp-ricarica.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAUeBFUj2xnXZAvpdFt\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 15 (imp accensione).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 15 (imp accensione).pdf",
+      "file_size": 960489,
+      "page_count": 7,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-15-imp-accensione.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAUo9kVvUCsUNy2hUuL\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 16 (imp avviamento).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 16 (imp avviamento).pdf",
+      "file_size": 723908,
+      "page_count": 4,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-16-imp-avviamento.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAUtTEhxXfRZtA4oWxm\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 17 (luci).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 17 (luci).pdf",
+      "file_size": 1061498,
+      "page_count": 8,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-17-luci.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAV19pHCEghRdwfrR3V\"}"
+    },
+    {
+      "original_filename": "MXer50 cap 18 (strumentazione frecce clacson).pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 18 (strumentazione frecce clacson).pdf",
+      "file_size": 378423,
+      "page_count": 3,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxer50-cap-18-strumentazione-frecce-clacson.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAV4bBdZ5LWsqDyXd78\"}"
+    },
+    {
+      "original_filename": "Kymco_schema_ electrique_MAXXER300.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_schema_ electrique_MAXXER300.pdf",
+      "file_size": 3118604,
+      "page_count": 1,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\kymco-schema-electrique-maxxer300.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAVcKfDnMGALdJ1j8J2\"}"
+    },
+    {
+      "original_filename": "manuel_atelier_mxu_250_300.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\manuel_atelier_mxu_250_300.pdf",
+      "file_size": 20059981,
+      "page_count": 352,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\manuel-atelier-mxu-250-300.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAVnKBC225dZAFXKFqi\"}"
+    },
+    {
+      "original_filename": "Maxxer-450i-Service-Manual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Maxxer-450i-Service-Manual.pdf",
+      "file_size": 15406255,
+      "page_count": 173,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\maxxer-450i-service-manual.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAW2npP6ic5cu9cT2FR\"}"
+    },
+    {
+      "original_filename": "MXU300 Service manual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\MXU300 Service manual.pdf",
+      "file_size": 2914845,
+      "page_count": 99,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\mxu300-service-manual.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAWAhKUE8DkJYxBwvwf\"}"
+    },
+    {
+      "original_filename": "Schema faisceau electrique mxu300.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Schema faisceau electrique mxu300.pdf",
+      "file_size": 3678772,
+      "page_count": 1,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\schema-faisceau-electrique-mxu300.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAWnzdfA2uZ5kYKvc9k\"}"
+    },
+    {
+      "original_filename": "2009_Polaris_850_Hd_Eps_Service_Manual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\2009_Polaris_850_Hd_Eps_Service_Manual.pdf",
+      "file_size": 21598986,
+      "page_count": 0,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\2009-polaris-850-hd-eps-service-manual.jpg",
+      "error": "Expected instance of PDFDict, but got instance of undefined"
+    },
+    {
+      "original_filename": "2009_Polaris_850_Hd_Eps_Service_Manual[1].pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\2009_Polaris_850_Hd_Eps_Service_Manual[1].pdf",
+      "file_size": 21598986,
+      "page_count": 0,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\2009-polaris-850-hd-eps-service-manual-1.jpg",
+      "error": "Expected instance of PDFDict, but got instance of undefined"
+    },
+    {
+      "original_filename": "788_18174312-Kymco-MXU-500-ONROAD-EN.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\788_18174312-Kymco-MXU-500-ONROAD-EN.pdf",
+      "file_size": 39099389,
+      "page_count": 664,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\788-18174312-kymco-mxu-500-onroad-en.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAXAXgSxhn4zXwuKPFo\"}"
+    },
+    {
+      "original_filename": "Manuel 500 ho carbu et injection 2009.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\Manuel 500 ho carbu et injection 2009.pdf",
+      "file_size": 23956541,
+      "page_count": 0,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\manuel-500-ho-carbu-et-injection-2009.jpg",
+      "error": "Expected instance of PDFDict, but got instance of undefined"
+    },
+    {
+      "original_filename": "Polaris 700 EFI Service Manual[1].pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\Polaris 700 EFI Service Manual[1].pdf",
+      "file_size": 25197752,
+      "page_count": 393,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\polaris-700-efi-service-manual-1.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAZNKtnCP6C6HDMgsJY\"}"
+    },
+    {
+      "original_filename": "SP 500 -08 service manual(1)[1].pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\SP 500 -08 service manual(1)[1].pdf",
+      "file_size": 55360537,
+      "page_count": 406,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\sp-500-08-service-manual-1-1.jpg",
+      "error": "Claude error: 413 {\"error\":{\"type\":\"request_too_large\",\"message\":\"Request exceeds the maximum size\"}}"
+    },
+    {
+      "original_filename": "Sportsman 400-500 Service manual 2005.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\Sportsman 400-500 Service manual 2005.pdf",
+      "file_size": 143694849,
+      "page_count": 312,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\sportsman-400-500-service-manual-2005.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAiesorTvJg2j4Tb67x\"}"
+    },
+    {
+      "original_filename": "Sportsman 500 manuel.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\Sportsman 500 manuel.pdf",
+      "file_size": 7054294,
+      "page_count": 135,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\sportsman-500-manuel.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAivuiSetjvqyJMkNoe\"}"
+    },
+    {
+      "original_filename": "sportsman_500.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\sportsman_500.pdf",
+      "file_size": 1388815,
+      "page_count": 60,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\sportsman-500.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAj29jRyorzBDHQxoiw\"}"
+    },
+    {
+      "original_filename": "sportsman_800_twin_efi.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\sportsman_800_twin_efi.pdf",
+      "file_size": 1423635,
+      "page_count": 66,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\sportsman-800-twin-efi.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAj6QxfGTBkWBWkC7MJ\"}"
+    },
+    {
+      "original_filename": "manuatsmcbarossa250.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SMC\\manuatsmcbarossa250.pdf",
+      "file_size": 11014207,
+      "page_count": 73,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\manuatsmcbarossa250.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAjGaQ1iTuE1nwUh9My\"}"
+    },
+    {
+      "original_filename": "LT-A750XPKingQuad.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SUZUKI\\LT-A750XPKingQuad.pdf",
+      "file_size": 59157216,
+      "page_count": 711,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\lt-a750xpkingquad.jpg",
+      "error": "Claude error: 413 {\"error\":{\"type\":\"request_too_large\",\"message\":\"Request exceeds the maximum size\"}}"
+    },
+    {
+      "original_filename": "Suzuki_KingQuad_LTA_700.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SUZUKI\\Suzuki_KingQuad_LTA_700.pdf",
+      "file_size": 58885331,
+      "page_count": 477,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\suzuki-kingquad-lta-700.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAqdasKdkVZjd2XX3QR\"}"
+    },
+    {
+      "original_filename": "Quadraider600-partie1.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SYM\\Quadraider600-partie1.pdf",
+      "file_size": 8707845,
+      "page_count": 96,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\quadraider600-partie1.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAqpDLAwo3wX4KxcDPU\"}"
+    },
+    {
+      "original_filename": "Quadraider600-partie2.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SYM\\Quadraider600-partie2.pdf",
+      "file_size": 16061547,
+      "page_count": 164,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\quadraider600-partie2.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAr2ARcSZ3mbvfCKaWR\"}"
+    },
+    {
+      "original_filename": "SYM Quadlander 250 Service manual.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SYM\\SYM Quadlander 250 Service manual.pdf",
+      "file_size": 5592032,
+      "page_count": 223,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\sym-quadlander-250-service-manual.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBArgvoxhXFGTEKQh75e\"}"
+    },
+    {
+      "original_filename": "manuel-atelier-blade-tgb-250-chapitre-variateur.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\TGB\\manuel-atelier-blade-tgb-250-chapitre-variateur.pdf",
+      "file_size": 2117567,
+      "page_count": 14,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\manuel-atelier-blade-tgb-250-chapitre-variateur.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBArr2FPj5Giwjx8jGtm\"}"
+    },
+    {
+      "original_filename": "manuel-atelier-blade-tgb-250.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\TGB\\manuel-atelier-blade-tgb-250.pdf",
+      "file_size": 22027435,
+      "page_count": 217,
+      "price": 1200,
+      "status": "error",
+      "preview_file": "scripts\\temp_previews\\manuel-atelier-blade-tgb-250.jpg",
+      "error": "Claude error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CaBAs2RaY6C6PMvH39rGZ\"}"
+    }
+  ]
+}

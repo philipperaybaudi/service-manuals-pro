@@ -21,6 +21,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   // On applique le middleware à toutes les pages (hors assets statiques)
   matcher: [
-    '/((?!_next/static|_next/image|favicon.ico|icon.svg|og-image.png|robots.txt|sitemap.xml|.*\\..*).*)',
+    '/((?!_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff|woff2|ttf|eot)$).*)',
   ],
 };

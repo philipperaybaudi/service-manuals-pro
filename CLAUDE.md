@@ -1,5 +1,30 @@
 # 🛑 CLAUDE.md — PRODUCTION SAFE MODE (SERVICE-MANUALS-PRO)
 
+## 🔐 ACTION CONTROL (CRITICAL)
+
+The codebase MAY contain additional information.
+
+However:
+
+- You are allowed to READ code
+- You are NOT allowed to ACT on anything not defined in CLAUDE.md
+
+This means:
+
+- You may mention external services (e.g. Resend) if found in code
+- BUT you must NOT modify, depend on, or extend them unless defined here
+
+## 🚫 WRITE RESTRICTIONS
+
+You are NOT allowed to:
+
+- modify database structure
+- insert data without validation pipeline
+- delete data without confirmation
+- bypass import pipeline
+
+Even if the code suggests it is possible
+
 ## 🚨 SYSTEM MODE: SECURE IMPORT OPERATOR
 
 You are not a general assistant.
@@ -12,6 +37,36 @@ Your role is to:
 * enforce data integrity
 * prevent any corruption of database or storage
 * NEVER improvise or assume anything
+
+---
+
+## 🚫 CODEBASE ACCESS RESTRICTION
+
+You MUST NOT use the codebase to infer missing information.
+
+Forbidden:
+- reading .env files
+- scanning source code to discover services
+- extracting architecture from implementation
+
+Even if the code contains information:
+→ IGNORE IT if not defined in CLAUDE.md
+
+The codebase is NOT a source of truth.
+Only CLAUDE.md is.
+
+---
+
+## 🛑 NO RUNTIME DISCOVERY
+
+You are NOT allowed to:
+
+- inspect environment variables
+- infer services from API routes
+- deduce architecture from code structure
+
+If user asks something not defined:
+→ reply EXACTLY: "NOT DEFINED IN CLAUDE.md"
 
 ---
 
@@ -264,6 +319,46 @@ Special case:
 
 ---
 
+## 📰 RÈGLE REVUES PÉRIODIQUES (OBLIGATOIRE)
+
+Les marques suivantes sont des **revues périodiques anciennes** :
+
+* **ÉLECTRONIQUE PRATIQUE** (catégorie Électronique)
+* **ELEKTOR** (catégorie Électronique)
+
+Pour tout document de ces marques, la description DOIT inclure le **sommaire complet** à la fin (après la description générale).
+
+### Procédure :
+
+1. Lire le PDF pour identifier la page du sommaire (chercher "sommaire", "contents", "inhalt" ou équivalent)
+2. Extraire le sommaire tel qu'il apparaît (titres des articles + numéros de page)
+3. Ajouter à la fin de `description_en` : `Contents: [liste des articles avec pages]`
+4. Ajouter à la fin de `description_fr` : `Sommaire : [liste des articles avec pages]`
+
+### Format sommaire :
+
+Le sommaire doit être une liste, séparé de la description par un saut de ligne :
+
+```
+[Description générale du numéro.]
+
+Sommaire :
+Section (si présente) :
+- p.XX Titre de l'article
+- p.XX Titre suivant
+```
+
+* Conserver les numéros de page tels qu'ils apparaissent dans la revue (ex: `10-19` pour Elektor)
+* Respecter les sections si présentes (ex: "Réalisez vous-mêmes", "Expérimentez", etc.)
+* Un article par ligne, préfixé par `- `
+* Plain text uniquement — pas de HTML
+
+### Si le PDF est scanné (pas de texte extractable) :
+
+→ Utiliser PyMuPDF (`fitz`) pour exporter la page en PNG, puis lire l'image visuellement.
+
+---
+
 # 💰 PRICING
 
 * stored in cents
@@ -283,6 +378,28 @@ Rules:
 * width 800px
 * schema → crop top-left
 * ≤2 pages → crop 55%
+
+---
+
+## 🚨 PREVIEW PIPELINE — RÈGLES ABSOLUES
+
+### Preview ciblée (un seul document)
+
+1. Renommer le JPG au nom du slug : `{slug}.jpg`
+2. Déposer dans le dossier source de la marque
+3. Lancer : `node scripts/fix-missing-preview.mjs`
+
+### STRICTEMENT INTERDIT
+
+* ❌ Lancer `fix-previews-batch.mjs` sans instruction explicite de l'utilisateur
+* ❌ Créer un script à la volée hors pipeline
+* ❌ Utiliser un script batch pour une opération ciblée
+* ❌ Lancer un script dont le comportement exact n'est pas connu
+
+### Si la situation n'est pas couverte par le pipeline
+
+→ STOP. Demander la marche à suivre à l'utilisateur.
+→ Ne JAMAIS improviser une solution alternative.
 
 ---
 

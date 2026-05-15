@@ -1,0 +1,182 @@
+====================================================================================================
+LUREM CORRECT REIMPORT - Clean all, proper previews, correct titles
+====================================================================================================
+
+Step 1: Cleaning old LUREM entries...
+
+Deleted 28 old LUREM entries
+
+Step 2: Processing source PDFs...
+
+Found 28 source PDFs
+
+LUREM variateurs HZ  $19.pdf
+  → Slug: lurem-variateurs-hz
+  → Price: $19.00
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_V.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_U.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_°.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_9.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_m.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_d.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_f.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_c.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_é.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_v.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_l.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_g.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_h.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_Ä.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_b.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_..".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_q.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ó.".
+  ✅ Imported (3.57 MB)
+
+Lurem C2000  Schéma électrique $5.pdf
+  → Slug: lurem-c2000-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.30 MB)
+
+Lurem C2100  Schéma électrique $5.pdf
+  → Slug: lurem-c2100-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.41 MB)
+
+Lurem C2600  Schéma électrique $5.pdf
+  → Slug: lurem-c2600-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.24 MB)
+
+Lurem C2600 plus  Schéma électrique $5.pdf
+  → Slug: lurem-c2600-plus-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.16 MB)
+
+Lurem C2600S  Schéma électrique $5.pdf
+  → Slug: lurem-c2600s-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.28 MB)
+
+Lurem C410E  Schéma électrique $5.pdf
+  → Slug: lurem-c410e-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.60 MB)
+
+Lurem C410S  Schéma électrique $5.pdf
+  → Slug: lurem-c410s-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.62 MB)
+
+Lurem C410SX  Schéma électrique $5.pdf
+  → Slug: lurem-c410sx-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.38 MB)
+
+Lurem C410sti  Schéma électrique $5.pdf
+  → Slug: lurem-c410sti-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.32 MB)
+
+Lurem C411  Schéma électrique $5.pdf
+  → Slug: lurem-c411-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.36 MB)
+
+Lurem C417  Schéma électrique $5.pdf
+  → Slug: lurem-c417-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.16 MB)
+
+Lurem C510N  Schéma électrique $5.pdf
+  → Slug: lurem-c510n-schema-electrique
+  → Price: $5.00
+  ✅ Imported (1.08 MB)
+
+Lurem C511  Schéma électrique $5.pdf
+  → Slug: lurem-c511-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.11 MB)
+
+Lurem C517  Schéma électrique $5.pdf
+  → Slug: lurem-c517-schema-electrique
+  → Price: $5.00
+  ✅ Imported (0.20 MB)
+
+Lurem CB 310HZ  15 60 533 10 Schéma électrique $5.pdf
+  → Slug: lurem-cb-310hz-15-60-533-10-schema-electrique
+  → Price: $5.00
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_c.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_d.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_p.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_m.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_V.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_,.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_K.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_w.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_(.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_v.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_).".
+  ✅ Imported (0.46 MB)
+
+Lurem CB 310HZ 15 60 526 10 Schéma électrique $5.pdf
+  → Slug: lurem-cb-310hz-15-60-526-10-schema-electrique
+  → Price: $5.00
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+^C

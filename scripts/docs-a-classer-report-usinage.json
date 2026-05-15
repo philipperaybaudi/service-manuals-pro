@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-04-30T07:26:20.866Z",
+  "total": 1,
+  "docs": [
+    {
+      "original_filename": "Theory_of_Machines_and_Mechanisms $18.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Usinage\\Theory_of_Machines_and_Mechanisms $18.pdf",
+      "file_size": 7079470,
+      "page_count": 592,
+      "price": 1800,
+      "status": "done",
+      "preview_file": "scripts\\temp_previews\\usinage-theory-of-machines-and-mechanisms.jpg",
+      "brand": "Usinage",
+      "category_fr": "Usinage",
+      "filename_clean": "Theory of Machines and Mechanisms",
+      "title_en": "Theory of Machines and Mechanisms",
+      "title_fr": "Théorie des machines et des mécanismes",
+      "description_en": "Comprehensive textbook covering geometry of motion, position and displacement analysis, velocity and acceleration calculations, cam design, spur gears, helical and bevel gears, mechanism trains, linkage synthesis, spatial mechanisms, static forces, dynamic forces, reciprocating engines, balancing, cam dynamics, and machine dynamics. Includes numerical methods, complex algebra solutions, and answers to selected problems.",
+      "description_fr": "Manuel complet couvrant la géométrie du mouvement, l'analyse de position et de déplacement, les calculs de vitesse et d'accélération, la conception de cames, les engrenages cylindriques, les engrenages hélicoïdaux et coniques, les trains de mécanismes, la synthèse de liaisons, les mécanismes spatiaux, les forces statiques, les forces dynamiques, les moteurs alternatifs, l'équilibrage, la dynamique des cames et la dynamique des machines. Inclut les méthodes numériques, les solutions par algèbre complexe et les réponses à des problèmes sélectionnés.",
+      "language": "en",
+      "slug": "usinage-theory-of-machines-and-mechanisms"
+    }
+  ]
+}

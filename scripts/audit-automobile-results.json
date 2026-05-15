@@ -1,0 +1,801 @@
+{
+  "generated_at": "2026-04-22T02:05:58.234Z",
+  "category": {
+    "id": "a4454fdf-0f4f-4ad2-96c4-848d98fb50cd",
+    "name": "Automotive",
+    "slug": "automotive"
+  },
+  "total_docs": 26,
+  "total_suspects": 23,
+  "total_clean": 3,
+  "suspects": [
+    {
+      "slug": "bombardier-bombardier-outlander-2006",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Bombardier Outlander 400-800cc ATV Service Manual",
+      "title_fr": "Manuel de service Bombardier Outlander 400-800cc VTT",
+      "description_en_length": 905,
+      "description_fr_length": 1012,
+      "description": "Comprehensive service manual for Bombardier Outlander all-terrain vehicles powered by 400-800cc engines. This technical reference guide is essential for professional mechanics and owners performing repairs and maintenance on these models. The manual provides complete coverage of all VTT systems, including the engine, transmission, suspension, braking, and steering components. Detailed repair procedures are presented alongside precise technical specifications, wiring diagrams, and comprehensive data tables for accurate diagnosis and service. Technicians will find step-by-step instructions for disassembly and reassembly of major components, critical adjustments, and manufacturer-specified torque values. This document serves as an indispensable resource for both preventive and corrective maintenance operations, enabling rapid fault identification and efficient restoration of vehicle performance.",
+      "description_fr": "Manuel de service complet dédié aux véhicules tout-terrain Bombardier Outlander équipés de moteurs 400 à 800cc. Ce guide technique de référence s'adresse aux mécaniciens professionnels et aux propriétaires souhaitant effectuer des réparations et des interventions d'entretien sur ces modèles. Le manuel couvre l'ensemble des systèmes du VTT, incluant le moteur, la transmission, les systèmes de suspension, de freinage et de direction. Il fournit des procédures détaillées pour le diagnostic et la réparation, accompagnées de spécifications techniques précises, de schémas de câblage et de tableaux de données essentiels. Les techniciens y trouveront des instructions étape par étape pour démontage et remontage des composants majeurs, des réglages critiques, ainsi que les couples de serrage recommandés. Ce document constitue une ressource indispensable pour toute maintenance préventive ou corrective, permettant une identification rapide des défauts et une restauration efficace des performances du véhicule.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "citroen-xsara-picasso-notice",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Citroen Xsara Picasso User Manual",
+      "title_fr": "Citroën Xsara Picassa - Notice d'emploi",
+      "description_en_length": 1085,
+      "description_fr_length": 1189,
+      "description": "Comprehensive user manual for the Citroën Xsara Picassa, providing complete guidance on vehicle operation and maintenance. The manual is structured into six main chapters: ESSENTIALS covers the driving position, multifunction display, warning lights, signaling systems, visibility controls and front seat adjustments. The DRIVING chapter explains the remote control, keys, anti-theft system, engine starting, multifunction display with alert messages, onboard computer, manual and automatic gearboxes, ABS and ESP braking systems, and parking assistance. COMFORT ELEMENTS details door locks, ventilation and heating, manual and automatic air conditioning, rear seats, safety belts, airbags, child restraint systems, interior lighting and various comfort features. MAINTENANCE provides an overview of available engines (1.6i, 2.0i 16V, HDi 90, HDi 92, HDi 110), fluid level checking procedures, diesel injection equipment and vehicle capacities. PRACTICAL ADVICE and TECHNICAL SPECIFICATIONS chapters complete this comprehensive guide with essential information for proper vehicle care.",
+      "description_fr": "Notice d'emploi complète pour le Citroën Xsara Picassa, couvrant tous les aspects de l'utilisation et de l'entretien du véhicule. Le document est organisé en six chapitres principaux : L'ESSENTIEL présente le poste de conduite avec l'afficheur multifonctions, les témoins lumineux, la signalisation, les commandes de visibilité et les réglages des sièges avant. Le chapitre CONDUITE détaille la télécommande, les clés, l'antivol, la mise en route, l'afficheur multifonctions avec ses messages d'alerte, l'ordinateur de bord, les boîtes de vitesses manuelle et automatique, les systèmes de freinage ABS et ESP, ainsi que l'aide au stationnement. ÉLÉMENTS DE CONFORT couvre les ouvertures, l'aération-chauffage, la climatisation manuelle et automatique, les sièges arrière, les ceintures de sécurité, les airbags, les sièges enfant, l'éclairage intérieur et divers équipements de confort. ENTRETIEN fournit un aperçu des moteurs disponibles (1.6i, 2.0i 16V, HDi 90, HDi 92, HDi 110), les procédures de vérification des niveaux de tous les fluides, le matériel d'injection diesel et les capacités. Les chapitres CONSEILS PRATIQUES et CARACTÉRISTIQUES TECHNIQUES complètent ce guide exhaustif.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "lotus-elan-m100-service-manual-v2",
+      "page_count": null,
+      "active": true,
+      "price": 2500,
+      "title": "Lotus ELAN M-100 Service Manual",
+      "title_fr": "Manuel de service Lotus ELAN M-100",
+      "description_en_length": 1020,
+      "description_fr_length": 994,
+      "description": "Comprehensive service manual specifically developed for the Lotus ELAN M-100, intended for professional technicians and skilled mechanics. This technical document delivers authoritative guidance on maintenance, diagnostics, and repair procedures for this classic model. The manual encompasses all essential procedures required to maintain peak vehicle performance, ranging from routine service operations to advanced mechanical interventions. Serving as an indispensable reference for workshop professionals and dedicated automotive enthusiasts working on the Lotus ELAN M-100, this publication provides factory-level documentation previously accessible only through official Lotus service channels. The manual consolidates technical specifications, standardized repair procedures, and maintenance protocols to enable efficient and dependable vehicle care. Its organized structure ensures rapid access to required information, making comprehensive factory documentation available to technicians and vehicle owners alike.",
+      "description_fr": "Manuel de service complet dédié à la Lotus ELAN M-100, conçu pour les techniciens et mécaniciens spécialisés. Ce document technique offre une documentation détaillée couvrant l'entretien, le diagnostic et la réparation de ce modèle emblématique. Le manuel regroupe l'ensemble des procédures nécessaires pour assurer le fonctionnement optimal du véhicule, des opérations d'entretien courant aux interventions plus complexes. Destiné aux ateliers professionnels et aux passionnés de mécanique automobile, cet ouvrage constitue une référence indispensable pour tout propriétaire ou technicien travaillant sur la Lotus ELAN M-100. Il rassemble les spécifications techniques, les procédures standardisées et les conseils de maintenance permettant une prise en charge efficace et fiable de ce véhicule de prestige. La structure méthodique du manuel facilite la localisation rapide des informations recherchées, en rendant accessible une documentation auparavant réservée aux services officiels Lotus.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "mini-cooper-rover-manuel-76-89-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Mini Cooper 1976-1989 Service Manual",
+      "title_fr": "Mini Cooper 1976-1989 Manuel de Service",
+      "description_en_length": 811,
+      "description_fr_length": 816,
+      "description": "<p>Complete workshop manual for the Mini-Cooper 1976 to 1989.</p><p>328-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p><h3>Topics covered:</h3><ul><li>Maintenance</li><li>Motorisations</li><li>Anti-pollution</li><li>Alimentation</li><li>Circuit de refroidissement</li><li>Collecteur & echappement</li><li>Embrayage</li><li>Boite de vitesses manualle</li><li>Boite de vitesses automatique</li><li>Arbre de roue</li><li>Reduction finale</li><li>Direction</li><li>Suspensions – cone en caoutchouc</li><li>Freins</li><li>Carrosserie</li><li>Chauffage & ventilation</li><li>Essuie-glaces & lave-glaces</li><li>Equipment electrical</li><li>Schematics, faisceaux</li><li>Instruments</li></ul>",
+      "description_fr": "<p>Manuel d'atelier complet pour la Mini Cooper 1976 à 1989.</p><p>Manuel d'atelier complet de 328 pages. Version originale du fabricant pour ateliers de service.</p><p>Documentation essentielle pour la maintenance et le dépannage de ce véhicule.</p><h3>Sujets couverts :</h3><ul><li>Maintenance</li><li>Motorisations</li><li>Anti-pollution</li><li>Alimentation</li><li>Circuit de refroidissement</li><li>Collecteur & échappement</li><li>Embrayage</li><li>Boîte de vitesses manuelle</li><li>Boîte de vitesses automatique</li><li>Arbre de roue</li><li>Réduction finale</li><li>Direction</li><li>Suspensions – cône en caoutchouc</li><li>Freins</li><li>Carrosserie</li><li>Chauffage & ventilation</li><li>Essuie-glaces & lave-glaces</li><li>Équipement électrique</li><li>Schémas, faisceaux</li><li>Instruments</li></ul>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-polaris-700-et-800-efi-service-manual",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Quads Polaris Sportsman 700 800 800X2 EFI Service Manual",
+      "title_fr": "Manuel de service Polaris Sportsman 700/800/800 X2 EFI 2007",
+      "description_en_length": 1178,
+      "description_fr_length": 1126,
+      "description": "Comprehensive service manual for certified Polaris technicians specializing in maintenance and repair of 2007 Sportsman 700, 800, and 800 X2 EFI models. This professional technical reference covers all vehicle systems across 11 detailed chapters: general information and model identification, maintenance procedures, engine systems, fuel system, suspension and body components, clutch, transmission, final drive, brakes, and electrical systems. Each section provides step-by-step repair procedures, detailed technical specifications, and supporting diagrams to guide technicians through complex service tasks. The manual features comprehensive reference materials including conversion tables, drill size charts, standard torque specifications, required special tools, and paint color codes. Designed for use in a fully equipped workshop environment, the manual emphasizes the importance of mechanical knowledge and adherence to proper service procedures. All directional references are provided from the operator's seated perspective. An indispensable resource for technicians performing warranty work, routine maintenance, or major repairs on these specific Polaris ATV models.",
+      "description_fr": "Manuel de service complet destiné aux techniciens agréés Polaris pour l'entretien et la réparation des modèles Sportsman 700, 800 et 800 X2 EFI de 2007. Ce document technique couvre tous les systèmes du véhicule sur 11 chapitres détaillés : informations générales et identification des modèles, maintenance préventive, moteur, système de carburant, suspension et carrosserie, embrayage, transmission, transmission finale, freins, et systèmes électriques. Chaque section fournit des procédures pas à pas, des spécifications techniques précises, ainsi que des diagrammes pour faciliter l'exécution des travaux. Le manuel inclut également des tableaux de conversion, des tailles de forets, des couples de serrage normalisés, des outils spéciaux recommandés, et des codes couleur de peinture. Conçu pour être utilisé dans un atelier équipé, ce manuel rappelle l'importance des connaissances mécaniques et du respect des procédures de sécurité. Toutes les références spatiales (gauche/droite) sont données depuis la perspective du conducteur. Document essentiel pour tout technicien travaillant sur ces modèles Polaris spécifiques.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-polaris-850-series-service-manual",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Quads Polaris Sportsman 850 cc EFI / HD / EPS Service Manual",
+      "title_fr": "Manuel de service Polaris Sportsman 850 cc EFI / HD / EPS",
+      "description_en_length": 988,
+      "description_fr_length": 1053,
+      "description": "Comprehensive service manual for Polaris Sportsman all-terrain vehicles equipped with the 850 cc EFI engine, HD transmission, and EPS electric power steering system. This technical reference is designed for professional mechanics, workshop technicians, and experienced powersports enthusiasts. The manual provides complete procedures for maintenance, diagnostics, and repair work essential to ensure peak performance and extend the operational lifespan of this high-performance machine. Coverage includes mechanical, hydraulic, and electrical systems with detailed instructions and precise technical specifications. Whether performing routine maintenance, diagnosing complex faults, or conducting major overhauls, users will find systematic guidance for every service requirement. The manual serves as the definitive resource for any service facility or dedicated owner seeking comprehensive knowledge of the Sportsman 850 cc EFI / HD / EPS platform and its optimal maintenance protocols.",
+      "description_fr": "Manuel de service complet pour les quads Polaris Sportsman équipés du moteur 850 cc EFI avec transmission HD et système de direction électrique assistée EPS. Ce document technique s'adresse aux mécaniciens professionnels, aux techniciens d'atelier et aux propriétaires ayant une expérience en mécanique automobile et motocyclette. Il contient l'ensemble des procédures de maintenance, de diagnostic et de réparation nécessaires pour assurer le bon fonctionnement et la longévité de cet engin tout-terrain haute performance. Le manuel couvre les systèmes mécaniques, hydrauliques et électriques, fournissant des instructions détaillées accompagnées de données techniques précises. Il permet d'effectuer des interventions depuis l'entretien régulier jusqu'aux réparations majeures, en passant par le dépannage des avaries. Ce document de référence est indispensable pour tout prestataire de maintenance ou propriétaire souhaitant maîtriser complètement les aspects techniques du Sportsman 850 cc EFI / HD / EPS et en optimiser la fiabilité opérationnelle.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-sportsman-500",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Polaris Sportsman 500 ATV Parts List",
+      "title_fr": "Liste des pièces Polaris Sportsman 500 HO/INT'L - Manuel des pièces détachées",
+      "description_en_length": 1065,
+      "description_fr_length": 1087,
+      "description": "Comprehensive parts manual for Polaris Sportsman 500 HO and Sportsman 500 INT'L models (part numbers A05MH50AB, A05MH50AC, A05MH50AG, A05MH50AH, and A05MH50FB). This technical reference document provides detailed illustrations and component lists organized by vehicle systems, including rear cab and seat assembly, front cab, suspension arms, braking systems (front and rear brakes, master cylinders, brake lines), cooling system, gearcase, transmission components (drive clutch, driven clutch, drive shafts), steering, fuel system, and auxiliary features. Each section features numbered diagrams enabling precise part identification and location. Original Polaris part numbers are listed alongside required quantities for each component, facilitating accurate repairs and maintenance procedures. Designed for both vehicle owners and service technicians, this manual serves as an essential reference for identifying, ordering, and replacing worn or defective parts. The document is structured for quick navigation and cross-referencing across all major ATV systems.",
+      "description_fr": "Manuel complet des pièces détachées pour les modèles Polaris Sportsman 500 HO et Sportsman 500 INT'L (références A05MH50AB, A05MH50AC, A05MH50AG, A05MH50AH et A05MH50FB). Ce document technique couvre l'ensemble des composants mécaniques et structurels des véhicules tout-terrain. Il contient des illustrations détaillées et des listes de pièces organisées par systèmes : cabine arrière et siège, cabine avant, bras de suspension, freinage (freins avant et arrière, maîtres-cylindres, lignes de frein), système de refroidissement, boîtier de vitesses, système d'entraînement (poulies de chaîne, arbres de transmission), suspension, commandes, réservoirs et systèmes auxiliaires. Chaque section est accompagnée de schémas numérotés facilitant l'identification des pièces de remplacement. Les numéros de pièces Polaris originales sont fournis avec les quantités nécessaires, permettant aux propriétaires et aux techniciens d'effectuer des réparations ou des entretiens précis. Ce manuel de référence est indispensable pour localiser, commander et remplacer les pièces défectueuses ou usées.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-sportsman-800-twin-efi",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Polaris Sportsman 800 EFI ATV Parts List",
+      "title_fr": "Polaris Sportsman 800 EFI - Liste des pièces détachées",
+      "description_en_length": 1146,
+      "description_fr_length": 1345,
+      "description": "This parts manual covers three Polaris Sportsman 800 EFI models: A05MH76AC, A05MH76AU, and A05MH76AW variants. Published in 2004, it serves as the definitive reference for identifying and ordering original equipment components for this sport utility vehicle. The manual is systematically organized with a comprehensive index covering all vehicle subsystems: front and rear cab assemblies, seat assembly, suspension, front and rear brake systems, steering, wheels, lighting, powertrain, transmission, cooling systems, air intake box, fuel tank, exhaust system, front and rear storage compartments, and bumper accessories. Each section features detailed exploded-view diagrams facilitating precise part identification, accompanied by official Polaris part numbers, required quantities, and component descriptions. Clear technical illustrations enable mechanics, dealers, and owners to quickly locate desired components. The document also includes color and configuration variants specific to each model, essential for ordering the correct cosmetic elements. An indispensable resource for maintenance, repair, and servicing of the Sportsman 800 EFI.",
+      "description_fr": "Cette liste des pièces détachées couvre trois modèles Polaris Sportsman 800 EFI : les modèles A05MH76AC, A05MH76AU et A05MH76AW. Publiée en 2004, elle constitue la documentation de référence pour identifier et commander les composants d'origine de ce véhicule utilitaire sport. Le manuel est organisé de manière systématique avec un index détaillé reprenant tous les sous-ensembles du véhicule : cabine avant et arrière, ensemble de sièges, suspension, systèmes de freinage avant et arrière, direction, roues, éclairages, groupe motopropulseur, transmission, systèmes de refroidissement, boîtier de commande de l'air, réservoir de carburant, système d'échappement, rangements avant et arrière, ainsi que les accessoires de barre de pare-chocs. Chaque section comprend des schémas d'éclatement détaillés facilitant l'identification précise des pièces, associés à leurs numéros de référence Polaris officiels, quantités requises et descriptions. Les illustrations techniques claires permettent aux mécaniciens, aux concessionnaires et aux propriétaires de localiser rapidement la pièce souhaitée. Ce document inclut également les variantes de couleur et de configuration selon les modèles, essentielles pour commander les éléments cosmétiques corrects. Un outil indispensable pour l'entretien, la réparation et la maintenance du Sportsman 800 EFI.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-chassis-transmission-service-manual-vol-1",
+      "page_count": 123,
+      "active": true,
+      "price": 1000,
+      "title": "Renault Scenic 2 Chassis & Transmission Service Manual Vol. 1",
+      "title_fr": "Renault Scenic 2 Manuel de service - Transmission - Boîte de vitesses automatique",
+      "description_en_length": 1110,
+      "description_fr_length": 1217,
+      "description": "Comprehensive technical manual dedicated to the automatic transmission of the Renault Scenic 2, specifically the gearbox equipped with the Siemens TA2000 electronic control unit. This service guide details all diagnostic and repair procedures for this transmission system. The manual covers essential preliminary diagnostic information, detailed diagnostic datasheets, complete system operation, electrical circuit assignments, and component replacement procedures. It includes specific configurations and learning procedures for this automatic transmission type. Technicians will benefit from an exhaustive fault code summary table, precise fault interpretation methods, and system state diagnosis. The document provides comprehensive compliance verification procedures, interpretation of electronic control unit states and parameters, and handling of various control modes. A dedicated section on customer effects and fault tree localization aids practical troubleshooting. Indispensable for any automotive professional working on Scenic 2 automatic transmissions equipped with the Siemens TA2000 controller.",
+      "description_fr": "Manuel technique complet consacré à la transmission automatique du Renault Scenic 2, spécifiquement la boîte de vitesses automatique équipée de la centrale électronique Siemens TA2000. Ce document détaille l'ensemble des procédures de diagnostic et de réparation pour cette unité. Le manuel couvre les préliminaires essentiels au diagnostic, les fiches de diagnostic détaillées, le fonctionnement du système complet, l'affectation des voies électriques, et les procédures de remplacement des organes principaux. Il propose également des configurations et apprentissages spécifiques à ce type de transmission. Les techniciens trouveront un tableau récapitulatif exhaustif des défauts, des méthodes d'interprétation précises des défauts détectés et des états système. Le document inclut un guide complet du contrôle de conformité, l'interprétation des états et des paramètres de la centrale électronique, ainsi que le traitement des différents modes de commande. Une section dédiée aux effets client et aux arbres de localisation des pannes facilite le diagnostic pratique. Essentiel pour tout professionnel de l'automobile intervenant sur les transmissions automatiques Scenic 2 équipées du calculateur Siemens TA2000.",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:1110c / FR:1217c)"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-climatisation-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Renault Scenic 2 Air Conditioning Service Manual Vol. 2",
+      "title_fr": "Renault Scenic 2 Climatisation Manuel de Service Vol. 2",
+      "description_en_length": 922,
+      "description_fr_length": 955,
+      "description": "<p>Complete workshop manual for the Air conditioning Scenic 2.</p><p>135-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and use of this equipment.</p><h3>Topics covered:</h3><ul><li>Preliminaries</li><li>Fiche Diagnostics</li><li>Architecture of the fonction</li><li>Mode de Operation general</li><li>Lectures de configurations & configurations</li><li>Controle de conformite</li><li>Effets clients</li><li>Arbre de localisation de pannes</li><li>Preliminaries</li><li>Operation system</li><li>Affectation of voies of the calculateur</li><li>Configurations & apprentissages</li><li>Fiche Diagnostics</li><li>Recapitulatif of defauts</li><li>Interpretation of defauts</li><li>Interpretation of etats</li><li>Interpretation of parametres</li><li>Controle de conformite</li><li>Effets clients</li><li>Arbre de localisation de pannes</li></ul>",
+      "description_fr": "<p>Manuel d'atelier complet pour la climatisation Scenic 2.</p><p>Manuel d'atelier complet de 135 pages. Version originale du fabricant pour ateliers de service.</p><p>Documentation essentielle pour la maintenance et l'utilisation de cet équipement.</p><h3>Sujets couverts :</h3><ul><li>Préliminaires</li><li>Fiche Diagnostics</li><li>Architecture de la fonction</li><li>Mode de fonctionnement général</li><li>Lectures de configurations & configurations</li><li>Contrôle de conformité</li><li>Effets clients</li><li>Arbre de localisation de pannes</li><li>Préliminaires</li><li>Fonctionnement système</li><li>Affectation des voies du calculateur</li><li>Configurations & apprentissages</li><li>Fiche Diagnostics</li><li>Récapitulatif des défauts</li><li>Interprétation des défauts</li><li>Interprétation des états</li><li>Interprétation des paramètres</li><li>Contrôle de conformité</li><li>Effets clients</li><li>Arbre de localisation de pannes</li></ul>",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:922c / FR:955c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-equipement-electrique-complete",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Renault Scenic 2 Electrical Equipment Service Manual Vol. 2",
+      "title_fr": "Renault Scenic 2 Équipement Électrique Manuel de Service Vol. 2",
+      "description_en_length": 932,
+      "description_fr_length": 970,
+      "description": "<p>Complete workshop manual for the Equipment electrical Scenic 2.</p><p>627-page complete workshop manual. Original manufacturer version for service workshops.</p><p>This documentation will allow you to use and maintain this camera with complete confidence.</p><h3>Topics covered:</h3><ul><li>Preliminaries</li><li>Fiche Diagnostics</li><li>Operation system</li><li>Affectation of voies calculateur</li><li>Replacement d’organe</li><li>Interpretation of commandes</li><li>Interpretation of defauts</li><li>Controle de conformite</li><li>Interperation of etats</li><li>Interpretation of parametres</li><li>Interpretations of commandes</li><li>Effets client</li><li>Arbre de localisation de pannes</li><li>Preliminaries</li><li>Fiche Diagnostics</li><li>Operation system</li><li>Affectation of voies calculateur</li><li>Replacement of organes</li><li>Configurations & apprentissages</li><li>Tableau recapitulatif of defauts</li></ul>",
+      "description_fr": "<p>Manuel d'atelier complet pour l'équipement électrique Scenic 2.</p><p>Manuel d'atelier complet de 627 pages. Version originale du fabricant pour ateliers de service.</p><p>Cette documentation vous permettra d'utiliser et d'entretenir cet équipement en toute confiance.</p><h3>Sujets couverts :</h3><ul><li>Préliminaires</li><li>Fiche Diagnostics</li><li>Fonctionnement système</li><li>Affectation des voies calculateur</li><li>Remplacement d'organe</li><li>Interprétation des commandes</li><li>Interprétation des défauts</li><li>Contrôle de conformité</li><li>Interprétation des états</li><li>Interprétation des paramètres</li><li>Interprétation des commandes</li><li>Effets client</li><li>Arbre de localisation de pannes</li><li>Préliminaires</li><li>Fiche Diagnostics</li><li>Fonctionnement système</li><li>Affectation des voies calculateur</li><li>Remplacement des organes</li><li>Configurations & apprentissages</li><li>Tableau récapitulatif des défauts</li></ul>",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:932c / FR:970c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-garnissage-et-sellerie",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Renault Scenic 2 Upholstery & Trim Service Manual",
+      "title_fr": "Renault Scenic 2 Manuel de service - Garnissage et sellerie",
+      "description_en_length": 1216,
+      "description_fr_length": 1255,
+      "description": "Specialized technical manual covering comprehensive upholstery and interior trim operations for the Renault Scenic 2. This service document presents detailed procedures for removal and installation of various interior finishing components throughout the vehicle. The primary sections address interior box trimming with complete guidance on windshield header garnish, center pillar trims, and marching board garnishes, alongside lower body trim and window seal components. The manual extensively covers door openings with specific procedures for both lateral and non-lateral apertures, including front and rear doors as well as hood and tailgate treatments. A significant portion addresses seat armatures and guide rails for both front and rear seating positions, with comprehensive details on seat mechanisms and structures. Final sections focus on seat upholstery with backrest and cushion trim specifications for front and rear installations. Each procedure is supported by detailed technical illustrations identifying attachment points, disassembly sequences, and component references. The manual includes important warnings and notes regarding safe handling of frame joints and other sensitive interior elements.",
+      "description_fr": "Manuel technique spécialisé couvrant l'ensemble des opérations de garnissage intérieur et de sellerie pour le Renault Scenic 2. Ce document détaille les procédures de dépose et repose des différents éléments de finition intérieure du véhicule. Les sections principales traitent du garnissage intérieur de caisse avec l'ensemble des garnitures de montant de pare-brise, de pieds de milieu et de marche, ainsi que les garnitures de bas de caisse et de custode. Le manuel couvre également le garnissage des ouvrants, tant latéraux que non latéraux, avec les procédures spécifiques pour les portes avant et arrière ainsi que le capot et hayon. Une section importante est dédiée aux armatures et glissières de sièges avant et arrière, incluant les détails complets sur les sièges et leurs mécanismes. Les sections finales traitent du garnissage de sièges avec les garnitures de dossier et d'assise pour les positions avant et arrière. Chaque procédure est accompagnée d'illustrations techniques détaillées montrant les points de fixation, les étapes de démontage et les références de pièces. Le document inclut des avertissements et remarques importantes concernant les précautions lors de la manipulation des joints d'encadrement et autres éléments sensibles.",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:1216c / FR:1255c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-transmission-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Renault Scenic 2 Chassis & Transmission Service Manual Vol. 2",
+      "title_fr": "Renault Scenic II Manuel de service - Transmission - Boîte de vitesses automatique",
+      "description_en_length": 1359,
+      "description_fr_length": 1329,
+      "description": "Comprehensive technical manual specifically dedicated to the automatic transmission system of the Renault Scenic II, utilizing the Siemens TA2000 Electronic Control Unit (program 94). This detailed reference guide covers complete diagnosis and maintenance procedures for the automatic gearbox fitted to this vehicle.\n\nThe manual encompasses multiple critical sections for workshop technicians: diagnostic preliminaries, complete diagnostic data, system operation and functionality, electrical circuit assignments, component replacement procedures, configuration and learning routines, fault summary table, detailed fault interpretation, conformity verification, state and parameter interpretation, control mode processing, customer effects analysis, and fault location decision trees.\n\nThis technical resource provides a systematic approach to assisted diagnosis using CLIP diagnostic tools, including diagnostic contact establishment procedures, reading and processing of active and stored faults, system functionality verification, and identification of faults without detected codes. Technical specifications, electrical schematics (Visu-Schéma on CD-ROM), and recommended diagnostic equipment including multimeter and universal connector blocks complete the practical information necessary for effective transmission repair and troubleshooting operations.",
+      "description_fr": "Manuel technique complet dédié à la transmission automatique du Renault Scenic II, basé sur l'Unité Centrale Électronique Siemens TA2000 (programme 94). Ce document détaillé couvre l'ensemble du diagnostic et de la maintenance de la boîte de vitesses automatique équipant ce véhicule.\n\nLe manuel comprend plusieurs sections essentielles pour les techniciens d'atelier : préliminaires au diagnostic, fiche de diagnostic complète, fonctionnement du système, affectation des voies électriques, procédures de remplacement des organes, configurations et apprentissages, tableau récapitulatif des défauts, interprétation détaillée des défauts détectés, contrôle de conformité, interprétation des états et paramètres du système, traitement des modes de commande, analyse des effets client, et arbre de localisation des pannes.\n\nCe guide technique fournit une approche méthodique du diagnostic assisté par outil (CLIP), incluant les procédures de mise en contact diagnostic, lecture et traitement des défauts présents et mémorisés, vérification du bon fonctionnement du système, et exclusion des pannes sans affichage de défaut. Les spécifications techniques, schémas électriques (Visu-Schéma Cédérom) et outils de diagnostic recommandés (Multimètre, Bornier universel) complètent les informations pratiques pour une réparation efficace.",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:1359c / FR:1329c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "simca-f594wml-f569wml-service-manual",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Trucks SIMCA F594WML F569WML - Service Manual",
+      "title_fr": "Trucks SIMCA F594WML F569WML - Manuel de service",
+      "description_en_length": 236,
+      "description_fr_length": 228,
+      "description": "<p>Complete workshop manual for the SIMCA F594WML F569WML.</p><p>200-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance, restoration and troubleshooting.</p>",
+      "description_fr": "<p>Complet manuel d'atelier for the SIMCA F594WML F569WML.</p><p>200-page Complet manuel d'atelier. Original manufacturer version for service workshops.</p><p>Essentiel documentation for entretien, restoration and dépannage.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "suzuki-samurai-service-manual-complete",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Suzuki Samurai 4x4 1986-1988 Service Manual",
+      "title_fr": "Suzuki Samurai 4x4 1986-1988 Manuel de service",
+      "description_en_length": 977,
+      "description_fr_length": 867,
+      "description": "Comprehensive service manual for the Suzuki Samurai 4x4 covering model years 1986 through 1988. This technical reference guide is designed for technicians and vehicle owners requiring detailed repair and maintenance procedures. The manual provides complete coverage of all major systems and components, enabling users to perform routine maintenance, diagnose mechanical issues, and execute repairs with confidence. Whether tackling scheduled service intervals or addressing specific mechanical concerns, this documentation delivers the technical information necessary for successful workshop operations. An essential resource for Samurai owners undertaking DIY repairs or for professional repair facilities requiring authoritative guidance on this classic 4x4 model. This manual serves as the definitive technical reference for understanding the mechanical systems and executing both basic and advanced service procedures on Suzuki Samurai vehicles from this production period.",
+      "description_fr": "Manuel de service complet destiné aux techniciens et propriétaires du Suzuki Samurai 4x4 pour les années modèles 1986 à 1988. Ce document technique de référence couvre l'ensemble des systèmes et composants du véhicule, fournissant les procédures d'entretien, de diagnostic et de réparation essentielles. Idéal pour effectuer des travaux de maintenance régulière, identifier et résoudre les problèmes mécaniques, ou restaurer des éléments usés du véhicule. Le manuel offre une documentation fiable et complète pour tous les propriétaires de Samurai de cette génération souhaitant intervenir eux-mêmes sur leur véhicule ou pour les ateliers de réparation ayant besoin d'une référence technique détaillée. Cet ouvrage constitue un outil indispensable pour comprendre l'architecture mécanique du Samurai et maîtriser les opérations courantes d'entretien et de réparation.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "toyota-manuel-moteur-1hd-ft",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Toyota 1HD-FT Engine Service Manual",
+      "title_fr": "Toyota 1HD-FT Engine Manuel de service",
+      "description_en_length": 228,
+      "description_fr_length": 222,
+      "description": "<p>Complete workshop manual for the Moteur 1HD-FT.</p><p>258-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance, restoration and troubleshooting.</p>",
+      "description_fr": "<p>Complete manuel d'atelier for the Moteur 1HD-FT.</p><p>258-page complete manuel d'atelier. Original manufacturer version for service workshops.</p><p>Essential documentation for entretien, restoration and dépannage.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "toyota-manuel-utilisateur-toyota-serie-6",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Toyota Land Cruiser Series 6 HJ60 HJ61 FJ60 FJ62 User Manual",
+      "title_fr": "Manuel du propriétaire Toyota Land Cruiser Station Wagon",
+      "description_en_length": 1136,
+      "description_fr_length": 1240,
+      "description": "Complete owner's manual for Toyota Land Cruiser Station Wagon, designed to guide new owners through essential vehicle operation and maintenance procedures. Organized into eight comprehensive chapters, this manual provides practical information from the moment of purchase. The initial sections cover fuel recommendations, precautions for off-road use, break-in procedures for the first 1000 kilometers, tire specifications and pressure guidance. Extensive driving advice focuses on safe and efficient vehicle operation techniques. An emergency procedures section delivers critical guidance for urgent situations. Detailed content addresses rust prevention and exterior maintenance, vehicle maintenance characteristics, and owner-performed maintenance operations. Additional sections include consumer information and complete technical specifications. Throughout the manual, detailed illustrations and diagrams—particularly for door lock mechanisms, seat adjustments, and interior configurations—enhance understanding of each maintenance and adjustment procedure, making this resource indispensable for proper vehicle care and operation.",
+      "description_fr": "Manuel du propriétaire complet pour les Toyota Land Cruiser Station Wagon, couvrant les aspects essentiels de l'utilisation et de l'entretien du véhicule. Cet ouvrage est structuré en huit chapitres détaillés destinés aux nouveaux propriétaires. Le manuel débute par des informations utiles incluant les recommandations pour le carburant, les précautions pour un véhicule hors-route, les conseils pour les premiers 1000 kilomètres, et les recommandations sur les pneus et la pression. Il propose ensuite des conseils complets de conduite couvrant les techniques sûres et efficaces de pilotage. La section consacrée aux cas d'urgence fournit des procédures essentielles en situation critique. Le guide inclut également des informations détaillées sur la prévention anti-rouille et l'entretien de l'aspect extérieur, les caractéristiques d'entretien du véhicule, et les opérations d'entretien réalisables par le propriétaire lui-même. Une section information du consommateur et un tableau complet des caractéristiques techniques complètent ce manuel. Les illustrations et schémas détaillés, notamment concernant le verrouillage des portières, les sièges et les ajustements intérieurs, facilitent la compréhension pratique de chaque procédure.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-ds7-rd250-r5c-rd350-manual-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Yamaha DS7 RD250 R5C RD350 Service Manual",
+      "title_fr": "Yamaha DS7 RD250 R5C RD350 Manuel de Service",
+      "description_en_length": 247,
+      "description_fr_length": 253,
+      "description": "<p>Complete workshop manual for the Yamaha DS7 RD250 R5C RD350.</p><p>113-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p>",
+      "description_fr": "<p>Manuel d'atelier complet pour les Yamaha DS7 RD250 R5C RD350.</p><p>Manuel d'atelier complet de 113 pages. Version originale du fabricant pour ateliers de service.</p><p>Documentation essentielle pour la maintenance et le dépannage de cette moto.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-rmt-at1-at2-125-dt-175",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Yamaha DT 125 MX Workshop Service Manual",
+      "title_fr": "Yamaha DT 125 MX Workshop Manuel de service",
+      "description_en_length": 264,
+      "description_fr_length": 258,
+      "description": "<p>Workshop manual (Revue Moto Technique) for the Yamaha DT 125 MX.</p><p>72-page workshop manual (revue moto technique). Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p>",
+      "description_fr": "<p>manuel d'atelier (Revue Moto Technique) for the Yamaha DT 125 MX.</p><p>72-page manuel d'atelier (revue moto technique). Original manufacturer version for service workshops.</p><p>Essentiel documentation for entretien and dépannage of this motorcycle.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-rta-125dtmx-bd",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Coccinelle RTA Volkswagen",
+      "title_fr": "Revue MOTO Technique N° 30 - Yamaha DT 125 MX et Kawasaki Z 650",
+      "description_en_length": 1337,
+      "description_fr_length": 1387,
+      "description": "This specialized technical journal provides comprehensive coverage of two iconic motorcycles: the Yamaha DT 125 MX (model years 1977-1991) and the Kawasaki Z 650 (model variants B1 through F4). The publication features a detailed technical and practical study of the Yamaha DT 125 MX, encompassing general specifications and adjustments, exhaustive engine description, magnetic ignition system, transmission, suspension and brake systems. Dedicated sections on routine maintenance outline regular service procedures, critical inspection points and necessary adjustments. A substantial portion addresses practical troubleshooting and repair guidance. The documentation includes comprehensive technical materials featuring cross-sectional engine diagrams, electrical circuit schematics for electronic ignition models, and detailed exploded views of all major subsystems. Technical evolution is documented from 1979 through 1991, illustrating successive improvements made to the model across this period. A specialized section offers complete guidance for engine displacement conversion to 175 cc. Enhanced by color and black-and-white photography, precision technical drawings and dimensioned schematics, this reference manual proves invaluable for owners, mechanics and restoration enthusiasts seeking authoritative technical information.",
+      "description_fr": "Cette revue technique spécialisée couvre en détail deux motos emblématiques : la Yamaha DT 125 MX (modèles 1977 à 1991) et la Kawasaki Z 650 (modèles B1 à F4). Le document propose une étude technique et pratique complète de la Yamaha DT 125 MX, incluant les caractéristiques générales et réglages, une description technique exhaustive du moteur, du système d'allumage magnétique, de la transmission, de la suspension et du freinage. Les chapitres consacrés à l'entretien courant détaillent les procédures de maintenance régulière, les points de contrôle critiques et les ajustements nécessaires. Une section importante est dédiée aux conseils pratiques pour le dépannage et la réparation. Le document inclut également une documentation complète pour la moto-expertise, avec des schémas techniques précis du moteur en coupe, des diagrammes du circuit d'allumage électronique pour les modèles récents, et des planches éclatées détaillées de tous les sous-systèmes. L'évolution technique est documentée de 1979 à 1991, montrant les améliorations successives apportées au modèle. Une section finale propose un guide de transformation du moteur en 175 cm³. Richement illustré avec photographies en couleur et en noir et blanc, schémas techniques de haute qualité et plans cotés, cet ouvrage constitue une référence incontournable pour propriétaires, mécaniciens et passionnés de restauration.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-virago-535-manual-gb",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Virago XV535 Yamaha Service Manual",
+      "title_fr": "Manuel de service Yamaha Virago XV535",
+      "description_en_length": 1100,
+      "description_fr_length": 1221,
+      "description": "The Yamaha Virago XV535 Service Manual is an essential technical reference for mechanics and owners needing to perform maintenance, diagnostics, and repairs on this mid-range motorcycle. Designed for workshop professionals and hands-on enthusiasts alike, this comprehensive guide provides detailed procedures for all preventive and corrective maintenance operations. The manual covers the fundamental mechanical systems of the Virago XV535, including the V-Twin engine, transmission, frame, and steering components. Each section contains step-by-step explanations paired with precise technical specifications, torque values, and dimensional tolerances. Procedures for removal and installation of major components are presented with clarity, enabling smooth execution of routine maintenance or more involved repairs. This service manual ensures optimal vehicle maintenance, extends service life, and preserves the motorcycle's performance capabilities. It remains an indispensable reference for anyone seeking to maintain or restore the Virago XV535 according to the manufacturer's original standards.",
+      "description_fr": "Le Manuel de service Yamaha Virago XV535 constitue une ressource indispensable pour les techniciens et les propriétaires souhaitant effectuer l'entretien, le diagnostic et la réparation de cette motocyclette de moyenne cylindrée. Conçu pour les professionnels de l'atelier comme pour les passionnés de mécanique, ce document technique fournit les procédures détaillées nécessaires à l'ensemble des opérations de maintenance préventive et corrective. Le manuel couvre les systèmes mécaniques fondamentaux du Virago XV535, incluant le moteur V-Twin, la transmission, le châssis et les organes de direction. Chaque section présente des explications étape par étape accompagnées de spécifications techniques précises, de couples de serrage et de tolérances dimensionnelles. Les procédures de dépose et repose des composants majeurs sont détaillées avec clarté, facilitant les interventions de maintenance courante ou les réparations plus complexes. Ce manuel de service garantit une maintenance optimale du véhicule, prolonge sa durée de vie et assure le maintien de ses performances. Il demeure une référence fiable pour quiconque cherche à entretenir ou restaurer le Virago XV535 selon les standards d'origine du fabricant.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-yamaha-1000-fazer-manual",
+      "page_count": null,
+      "active": true,
+      "price": 500,
+      "title": "FZR 1000 Yamaha Fazer Complete Parts Catalog",
+      "title_fr": "Catalogue des pièces détachées Yamaha FZR1000E",
+      "description_en_length": 1010,
+      "description_fr_length": 1059,
+      "description": "Complete genuine parts catalog for the Yamaha FZR1000E motorcycle. This technical document provides detailed and illustrated information on all major components of the machine. The catalog covers essential engine assemblies including the cylinder head with valve train systems, cylinder block, crankshaft, and pistons with their respective subassemblies. Each component is represented through precision exploded-view diagrams with numbered references, enabling straightforward parts identification. Every item is listed with its official Yamaha part number, technical description, required quantity, and relevant specifications such as bearing color variants and piston sizing options (standard or oversized). The systematic organization makes this catalog an invaluable reference for mechanics, service technicians, and enthusiasts performing maintenance, repairs, or restoration work on this 1990s sports motorcycle. Essential for anyone requiring accurate engine component specifications and identification.",
+      "description_fr": "Catalogue complet des pièces détachées d'origine pour la Yamaha FZR1000E. Ce document technique présente de manière détaillée et illustrée tous les composants constitutifs de la motocyclette. Les sections couvrent les principaux ensembles moteur : culasse avec système de distribution, cylindre, vilebrequin et pistons avec leurs sous-ensembles respectifs. Chaque composant est représenté par un schéma d'éclatement précis numéroté, facilitant l'identification des pièces. Pour chaque élément, le catalogue indique le numéro de référence Yamaha officiel, la désignation technique, la quantité requise et des remarques spécifiques telles que les variantes disponibles (couleurs de coussinets, dimensions standard ou suraloésées pour pistons). Cette organisation systématique en permet une utilisation optimale par les mécaniciens, techniciens de maintenance et passionnés nécessitant des informations précises sur les pièces moteur de cette moto sportive des années 1990. Un incontournable pour les opérations de révision, restauration ou réparation mécanique.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-yamaha-16-al-alc-atl-atlc-road-star",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Yamaha XV16AL XV16ALC XV16ATL XV16ATLC Service Manual",
+      "title_fr": "Yamaha XV16AL XV16ALC XV16ATL XV16ATLC Manuel de service",
+      "description_en_length": 259,
+      "description_fr_length": 253,
+      "description": "<p>Complete workshop manual for the Yamaha XV16AL XV16ALC XV16ATL XV16ATLC.</p><p>449-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p>",
+      "description_fr": "<p>Complete manuel d'atelier for the Yamaha XV16AL XV16ALC XV16ATL XV16ATLC.</p><p>449-page complete manuel d'atelier. Original manufacturer version for service workshops.</p><p>Essential documentation for entretien and dépannage of this motorcycle.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    }
+  ],
+  "all_docs": [
+    {
+      "slug": "bombardier-bombardier-outlander-2006",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Bombardier Outlander 400-800cc ATV Service Manual",
+      "title_fr": "Manuel de service Bombardier Outlander 400-800cc VTT",
+      "description_en_length": 905,
+      "description_fr_length": 1012,
+      "description": "Comprehensive service manual for Bombardier Outlander all-terrain vehicles powered by 400-800cc engines. This technical reference guide is essential for professional mechanics and owners performing repairs and maintenance on these models. The manual provides complete coverage of all VTT systems, including the engine, transmission, suspension, braking, and steering components. Detailed repair procedures are presented alongside precise technical specifications, wiring diagrams, and comprehensive data tables for accurate diagnosis and service. Technicians will find step-by-step instructions for disassembly and reassembly of major components, critical adjustments, and manufacturer-specified torque values. This document serves as an indispensable resource for both preventive and corrective maintenance operations, enabling rapid fault identification and efficient restoration of vehicle performance.",
+      "description_fr": "Manuel de service complet dédié aux véhicules tout-terrain Bombardier Outlander équipés de moteurs 400 à 800cc. Ce guide technique de référence s'adresse aux mécaniciens professionnels et aux propriétaires souhaitant effectuer des réparations et des interventions d'entretien sur ces modèles. Le manuel couvre l'ensemble des systèmes du VTT, incluant le moteur, la transmission, les systèmes de suspension, de freinage et de direction. Il fournit des procédures détaillées pour le diagnostic et la réparation, accompagnées de spécifications techniques précises, de schémas de câblage et de tableaux de données essentiels. Les techniciens y trouveront des instructions étape par étape pour démontage et remontage des composants majeurs, des réglages critiques, ainsi que les couples de serrage recommandés. Ce document constitue une ressource indispensable pour toute maintenance préventive ou corrective, permettant une identification rapide des défauts et une restauration efficace des performances du véhicule.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "citroen-xsara-picasso-notice",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Citroen Xsara Picasso User Manual",
+      "title_fr": "Citroën Xsara Picassa - Notice d'emploi",
+      "description_en_length": 1085,
+      "description_fr_length": 1189,
+      "description": "Comprehensive user manual for the Citroën Xsara Picassa, providing complete guidance on vehicle operation and maintenance. The manual is structured into six main chapters: ESSENTIALS covers the driving position, multifunction display, warning lights, signaling systems, visibility controls and front seat adjustments. The DRIVING chapter explains the remote control, keys, anti-theft system, engine starting, multifunction display with alert messages, onboard computer, manual and automatic gearboxes, ABS and ESP braking systems, and parking assistance. COMFORT ELEMENTS details door locks, ventilation and heating, manual and automatic air conditioning, rear seats, safety belts, airbags, child restraint systems, interior lighting and various comfort features. MAINTENANCE provides an overview of available engines (1.6i, 2.0i 16V, HDi 90, HDi 92, HDi 110), fluid level checking procedures, diesel injection equipment and vehicle capacities. PRACTICAL ADVICE and TECHNICAL SPECIFICATIONS chapters complete this comprehensive guide with essential information for proper vehicle care.",
+      "description_fr": "Notice d'emploi complète pour le Citroën Xsara Picassa, couvrant tous les aspects de l'utilisation et de l'entretien du véhicule. Le document est organisé en six chapitres principaux : L'ESSENTIEL présente le poste de conduite avec l'afficheur multifonctions, les témoins lumineux, la signalisation, les commandes de visibilité et les réglages des sièges avant. Le chapitre CONDUITE détaille la télécommande, les clés, l'antivol, la mise en route, l'afficheur multifonctions avec ses messages d'alerte, l'ordinateur de bord, les boîtes de vitesses manuelle et automatique, les systèmes de freinage ABS et ESP, ainsi que l'aide au stationnement. ÉLÉMENTS DE CONFORT couvre les ouvertures, l'aération-chauffage, la climatisation manuelle et automatique, les sièges arrière, les ceintures de sécurité, les airbags, les sièges enfant, l'éclairage intérieur et divers équipements de confort. ENTRETIEN fournit un aperçu des moteurs disponibles (1.6i, 2.0i 16V, HDi 90, HDi 92, HDi 110), les procédures de vérification des niveaux de tous les fluides, le matériel d'injection diesel et les capacités. Les chapitres CONSEILS PRATIQUES et CARACTÉRISTIQUES TECHNIQUES complètent ce guide exhaustif.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "lotus-elan-m100-service-manual-v2",
+      "page_count": null,
+      "active": true,
+      "price": 2500,
+      "title": "Lotus ELAN M-100 Service Manual",
+      "title_fr": "Manuel de service Lotus ELAN M-100",
+      "description_en_length": 1020,
+      "description_fr_length": 994,
+      "description": "Comprehensive service manual specifically developed for the Lotus ELAN M-100, intended for professional technicians and skilled mechanics. This technical document delivers authoritative guidance on maintenance, diagnostics, and repair procedures for this classic model. The manual encompasses all essential procedures required to maintain peak vehicle performance, ranging from routine service operations to advanced mechanical interventions. Serving as an indispensable reference for workshop professionals and dedicated automotive enthusiasts working on the Lotus ELAN M-100, this publication provides factory-level documentation previously accessible only through official Lotus service channels. The manual consolidates technical specifications, standardized repair procedures, and maintenance protocols to enable efficient and dependable vehicle care. Its organized structure ensures rapid access to required information, making comprehensive factory documentation available to technicians and vehicle owners alike.",
+      "description_fr": "Manuel de service complet dédié à la Lotus ELAN M-100, conçu pour les techniciens et mécaniciens spécialisés. Ce document technique offre une documentation détaillée couvrant l'entretien, le diagnostic et la réparation de ce modèle emblématique. Le manuel regroupe l'ensemble des procédures nécessaires pour assurer le fonctionnement optimal du véhicule, des opérations d'entretien courant aux interventions plus complexes. Destiné aux ateliers professionnels et aux passionnés de mécanique automobile, cet ouvrage constitue une référence indispensable pour tout propriétaire ou technicien travaillant sur la Lotus ELAN M-100. Il rassemble les spécifications techniques, les procédures standardisées et les conseils de maintenance permettant une prise en charge efficace et fiable de ce véhicule de prestige. La structure méthodique du manuel facilite la localisation rapide des informations recherchées, en rendant accessible une documentation auparavant réservée aux services officiels Lotus.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "mini-cooper-rover-manuel-76-89-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Mini Cooper 1976-1989 Service Manual",
+      "title_fr": "Mini Cooper 1976-1989 Manuel de Service",
+      "description_en_length": 811,
+      "description_fr_length": 816,
+      "description": "<p>Complete workshop manual for the Mini-Cooper 1976 to 1989.</p><p>328-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p><h3>Topics covered:</h3><ul><li>Maintenance</li><li>Motorisations</li><li>Anti-pollution</li><li>Alimentation</li><li>Circuit de refroidissement</li><li>Collecteur & echappement</li><li>Embrayage</li><li>Boite de vitesses manualle</li><li>Boite de vitesses automatique</li><li>Arbre de roue</li><li>Reduction finale</li><li>Direction</li><li>Suspensions – cone en caoutchouc</li><li>Freins</li><li>Carrosserie</li><li>Chauffage & ventilation</li><li>Essuie-glaces & lave-glaces</li><li>Equipment electrical</li><li>Schematics, faisceaux</li><li>Instruments</li></ul>",
+      "description_fr": "<p>Manuel d'atelier complet pour la Mini Cooper 1976 à 1989.</p><p>Manuel d'atelier complet de 328 pages. Version originale du fabricant pour ateliers de service.</p><p>Documentation essentielle pour la maintenance et le dépannage de ce véhicule.</p><h3>Sujets couverts :</h3><ul><li>Maintenance</li><li>Motorisations</li><li>Anti-pollution</li><li>Alimentation</li><li>Circuit de refroidissement</li><li>Collecteur & échappement</li><li>Embrayage</li><li>Boîte de vitesses manuelle</li><li>Boîte de vitesses automatique</li><li>Arbre de roue</li><li>Réduction finale</li><li>Direction</li><li>Suspensions – cône en caoutchouc</li><li>Freins</li><li>Carrosserie</li><li>Chauffage & ventilation</li><li>Essuie-glaces & lave-glaces</li><li>Équipement électrique</li><li>Schémas, faisceaux</li><li>Instruments</li></ul>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-400-500-service-manual-complete",
+      "page_count": 312,
+      "active": true,
+      "price": 2000,
+      "title": "Quads Polaris Sportsman 400 et 500 cc Service Manual",
+      "title_fr": "Quads Polaris Sportsman 400 et 500 cc Manuel de Service",
+      "description_en_length": 356,
+      "description_fr_length": 377,
+      "description": "<p>Complete workshop manual for the Polaris Sportsman 400 et 500 cc.</p><p>312-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for anyone wishing to maintain and troubleshoot this ATV efficiently and safely.</p><h3>Topics covered:</h3><ul><li>Quads Polaris Sportsman 400 et 500 cc</li></ul>",
+      "description_fr": "<p>Manuel d'atelier complet pour les Polaris Sportsman 400 et 500 cc.</p><p>Manuel d'atelier complet de 312 pages. Version originale du fabricant pour ateliers de service.</p><p>Documentation essentielle pour quiconque souhaite entretenir et dépanner ce VTT efficacement et en toute sécurité.</p><h3>Sujets couverts :</h3><ul><li>Quads Polaris Sportsman 400 et 500 cc</li></ul>",
+      "suspect": false,
+      "suspect_reasons": []
+    },
+    {
+      "slug": "polaris-polaris-700-et-800-efi-service-manual",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Quads Polaris Sportsman 700 800 800X2 EFI Service Manual",
+      "title_fr": "Manuel de service Polaris Sportsman 700/800/800 X2 EFI 2007",
+      "description_en_length": 1178,
+      "description_fr_length": 1126,
+      "description": "Comprehensive service manual for certified Polaris technicians specializing in maintenance and repair of 2007 Sportsman 700, 800, and 800 X2 EFI models. This professional technical reference covers all vehicle systems across 11 detailed chapters: general information and model identification, maintenance procedures, engine systems, fuel system, suspension and body components, clutch, transmission, final drive, brakes, and electrical systems. Each section provides step-by-step repair procedures, detailed technical specifications, and supporting diagrams to guide technicians through complex service tasks. The manual features comprehensive reference materials including conversion tables, drill size charts, standard torque specifications, required special tools, and paint color codes. Designed for use in a fully equipped workshop environment, the manual emphasizes the importance of mechanical knowledge and adherence to proper service procedures. All directional references are provided from the operator's seated perspective. An indispensable resource for technicians performing warranty work, routine maintenance, or major repairs on these specific Polaris ATV models.",
+      "description_fr": "Manuel de service complet destiné aux techniciens agréés Polaris pour l'entretien et la réparation des modèles Sportsman 700, 800 et 800 X2 EFI de 2007. Ce document technique couvre tous les systèmes du véhicule sur 11 chapitres détaillés : informations générales et identification des modèles, maintenance préventive, moteur, système de carburant, suspension et carrosserie, embrayage, transmission, transmission finale, freins, et systèmes électriques. Chaque section fournit des procédures pas à pas, des spécifications techniques précises, ainsi que des diagrammes pour faciliter l'exécution des travaux. Le manuel inclut également des tableaux de conversion, des tailles de forets, des couples de serrage normalisés, des outils spéciaux recommandés, et des codes couleur de peinture. Conçu pour être utilisé dans un atelier équipé, ce manuel rappelle l'importance des connaissances mécaniques et du respect des procédures de sécurité. Toutes les références spatiales (gauche/droite) sont données depuis la perspective du conducteur. Document essentiel pour tout technicien travaillant sur ces modèles Polaris spécifiques.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-polaris-850-series-service-manual",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Quads Polaris Sportsman 850 cc EFI / HD / EPS Service Manual",
+      "title_fr": "Manuel de service Polaris Sportsman 850 cc EFI / HD / EPS",
+      "description_en_length": 988,
+      "description_fr_length": 1053,
+      "description": "Comprehensive service manual for Polaris Sportsman all-terrain vehicles equipped with the 850 cc EFI engine, HD transmission, and EPS electric power steering system. This technical reference is designed for professional mechanics, workshop technicians, and experienced powersports enthusiasts. The manual provides complete procedures for maintenance, diagnostics, and repair work essential to ensure peak performance and extend the operational lifespan of this high-performance machine. Coverage includes mechanical, hydraulic, and electrical systems with detailed instructions and precise technical specifications. Whether performing routine maintenance, diagnosing complex faults, or conducting major overhauls, users will find systematic guidance for every service requirement. The manual serves as the definitive resource for any service facility or dedicated owner seeking comprehensive knowledge of the Sportsman 850 cc EFI / HD / EPS platform and its optimal maintenance protocols.",
+      "description_fr": "Manuel de service complet pour les quads Polaris Sportsman équipés du moteur 850 cc EFI avec transmission HD et système de direction électrique assistée EPS. Ce document technique s'adresse aux mécaniciens professionnels, aux techniciens d'atelier et aux propriétaires ayant une expérience en mécanique automobile et motocyclette. Il contient l'ensemble des procédures de maintenance, de diagnostic et de réparation nécessaires pour assurer le bon fonctionnement et la longévité de cet engin tout-terrain haute performance. Le manuel couvre les systèmes mécaniques, hydrauliques et électriques, fournissant des instructions détaillées accompagnées de données techniques précises. Il permet d'effectuer des interventions depuis l'entretien régulier jusqu'aux réparations majeures, en passant par le dépannage des avaries. Ce document de référence est indispensable pour tout prestataire de maintenance ou propriétaire souhaitant maîtriser complètement les aspects techniques du Sportsman 850 cc EFI / HD / EPS et en optimiser la fiabilité opérationnelle.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-sportsman-500",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Polaris Sportsman 500 ATV Parts List",
+      "title_fr": "Liste des pièces Polaris Sportsman 500 HO/INT'L - Manuel des pièces détachées",
+      "description_en_length": 1065,
+      "description_fr_length": 1087,
+      "description": "Comprehensive parts manual for Polaris Sportsman 500 HO and Sportsman 500 INT'L models (part numbers A05MH50AB, A05MH50AC, A05MH50AG, A05MH50AH, and A05MH50FB). This technical reference document provides detailed illustrations and component lists organized by vehicle systems, including rear cab and seat assembly, front cab, suspension arms, braking systems (front and rear brakes, master cylinders, brake lines), cooling system, gearcase, transmission components (drive clutch, driven clutch, drive shafts), steering, fuel system, and auxiliary features. Each section features numbered diagrams enabling precise part identification and location. Original Polaris part numbers are listed alongside required quantities for each component, facilitating accurate repairs and maintenance procedures. Designed for both vehicle owners and service technicians, this manual serves as an essential reference for identifying, ordering, and replacing worn or defective parts. The document is structured for quick navigation and cross-referencing across all major ATV systems.",
+      "description_fr": "Manuel complet des pièces détachées pour les modèles Polaris Sportsman 500 HO et Sportsman 500 INT'L (références A05MH50AB, A05MH50AC, A05MH50AG, A05MH50AH et A05MH50FB). Ce document technique couvre l'ensemble des composants mécaniques et structurels des véhicules tout-terrain. Il contient des illustrations détaillées et des listes de pièces organisées par systèmes : cabine arrière et siège, cabine avant, bras de suspension, freinage (freins avant et arrière, maîtres-cylindres, lignes de frein), système de refroidissement, boîtier de vitesses, système d'entraînement (poulies de chaîne, arbres de transmission), suspension, commandes, réservoirs et systèmes auxiliaires. Chaque section est accompagnée de schémas numérotés facilitant l'identification des pièces de remplacement. Les numéros de pièces Polaris originales sont fournis avec les quantités nécessaires, permettant aux propriétaires et aux techniciens d'effectuer des réparations ou des entretiens précis. Ce manuel de référence est indispensable pour localiser, commander et remplacer les pièces défectueuses ou usées.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "polaris-sportsman-800-twin-efi",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Polaris Sportsman 800 EFI ATV Parts List",
+      "title_fr": "Polaris Sportsman 800 EFI - Liste des pièces détachées",
+      "description_en_length": 1146,
+      "description_fr_length": 1345,
+      "description": "This parts manual covers three Polaris Sportsman 800 EFI models: A05MH76AC, A05MH76AU, and A05MH76AW variants. Published in 2004, it serves as the definitive reference for identifying and ordering original equipment components for this sport utility vehicle. The manual is systematically organized with a comprehensive index covering all vehicle subsystems: front and rear cab assemblies, seat assembly, suspension, front and rear brake systems, steering, wheels, lighting, powertrain, transmission, cooling systems, air intake box, fuel tank, exhaust system, front and rear storage compartments, and bumper accessories. Each section features detailed exploded-view diagrams facilitating precise part identification, accompanied by official Polaris part numbers, required quantities, and component descriptions. Clear technical illustrations enable mechanics, dealers, and owners to quickly locate desired components. The document also includes color and configuration variants specific to each model, essential for ordering the correct cosmetic elements. An indispensable resource for maintenance, repair, and servicing of the Sportsman 800 EFI.",
+      "description_fr": "Cette liste des pièces détachées couvre trois modèles Polaris Sportsman 800 EFI : les modèles A05MH76AC, A05MH76AU et A05MH76AW. Publiée en 2004, elle constitue la documentation de référence pour identifier et commander les composants d'origine de ce véhicule utilitaire sport. Le manuel est organisé de manière systématique avec un index détaillé reprenant tous les sous-ensembles du véhicule : cabine avant et arrière, ensemble de sièges, suspension, systèmes de freinage avant et arrière, direction, roues, éclairages, groupe motopropulseur, transmission, systèmes de refroidissement, boîtier de commande de l'air, réservoir de carburant, système d'échappement, rangements avant et arrière, ainsi que les accessoires de barre de pare-chocs. Chaque section comprend des schémas d'éclatement détaillés facilitant l'identification précise des pièces, associés à leurs numéros de référence Polaris officiels, quantités requises et descriptions. Les illustrations techniques claires permettent aux mécaniciens, aux concessionnaires et aux propriétaires de localiser rapidement la pièce souhaitée. Ce document inclut également les variantes de couleur et de configuration selon les modèles, essentielles pour commander les éléments cosmétiques corrects. Un outil indispensable pour l'entretien, la réparation et la maintenance du Sportsman 800 EFI.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-air-conditioning-service-manual-vol-1",
+      "page_count": 135,
+      "active": true,
+      "price": 1500,
+      "title": "Renault Scenic 2 Air Conditioning Service Manual Vol. 1",
+      "title_fr": "Renault Scenic 2 Manuel de service Climatisation Vol. 1",
+      "description_en_length": 1118,
+      "description_fr_length": 1268,
+      "description": "Comprehensive technical manual dedicated to the air conditioning system of the Renault Scenic 2. This document represents the first volume of detailed documentation covering all diagnostic, maintenance, and repair aspects of the climate control system. The manual is organized into three main sections: air conditioning (62A), regulated air conditioning (62B), and unregulated air conditioning (62C). Each section encompasses preliminaries, diagnostic worksheets, functional architecture descriptions, general operating modes, system configurations, and conformity check procedures. The document provides diagnostic methods integrated with the CLIP diagnostic tool, accompanied by detailed electrical diagrams (Visu-Schéma Cédérom) and comprehensive technical notes. Chapters include fault interpretation, fault summary recapitulation, state and parameter interpretation, and fault localization trees for efficient troubleshooting. An essential reference tool for Renault technicians, this documentation ensures thorough understanding of system operation and diagnostic procedures in compliance with Renault standards.",
+      "description_fr": "Manuel technique complet consacré au système de climatisation du Renault Scenic 2. Ce document constitue la première partie d'une documentation détaillée couvrant tous les aspects du diagnostic, de l'entretien et de la réparation de la climatisation. Le manuel est structuré en trois sections principales : le conditionnement d'air (62A), la climatisation régulée (62B) et la climatisation non régulée (62C). Chaque section comprend des préliminaires, des fiches de diagnostic, des descriptions d'architecture fonctionnelle, des modes de fonctionnement général, des configurations système et des procédures de contrôle de conformité. Le document fournit des méthodes de diagnostic assisté intégrées à l'outil CLIP, accompagnées de schémas électriques détaillés (Visu-Schéma Cédérom) et des notes techniques complètes. Les chapitres incluent également l'interprétation des défauts, la récapitulation des anomalies détectées, l'interprétation des états et paramètres système, ainsi que des arbres de localisation de pannes pour un diagnostic efficace. Outil de référence indispensable pour les techniciens Renault, cette documentation garantit une compréhension approfondie du fonctionnement du système et des procédures de diagnostic conformément aux standards Renault.",
+      "suspect": false,
+      "suspect_reasons": []
+    },
+    {
+      "slug": "renault-scenic-2-chassis-transmission-service-manual-vol-1",
+      "page_count": 123,
+      "active": true,
+      "price": 1000,
+      "title": "Renault Scenic 2 Chassis & Transmission Service Manual Vol. 1",
+      "title_fr": "Renault Scenic 2 Manuel de service - Transmission - Boîte de vitesses automatique",
+      "description_en_length": 1110,
+      "description_fr_length": 1217,
+      "description": "Comprehensive technical manual dedicated to the automatic transmission of the Renault Scenic 2, specifically the gearbox equipped with the Siemens TA2000 electronic control unit. This service guide details all diagnostic and repair procedures for this transmission system. The manual covers essential preliminary diagnostic information, detailed diagnostic datasheets, complete system operation, electrical circuit assignments, and component replacement procedures. It includes specific configurations and learning procedures for this automatic transmission type. Technicians will benefit from an exhaustive fault code summary table, precise fault interpretation methods, and system state diagnosis. The document provides comprehensive compliance verification procedures, interpretation of electronic control unit states and parameters, and handling of various control modes. A dedicated section on customer effects and fault tree localization aids practical troubleshooting. Indispensable for any automotive professional working on Scenic 2 automatic transmissions equipped with the Siemens TA2000 controller.",
+      "description_fr": "Manuel technique complet consacré à la transmission automatique du Renault Scenic 2, spécifiquement la boîte de vitesses automatique équipée de la centrale électronique Siemens TA2000. Ce document détaille l'ensemble des procédures de diagnostic et de réparation pour cette unité. Le manuel couvre les préliminaires essentiels au diagnostic, les fiches de diagnostic détaillées, le fonctionnement du système complet, l'affectation des voies électriques, et les procédures de remplacement des organes principaux. Il propose également des configurations et apprentissages spécifiques à ce type de transmission. Les techniciens trouveront un tableau récapitulatif exhaustif des défauts, des méthodes d'interprétation précises des défauts détectés et des états système. Le document inclut un guide complet du contrôle de conformité, l'interprétation des états et des paramètres de la centrale électronique, ainsi que le traitement des différents modes de commande. Une section dédiée aux effets client et aux arbres de localisation des pannes facilite le diagnostic pratique. Essentiel pour tout professionnel de l'automobile intervenant sur les transmissions automatiques Scenic 2 équipées du calculateur Siemens TA2000.",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:1110c / FR:1217c)"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-climatisation-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Renault Scenic 2 Air Conditioning Service Manual Vol. 2",
+      "title_fr": "Renault Scenic 2 Climatisation Manuel de Service Vol. 2",
+      "description_en_length": 922,
+      "description_fr_length": 955,
+      "description": "<p>Complete workshop manual for the Air conditioning Scenic 2.</p><p>135-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and use of this equipment.</p><h3>Topics covered:</h3><ul><li>Preliminaries</li><li>Fiche Diagnostics</li><li>Architecture of the fonction</li><li>Mode de Operation general</li><li>Lectures de configurations & configurations</li><li>Controle de conformite</li><li>Effets clients</li><li>Arbre de localisation de pannes</li><li>Preliminaries</li><li>Operation system</li><li>Affectation of voies of the calculateur</li><li>Configurations & apprentissages</li><li>Fiche Diagnostics</li><li>Recapitulatif of defauts</li><li>Interpretation of defauts</li><li>Interpretation of etats</li><li>Interpretation of parametres</li><li>Controle de conformite</li><li>Effets clients</li><li>Arbre de localisation de pannes</li></ul>",
+      "description_fr": "<p>Manuel d'atelier complet pour la climatisation Scenic 2.</p><p>Manuel d'atelier complet de 135 pages. Version originale du fabricant pour ateliers de service.</p><p>Documentation essentielle pour la maintenance et l'utilisation de cet équipement.</p><h3>Sujets couverts :</h3><ul><li>Préliminaires</li><li>Fiche Diagnostics</li><li>Architecture de la fonction</li><li>Mode de fonctionnement général</li><li>Lectures de configurations & configurations</li><li>Contrôle de conformité</li><li>Effets clients</li><li>Arbre de localisation de pannes</li><li>Préliminaires</li><li>Fonctionnement système</li><li>Affectation des voies du calculateur</li><li>Configurations & apprentissages</li><li>Fiche Diagnostics</li><li>Récapitulatif des défauts</li><li>Interprétation des défauts</li><li>Interprétation des états</li><li>Interprétation des paramètres</li><li>Contrôle de conformité</li><li>Effets clients</li><li>Arbre de localisation de pannes</li></ul>",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:922c / FR:955c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-electrical-equipment-service-manual-complete",
+      "page_count": 627,
+      "active": true,
+      "price": 2000,
+      "title": "Renault Scenic 2 Electrical Equipment Service Manual (Complete)",
+      "title_fr": "Renault Scenic 2 Électrique Equipment Manuel de service (Complete)",
+      "description_en_length": 175,
+      "description_fr_length": 179,
+      "description": "Complete workshop service manual for the Renault Scenic 2 electrical equipment. Covers all electrical systems, wiring diagrams, component locations, and diagnostic procedures.",
+      "description_fr": "Complete workshop manuel de service for the Renault Scenic 2 électrique equipment. couvre all électrique systems, câblage diagrams, component locations, and diagnostic procédures.",
+      "suspect": false,
+      "suspect_reasons": []
+    },
+    {
+      "slug": "renault-scenic-2-equipement-electrique-complete",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Renault Scenic 2 Electrical Equipment Service Manual Vol. 2",
+      "title_fr": "Renault Scenic 2 Équipement Électrique Manuel de Service Vol. 2",
+      "description_en_length": 932,
+      "description_fr_length": 970,
+      "description": "<p>Complete workshop manual for the Equipment electrical Scenic 2.</p><p>627-page complete workshop manual. Original manufacturer version for service workshops.</p><p>This documentation will allow you to use and maintain this camera with complete confidence.</p><h3>Topics covered:</h3><ul><li>Preliminaries</li><li>Fiche Diagnostics</li><li>Operation system</li><li>Affectation of voies calculateur</li><li>Replacement d’organe</li><li>Interpretation of commandes</li><li>Interpretation of defauts</li><li>Controle de conformite</li><li>Interperation of etats</li><li>Interpretation of parametres</li><li>Interpretations of commandes</li><li>Effets client</li><li>Arbre de localisation de pannes</li><li>Preliminaries</li><li>Fiche Diagnostics</li><li>Operation system</li><li>Affectation of voies calculateur</li><li>Replacement of organes</li><li>Configurations & apprentissages</li><li>Tableau recapitulatif of defauts</li></ul>",
+      "description_fr": "<p>Manuel d'atelier complet pour l'équipement électrique Scenic 2.</p><p>Manuel d'atelier complet de 627 pages. Version originale du fabricant pour ateliers de service.</p><p>Cette documentation vous permettra d'utiliser et d'entretenir cet équipement en toute confiance.</p><h3>Sujets couverts :</h3><ul><li>Préliminaires</li><li>Fiche Diagnostics</li><li>Fonctionnement système</li><li>Affectation des voies calculateur</li><li>Remplacement d'organe</li><li>Interprétation des commandes</li><li>Interprétation des défauts</li><li>Contrôle de conformité</li><li>Interprétation des états</li><li>Interprétation des paramètres</li><li>Interprétation des commandes</li><li>Effets client</li><li>Arbre de localisation de pannes</li><li>Préliminaires</li><li>Fiche Diagnostics</li><li>Fonctionnement système</li><li>Affectation des voies calculateur</li><li>Remplacement des organes</li><li>Configurations & apprentissages</li><li>Tableau récapitulatif des défauts</li></ul>",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:932c / FR:970c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-garnissage-et-sellerie",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Renault Scenic 2 Upholstery & Trim Service Manual",
+      "title_fr": "Renault Scenic 2 Manuel de service - Garnissage et sellerie",
+      "description_en_length": 1216,
+      "description_fr_length": 1255,
+      "description": "Specialized technical manual covering comprehensive upholstery and interior trim operations for the Renault Scenic 2. This service document presents detailed procedures for removal and installation of various interior finishing components throughout the vehicle. The primary sections address interior box trimming with complete guidance on windshield header garnish, center pillar trims, and marching board garnishes, alongside lower body trim and window seal components. The manual extensively covers door openings with specific procedures for both lateral and non-lateral apertures, including front and rear doors as well as hood and tailgate treatments. A significant portion addresses seat armatures and guide rails for both front and rear seating positions, with comprehensive details on seat mechanisms and structures. Final sections focus on seat upholstery with backrest and cushion trim specifications for front and rear installations. Each procedure is supported by detailed technical illustrations identifying attachment points, disassembly sequences, and component references. The manual includes important warnings and notes regarding safe handling of frame joints and other sensitive interior elements.",
+      "description_fr": "Manuel technique spécialisé couvrant l'ensemble des opérations de garnissage intérieur et de sellerie pour le Renault Scenic 2. Ce document détaille les procédures de dépose et repose des différents éléments de finition intérieure du véhicule. Les sections principales traitent du garnissage intérieur de caisse avec l'ensemble des garnitures de montant de pare-brise, de pieds de milieu et de marche, ainsi que les garnitures de bas de caisse et de custode. Le manuel couvre également le garnissage des ouvrants, tant latéraux que non latéraux, avec les procédures spécifiques pour les portes avant et arrière ainsi que le capot et hayon. Une section importante est dédiée aux armatures et glissières de sièges avant et arrière, incluant les détails complets sur les sièges et leurs mécanismes. Les sections finales traitent du garnissage de sièges avec les garnitures de dossier et d'assise pour les positions avant et arrière. Chaque procédure est accompagnée d'illustrations techniques détaillées montrant les points de fixation, les étapes de démontage et les références de pièces. Le document inclut des avertissements et remarques importantes concernant les précautions lors de la manipulation des joints d'encadrement et autres éléments sensibles.",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:1216c / FR:1255c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "renault-scenic-2-transmission-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Renault Scenic 2 Chassis & Transmission Service Manual Vol. 2",
+      "title_fr": "Renault Scenic II Manuel de service - Transmission - Boîte de vitesses automatique",
+      "description_en_length": 1359,
+      "description_fr_length": 1329,
+      "description": "Comprehensive technical manual specifically dedicated to the automatic transmission system of the Renault Scenic II, utilizing the Siemens TA2000 Electronic Control Unit (program 94). This detailed reference guide covers complete diagnosis and maintenance procedures for the automatic gearbox fitted to this vehicle.\n\nThe manual encompasses multiple critical sections for workshop technicians: diagnostic preliminaries, complete diagnostic data, system operation and functionality, electrical circuit assignments, component replacement procedures, configuration and learning routines, fault summary table, detailed fault interpretation, conformity verification, state and parameter interpretation, control mode processing, customer effects analysis, and fault location decision trees.\n\nThis technical resource provides a systematic approach to assisted diagnosis using CLIP diagnostic tools, including diagnostic contact establishment procedures, reading and processing of active and stored faults, system functionality verification, and identification of faults without detected codes. Technical specifications, electrical schematics (Visu-Schéma on CD-ROM), and recommended diagnostic equipment including multimeter and universal connector blocks complete the practical information necessary for effective transmission repair and troubleshooting operations.",
+      "description_fr": "Manuel technique complet dédié à la transmission automatique du Renault Scenic II, basé sur l'Unité Centrale Électronique Siemens TA2000 (programme 94). Ce document détaillé couvre l'ensemble du diagnostic et de la maintenance de la boîte de vitesses automatique équipant ce véhicule.\n\nLe manuel comprend plusieurs sections essentielles pour les techniciens d'atelier : préliminaires au diagnostic, fiche de diagnostic complète, fonctionnement du système, affectation des voies électriques, procédures de remplacement des organes, configurations et apprentissages, tableau récapitulatif des défauts, interprétation détaillée des défauts détectés, contrôle de conformité, interprétation des états et paramètres du système, traitement des modes de commande, analyse des effets client, et arbre de localisation des pannes.\n\nCe guide technique fournit une approche méthodique du diagnostic assisté par outil (CLIP), incluant les procédures de mise en contact diagnostic, lecture et traitement des défauts présents et mémorisés, vérification du bon fonctionnement du système, et exclusion des pannes sans affichage de défaut. Les spécifications techniques, schémas électriques (Visu-Schéma Cédérom) et outils de diagnostic recommandés (Multimètre, Bornier universel) complètent les informations pratiques pour une réparation efficace.",
+      "suspect": true,
+      "suspect_reasons": [
+        "Slug suggère doc court/schéma mais description longue (EN:1359c / FR:1329c)",
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "simca-f594wml-f569wml-service-manual",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Trucks SIMCA F594WML F569WML - Service Manual",
+      "title_fr": "Trucks SIMCA F594WML F569WML - Manuel de service",
+      "description_en_length": 236,
+      "description_fr_length": 228,
+      "description": "<p>Complete workshop manual for the SIMCA F594WML F569WML.</p><p>200-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance, restoration and troubleshooting.</p>",
+      "description_fr": "<p>Complet manuel d'atelier for the SIMCA F594WML F569WML.</p><p>200-page Complet manuel d'atelier. Original manufacturer version for service workshops.</p><p>Essentiel documentation for entretien, restoration and dépannage.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "suzuki-samurai-service-manual-complete",
+      "page_count": null,
+      "active": true,
+      "price": 2000,
+      "title": "Suzuki Samurai 4x4 1986-1988 Service Manual",
+      "title_fr": "Suzuki Samurai 4x4 1986-1988 Manuel de service",
+      "description_en_length": 977,
+      "description_fr_length": 867,
+      "description": "Comprehensive service manual for the Suzuki Samurai 4x4 covering model years 1986 through 1988. This technical reference guide is designed for technicians and vehicle owners requiring detailed repair and maintenance procedures. The manual provides complete coverage of all major systems and components, enabling users to perform routine maintenance, diagnose mechanical issues, and execute repairs with confidence. Whether tackling scheduled service intervals or addressing specific mechanical concerns, this documentation delivers the technical information necessary for successful workshop operations. An essential resource for Samurai owners undertaking DIY repairs or for professional repair facilities requiring authoritative guidance on this classic 4x4 model. This manual serves as the definitive technical reference for understanding the mechanical systems and executing both basic and advanced service procedures on Suzuki Samurai vehicles from this production period.",
+      "description_fr": "Manuel de service complet destiné aux techniciens et propriétaires du Suzuki Samurai 4x4 pour les années modèles 1986 à 1988. Ce document technique de référence couvre l'ensemble des systèmes et composants du véhicule, fournissant les procédures d'entretien, de diagnostic et de réparation essentielles. Idéal pour effectuer des travaux de maintenance régulière, identifier et résoudre les problèmes mécaniques, ou restaurer des éléments usés du véhicule. Le manuel offre une documentation fiable et complète pour tous les propriétaires de Samurai de cette génération souhaitant intervenir eux-mêmes sur leur véhicule ou pour les ateliers de réparation ayant besoin d'une référence technique détaillée. Cet ouvrage constitue un outil indispensable pour comprendre l'architecture mécanique du Samurai et maîtriser les opérations courantes d'entretien et de réparation.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "toyota-manuel-moteur-1hd-ft",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Toyota 1HD-FT Engine Service Manual",
+      "title_fr": "Toyota 1HD-FT Engine Manuel de service",
+      "description_en_length": 228,
+      "description_fr_length": 222,
+      "description": "<p>Complete workshop manual for the Moteur 1HD-FT.</p><p>258-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance, restoration and troubleshooting.</p>",
+      "description_fr": "<p>Complete manuel d'atelier for the Moteur 1HD-FT.</p><p>258-page complete manuel d'atelier. Original manufacturer version for service workshops.</p><p>Essential documentation for entretien, restoration and dépannage.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "toyota-manuel-utilisateur-toyota-serie-6",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Toyota Land Cruiser Series 6 HJ60 HJ61 FJ60 FJ62 User Manual",
+      "title_fr": "Manuel du propriétaire Toyota Land Cruiser Station Wagon",
+      "description_en_length": 1136,
+      "description_fr_length": 1240,
+      "description": "Complete owner's manual for Toyota Land Cruiser Station Wagon, designed to guide new owners through essential vehicle operation and maintenance procedures. Organized into eight comprehensive chapters, this manual provides practical information from the moment of purchase. The initial sections cover fuel recommendations, precautions for off-road use, break-in procedures for the first 1000 kilometers, tire specifications and pressure guidance. Extensive driving advice focuses on safe and efficient vehicle operation techniques. An emergency procedures section delivers critical guidance for urgent situations. Detailed content addresses rust prevention and exterior maintenance, vehicle maintenance characteristics, and owner-performed maintenance operations. Additional sections include consumer information and complete technical specifications. Throughout the manual, detailed illustrations and diagrams—particularly for door lock mechanisms, seat adjustments, and interior configurations—enhance understanding of each maintenance and adjustment procedure, making this resource indispensable for proper vehicle care and operation.",
+      "description_fr": "Manuel du propriétaire complet pour les Toyota Land Cruiser Station Wagon, couvrant les aspects essentiels de l'utilisation et de l'entretien du véhicule. Cet ouvrage est structuré en huit chapitres détaillés destinés aux nouveaux propriétaires. Le manuel débute par des informations utiles incluant les recommandations pour le carburant, les précautions pour un véhicule hors-route, les conseils pour les premiers 1000 kilomètres, et les recommandations sur les pneus et la pression. Il propose ensuite des conseils complets de conduite couvrant les techniques sûres et efficaces de pilotage. La section consacrée aux cas d'urgence fournit des procédures essentielles en situation critique. Le guide inclut également des informations détaillées sur la prévention anti-rouille et l'entretien de l'aspect extérieur, les caractéristiques d'entretien du véhicule, et les opérations d'entretien réalisables par le propriétaire lui-même. Une section information du consommateur et un tableau complet des caractéristiques techniques complètent ce manuel. Les illustrations et schémas détaillés, notamment concernant le verrouillage des portières, les sièges et les ajustements intérieurs, facilitent la compréhension pratique de chaque procédure.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-ds7-rd250-r5c-rd350-manual-complete",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Yamaha DS7 RD250 R5C RD350 Service Manual",
+      "title_fr": "Yamaha DS7 RD250 R5C RD350 Manuel de Service",
+      "description_en_length": 247,
+      "description_fr_length": 253,
+      "description": "<p>Complete workshop manual for the Yamaha DS7 RD250 R5C RD350.</p><p>113-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p>",
+      "description_fr": "<p>Manuel d'atelier complet pour les Yamaha DS7 RD250 R5C RD350.</p><p>Manuel d'atelier complet de 113 pages. Version originale du fabricant pour ateliers de service.</p><p>Documentation essentielle pour la maintenance et le dépannage de cette moto.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-rmt-at1-at2-125-dt-175",
+      "page_count": null,
+      "active": true,
+      "price": 1000,
+      "title": "Yamaha DT 125 MX Workshop Service Manual",
+      "title_fr": "Yamaha DT 125 MX Workshop Manuel de service",
+      "description_en_length": 264,
+      "description_fr_length": 258,
+      "description": "<p>Workshop manual (Revue Moto Technique) for the Yamaha DT 125 MX.</p><p>72-page workshop manual (revue moto technique). Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p>",
+      "description_fr": "<p>manuel d'atelier (Revue Moto Technique) for the Yamaha DT 125 MX.</p><p>72-page manuel d'atelier (revue moto technique). Original manufacturer version for service workshops.</p><p>Essentiel documentation for entretien and dépannage of this motorcycle.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-rta-125dtmx-bd",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Coccinelle RTA Volkswagen",
+      "title_fr": "Revue MOTO Technique N° 30 - Yamaha DT 125 MX et Kawasaki Z 650",
+      "description_en_length": 1337,
+      "description_fr_length": 1387,
+      "description": "This specialized technical journal provides comprehensive coverage of two iconic motorcycles: the Yamaha DT 125 MX (model years 1977-1991) and the Kawasaki Z 650 (model variants B1 through F4). The publication features a detailed technical and practical study of the Yamaha DT 125 MX, encompassing general specifications and adjustments, exhaustive engine description, magnetic ignition system, transmission, suspension and brake systems. Dedicated sections on routine maintenance outline regular service procedures, critical inspection points and necessary adjustments. A substantial portion addresses practical troubleshooting and repair guidance. The documentation includes comprehensive technical materials featuring cross-sectional engine diagrams, electrical circuit schematics for electronic ignition models, and detailed exploded views of all major subsystems. Technical evolution is documented from 1979 through 1991, illustrating successive improvements made to the model across this period. A specialized section offers complete guidance for engine displacement conversion to 175 cc. Enhanced by color and black-and-white photography, precision technical drawings and dimensioned schematics, this reference manual proves invaluable for owners, mechanics and restoration enthusiasts seeking authoritative technical information.",
+      "description_fr": "Cette revue technique spécialisée couvre en détail deux motos emblématiques : la Yamaha DT 125 MX (modèles 1977 à 1991) et la Kawasaki Z 650 (modèles B1 à F4). Le document propose une étude technique et pratique complète de la Yamaha DT 125 MX, incluant les caractéristiques générales et réglages, une description technique exhaustive du moteur, du système d'allumage magnétique, de la transmission, de la suspension et du freinage. Les chapitres consacrés à l'entretien courant détaillent les procédures de maintenance régulière, les points de contrôle critiques et les ajustements nécessaires. Une section importante est dédiée aux conseils pratiques pour le dépannage et la réparation. Le document inclut également une documentation complète pour la moto-expertise, avec des schémas techniques précis du moteur en coupe, des diagrammes du circuit d'allumage électronique pour les modèles récents, et des planches éclatées détaillées de tous les sous-systèmes. L'évolution technique est documentée de 1979 à 1991, montrant les améliorations successives apportées au modèle. Une section finale propose un guide de transformation du moteur en 175 cm³. Richement illustré avec photographies en couleur et en noir et blanc, schémas techniques de haute qualité et plans cotés, cet ouvrage constitue une référence incontournable pour propriétaires, mécaniciens et passionnés de restauration.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-virago-535-manual-gb",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Virago XV535 Yamaha Service Manual",
+      "title_fr": "Manuel de service Yamaha Virago XV535",
+      "description_en_length": 1100,
+      "description_fr_length": 1221,
+      "description": "The Yamaha Virago XV535 Service Manual is an essential technical reference for mechanics and owners needing to perform maintenance, diagnostics, and repairs on this mid-range motorcycle. Designed for workshop professionals and hands-on enthusiasts alike, this comprehensive guide provides detailed procedures for all preventive and corrective maintenance operations. The manual covers the fundamental mechanical systems of the Virago XV535, including the V-Twin engine, transmission, frame, and steering components. Each section contains step-by-step explanations paired with precise technical specifications, torque values, and dimensional tolerances. Procedures for removal and installation of major components are presented with clarity, enabling smooth execution of routine maintenance or more involved repairs. This service manual ensures optimal vehicle maintenance, extends service life, and preserves the motorcycle's performance capabilities. It remains an indispensable reference for anyone seeking to maintain or restore the Virago XV535 according to the manufacturer's original standards.",
+      "description_fr": "Le Manuel de service Yamaha Virago XV535 constitue une ressource indispensable pour les techniciens et les propriétaires souhaitant effectuer l'entretien, le diagnostic et la réparation de cette motocyclette de moyenne cylindrée. Conçu pour les professionnels de l'atelier comme pour les passionnés de mécanique, ce document technique fournit les procédures détaillées nécessaires à l'ensemble des opérations de maintenance préventive et corrective. Le manuel couvre les systèmes mécaniques fondamentaux du Virago XV535, incluant le moteur V-Twin, la transmission, le châssis et les organes de direction. Chaque section présente des explications étape par étape accompagnées de spécifications techniques précises, de couples de serrage et de tolérances dimensionnelles. Les procédures de dépose et repose des composants majeurs sont détaillées avec clarté, facilitant les interventions de maintenance courante ou les réparations plus complexes. Ce manuel de service garantit une maintenance optimale du véhicule, prolonge sa durée de vie et assure le maintien de ses performances. Il demeure une référence fiable pour quiconque cherche à entretenir ou restaurer le Virago XV535 selon les standards d'origine du fabricant.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-yamaha-1000-fazer-manual",
+      "page_count": null,
+      "active": true,
+      "price": 500,
+      "title": "FZR 1000 Yamaha Fazer Complete Parts Catalog",
+      "title_fr": "Catalogue des pièces détachées Yamaha FZR1000E",
+      "description_en_length": 1010,
+      "description_fr_length": 1059,
+      "description": "Complete genuine parts catalog for the Yamaha FZR1000E motorcycle. This technical document provides detailed and illustrated information on all major components of the machine. The catalog covers essential engine assemblies including the cylinder head with valve train systems, cylinder block, crankshaft, and pistons with their respective subassemblies. Each component is represented through precision exploded-view diagrams with numbered references, enabling straightforward parts identification. Every item is listed with its official Yamaha part number, technical description, required quantity, and relevant specifications such as bearing color variants and piston sizing options (standard or oversized). The systematic organization makes this catalog an invaluable reference for mechanics, service technicians, and enthusiasts performing maintenance, repairs, or restoration work on this 1990s sports motorcycle. Essential for anyone requiring accurate engine component specifications and identification.",
+      "description_fr": "Catalogue complet des pièces détachées d'origine pour la Yamaha FZR1000E. Ce document technique présente de manière détaillée et illustrée tous les composants constitutifs de la motocyclette. Les sections couvrent les principaux ensembles moteur : culasse avec système de distribution, cylindre, vilebrequin et pistons avec leurs sous-ensembles respectifs. Chaque composant est représenté par un schéma d'éclatement précis numéroté, facilitant l'identification des pièces. Pour chaque élément, le catalogue indique le numéro de référence Yamaha officiel, la désignation technique, la quantité requise et des remarques spécifiques telles que les variantes disponibles (couleurs de coussinets, dimensions standard ou suraloésées pour pistons). Cette organisation systématique en permet une utilisation optimale par les mécaniciens, techniciens de maintenance et passionnés nécessitant des informations précises sur les pièces moteur de cette moto sportive des années 1990. Un incontournable pour les opérations de révision, restauration ou réparation mécanique.",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    },
+    {
+      "slug": "yamaha-yamaha-16-al-alc-atl-atlc-road-star",
+      "page_count": null,
+      "active": true,
+      "price": 1500,
+      "title": "Yamaha XV16AL XV16ALC XV16ATL XV16ATLC Service Manual",
+      "title_fr": "Yamaha XV16AL XV16ALC XV16ATL XV16ATLC Manuel de service",
+      "description_en_length": 259,
+      "description_fr_length": 253,
+      "description": "<p>Complete workshop manual for the Yamaha XV16AL XV16ALC XV16ATL XV16ATLC.</p><p>449-page complete workshop manual. Original manufacturer version for service workshops.</p><p>Essential documentation for maintenance and troubleshooting of this motorcycle.</p>",
+      "description_fr": "<p>Complete manuel d'atelier for the Yamaha XV16AL XV16ALC XV16ATL XV16ATLC.</p><p>449-page complete manuel d'atelier. Original manufacturer version for service workshops.</p><p>Essential documentation for entretien and dépannage of this motorcycle.</p>",
+      "suspect": true,
+      "suspect_reasons": [
+        "page_count inconnu (0) avec description longue"
+      ]
+    }
+  ]
+}

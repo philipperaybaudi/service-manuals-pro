@@ -1,0 +1,47 @@
+1. Pentax P30T Infinite Winding Fix - Repair Guide
+Issues: description EN
+
+2. Camera Repair — English Edition
+Issues: title EN
+
+3. Camera Repair — Russian Edition
+Issues: title EN
+
+4. Camera Repairs — English Edition
+Issues: title EN
+
+5. Camera Repairs — Russian Edition
+Issues: title EN
+
+6. Elektra Beckum BAS 315 Band Saw Instruction Manual
+Issues: description EN, description FR
+
+7. Einhell TC-SP 204 Original Instructions
+Issues: description EN
+
+8. Fox F46-255 Variable Speed Wood Lathe Assembly & Operating Instructions
+Issues: description EN
+
+9. Evolution FURY5-S Table Saw Original Instructions
+Issues: description EN
+
+10. Felder S-308 / F-38 / F-48 / V-3 / V-4 User Manual
+Issues: description EN
+
+11. Fox F60-001 Combined Circular Saw/Spindle Shaper Assembly & Operating Instructions
+Issues: description EN
+
+12. Emco Star 3000 Junior Combination Woodworking Machine User Manual
+Issues: description EN
+
+13. Emco Unimat 3 Mode d'Emploi / Modo de Empleo
+Issues: description EN
+
+14. All You Need to Know About Repair of Russian Cameras
+Issues: title EN, description EN
+
+15. EDIXA - Edixa Reflex Repair German
+Issues: title EN, description EN, title FR, description FR
+
+16. PRAKTICA - Praktica L german service
+Issues: title EN, description EN, title FR, description FR

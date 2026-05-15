@@ -1,0 +1,110 @@
+Found 1 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Machines/DELTA
+
+======================================================================
+FILE: Delta 40-530C scie a chantourner.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_c.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_à.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_h.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_d.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_p.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_(.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_M.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_è.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_l.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_).".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_L.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_p.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_d.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_l.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_,.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_".".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_J.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_;.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_,.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_p.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_j.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_~.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_v.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_z.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_b.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_è.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_m.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_c.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_f.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_é.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_..".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_P.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_Â.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_•.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_L.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_8.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_G.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_O.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_(.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_).".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_g.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_h.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_z.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_m.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_:.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_ .".
+Pages: 18
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Delta_40-530C_scie_a_chantourner_p1.jpg (181 KB)
+
+[TEXT EXTRACTED]
+Scie à chantourner de 16 po (Modèle 40-530C) Les produits Delta, "J;,pj~A Si vous avez des problèmes avec votre nouvel outil Delta, veuillez nous appeler sans frais en composant le numéro ci-dessous. Préparez vos numéros de modèle et de série. Â ••CE LTA 1-800-GO-DELTA( 463-3582) English on Reverse z ~ - 0 m C C: --1 - r- - en ~ - 0 z TABLE DES MATIÈRES RÈGLES DE SÉCURITÉ ............................. ................................ .............. ................................ .................................... ... 3 RÈGLES DE SÉCURITÉ SUPPLÉMENTAIRES POUR LES SCIES À CHANTOURNER .................... .......................... 4 DÉBALLAGE ET NETTOYAGE ................................................................ .................................................... ................... 5 INSTRUCTIONS DE MONTAGE ................. ........................ ........................................................... ................................. . 6 FIXATION DE LA SCIE À CHANTOURNER À UNE SURFACE PORTANTE .................. .............. ................. ............... 7 CORDONS PROLONGATEURS .................... ..................... ....................... ......................... ............ ................................. 7 BRANCHEMENT DE LA SCIE À CHANTOURNER AU COURANT ....................................... .................... .................... 8 INSTRUCTIONS DE MISE À LA TERRE ....................... ..................................................
+

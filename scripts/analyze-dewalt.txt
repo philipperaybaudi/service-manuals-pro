@@ -1,0 +1,165 @@
+Found 8 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Machines/DeWALT
+
+======================================================================
+FILE: DeWalt DW1251 scie radiale.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_P.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_O.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_W.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_H.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_L.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_M.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_W.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_J.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_U.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_M.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_&.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_O.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_P.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_G.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_P.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_..".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_:.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_8.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_(.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_/.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Courier_path_).".
+Pages: 27
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/DeWalt_DW1251_scie_radiale_p1.jpg (352 KB)
+
+[TEXT EXTRACTED]
+POWERSHOP RADIAL ARM SAW W1251 DW1501 DW1503 ADJUSTMENT & OPERATING INSTRUCTIONS PART No.: 822503 (2/85) THE CONTROLS 1. MITRE SCALE 18. MITRE CLAMP 19. MIRE LATCH 17. YOKE 16. TABLE CLAMP —i 15. FENCE 2. ARM END-CAP 3. ARM 4. RIP-LOCATING SLIDE BAR 5. WORKTABLE 8. ROLLER HEAD/ YOKE ASSEMBLY 14. BEVEL LATCH - 13. BEVEL SCALE - 12. BEVEL CLAMP 6. ELEVATING HANDLE 7. RIPLOCK 10. YOKE CLAMP 9. COLUMN 11. COLUMN BASE INTRODUCTION ' Your DeWalt Radial Arm Saw is a precision woodworking machine and before leaving the factory the machine was set and adjusted to operate accurately. Inevitably, however, during transportation and handling, some of these settings will have been disturbed and it will be necessary for you to check and readjust the machine before you are able to obtain the precise woodworking results for which this Radial Arm Saw was designed. This is not a difficult process but we recommend you to follow these instructions carefully and in fhe sequence given before you attempt to start working with your machine. In addition to the setting-up instructions, the following pages also include a short guide to the safe operation of this versatile machine. Again, follow these instructions carefully, until you have learnt the fundamentals. After that, your own ingenuity and imagination will determine how much versatility you can extract from your DeWalt Powershop. DeWalt products are covered by a manufacturer's guarantee. If, during the guarantee period of 6 months from purchase 
+
+======================================================================
+FILE: DeWalt DW728-729 scie radiale.pdf
+======================================================================
+Pages: 128
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/DeWalt_DW728-729_scie_radiale_p1.jpg (59 KB)
+
+[TEXT EXTRACTED]
+® DW728 DW729 Copyright D E WALT Dansk 1 Deutsch 10 English 20 Espa ñ ol 29 Fran ç ais 38 Italiano 47 Nederlands 56 Norsk 65 Portugu ê s 74 Suomi 83 Svenska 92 Türkçe 101 EÏÏËÓÈÎ· 110 A2 A1 18 19 14 15 16 23 22 21 20 24 17 1 2 19 7 8 6 10 9 11 12 13 5 4 3 1 2 B C1 C2 F2 F3 G2 G3 F1 E D G1 11 8 10 9 26 27 79 28 13 31 16 29 30 24 32 33 34 25 35 34 35 39 36 37 38 41 42 10 9 40 36 39 38 41 43 42 44 45 22 47 20 46 21 48 49 50 21 3 25
+
+======================================================================
+FILE: DeWalt dw721 scie radiale.pdf
+======================================================================
+Pages: 144
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/DeWalt_dw721_scie_radiale_p1.jpg (53 KB)
+
+[TEXT EXTRACTED]
+® DW721 Copyright D E WALT Dansk 1 Deutsch 11 English 22 Espa ñ ol 32 Fran ç ais 42 Italiano 52 Nederlands 62 Norsk 72 Portugu ê s 82 Suomi 92 Svenska 102 Türkçe 112 EÏÏËÓÈÎ· 123 A2 A1 11 10 9 8 7 6 5 12 13 1 2 3 4 14 22 15 16 17 18 38 21 23 20 19 37 B C D E4 F1 49 50 47 20 F4 49 25 24 5 26 13 28 27 15 21 38 23 30 29 31 36 36 35 34 35 42 43 33 32 43 34 37 38 40 35 41 35 E3 E2 E1 6 18 7 4 19 45 46 44 48 47 F2 4 F3
+
+======================================================================
+FILE: Dewalt DW 3401 3403 3501 3503 scie a ruban.pdf
+======================================================================
+Pages: 9
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Dewalt_DW_3401_3403_3501_3503_scie_a_ruban_p1.jpg (224 KB)
+
+[TEXT EXTRACTED]
+DW 3401 -DW 3403 DW 3501 -DW 3503 Spare parts -Wiring diagrams -Accessories 1.1.1. 1.1.2. 1.1.3. 1.1.4. 1.1.5. SPARE PARTS OW 3401/3 Mechanical parts OW 3501/3 Mechanical parts (Variation compared to OW 3401-0W 3403) OW 3401/3 OW 3501/3 Single phase Motor -Three phase motor OW 3401/3 OW 3501/3 Switch box OW 3401/3 OW 3501/3 Special executions _IR 1.2.1. WIRING DIAGRAMS OW 3401/3 OW 3501/3 Wiring diagrams ACCESSORIES 1.1.1. DW 3401 -DW 3403 Mechanical Parts Q Key Code number 1 11260 2 31570 3 11076 4 32799 5 176491 6 11412 7 11381 8 31302 9 72997 10 32796 11 31304 12 76496 13 11353 14 31297 15 11688 16 176550 17 31299 18 22040 19 11147 20 31609 21 11205 22 31185 23 11220 24 11410 25 11274 26 32492 27 11116 28 11023 29 11386 30 11210 31 197346 32 11215 33 76492 34 11148 35 11107 36 76543 37 131689 38 31223 39 11352 40 11853 41 11217 42 11733 43 31624 44 22038 45 22029 46 76546 47 32964 48 33920 49 76547 50 11127 51 76545 52 11474 53 31559 54 11054 55 11698 56 11067 57 11387 58 11217 59 131368 60 11193 61 131367 62 11154 63 11693 64 31467 65 31363 -31365 66 197117 67 DA853 68 31910 69 131690 70 32798 71 11522 72 132825 73 11442 74 11025 75 22029 {6 11493 77 76493 NOT ILLUSTRATED 31947 31954 31957 33858 31946 1 1 3 2 2 1 1 17 2 1 7 1 4 1 1 1 1 1 1 4 2 2 2 2 1 2 2 2 2 1 1 1 1 1 3 2 2 1 1 2 2 2 1 1 2 2 1 1 1 2 i 1 Description Tapping screw 0 4,2 x 19 Band saw guard Grub screw M5 x 8 Guide block 450 Band saw guide block Retaining ring" 10 Screw M8 x 70 Plate for guide rod Band saw g
+
+======================================================================
+FILE: Dewalt DW110.pdf
+======================================================================
+Pages: 22
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Dewalt_DW110_p1.jpg (244 KB)
+
+[NO TEXT — running OCR (eng)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+DEWALT. manuel de fonctionnement et dentretien r ” A ¢ A Ao 4 IL § =o ae = a lg Es. = DeWalt 10" Power Shop. Lo. Universal duty Dwi10.
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+PREFACE : Toutes nos machines font l'objet de vérifications, inspections et mises au point minutieuses avant de quitter I'usine. 5 Certains réglages peuvent éventuellement étre affectés pendant le transport des machines. Nous vous recommandons donc de vérifier I'alignement avant d'utiliser la machine. Apres une certaine période d'utilisation, il est souhaitable de vérifier les réglages de la machine afin de maintenir une précision totale dans le travail. ATTENTION : TRES IMPORTANT. CONDITIONS DE GARANTIE : Nos produits sont garantis par I'usine aux conditions indiquées sur la carte de garantie accompa- gnant chaque machine fournie. NOUS VOUS PRIONS DE PRENDRE BONNE NOTE QUE NOUS N'ACCEPTERONS PAS DE RECLAMATION DE GARANTIE SI LA CARTE DE GARANTIE CORRESPONDANTE N'A PAS ETE RETOURNEE AU BUREAU DE VENTE DeWALT A BRUXELLES, DUMENT SIGNEE PAR L'UTI- LISATEUR. SERVICE APRES VENTE : Pour tous services et réparations, adressez-vous a votre fournis- seur, ou a une station-service DeWalt suivan
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+| ww Sas » 5 baie Ea re —gier at cx fm, EERE 0S [ YR ik ty / Zr 1g] sol rd ¢ ik, . INDEX Contenu : Pages | Déballage et Montage. . SE : 3 | Réglages . z E E ; ] F 4 i Entretien et Fonctionnement . J 10 Liste des Accessoires oo DE 14 Diagrammes et Listes des Pieces Détachées . 15 /\ + 3 Nt » _ Vp ra 4 weal 8F: 43 l\ Br Es % NY \ 4 ig Pp 3 Sa 2
+
+======================================================================
+FILE: Dewalt radial arm saw 5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Times_path_..".
+Pages: 28
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Dewalt_radial_arm_saw_5_p1.jpg (147 KB)
+
+[TEXT EXTRACTED]
+1 This manual is provided for your convenience in the use and care of your saw. These instructions include operation, precautions, preventative maintenance and other pertinent data to assist you in assuring long life and dependable service from your saw. WARNING: WARNING: WARNING: WARNING: FOR YOUR SAFETY READ AND UNDERSTAND THIS MANUAL PRIOR TO USING THE SAW. REVIEW ALL SAFETY RULES AND OPERATING INSTRUCTIONS FREQUENTLY . 12 12 12 12 ” RADIAL ARM SAW RADIAL ARM SAW RADIAL ARM SAW RADIAL ARM SAW TYPE 5 TYPE 5 TYPE 5 TYPE 5 MODELS 3512 MODELS 3512 MODELS 3512 MODELS 3512- - - -01/ 3512 01/ 3512 01/ 3512 01/ 3512- - - -03 03 03 03 For s/n 20071031179 forward For s/n 20071031179 forward For s/n 20071031179 forward For s/n 20071031179 forward Operations & Maintenance Manual and Parts Bulletin Proudly Manufactured In the USA American Castings American Motors 2 Service Record Serial Number_____________________ Date Purchased ______________ Date Service Performed By 3 INDEX General Rules for Safe Operation of Power Tools 1. KNOW YOUR POWER TOOL— Read the owner’s manual carefully. Learn the applica- tions and limitations as well as the specific potential hazards of the tool. 2. GROUND ALL TOOLS. 3. KEEP GUARDS IN PLACE. Keep guards in working order. 4. KEEP WORK AREA CLEAN. Cluttered areas and benches invite accidents. 5. AVOID DANGEROUS ENVIRONMENTS. Don’t use power tools in damp or wet loca- tions. Keep work area well lit. 6. KEEP CHILDREN AWAY. All visitors should keep a safe dist
+
+======================================================================
+FILE: Dewalt radial arm saw 790.pdf
+======================================================================
+Pages: 21
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Dewalt_radial_arm_saw_790_p1.jpg (115 KB)
+
+[NO TEXT — running OCR (eng)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+DEWALT br -- wy . i ® ae = am pa— SAFETY SEALED rel / \ No. 790 : 12” RADIAL ARM SAW Cat. Nos. 7790/3431 - 3436 TYPE 41 Bulletin No. 8422
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+[HDEX CAUTION Power Connection and Grounding .............. 2 F Fai Unpacking and Set Up ....c..oeeeecineennn 3 CrPUTFOESNOT Clarity; tre Adjustments and Alignment ...........ccc.ccoe... 4-7 lower guard is omitted Operating Instructions ..............cccocvecierne 8-11 from the photographs in- Rules for Operation & Maintenance ............ 8 ide thi IH Parts Drawing and Lists... 13 - 18 sige dl menyn]: Haver, Motor Connection Diagrams ....................19 - 21 ALL cuts must be mode Beem I LT lr snonsmss samen 12 with both the upper and Motor Trouble Shooting Chart ................... 12 | cdrom Black & Decker Service Centers ............ Back Cover awnrgparcE Hace: EEE EEE EEE EE——S———— MODEL NO. PHASE YOLTAGE -— ee 7790/3431 Type 41 1 ph 120-208/240 VOLT 60 CY. 7790-02/3431-02 Type 41 1 ph 120/230-250 VOLT 50 CY. 7790-03/3431.03 Type 41 1 ph 120/230-250 VOLT 50 CY. 7790-08/3431-08 Type 41 I ph 120/240 VOLT 50/60 CY. 3436 Type 41 3 ph 208-240/480 VOLT 60 CY. 3436-09 Type 41 3 ph 550-
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+Your DeWalt has been completely assembled and tested 3, Swing arm and position at right angle to guide fence at at the factory and then partially disassembled for packaging 0° on miter scale. Locate miter latch in column slot. and shipment. Securely lock arm with arm clamp handle. v 5 4. Place machine on its back (column on floor) and attach We suggest the following procedure: legs with three (3) bolts to each leg: Now place machine I. Tum the Elevating Handle at top of column counter- in an upright position on its legs. To prevent forward clockwise a few turns to release the motor box and re- creeping of the saw carriage, tilt the saw backward by move it from under the arm. (Do not discard the metal shimming under the front of table frame or front legs plate or guard found under motor box.) if s0 equipped. 2. Remove the Arm End Cap but do not disconnect the So thal your new DeWalt may be placed in operation just leads to the switch. Insert rollerhead yoke and motor as soon as it is as
+
+======================================================================
+FILE: dewalt DW125.pdf
+======================================================================
+Pages: 42
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/dewalt_DW125_p1.jpg (441 KB)
+
+[NO TEXT — running OCR (eng)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+, : w, % BR : ‘RADIAL ARM SAW . SQUADRATRICE RADIALE ; SCIE CIRCULAIRE A BRAS RADIAL .- RADIAL AUSLEGER KREISSAGE « * RADIALE ZAAGMACHINE 2 2 d = JAAR : Pes be = . - - Operation, adjustments, maintenance, spare parts. Manuale di istruzione, manutenzione e parti di ricambio : ; Manuel de fonctionnement et dentretien, pieces detachées ie: Bedienungsanleitung ‘Zubehér Ersatzteilliste Handleiding voor gebruik en onderhoud Onderdelenlijst x For 72 Fi i oar al " Cy |
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+CONTENTS PREFACE - GUARANTEE CONDITIONS - AFTER SALES SERVICE .......uuuuvuaieuiiseneiuasiianianiansaea.. Pag. 1 DESCRIPTION OF COMPONERIISS "io vo veh bu vy sms mon vin a di os Sie 3 Rapin 2 UNPACKING/AND MOUNTING. = co sade Bory oo 0 a aria EE ADJUSTING TABLE TOP PARALEEL TOARM TRACKS ... . ol oh 5 ous bh sin tmnt vse so cia sls sina ADJUSTING CROSS CUT TRAVEL 90° TO GUIDE FENCE - ADJUSTING SAW BLADE PARALLEL TO ARM TRACKS ......... » 810 ADJUSTING SAW BLADE PERPENDICULAR TO WORK-TABLE. YOKE CLAMP HANDLE ADJUSTMENT ................... » 11-12 ADJUSTING ROLLERHEAD BEARINGS TO ARM TRACKS i « 1x css + sss ssiaie a fhm s nasas esa annsosnnsenannsassnsanss B13 ADJUSTING RIPSCALE | <li: i. vs «3 Sobiioniibhss cin in savasoniiaroiie lenis io Be Sas ADJUSTING COLUMN BASE TO COLUMN. +c. tb civs von v5 asi ous iat dss ts <M ri Lal dics sco i SAB Se 0s as MEAT MOUNTING AND ADJUSTING BLADE GUARD . i. 7505 uit ob. Li ell i ie el Tes » 18 ASSEMBLY AND ADJUSTMENT OF THE AUTOMATIC RETURN DEVICE - MO
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+PREFACE The following pages are intended as a short briefing on the vast possibilities offered by this universal machine. Follow the instructions carefully, until you have learnt the fundamentals. After that, ingenuity and imagination will decide the limits of the operations you tan carry out on the DW 125. ATTENTION: VERY IMPORTANT GUARANTEE CONDITIONS: Our products are covered by factory guarantee in accordance with the conditions indicated in the guarantee card accompagnying every machine supplied. PLEASE TAKE NOT THAT WE SHALL ACCEPT NO GUARANTEE CLAIMS UNLESS THE RELATIVE GUARANTEE CARD HAS BEEN PROPERLY COUNTERSIGNED BY THE USER AND RETURNED TO THE SALES OFFICE. AFTER SALES SERVICE: For all service and repairs, please address yourself to your distributor or to a service station, as indicated on your guarantee card. PREFAZIONE Tutte le nostre macchine sono oggetto di verifiche, controlli ed accurate messe a punto prima di lasciare I'officina. Pu accadere che la messa a punto venga
+

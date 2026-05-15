@@ -1,0 +1,686 @@
+Found 28 PDF(s) in C:\Users\adm\Documents\SHEMATHEQUE\DOSSIER SOURCE\Machines\LUREM
+
+======================================================================
+FILE: LUREM variateurs HZ  $19.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_V.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_U.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_°.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_9.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_m.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_d.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_f.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_c.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_é.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_v.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_l.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_g.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_h.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_Ä.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_b.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_..".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_q.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ó.".
+Pages: 37
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/LUREM_variateurs_HZ_19_p1.jpg (51 KB)
+
+[TEXT EXTRACTED]
+VARIATEUR Hz Concept Hz Concept Hz Concept Hz Concept Hz Concept N° 23-02-069-00 CB 310 r CB 310 r CB 310 r CB 310 r CB 310 rl/r l/r l/r l/r l/rlx - lx - lx - lx - lx - TS15/21r TS15/21r TS15/21r TS15/21r TS15/21rl - l - l - l - l - TS25 r TS25 r TS25 r TS25 r TS25 rlx lx lx lx lx - 1 - Toutes modifications réservées All alteration rights reserved Änderungen vorbehalten. Nos reservamos el derecho de cualquier modificación. ATTENTION POUR BENEFICIER DE NOTRE GARANTIE CONSTRUCTEUR VOUS DEVEZ IMPERATI- VEMENT RETOURNER A LUREM LE BULLETIN DE GARANTIE DE CETTE MACHINE, COR- RECTEMENT REMPLI, AVEC LE CACHET DU REVENDEUR LUREM ET DE LA DATE D’ACHAT. F GB CAUTION THIS GUARANTEE CARD MUST BE CORRECTLY FILLED IN AND RETURNED TO LUREM, ALONG WITH THE LUREM SALETS STAMP AND DATE OF PURCHASE, FOR THE MANUFACTURER’S GUARANTEE TO BE VALID. - 2 - D E - 3 - Achtung Um von unserer Herstellergarantie Gebrauch machen zu können, muß der Garantieschein dieser Maschine ordnungsgemäß ausgefüllt und mit dem Stempel des Lurem-Verkäufers sowie dem Kaufdatum versehen sein und unbedingt an Lurem geschickt werden. ATENCION PARA BENEFICIAR DE NUESTRA GARANTIA DE CONSTRUCTORES UD. DEBE OBLIGATORIAMENTE ENVIAR A LUREM EL BOLETIN DE GARANTIA DE ESTA MAQUINA, LLENADO CORRECTAMENTE, CON EL SELLO DEL REVENDEDOR DE LUREM Y LA FECHA DE COMPRA. - 4 - F Page d'identification 1 Avertissement sur la GARANTIE LUREM 2 Sommaire 4 Caractéristiques techniques 4 Sécurité 6 Raccordement au secteur 8 Shémas électrique avec l
+
+======================================================================
+FILE: Lurem C2000  Schéma électrique $5.pdf
+======================================================================
+Pages: 5
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C2000_Schéma_électrique_5_p1.jpg (122 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+TT c2000-c2100 711185 ® u L2 © | | _ 1 ses OPA ha ue IE su © 3 SH R è è E L (PE | Z Z L\ ‘earvoa ? | o— 15557 t | ÿ ‘ ÿ | Oo , Ç | @— . | [_ Frein P-—- -—] | | j [ee J de toupie 4 2 | PF { à | | | | M 545. L | q-— 11 | 2 ui | | | | 5 hear | + me | rt TE) ee 220 V | 3000 tr/mn = SOHz KM
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+| | iii 1 | 4 (971117 9 | Î | ; | | TT Kgr4 TF1 _ 0 _ _) De ot \ \ \ ï \ j ji | | | tt LL ! = 25 Det € ns = 3 dé jé 67 Frein Toupie | rer TT 11 æ-k | © 10 | 7 en < __, 50 #2 ‘ PAPE |
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+C2000 -C2100 711185 | © u L2 A 4 A 9 T fl gfiA / | n } ; 23 | UE ... 07] | J: aa g- | ; 10 Z 2 63/10A j | He | 2 lu | | 3 1 Frein P-— —<1 | de toupie 4 2 — 30OuF F | | F ë | o| 5 | gg | | 4° ! 0 5 || | ; 3, noir T {| | LT ap Lure — ; Û [ L Di | 1 4OuF A ;, Lee 20 220 V ‘ 3000 tr/mn = 50Hz , KM.
+
+======================================================================
+FILE: Lurem C2100  Schéma électrique $5.pdf
+======================================================================
+Pages: 5
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C2100_Schéma_électrique_5_p1.jpg (172 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+lurem : Coste To [SE L700]c 2000 pe VTHUNT TA OO dE Ag AE AT STI. 537 5 DÉSIGNATION |RÉFERENCE_DÉBIT. MATIÈRE) —4É Fee Pa a | j È ; ; | Make) ehcrioue | mono. £tou Lereous <ecduque | nono. 20 4 4 A, Fiche mat je er AA van Geurss. | À A. Prise femelk (LPuT 69: rem | Sawiss 7 Ï | £ _ | ; z A Disjondeer PKZ2 M.0-|0 +UHi Etou Som dore / FYWI Ne +SVH. Moe/ler. 3 A, bOTR À bouton “Orät" | xAc. 84C TEL mécauique, 4 A. Micro. 2 père | XCK. Pdoë i * s ' A Bouton " Accat" | x82- BL4é. i i - ! | j 6 A, Micr… vup fée |xe K. TH i " 7 A, CELA 35H S ment | HoF RNF {( C.6. F 8. |A Métur A Ses - Sosatrfen = Soha. ; Lay Same | Maus dou - LS 0. |Foune: êty | s, > Pastel, Eat. | Aa. 7 tody Er, [Same tj & horte -Fosh@ | a): 34. 1094. | | Dex. Lu pd" - | | | : | | Tri B8ov | i A. | A, Fib _mal Lara AB + | Geuris | A Prix Famll ser Meg. —m, Eaunss Î il &, ; A Disjoucreur Prz Ho. vlauni 3900 He [ Kféckner {1 | i | +VHi 00 +SV4 \ Moa /er- (=! | A Boîtz À boutou ‘Aer | xAL BÙUS Flimécanique 1#i | A, Micro - 2e 
+  OCR page 2/3...
+Image too small to scale!! (2x36 vs min width of 3)
+
+--- OCR Page 2 ---
+| C 2000 -C21GC Le 15/1/83 iii 1 | 81 | | » | | | | HT Y | | || A MA ! EE | | ue 523 | 8 RL | DE ue EL | Cet € | + 3 q _ 1e LE] Frein Toupie | | 8 A | 24 4 éy ° Û a | | | [A +E je 0 | > 141 7 ; | | | LA | | = | | | | ï ; | 9
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+© u F @ T7 à % À Q IA | Arte | | TR + gt 9 qu | | EH +44 @ “ | | CC } 3 à “q-$ | | ©) _ | Z 4 <| | garon * | PPPIGI EIRE 2 & | | | { 10 Of * 13 1 | | p-F € |e— =: H,_ ASF V7 | | ' | T 304F \ | . Je j | & 0 0 age | re—ceuty à 1 | | 2 Levmbun— || | | A eaée|| | ‘ / ThouF “ A“ er ! | | LS ES | | Î [ | 11 KW of | 220 V _d | 3000 tr/mn = | | 50Hz | | | | | | ‘ | 10
+
+======================================================================
+FILE: Lurem C2600  Schéma électrique $5.pdf
+======================================================================
+Pages: 3
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C2600_Schéma_électrique_5_p1.jpg (109 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+C 2600 © L1 Qu L2 Monophasé 220V mr ga 5 [| 23 gfiA D2 1 5, 13 b 24 ANT “ 20 D1 ! (- 1 ! 2 555} LP 4 21 ïÏ el 3 1 Frein ©--- I de toupie 4 2 o y ‘ ‘ WI y 20.F55 ==40,F | | ; pee. ° u © w Coop PI 15 KW 2o 220V 2850tr/mn SoHz ! 06 9
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+C C 2600 Le 15/4/8C lu L L @ : AH ShkkAA À ‘ = Jun f1A 1 5, 3 23 HE [e) 5 b 4 14 524 ; 1 —|))) set ! 2 2 de | ! 3 à 4390 } le le-7 Frein Toupie oo $4 44 i 25 46 6 18 ue 7 Dre s—1 ULAL w 15 KW 3u 8 —> [ 220/380V 3000tr/mn = 50 HZ JAN 10
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+Lurem Corse Te Pie RE A Op ee a = RCE S' DÉSIGNATION |REFÉRENCE.DEBIT. MATIERE Mate) <hetiou moine. 2RdiS! ; A A Fil il LPET A0 Les | États. A. Prise mel LP4T A6 mm Souris &. A Disjondaur PEZ M.0-|H0+Uui Etov Sour ( kbo'cknee- A / +VHi Je +SVH. ' Moeller. 3 A. Be3R à bouton ‘Arrût” | XAC. BUS ; Te Qméauique 5: ; A! Micro. 2ecpreur xCK. Péoë à ; ” rs A: Bouton * AèE xeL. BL4e, ; 6 A Micrsn zeup ‘eur xek_ TAde ; ; " 7, ; A, Cabh 3xA 6 ment HoF RNF , C.S.F 8. |A Métier L a - Sosotrfun Sox. Mobruss TH ; | mous flou - LS B0. |Fsume: 84v ; S. LE Fusith_ St. A8. nP douu Es. | Siame de 12 | dorte -Fsib nf: 34. 1094 ; Dex. / ; 0 Tri Bsev Ï : A. A, Fi mal 3Ps7 Ja <a) | Gauss : ; A) Prix sem 83PrT A69. —æ ; Eawiss & A Disjouteur Fin Ho. 4\suhi 3804 Pour ; p Kbickuer +VHi to +S|14 À À Moe Mer 3 A Boîtz à boutou ‘ArcëF | xG BUS Télkimé camique #w ‘ A, Miero _ 2e peur xek. Pdot 7 ; . ST A. Boutou | Art” | x. BLYL ” 6 A, Micro” 2cpheur | XCK_ TA a = A. C&bé à ncrrwtl Uo3. AMF | C.6. Fr 8 A Motrur Low
+
+======================================================================
+FILE: Lurem C2600 plus  Schéma électrique $5.pdf
+======================================================================
+Pages: 2
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C2600_plus_Schéma_électrique_5_p1.jpg (133 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/2...
+
+--- OCR Page 1 ---
+C 2000 s/c 2600 S Li L2 L3 g 9 1 d [€ + ---{{ à gd} Touple ! 26 LE 64 Tension E â Courroie "54 cp Degau ' à Mort IE 451 ' _ Lacets 220V | ré U V W T 5 d to z x Ÿ À] ° 22KW E 3 0% /3000tr/mn 220/380 v JL Moteur Frein
+  OCR page 2/2...
+Image too small to scale!! (2x36 vs min width of 3)
+
+--- OCR Page 2 ---
+c 2000 S /C 26005 { Li L2 9 1 MN a | 9 14 34 5 at t € ! “ k-- 1,5A {ITU |Bus pe 4 | Î RCE | Tension 44° Courroie Ë + t | | | | | 604F oT 4 Degau 14 | | Mort. (Ja cp! oO oO °. Ë j r | L T Le) F | 18 KW 3000tr/mn 220v J— 5oHz Moteur Frein
+
+======================================================================
+FILE: Lurem C2600S  Schéma électrique $5.pdf
+======================================================================
+Pages: 5
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C2600S_Schéma_électrique_5_p1.jpg (179 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+Turerm : Combme Tv Page = (rires ns area Se A 0 S ds 5] DÉSIGNATION |RÉFÉRENCE DÉBIT. MATIÈRE 5) Pieces Plane en mme ae es a EE pHPie Pants — | ; (Materiel) <hchioue mono. LOU i Date <lecduour mono. Étou A A; Fiche mat LEE A0 Gawisa), ; ! A) Prise Fe mel LELT 69: mem | ; Sawiss 2; A Dis jonceur Pkz M.0-|H0+U4i 2tou Som i ( kPo'ekmer- ; i à 4 +VHI de +SVH. | = Moe/ler. $ ' » ! A 8; A4 beTR à bouton ‘AeûF” | xAc. BLUE | 2 À mécauique | ! { | 4. ; A. Micro. 2e pren KCK. Proë A " Re À A | Boutos * AerzF xae. Bose, 1 = 4 i a | | 6. Ï LA} Mieron 2eaf ‘eur Xe k. To | jm Ï i {1 { f ; Z; ! A CELA FxAS men" HsZ RNF ; ,C.S.F i j A i _ 8 | A) Méteur L a . Sosatrfen | Stna. | Mofracs TH ; | | mais dtou - LS. (Feons &ts | : tj | S; i 1Li Fusib— Sxt. Aa. ref ou FR. Sicme her i 2° porte Fist mn): 34. 1094 ji dez. H + + + n « | | $ Ÿ i F | » « t : ri = sov Î i ; | | Ai A; Fide mal sr A9. mn | beats f ; A; Prise Ferme) sPAT “69. —æ ; | Gauss 7 1 A Disjoucteur Przdo.ulsuni 3804 sou ( Kfüekuer Ë ï ts +VHi
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+! © on 4 Monophasé 22 / mm gfiA 23 2:43 5 f gf 1A B a A- 5 dcr (8 4 | HU " | +! 1 77 ! @-— {[- a > 3 | A 3 555] G- L6-! | b4 @ 21 «} et 63 b1 | | Frein uns À --] © Lt de toupie 9 92 p——=__ + —Fréä | © ; > sel; GA FE CTI da a couleur “ “copy Fp 55 KW 29, 220 —®© 2850tr/ma -—© S0Hz | ;
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+€ 2600 Le 19/1183 | | | | u 5 > \k A À LÀ ; | UN 1 0 | PYFTT7 | 211 gra … Les | «mo Ke » { BLUE 3 | o- \ y: PA > 24 ; | ‘ | | ue an 4 ‘ { (r-- ! Ï ue 5) | | n 54 ad ed | tÔ- BFen Toupie Ï i - jo ; | co te 5 6 ‘ ! H 2 { Ï : | 4 | i | | ä : | | 51w _ | ( 220 1380 V + 4 È 20C0tr/mn = i | 50 +2 | 4 n | _—_
+
+======================================================================
+FILE: Lurem C410E  Schéma électrique $5.pdf
+======================================================================
+Pages: 4
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C410E_Schéma_électrique_5_p1.jpg (160 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+‘ | ms | | | Fr — | | Er = SE n w | ! momies CEE NE | Eau | | = op 0u5 Z ‘ Î | 8 nt 5 j | crus | || | ° 09 | | II ZÉNy | Z 85H & | | |0#7"38)3 | 2 o3 28 a | me 0 | 3 of || pe vs °5 ë| | ll el || 5 g Y 11 A j 2 cs: - dE ee Ÿ 3 se Ris far pe” = SE ee a CT #5): R [rs me, TN 57° ET lee É —d - de da Le mt A eu n° 3 é | tes = sp macel | EE = = 7 2 -0.5- 9
+  OCR page 2/3...
+
+--- OCR Page 2 ---
++ fr NE 3 | UT S 2E ° où >=N 0 T4 #28)5 | se cH-105 | lo 8 ut [5 | | | ; | | - | | | 9 | [ || | 1 me fi | 5. E | | a | |s € | | 48e ÊNu | "TE zéz)8 | 40585 )5 jo _ c [0 5 Ë | of | (FH. we es | | ill | et | e ; So ‘ qq} > fr dt JE — As a 5 o5ÿ = ë LE &* — a | |Aé<—62)8 = ‘: me 81° - re ° ° o — ae 5 ; De TT He = seed - ; 9 F _* = _-0.5- (suite) 0) 10
+  OCR page 3/3...
+Image too small to scale!! (2x36 vs min width of 3)
+
+--- OCR Page 3 ---
+ca "0% F _— PS i il 38 08 == [133 4 ? æer———} [= à — qu. —ES z£ @|| | 92 75H—8 * 2 EE PRES = 385% u (1 > TTE ST) 8 228 © |! { 2_N & | 5 655 8 “|; = =] sa cn TSa eg ed EI - | | pa | | | Le blhécepe ces A = 3 | = || = —= ‘ | du = 5 | Fe 8 H— g£ R É | H (= 2 || (> <FES 2 mes FREE 3 | |. HN 37 | | ps 8 n B ps der, 0-16 ] | ns di Î | = | 3 | RS i 8 + d = 4 H— Fr | quil 05 NUE Dei = : Fa be so 2É EE > ef0 Sete = 83 8 \ ® _ 2 see P>-musmes es CAT 3 | Tel ITR 5 2885 pa 9 ‘ À P 6 CURE Mp6s ÉCRIRE Os PO ESA NS SE è “0 z SEE ; (6 = = x = _0.6. 11
+
+======================================================================
+FILE: Lurem C410S  Schéma électrique $5.pdf
+======================================================================
+Pages: 3
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C410S_Schéma_électrique_5_p1.jpg (122 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+3 wo eu = u 3e e° ue ês Le 5e = E £s A $. © ] o ) êg / S € Hs — 5 Ÿ 2 2 8 …m m © = çïûo Er 8 _ + S [ir eee | Le LUNA, poupe 9 o 7 === /12 az. o Le + 0 ce x ° 2510 M ET ES ! ej. À ==" = /a — Sy 0 Pa) Lu «< He” 271 ES = AS + n° à 9 == © A | a pen E 2e a8£ 2 42 gasu A2 — vL9 ou Re) wEcé < A — où S 20 e = o 2 2 “ Q fr é 6 @ are & + = S ; Lu %, = 3 — & 4 5 NE > 8
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+a # T = “ 2 qd > e Su v | = © So fs) ïO =0% 8) — = © 0 —- D 2sg ui | eu = E5N9A685 s£ É| | A v S: 8 Gi = Î O "ne pe) 8 EF 2 [ =| #» c& ga | “|| Ÿ| 52| € #3 Sea | eZ | @ 8 || 9 Koru : | | usE cr a89 87 des —) ep £ | = > 217 Boa 3 0 e | n 132% s5-<5 mSJE Sa n 128 - + HS ISEHSS 5m D dJ î Qi [a la) | in) = — | Z = {| = [et v = } 5 « ESe © La se 81 E æ 5 © =2a 82 mn = = 2 ex & Que, 39 gse vE vn v v D S tos = cu | = er = g, S m& _— =c€ | S mue) Zu due > 261 | 2) gæ ca es as| | 1,52 | € #es 223 a Le gs | SE |utél LUF eo. 2 do vs 921 | Lu |&uo Se. 0e Fo Fac es 8 1=55 = TR, Sea 69 _£Q mn | £”i 252 pis es a SIa5S28 “10 z Leu) ’ —e Too > Sit=ignt | 9 E > Ô Le Z — | nm = | o n | = Le 5 oÊ =09 G| ee [née 28; cÉrnge 27 | = ü = s HS 68 ge= | |=| g | $a 5 | HSS T3 FE | 12 2 | Et Gus —7 || LÉ LÉ | Elege EP sl | 301% || 2 &s == 22 A es à 8 Pr | | | | dl z Sen te AS 078 | | [CE 6% ! | 4 NO Sos 20 | la He + — Te CNSN|5M à | 6 Poe | — LJ = — = | [5 We ni o « = Hi =) mn Eu Ÿ El É1 53 gs, £ 21 | | = ç v -— &
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+= ir | T | É | e ° À | Ë Se EE > | È.Ë [7 0528 \E G 2ai 2 meme EE 1 53 s p CA MON — 2 7 série e|- #59 3 JE ras soi A d | Ÿ s _ H 0 S | © } ë f || | 2 le, | | | E £ | | | 5 FAN | a fi | | a. | S | | É4é | ; | | C05 de 350 = | | nc os © | | hs PH Er É )e | sep 8825 )u e|-# 52" 8 /5 5 2 men VE | 3 Des >, | 58 ‘ | | 5 | | |: | | ne) | | | se a lo- ; | 25 TS | 3 ' | | RE oo Lo | | | ÉPTAT | © = 2 1e !e . = Æ = 2 È4 © E pe = “ = Ge NN _ ê Leé 5 € | « le © 5 “ 51 ES PE IIS SEAT 8/2 | …. , : (Dex > = É| ! | « 85 a) | = ‘ : I q | 8 Ë | | 8 = || | | 8û8 8 | 2480 8 | te ë ti | EU U,X5 $, Î | ELA = {1 | | EËsE = tÙ | U EDS : | | ê | | > @ 7 = = > | &è AC es { | & =,0e pûü: SgdN9 08 2x | | L œ | - | ' | | | > £ Eos | = le || | ; : a | | É € 253 | êe = nm 0 | | L | G Ï £ 962 | Ba So É à San O9 srB. LÉ EST ga BEBE Ta 808 CU | J | | ü > Si à | 057 | || 10
+
+======================================================================
+FILE: Lurem C410SX  Schéma électrique $5.pdf
+======================================================================
+Pages: 6
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C410SX_Schéma_électrique_5_p1.jpg (177 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+LUREM DOMFRONT Machine C440 SX Page 1/5 [Du 31/10/93 | 151 Li La L3 PE Machines a bois | TAI 380V/50HZ 3w{acv) |au _ 3 . ; AC3 Î 1 |a |5 |aa| 5. 5KW | SNS NSAT 0/1 1 4/3|5 1 4 |a|s 1 1/35 2 |a|e |44 x = a es a VTT; 8 BY}; 0 ep LI 1. © He 541: 0 HOT 0 ES 5 (eg 5}" (ee et" (ee 9}" 2aÿadet 1.44 2 Gaded 7 TE ci 4|ajs 13 A1 1|3|5 13 A4 YEN SN NES 2|4|6| 14 x 2|4|6| 14 ne [1 —v— “lv}e) OM M4 ee | 13/5 13 A1 : 1j3|5S 13 A: 4 3|s 13 A1 TAN SN SN 2|4/6| 14 a 2 |4/6| 14 a 2 |4|6| 14 aa [ œ e|=| = ui M3 AVANCE BOIS u2 |v2jwa ) EEE EEE EE pe 113|5 13 A1 1j3j8 13 A4 1|3/5 13 A ÿ-Y-4 NEO ÿÿ- 0 D 4-4 NET 2|4|6| 14 ne 2j4a|6| 14 na 2 |4|6| 14 a u|vjw z x y u|v|w zx _y u|v|w 1 x y M4 Ma M1 Æ À DEGAU/RABO 1N/m TOUPIE ScIe Page 43
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+TUREn DomFnoNtT [Machine C410 SX Page 2/5 ]ou 1710793”) 1451 Machines a bois | TRI 360V/S0HZ 3w{acv) |au 450 E1 [e] a l'SIO-CIACUIT IMPAIME 1 = i A1 [OJaz[9) aa SIREN NEA 14 rs (re E4 a3 [las Le] ARRET 5) sa T (F-iagf) [URGENCE | 1 3 °o q-; si 1 o |sav||o |aev 2 4 Ÿ FT Ÿ ARRET 3ova 7 | s00va 1 °E, sa [e]c1 [o]ca 2 (18) ! = ess = | chasse jus j COPEAUX pre DE . /s5 6 8; 81 [0]B2 [0] se Où « Û $ 22 Fa =< ess ; ; ss || 1 ©] @] v4 | 81000077 AVANCE TABLE @J v3 Bors DEGAU pv ev 24 13 Pr) 1 ss Oÿ-------< “7 pti tee niséeteteiah} 22 14 ! s4 54 GC 4 ' | 400000006000 04 8 2 oo} ,1 ‘ ' m (8) re re 1 | ess ve [9] F2 [e] ! ' F1 (@] 13 KMA 14 (47) q (3) M4) 47 s5 5 4 eo 21 ê 8 € SELECTEUR 9 s7 | kme 1 IT III 22 CONTACTS =d- [+72 |] | | 2 | =74| |<| | K Ma s7 [=/76]| | |<| 2e [7/76e| | [+] 8/1 |x| | | ne s7æ| |<|} Aù +
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+LUREM DomFnoNT [Machine C410 SX Page 3/5 [Ou 1/10/93 | f151 Machines a bois | TRI 380V/50HZ 3wtacv) au as (18) Circuit (CDE) Fa sa (13) (45) se KM4 sa MONTEE | DESCENTE 3 3 Fa S | 7 --—» =—=3 NA ï En 4 ' 4 (a) CDE 89, Lasane[sememes TABLE [e] RABOTEUSE ©! (14) (16) (40) (oJus [Jus PV AVANCE DES BOIS HAUT 21 Bas 21 s @ ss G 6 3 3 22 22 SRE RES S SE SNOV grec eV (eJu7 Ju 4 : 4 PT MT [o] H1 [e)H2 21 21 13 43 s7 KM5 S7 KM4 22 22 PV (41) (12) ev 14 14 a A2 (KM4] [KMS] 2 83 [e] a1 a1 21 14 [9} (9) 12 13 sù s7 / pv Y [eo] u10 22 14 s7 jy 54 22 KMa se 21 s7 /ev Taaue 5S6 24 22 RABO O-Ÿ æ aa a aa 51 PR A1 A1 A1 se BEEN ° [e] = (3) + (a)
+
+======================================================================
+FILE: Lurem C410sti  Schéma électrique $5.pdf
+======================================================================
+Pages: 17
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C410sti_Schéma_électrique_5_p1.jpg (130 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+LUREM DOMFRONT [Machine Page 3/7 [Du37/09/S0)t8 Kachines à bois C4i0 STI -c/CDE- au Le Ës 123 45 67 8 910111213144 La co ) 8 | 13 Da rs) re 14 (F=1Agf) 0 (52V) (0 ]sev à CDE DEGAU 5 To 8 < ra [les DEGAU A oE 2 CDE DEGAU 6 2 (D) [aus CDE Ra80 5 tin) 8m) RABO - 4 oE 2 Ai I RU RAS CoE Ra80 6 2 (a) F7 SISTNYS F| F| F| P|- N S bp 4 è| ë| ê| € SN ac N — Le} Le} Le} [=} w| w w CDE TOUPIE 5 ä ë| 81 8 € 40m) (pus) — CPE TOUPIE S — Tourze | , oq- ue (1) B-m) CPE TOUPIES_«, CDE scre 5 118) ————————« A scIE 4 + oG-; Va 2 @ CDE SCIE 6 21838 F8 ° +
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+LUREM | DOMFRONT Du 17/08/50) te Machines a bois c410 STI -C/CDE- au «0 (e} 41 KM2 (9) 42 ; c © 32 DEsau | 3 IE KM3 4 @ 3 9-24 ! | ' - e « « “ œ a = = [) - > > 3 3 3 3 > « « « «< « « «< ° e ® e [OR e . . ES w w w w wu w w « [=] [=] [=] [=] [=] [=] [=] « w # w w w w w w {=} È [=] [=] [=] [=} [=} oO o oO Oo o o où © z Poste Æ| Desau 3(0) | 4(D) s(o) . ® @) Poste 13 Degau KM1 ° 14 7 TABLE $ pesau| s 3 $ 2 4 Ë a f===lssuesses-cueusues Ur Ur - À + DEGAU (OK) - À + TABLE DEGAU 0 î MAntE4 S S | 4 ) 4 : RS + ju
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+LUREM DOMFRONT bu 17/09/30] 18 Machines s bois c4io sTi -c/coe= —|au …. | Poste 2 5j ravo coe Rago 7 a 1 RABO R 3 1EN, 3(R) © ; =} 8 ® s ° ° [2 ° | €; Fi : « « ê « w w w w 8 [=] [=] [=} oO où À o 43 53 KM1 KM1 54 . ar 7-84 CHASSE Î & CoPEAUX 3 4 e 12 LE ie EEE Ur Ur - + CHASSE COPEAUX - + RABO (OK) @ 6 (0) @ DA FER = NARFER & [KM1] A |) % ai | % ; H + [Le
+
+======================================================================
+FILE: Lurem C411  Schéma électrique $5.pdf
+======================================================================
+Pages: 3
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C411_Schéma_électrique_5_p1.jpg (174 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+| + w fe) M = © EH ORON 35 u = ü° pt = T ; UF] = = | S 'l ‘ = 2 o— [ = = ui >L—= Te Ë AN | 2 Ë rat és | 7% za = . o ° z > 3 É Asrada te … 2 | ° y JS 2 [A 2 1 T5 fast Va a STANÉ 9 = T T S -— «w 5 8. 7— 4 ; à I u | ‘ 1 3 ———Lou= Re) Ë £ = La) ; _ bé 28 ; ° = (=) nn É eZ <E 2, I 207 S > fes 0 <pF—es |<&=| |s$= ; RE 0, | PS 5 =, S| J=e Ë T ! ! | LL ob Lu du L+-— te es EL 1 ! ' m Ë 2 e = 11 == ; ! 3 ! | | ! [=] : ; { = Gus 1 4 2 x 5 J&3 Ie 3 ; Ô É En 8. 5 ; Ë = A oO
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+8 ', e = « <c e © u le) mn >; : “ e < (es) es > o—o+ w& — = ie E Le) > c Fe <| no E 5 = œo|w - = E pee feceecu ss JO æ 5: ; pE S O 0° |m =e « N [ra] Lu << GS pre I & æ (I S 5 = | op + 5 7 [ 4 M À 3 3 [| #4 (o) & n v [35 | £ Lui 5 5 = ! - (se) ë- o #|, 2 |2 L s11°/E 83» | uw 3 © (pe eq] x 6071 s| € E Û x 5 6206 Z| 2€ É Ie Sreg® c (e] = , 0 € äju $ (=) t & —|© 8S pe es o “ ‘ à =) pa { | S e = ÿ e- | = ps © | ; —_x —o —o- 1 0e = ——{. ai = - o 0 Lg t ss _YNANTU GE Eee Ne = ri ST ee es 2 ai HN . cacosesanea big av | 2e BP PE EE a 2 [11 — | ; - 2 w 3 Z 3 2 ; &èï c © di 2 == Ho = - 0 [re ë o y oo: ox<3I|Ÿ z © eee dm — 4 2 <= = Le 2) Le os v ! = sa A ce g u | --—-F#eR—- = — ————---— © 5 Got 9 ef q ë oFFS4H0H<0 dé i 9 ' ! | ! t (43 «els (A PR En VE re ee Br © © += gros-qrrq 2 € Z ee 1 ' ‘ \ o y ri = = e|e T|i à E 5 — 0 ! A 0-0 FA = S T8 ! | 4 ' 2 S% LOI x j (en Lu } 7 54 5 ! ! wv ‘ G2 J =) _ ! Ù à Leicieieiis ae - we 3 ze0 a) = ô ei Ô o 8°
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+rat ra DESIGNATION REFERENCE .DEBIT-. ATIÈRE| - n PTT TT US u nr ce re 06 7 Re D EF 27077 00700770 NE 07 PE Kind 1 RE RE D RE AE 2 RE rer {-— ess ts 0 = 5 [Pois Paso ea Le C1 TS ne a DE LR NN 7 F7 737 PE À me A ee 1 ras de pas Ge ee ee ER D EE D mas son ‘qe ta den Con TTn: 380 Bis. Crimes … re ca font foie) Fremé 63. rem DE SUN F-—-_-_—_—_—-—-——_-—-———> ä : mers eavuvr-——st = À pe PS L_É@Æ_ —_XPŸPF_ŸËçŸ‘’”’Y…aa= EE ee a 1 pi te D 6 D 09 02/0000 A PORC PIE PE M NT pu DE D 1 ee D pu 0 D EE A es EE 0 EE ES À ni ‘ = are {— ; 0 5 cool = 4 SO ae ns è LP 1 ESS EEE 3 == EE ï . [= pu eu" I ; Troie eee 0 a pe ps ee D EE 1H ï ps | = PA de à
+
+======================================================================
+FILE: Lurem C417  Schéma électrique $5.pdf
+======================================================================
+Pages: 2
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C417_Schéma_électrique_5_p1.jpg (145 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/2...
+Image too small to scale!! (2x36 vs min width of 3)
+
+--- OCR Page 1 ---
+&— | v 5 A éce : ou | = 23 S Pa) 3,508 (®) « Læ 26 ô e Ke SO 9 +. = & = EE Les T vu L Ëk 37 53 58e 3 845 ce, 90oz_ # >= E æ a 87 © ze = ê î ! { æ CE : ve 5 ; 24 56 8 ; cé Se 2 FE oo JECY 7 7 - vÛ bd = m u H oo = 2 A (O1 f, - 3 Lo a u.u ca £ PS 22e s sg 5o9, E 3 2 = e cl 82 a°_je<s £ # =“ < sn «UE bei ce Le < ! v ja ‘ Oo, NE, a E ve Q Ÿ S = Pa 8 _4 "SSH ; ; — _24 62 | ! w i ! F5 OU LU UE 5 bé=p= » v Su = Ô & = a vu vo =8 33 zé z& i& ùP Dé qd <A du ;
+  OCR page 2/2...
+
+--- OCR Page 2 ---
+« C417 Triphasée uvu © ; 9 | | | | C i ! j ES 3 Ÿ ai | Q —B11 FO730 + FO731 ‘ = p ! - 24 él 6 peiquc A pe _ Cireuit | +—=s—- commande il d 9; 13 A VO r —\\\- ges 21 4 6} 14 RM 18 68298 ‘ Q circuit 0013 2 22534 2015 % 4 27 36 8 6 38 [Commande 1 4 4994 4% 4% 8 s ‘ | | 10 | | ! MERS RS (1 | | {1 1 4 | | | | | | | 1 | 1 | 1 | | 11110 110 | | ! | ; k NÉ / Nate / LL w ZI 3/3, KW - 3 KW 380 V 380V 220/380V 3 nE 30 dd 3a _L : 1500/3000 tn = \1500/3000t/mn/} # 3000 tr/mri = 50Hz 50Hz soHz RABO - DEGAU TOUPIE DE 2 X {| , SCIE 9
+
+======================================================================
+FILE: Lurem C510N  Schéma électrique $5.pdf
+======================================================================
+Pages: 8
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C510N_Schéma_électrique_5_p1.jpg (112 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+1” C360/C410/C510" RDTS EXPORT. Bi-tension Le 30/11/82 U ls \s 14 Arrêt Art | enéra enéra s 2 s 2 136 3 13 13 Toupie ÿ3 Scie 43 D H T s + UF 149 4 914 p14 94 94 63 ‘ 83 Qi a3 OA $4 es {95 F1 F2 te® î96 p96 Le A Â A/ (A3 A3 JS [D] R, : F2 | A2 T S t J T ; | S D | ! | s 5 L3 [5
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+pe C360/C410/C510* RDTS EXPORT. Standard Le 30/11/82 U A a \s 14 4 Arrêt | ‘ Arrêt général général 2 2 13 3 13 13 loc Peer 3 D , T s 1 + 14ÿ 34 pi p14 p4 4 b17 J17 les a3 ?18 #8 [35 J95 | F1 F2 225 ÿ96 196 [F3 A2 A2 26 [5] A2 î A : & A | ‘ , s Î | T eu | s D | | : | | S 5 L3 - à LA0
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+BE C360/C410/C510" RDTS FRANCE Bi-tension Le 30/11/82 LT la S 14 NN a) ! Arrêt UE ! arrêt eu ; général ! ; gérerl ! b----- ms 12 ' L-_-3 JR ; 13,61 13 | 413 PO | Toupie #8 Scie 48 | D\! + ! T s! 1 k ' I È ! 5! b14 ! 5 b ba! »14 514 | 149 1_ 918 1 14 161,___0 Le IE “ 6,3 43 QI Q3 ‘ 4 $4 695 695 F1 F2 225 f96 f96 da, A1/ A3 A1/ A M) 23 [D | A2 Az 4 J A2 | T S Ù 8 J T | | =) D | Blocage | | . toupie 5 F 2 Frein; -45- ? toupie O-- P 4 6 ; - 5 5 L3 LM
+
+======================================================================
+FILE: Lurem C511  Schéma électrique $5.pdf
+======================================================================
+Pages: 1
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C511_Schéma_électrique_5_p1.jpg (188 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/1...
+
+--- OCR Page 1 ---
+o EN A © IE a ; € ae] EI ENS 2 : 82333 um Land ua < ° |) 823$ 88 |£ “ Re | = Lo [A8 = oo « u o . © gow “ 4] (M Ve = @ — b4 Z (1 ° = -_L_11 5 S fe 5 le re) O e $ Ë S ] SE °° I dé | re A A ee) ti ;| z = a ru | = CEN8 0 ==<ccsé 0 . © = 3° © 1) © a 288% = ve | | £+3 sg fours do = Lo I = A = © = e——X ! o TE o [6] = - —o e Sr v E NL [rs | ' ' à Ê ! | oO E S o = De « se = ul Z ë m © © 2 © « N — 2 mo = e = 2e =: 2x«s “er | er L___ | - | z | 9 =, «1! SS8, sara (res rar Era ru fn ses s<=<=<41 09 ë ee sexe NE; ? ! do cu = © an © [] °0 - e = Ë Re « je & 4 ‘ Hg [= æ On 583 S 58 =o B.
+
+======================================================================
+FILE: Lurem C517  Schéma électrique $5.pdf
+======================================================================
+Pages: 2
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_C517_Schéma_électrique_5_p1.jpg (134 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/2...
+
+--- OCR Page 1 ---
+u A mn sv E v = 85 9'8 500 5 8>= 3 - Re) - = © PDO 0 + ; = H [EF 5) #ey= £e sas gs s 95 gs LS 05 S = $e "ele 6 v Le o xp = Zà 5 ' $ ë à x Pa sea (à) DS 2E ® ee a €) = 2 ZE ov|EC9 9 ŸÉ 7 ; 2 = 5 =; ? : ef [en [en e=) v & << 8-4 eg sa 68 Ë 5= >2 S In se ee) CE 32 g°-[90<1 ve Fa de « A LI we -Pa 8 3-4 SI NI 5 so = 5 és j À ! ! ! tot ds f L4 ' ! at em «0: == a & = v & sa & 82 cé 5 = 5 -v pes 33 63 | -6 cu [are] ta =.0 <= <A CO OUR ra 8
+  OCR page 2/2...
+
+--- OCR Page 2 ---
+[lie u o PA A) 2 A 2 IAE =) & o = a, £ c É GATAI, 052 E mn \8 ” | 24222 ré o ° © do ui Œœ | LONG ° o © eg w = e _ PT s æ@ < E= « 5 | Hu ? z ‘ ! Le) 2 Lssleme cs e/ © {le s 3 £ 26 a vÉÉ 20 ee 5) e N Îf ° F g Le £ = £ 5 | = Enn\E aus t 1): 0 Se8 88 /2 pe) q°S Æ | A8 à o Te) ë ë ; 8 z[à e SE < qe k Z ) Gé ; “ de 5 | 3 1 o…_—e ° Êo pes o = - fait A ETE EU YE 5 >s AE SI É AE 88 )8 « | ° sa ° 0°8 88/5 Sex + m v o = 83 [rs | InLEZ | = c € Q ser poulie PTTTANE 10 ° ï ! 5 Last = te] 25 -9-
+
+======================================================================
+FILE: Lurem CB 310HZ  15 60 533 10 Schéma électrique $5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_c.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_d.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_p.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_m.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_V.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_,.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_K.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_w.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_(.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_v.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_).".
+Pages: 3
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_CB_310HZ_15_60_533_10_Schéma_électrique_5_p1.jpg (199 KB)
+
+[TEXT EXTRACTED]
+-32- 15 60 533 10 - Circuit de puissance et de commande Variateur mono 2,2 Kw (3cv) -33- 15 60 534 10 - Circuit de puissance et de commande Variateur Tri 2,2 Kw (3cv) - OPTION- inverseurs
+
+======================================================================
+FILE: Lurem CB 310HZ 15 60 526 10 Schéma électrique $5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Pages: 2
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_CB_310HZ_15_60_526_10_Schéma_électrique_5_p1.jpg (256 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/2...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+
+--- OCR Page 1 ---
+— > - 3 - _— 13 f fa 3 Ë Zee & € = Foie _- æ = 2H = Es en è 5 TT 1F SSH E & ze g = hu | s$ "4-00 FA ‘ s =; => [rise = s = Lai ' 2 \ CI = r ms = M ! CO |e5s® o =: £& = 1x |$ a! 8 Re ° EEE 203 = Je RE ze nes # =°* FO + ! A2 = @ =: |e F7 ä = = ë aie 855 1=7 1F1F Le -Os & m ' — A & LU | o < G & ; 5 : E) Q9= “ & + SE — ro z Le + 8 © T ace pl -0O39= |° ä = G _ € ce ES = æ | ù se AAA & 2 TÉS B 5 aTS FAR TEE Te & sa $ Ô : Es Ou me pre 15 1EEE à = |& 20 pa pe a, a = ©) a = :z: € ze = dis 54 TE EE eg fe) 335 © Os AS ga = ge F:,0 °°, aus == du du “E go 509$ > S = 357- < = = ‘ G LS Si s G Z g fi g'ez CL T8 >3 (à) $ e ë a ' ° e) = sa Te TS aVST [= ; 5 ss ro? dan — 2; = F3 —— > ee Q 0 AAA 50 q És JA EE T5 sta] 7 sv hä =: \ ë — = Er : rrereft ses femme) f se “te| | 1m | a = = ? ! ‘5— = N . dd 3= me] 4 H - ' ; ! > [e: ; ë STE a" e GE GR RE a 7 ) - ! e 10 ; sa ‘ duc ri AT ee E mp lEPN eg —25 ————+4_—---—-_--_----"4Æ = ' = N [a] He =
+  OCR page 2/2...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_8.".
+
+--- OCR Page 2 ---
+LISTE du MATERIEL ELECTRIQUE CB 310 Hz Rep. | Code Qté Désignation Référence Fournisseur ou équivalen D1 |304601000| 1 |Interrupteur-Sectionneur KG10 A-T103/04 FT2 Solénoïde D2 30 28012 00| 1 |Variateur de fréquence ATV 11 Mono 2,2 kW Schneider 30 28 013 00| 1 |Variateur de fréquence ATV 31 Tri 2,2 kW Schneider _ Q1 |20 27 158 00 rujcommtur 8 positions+ clé |F 8803 Solénoïde __ Commutateur 8 positions clé _|PR12-18 contacts 49499 _ |Baco T |303602200| 1 [Transformateur saRAH EIP 35 VA-12V-115V “|Coelmo F1 |3021 066 00| 1 |Porte-fusible 01127 E31 E32 Legrand F1 |303502600| 1 |Fusible 1 Amp. Type AM-Réf.13001 Legrand F2 |302106600| 1 |Porte-fusible 01127 E31 E32 Legrand F2 |303502600| 1 |Fusible 1 Amp. Type AM-Réf.13001 Legrand F3 |Sans Réf. 1 |Fusible 0,5 Amp. 110v Transfo Legrand S1 |30 09024 00| 1 |B à B: marche/arrêt/invers. (RD) Schneider S2 |30 03034 00| 1 |Bouton arrêt dépassant (toupie) |ZA2-BL 432 Baco S3 |300900900| 1 |Boite à b: marche/arrêt (scie) |XAL B214 Baco S4 |30 03028 
+
+======================================================================
+FILE: Lurem CB 310RL Schéma électrique $5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Pages: 9
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_CB_310RL_Schéma_électrique_5_p1.jpg (165 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+
+--- OCR Page 1 ---
+Moteurs Tri 3 Kw (4 cv) avec inverseur rotation toupie Mise à jour le 29/03/01 Pa [ES AVEC INVERSEUR (KM3) OU SENS v, rem DE ROTATION DE LA TOUPIE AM - BLEU U1 115V 8 E 2/8 Pacs pacs Fsgreÿp SVSS 4 pi taux Ceroiisiixce PUS o. sa s'ais! 145V/30VA 30 VO|Fs Pa és 4 12V/SVA p3 TE [ira a ; 9 4 73 AP cd (3Kw) ,o jte ajs|s ë “jajn 5 ap=|= aus sacs Pres H | 1.3 dsl DEGAUCHISSEUSE 4 nie] 11 ai 1|3j5| :3 A1 RABOTEUSE PONS NS (FAN CRE 2ja|s} 1 A2 2|als)| aa TOUPIE scIe s[sfa 2L2 ajald 2u3 2L1 ca > Q-+ 31j29|1 27 |as|3 23 jes|5 ja H ; TOUPIE ago \ scie EF ï 32 30/2 28 j26,4 24 22/6 “ 5 CSS basessesesud re ausausseue | s dus hcususeaue $ D; x alz #1 Sais “ja sjajs | zià ; ä 2 a al ê|s 2|2|e | S1g|S 3 =|s S|<|s i @|z|> =z =Tz= È Pa $ 1 emo me) zx>Ÿ zxv zxŸY SH M27 M1/8 M3/s ç 6 =“ A aN/m AN 48 /m TOUPIE, DEGAU/RABO scIe
+  OCR page 2/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+
+--- OCR Page 2 ---
+Moteurs Tri 2,2 Kw (3 cv) Mise à jour le 29/03/01 3 vw (4) 280v/S0HZ mai BLEU Us 118V e [= | ë PEL La 212 Th RE grep PUR (ae a _ PE ze En tit IA CI rie ‘ ‘ 0. sa 1!aist 11sv/aova) (F3D QUjF4 0 Late 4 12v/5VA 02 JEFY-; ° HS 4 RS aan TE (22to0) T 2|4a|se “|u|n Ë o/S|S =}=|7 - AL DEGAUCHISSEUSE 1.ja[5; à ai RABOTEUSE f9EN-- CRD 2|als| aa TOUPIE, SCIE “ju|m 31512 ajaa ie pe pt nittttrirtrttrieibe ' % ga : > @-« 31j29/1 27 |25|3 23 21/5 pe ‘ pDEGAaUu- « ' TOUPIE RABO- EN scIie “ a ! 32js0|2 28 |26|4 24 22/6 “ ë ee 15e D EE (LD a = ù =|2|> >3|> =|212 2 a|s|à ä|ajà aJaju Z z z| zl 21214 >ièlg >/2|4 4|<|= “xs SI=|S CES ES a|É|z @|E|z U|V|W Uj|V|W U;|v|w z xvw- z xvy z xvy Du | EU M2/4 » M1/5 EU M3/6 pe © arr AN/m Afin AN/m TOUPIE DEGAU/RABO SCIE
+  OCR page 3/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+
+--- OCR Page 3 ---
+Moteurs Tri 3 Kw (4 cv) Mise à jour le 29/03/01 3 (4 360v/SOHZ rar— Bleu us 11SV e A & | . we |e ; en | = re 7 es prap HUE Ë La rem PEFOEXIINCS 14 (HPC) Ci Fra ; ' ] 0. sa sais! assv/sova] (FFÜ QUES © Fat 5 2 12V/SVA = —1 2 Bamp. CE 51 12 en = : —|a|e - d|513 2 =|=|= 4.1 DEGAUCHISSEUSE *43[5/ 12 A1 RABOTEUSE a AN CRD 2|a|s| a2 TOUPIE, ScIE +|o|m ajaja pop TN 8 |! > 8-+ 3:1[a9|1 27 |as|3 23 21/5 8 pecau- « ‘ TOUPIE RABO- N scie < ë ! a2pola 2e |2s|4 24 |aa|s “ 5 deu hausse r_=$a =huovvwwenseaahbsdeds=xvuc=n=æ=at $ = 2 ä|à|à &iajz QE >= < > >= = > -, - = > >|2 SièJe que glè s|E|2 s|z|2 ®|f|2 U|V|W u{Ivjiw u;v|w z xvw zxv z xv e») ; M2/7 Mis M3/8 > ç — Afin A fe Tourre* "7" QEGAU/RABO scIE
+
+======================================================================
+FILE: Lurem CB 310RLX Schéma électrique $5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Pages: 9
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_CB_310RLX_Schéma_électrique_5_p1.jpg (165 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+
+--- OCR Page 1 ---
+Moteurs Tri 3 Kw (4 cv) avec inverseur rotation toupie Mise à jour le 29/03/01 sv [ES AVEC INVERSEUR (KM3) OU SENS v, rem DE ROTATION DE LA TOUPIE AM - BLEU U1 115V 8 E 2/8 Pacs pacs Fsgreÿp SVSS 4 pi taux Ceroiisiixce PUS o. sa s'ais! 145V/30VA 30 VO|Fs Pa és 4 12V/SVA p3 TE [ira a ; 9 4 73 AP cd (3Kw) ,o jte ajs|s ë “jajn 5 ap=|= aus sacs Pres H | 1.3 dsl DEGAUCHISSEUSE 4 nie] 11 ai 1|3j5| :3 A1 RABOTEUSE PONS NS (FAN CRE 2ja|s} 1 A2 2|als)| aa TOUPIE scIe s[sfa 2L2 ajald 2u3 2L1 ca > 8-+ 31ja9|1 27 |as|3 23 jes|5 se DEesaU- « H TOUPIE Rago- \ scie EF ï 32 30/2 28 j26,4 24 22/6 “ 5 CSS basessesesud re ausausseue | s dus hcususeaue $ D; x alz | aJajà *j2jà Baja | zià ; ä 2 a al ê|s 2|2|e | S1g|S 3 =|s S|<|s H æ|z|> =|z er = È Pa $ 1 emo me) zx v 2.x>Y zxŸY SH M27 M1/8 M3/s ç 6 =“ A aN/m AN 48 /m TOUPIE, DEGAU/RABO scIe
+  OCR page 2/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+
+--- OCR Page 2 ---
+Moteurs Tri 2,2 Kw (3 cv) Mise à jour le 29/03/01 3 w (a) a80v/50HZ mi BLEU Ua 118V e 9, ai ë PE L1L2L3 pa —i RE grep PUR ra _ LE saga Errniitiiete .. CI Pa ‘ ‘ oO, sa 1!aist assv/aova) (F3Ü QU}F4 0 Let 2 è 12v/5VA 02 HT) °o 5 « CRE ane TE (22to0) T 2j4s|s “|u|m : s1319 =|=|= - 1L1 DEGAUCHISSEUSE 1.ja[5; à ai RABOTEUSE f9EN-- CRD 2|ale| 4 az TOUPIE, scIE ja|m 51519 alaa ie pe pt nittttrirtrttrieibe ' % ge | ; 8-« a1jas|1 27 |as|3 _ 3je1|s 2 ' TOUPIE Free S à sere < a ! aejso|a 28 |as|4 24 |22|s “ ë RTE 5 Es Le (LE CE, Es ù =|2|> >3|> ={313 2 a|s|à ä|ajà ajas z - - R > > ; “ > : “ > : “ gz|s EE ES @|è|2 a|É|z @|é|2 U|V|W Uj|V|W U|v|w zx > zxv zxv 5 ; | =» M2/4 EU M1/5 EU M3/6 Le © arr AN/m Afin AN/vr TOUPIE DEGAU/RABO scre
+  OCR page 3/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+
+--- OCR Page 3 ---
+Moteurs Tri 3 Kw (4 cv) Mise à jour le 29/03/01 3 (4 360v/SOHZ rar— Bleu us 11SV e A & | . we |e ; en | = re 7 es prap HUE Ë PE case E-pIGHARS ' Fra ; 0. sa siais! 21sv/30va] (FSU QU}F4 D Fat 5 2 12V/SVA = 14 BAmp. CE 51 12 en = : LEE ai d|513 ? =|=|= 4.1 DEGAUCHISSEUSE *43[5/ 12 A1 RABOTEUSE a AN CRD 2|a|s| a2 TOUPIE, ScIE +|o|m ajaja H _ \ 8 €! BA 8-+ 3:1[a9|1 27 |as|3 23 21/5 8 pecau- « ‘ TOUPIE RABO- N scie < ë ! a2pola 2e |2s|4 24 |aa|s “ 5 deu hausse r_=$a =huovvwwenseaahbsdeds=xvuc=n=æ=at $ x ë ä|alà R| az S|R|à >= < > = = > -, - > > >|2 sièjs IBE gèe s|E|2 s|z|2 ®|f|2 U|V|W u{Ivjiw u;v|w z xvw zxv z xv e») ; M2/7 Mis M3/8 > ç — Afin A fe Tourre* "7" QEGAU/RABO scIE
+
+======================================================================
+FILE: Lurem CB 410RLX Schéma électrique $5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Pages: 5
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_CB_410RLX_Schéma_électrique_5_p1.jpg (152 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+
+--- OCR Page 1 ---
+Moteurs Tri 3 Kw Mise à jour le 04/03/02 Pure 44] 3s0ov/s0Hz Las— sueu us 435Y : A $ ee Pe Li Laus ËË ST 01 250 iii acer conlisiitee st € : 114 MOR 0. sa aisis! aasv/aova] (PH 1UIF4 m Tete 12V/5VA = HA 3ame. VE 62 r z|j4fe 31313 2ts DEGAUCHISSEUSE a 0 Ba ai RABOTEUSE —A-A5N-- CD 2}ajie a“ a2 TOUPIE, SCIE <[o|s ajé|a PE tte EN : ; gz €: > @-: s:|j29|1 27 |2s|3 23 jê1|s 2 ; rourze pecau- SIÉNTS sexe — H 32 mo/2 28 |26|4 24 |22|5 % = frgndespafasmeesuaes di M su corscamaubededentacenass J 5 ä(a|à >12/à äjaj 5 ; Z s 2 ä « Fi « Fi 2 ä æ FITES a|$|2 S|ë|s éè|# F é|É|2 | BICARES vjvjw uv ]w ojvtw z xx z xvy z=xvy M2 M1/8 M3/8 > Vs > y 41m AR fer rourxe* TT OEGAU/RABS scie
+  OCR page 2/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+
+--- OCR Page 2 ---
+Moteurs Tri 3 Kw avec inverseur Mise à jour le 04/03/02 sw (es AVEC INVERSEUR (KM3) DU SENS 2380V/5i 1 EE DE ROTATION DE LA TOUPIE eov/sonz BLEU U; 133SV ë S e Eu LGEE Mcrnirriitce nn 0 s EE à °. sa 21315; 115V/30VA sa )UjF« er Suite A s2V/5VA 5 TL — EI, 3 Amp. e à Ce pa eut , |iev = Li - n © =l=|z ; sts ss fre SE 5 : La =; DEGAUCHISSEUSE 1j3j5 13 ai «|>js 33 as AABOTEUSE ÿTYAN-- CES =N- AN -- CRE 2ja|s 14 aa 2jsjis FES aa TOUPIE, scie =|u[m 2Lz «|a|d aus Zi s2 f >» 8-+ a1jas(: 27 |as|3| 9, 23 jes|s _ ; EGAu- : = ToUPIE nauos N scie ! selsola 26 \es)4 24 jaale N ë mére pe 7 pt 4 À der à 4 1 ma #3 =z|2 —|= à ä|aià “ ä/ajà ë < =z z 3 s|ôje FARSE= >s/Ble #18 al=1g s|e|S æ|i<«iz f a =z ë Len ES vjyfw SF Ve v}vfr [== zx> 1 x>+ 1xy SH : O4 Br FÔe ; 6 6 7 4 45 N, mn y Tourret "7" DEGAU/RABG PE
+  OCR page 3/3...
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+
+--- OCR Page 3 ---
+Mise à jour le 04/03/02 [$) s15V EE sLev U 1 - MORTATSQUIE es si AABOTEUSE z (ar scré A oe/s ‘2 æ ACCes 21 COURAOIE G-#P4 TOUPIE 22 14) ! ) DeGAUCHISseUSE | 15 RABOTEUSE Q2 24 - (5) 16 ca scie À cz $ | 19 12 TouPrE sa . CHASSE TABLE 21 20 tao) COPEAUX D'ATTAQUÉ C4 P4 VOLET SE [5 € ra en scre > TragLÉ O--# P3 te) ©) €) | aoùcante | az = 21 TABLE &- es RECEPTAICE 22 (7) eo) 7) : rourre 9 E{ 752 æ (a) (as = TouPIE 3 magor (12,67€ (08 : N te se Sécau 9,07 . 41 Le ac) ; “ a tast IS Z'10 13 « scre| 3 TOUPIE aa KMa a za 1 EN sa . : vcesau | 3 «| RABOT («2 (12) tal 42 (az) |a2 a. eLEu: Ua
+
+======================================================================
+FILE: Lurem CB310-CB260 Schéma électrique $5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_H.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_M.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_L.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_Q.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_U.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_F.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Pages: 4
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_CB310-CB260_Schéma_électrique_5_p1.jpg (111 KB)
+
+[TEXT EXTRACTED]
+SCHEMA ELECTRIQUE F -20- -21- SCHEMA ELECTRIQUE F -22- SCHEMA ELECTRIQUE F -23- LISTE DU MATERIEL ELECTRIQUE F
+
+======================================================================
+FILE: Lurem CB310SL Schéma électrique $5.pdf
+======================================================================
+Warning: Indexing all PDF objects
+ERROR: Invalid PDF structure.
+
+======================================================================
+FILE: Lurem LC 260 Schéma électrique $5.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_H.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_M.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_L.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_O.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_U.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_Ë.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_È.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_..".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_:.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_{.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_'.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_J.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_;.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_=.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_|.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_Z.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_).".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_,.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_/.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_l.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_<.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_?.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_v.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_â.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_z.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_è.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_€.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_\.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_7.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_!.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_(.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_G.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_B.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_V.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_É.".
+Pages: 3
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_LC_260_Schéma_électrique_5_p1.jpg (161 KB)
+
+[TEXT EXTRACTED]
+SCHEMA ELECTRIOUË È.n:{ '4 '.J3 LC 2;: -: =: | -a{Z) t-1 L2 L3 ,/' ) 1, 5l<r,,r ??o/3aov-âo4z 3ls ,,/ isè J €1,-'' \-7 6 6 -\ - t6.!rl (G2l OAr R-1 31 t32 a 1 o 3 BOS INA6E V 10 e6 SCIÉ SCHEMA ELECTRIQUE s1 oE ? 26114 s2 r[- 1 ,j, L1 L2 15 16 tO? l? -,o E .;1 {ol } \' 2 102 F' A2 7 KM2 ? 15 1,sKW 220V - 50HZ BOBINAGÊ .i v 31 e7 KJ.,l 1 22 ù (o2l - - {Ky?l A? ô 1A 7 er' 6 e l a 02 8-j ?7 ?a 6) 32 olla 6) m SCIE ta2.) LISTE DU MATERIEL ELECTRIOUE (TRIPHASE€ - 36OV/50H2) MATÉÊIÉL ÊI-ÉCTFIOIJE DESICNATION - DÉSCRIP1ION DISJONCTFLJR / MOTEUÊ CKZ-1'{ MOÊLLEA 3o3eo3aoo *i-*ro-rar" calo c5o93o FTI (soLENoro zo2'7 \4600 "lua*r* o""at Gaco) {TÉLEMEcaNrauÉ) 300303400 ;tt" -^""* (BAcol (-r€LEMÉcaNrouÉ) 3003028O0 CoNTACTÉUÊ B9 - 30 - 10 {3AOV/sOHZ) 303103000 Iorau. t. u*n {zcv} 3ooot''hn 22o/3aov-5aaz 305020410 MAT€FTEL 3/3 . .ornra Ni Lc 260 (MoNoPHASE E) FEPEÊE FIÉFÊFENCE LUFÊM OESTGNA'TION ' DÉSCFIIPI TUN Æ DrsJoNcrElJFt / MOTEUF Pkz_M! _ 1u MoEI-LEB lirf**.u^ cato csoe3o FTI (soLENoro) BOTJTON ARFET {9ACO) ÊOUTON MARCHE GACO' .*Io., ATJXILIAIRÉ CA7 _ 01 (AEE} F**o.ot"orau" sHs-sP77 (220v) (.YRÉLÉc) I- .-.....'.n*a*=o rau^ oEYÀRFtacÉ 3zn'/Aoov '.EFMES) l-. ....*ot.orau* PFRI'4aNÊNT 4onF/ 4aov (sFBMEs) o1 303eo3600 o2 3027 !4640 2 30o303400 s2 3003o2eoo s3 300601600 1 o 3037004o0 cl :051004o0 305102000 KM1 l3031o3ooo CoN-TACTETJÊ 816 - 40 - O0 l?zov/5oâL) tàee' IJao"rar^ Gcl - M22 (T€LEllEcaNlouÉ) fE;6; MqTETJR 1.5Kvl 3oootr/ùn 22ov /'a{z soMeÊ 1 Kf42 3O31044O0 l3o5o2o31o Page I
+
+======================================================================
+FILE: Lurem TS 41 STI TI I $19.pdf
+======================================================================
+Pages: 36
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_TS_41_STI_TI_I_19_p1.jpg (155 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+Image too small to scale!! (2x36 vs min width of 3)
+
+--- OCR Page 1 ---
+és — ü | | 1 J : EH HRE À ï HHRRE HER ' MACHINES A BOIS , MANUEL D'UTILISATION TECHNICAL MANUAL | BEDIENUNGSANLEITUNG ‘ = -
+  OCR page 2/3...
+Image too small to scale!! (2x36 vs min width of 3)
+
+--- OCR Page 2 ---
+VUE D’ENSEMBLE TS 41 STI | TS 41 SI | TS 41 1 | N° 23-66-001-00 - F 11-89 ; a OUR TT IL IFR #1 _H—— = *U () —=— = ess dé .S 8] Q 4. mai OÙ 'Ÿg isa [| k- gas 8 sil À \ <À on A —SSEN C | === Conforme au modèle ayant fait l'objet d'une attestation d'examen de type accordée au j type TS 41 STI/SI/I par l'INRS j sous le numéro : à j 608 - KB 1480 V 02 90 ; 608 - KB 1481 V 02 90 | Toutes modifications réservées | Page 1 es rie &
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+SOMMAIRE . Vue d'ensemble 1 Sommaire 2 Réception - Manutention 3 Encombrement 4 Montage 5-6-7 Branchement 8-10 Caractéristiques 11 Niveau de bruit 12 Conditions d'hygiène et sécurité 13 Tableau de commande des postes de travail 14-15 SCIE CIRCULAIRE Protecteur 16 Utilisation-Fonctionnement 17-18-19 TOUPIE Protecteur au guide 20 Protecteur à l’arbre 21-22 Utilisation-Fonctionnement ; 23-24 TENONNAGE Utilisation-Fonctionnement 24-26 INCIDENTS DE FONCTIONNEMENT Causes - Remèdes 27-28 ENTRETIEN Tension de courroie de scie 29 Changement de lame de scie 30 Maintenance 31 Tableau de graissage 32 Option Tenonneuse Araseuse 33-34 Option Inciseur 35 NOMENCLATURE PIECES DETACHEES 36 Page 2 De /
+
+======================================================================
+FILE: Lurem TS 41 STI eclaté $15.pdf
+======================================================================
+Pages: 17
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_TS_41_STI_eclaté_15_p1.jpg (83 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+LUREM Vues éclatées et listes de pièces MACHINE : TS 41 STI
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+Me EE % M MX SN Pa o1— \ | \ B cv 08— \ \ \ | per o7_ | AA 18 VV 24 k Es 08 || j a 105 'E &æ dre, ( ; 09 @f = 5 — 4% NL es 018 184 EP _ 087 fée À "15 A < , A1 S san G { © O < °° 00 /R Ë, Eee ce Fu / y, L
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+Rep. Gode de la piece! Designation Wie MEp. VOGE CC ‘A VICOE : 5801708500 BâtideTS | 1 1315074 10 Bâti de TS | € 2 ‘1402 397 10 Etiquette TS 41 STI i | 3 | 1471 519 10 Plaque de bâti i | 4 | 14 71 528 10 Plaque de firme | 2 6) 14 71 538 10 Plaque conformité/lame fixe | L 86 1480 :79 10 | Platine étiquettes (21 7 | 3501 04500 Vis HM 12-20 | 4 PIN, pus D ES 50 5904200 Table de TS préparée | 10 | 12 10 006 00 Flexible VACFLEX D100 \Gi=| | ; 11 14 29 050 10 | Grille scie intermédiaire [1 || | 12 | 14 29 052 10 Grille scie fixe fendue |1 | | | 18 | 1499 080 10 | Rondelle [1 | | |14 14 99 031 20 | Grande rondelle de réduction | 1 | 18 | 14 99 037 20 Petite rondelle de réduction | ;| | | 16 | 14 99 092 10 | Rondelle toupie D.275 (1 | | | 17 | 15 23 208 10 | Table de TS (x || ! 18 30 14 001 00 | Coilier 319-19 2; 20 | 35 02 002 00 | Vis HC M6 - 8 bout plat 15 || 21 | 35 02 120 00 | vis HC M10 - 70 bout plat | 4 || | 22 | 35 06 006 00 | Vis C M6 - 15 (2 ]} | 28 | 16 006 00 | Ecrou HM10 (12|| 24
+
+======================================================================
+FILE: Lurem sar 500-600-700 éclatés $19.pdf
+======================================================================
+Pages: 2
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_sar_500-600-700_éclatés_19_p1.jpg (251 KB)
+
+[TEXT EXTRACTED]
+42 SPARE PARTS MODEL SAR 500/600/700 CE 43 SPARE PARTS MODEL SAR 800 CE
+
+======================================================================
+FILE: Lurem solo 8 éclatés $15.pdf
+======================================================================
+Pages: 4
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Lurem_solo_8_éclatés_15_p1.jpg (26 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+--- OCR Page 1 --- (blank)
+  OCR page 2/3...
+--- OCR Page 2 --- (blank)
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+se £ fo 8 = UT ä = = ut pe pe ? 40 _1 car a | TECHNIREM | ë ——[{1 I or OO ON — Cu ï I NT | o 8sgés D S550o2/80 sa266 TN NM e js |e À \ ç —h_#; 2: J PE 2 N nm NN 2e LA 24125 NE IE ml ; «<rIis sé IN eyj 7 : Il — ee | 7 | DETAIL ECH2 | | ea ra spa mere 2 = © > 8 > 38 Fe 8 2 8 | = 8 Î —T M A = CSS ti ” 9 2 V8 Té 1 4 IE) NV a LUE NS I A7 | 5 8 DEEE PA à 108 ECS RTE 1 PE ES EE Nue pdensemenm rs serre EE R VASE NSESEUSENS ER SE DR NET A A | sssss 7 xrorzrær 527 0 - ZZz=DZ SSS » DÉTAIL EC eee | 3 9235 Vœy, à 59&4S pas
+
+======================================================================
+FILE: lurem ts 15 rl éclatés $15.pdf
+======================================================================
+Pages: 39
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/lurem_ts_15_rl_éclatés_15_p1.jpg (34 KB)
+
+[NO TEXT — running OCR (fr)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+Vues éclatées et listes de pièces TS 15 rl
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+= ee 5 EF ES À on 8 | =S « Ÿ | (\# SISINI RE ns 8 je) 88 a El l pu) * “ ) .….… = “Hu 81 818 ssl 6 28 >—}/K0/ED0N 5 al m2 2 la los IN 8l 88 ET fist me | “RU 0/5 à = + | 5502 SI Rp /f/91S e—, es Élgy S IN | tr] Si 10 W él V a D° R IN SI ALSIIN, à a + a . WIR U—= & ä 8. (/ ë 8 ne ET Vÿssae = éme Élus \ äl 0 \ CIRE TENTE TT . AQ 17 Mae 3 As 5 [\ À ° 59 n N APN les / äÿs 5! Los je ic CRUE) EE) 10 mar” __ N E 8 En DIRE A 312 A] eu pd) GR A | (ET TPE — His “il UIRDIEU sisi |) Va k(É —— 9) Mr“ WE ) O = + L a < LA Ç — 9 Vin \ Ë VV T7 / : @ \ dti 3 en U D) — al hat A j ” = Pa Li v ve A | |A 18182 18 Ë GER KM 9 | |8 S| 12lé à g/3 8 $ REREEE a|s| |N à| |5/2/8/8/7 ai y $lz|S 3 & $18| |8 8/0[8| 19/8/3374 eJs| |9/5| |N AEFENDER 9101 à 1Él99 R 5 q| “|n IR \| 21921518 è 18/=14 #93 8/3 [eee d | 181 1 IS # “à 814 #/ê19 x|É à #8 5/98 CRE = CIE Ble138/5 IREERHEPERPREELEMRENRENERAREGFENERENE ENSERNERNEREFHNEHNENERSHENREENERNE S1 21 7[ 8 à 6|3|So|4S[S|E = $[8/8/8 * 8 3 $$$ 213 9 $ 3318 #9 38/98 EIRSE bëS ë e
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+D TE n ; ES ; I A3 à NS ê ==) Te SI SISIEINN 288 LR Pa « SSS ei, \e) 0" aa y A > 9 EE N S al NS 8 77 NN ITS A 158 ALMA ) PETPRNN v$ ECERER v) (NN ëh à +9 Q, ) paul y == 8% . GS Set JE ue y ve" EN ëS US À 39 a y = un 7 \ AN ai \, +, \ m/ 45 + >; #ÿ LE TNT AA NAS . L @// aa Ha ?l 5, ee Æ, [= "47 El s 8: 9 NE _ S° S ET J \ @ °, E 4 4 VAR S LR O5 E 7 El NE, 8 Re So u° 9 Rp 8e 8 V4 = <e 8; 7q5 4 PE ET Ji S181#1 GC 818] #34 48 à NU SS Bu 88 SE 3 ÿà Ÿ ËT A V0 H | a 'Gannm TE PS FA »| | 3 ä $ j » Hi ÿ li j j 'E ARÉNENNNNE ÈRE à HÉRDRERESERSENANHE ARFRERE ; â î “1818 ÉEFERRAEE SRE PE PER EPERE FE D ÉERCE EN EHRREPEREENEER RBÉDERFERER HERFEPLEER HFEHHENEHENBEREENEERRE ÈHE RRÉRERFERBHFERENARE 3|#/8|=/8|2/3|3/3 sj918 828 HERBE SÉBHHEREE i PERCÉECFEREEER sd RERÉECERER ii ÿ194952012 0908100 02117500110 001 PRAAOEC Eee CORRE EneOOCOECCEDECECAECEENECECESCCES
+

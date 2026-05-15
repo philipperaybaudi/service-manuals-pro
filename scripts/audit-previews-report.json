@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-05-04T01:02:11.068Z",
+  "seuil_kb": 15,
+  "total_docs": 6230,
+  "suspects": [
+    {
+      "slug": "axel-axel-ax3000-ethernet-terminal-installation-guide-model-56",
+      "title": "AX3000 Ethernet TCP/IP Terminal Installation Manual",
+      "size_kb": "14.5"
+    },
+    {
+      "slug": "isa-isa-9001-swiss-made-movement-user-manual",
+      "title": "ISA 9001 Swiss Made Movement Instruction Manual",
+      "size_kb": "14.5"
+    },
+    {
+      "slug": "isa-isa-9006-tide-user-manual",
+      "title": "ISA 9006 TIDE Watch User Manual",
+      "size_kb": "7.6"
+    },
+    {
+      "slug": "isa-isa-9009-yachting-user-manual",
+      "title": "ISA 9009 Yachting User Manual - Models 9009/7300 and 9009/1300",
+      "size_kb": "7.6"
+    },
+    {
+      "slug": "isa-isa-caliber-9004-9005-user-manual",
+      "title": "ISA Caliber 9004-9005 User Manual",
+      "size_kb": "7.6"
+    },
+    {
+      "slug": "seeburg-seeburg-mra3-l6-master-remote-amplifier-schema-parts-list",
+      "title": "Seeburg MRA3-L6 Master-Remote Amplifier Schematic Diagram",
+      "size_kb": "3.8"
+    },
+    {
+      "slug": "toyota-toyota-22re-3vze-engine-manual",
+      "title": "Toyota 22RE and 3VZE Engine Service Manual",
+      "size_kb": "14.9"
+    },
+    {
+      "slug": "toyota-toyota-hilux-1993-chassis-service-manual",
+      "title": "Toyota Hilux 1993 Chassis Service Manual",
+      "size_kb": "14.9"
+    },
+    {
+      "slug": "yashica-yashica-campus-user-manual",
+      "title": "Yashica Campus F2.8 35mm Camera - User Manual",
+      "size_kb": "13.7"
+    }
+  ],
+  "no_file": [
+    {
+      "slug": "re-volt-solar-regulator-12-24v-pwm-battery-charger-usb-manual",
+      "title": "Solar Regulator 12/24V PWM Charger with USB Ports Manual"
+    }
+  ]
+}

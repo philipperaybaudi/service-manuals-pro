@@ -1,0 +1,62 @@
+import { createClient } from '@supabase/supabase-js';
+import fs from 'fs';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env.local' });
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+);
+
+// Lire et parser le CSV manuellement
+const csvPath = '../export-all-urls.csv';
+const data = fs.readFileSync(csvPath, 'utf-8');
+const lines = data.split('\n').filter(line => line.trim());
+
+console.log(`📊 Traitement de ${lines.length - 1} documents...`);
+
+const mapping = [];
+const missing = [];
+let processed = 0;
+
+for (let i = 1; i < lines.length; i++) {
+  const parts = lines[i].split(',');
+  if (parts.length < 3) continue;
+
+  const oldUrl = parts[2]?.trim().replace(/^"|"$/g, '');
+  const oldTitle = parts[1]?.trim().replace(/^"|"$/g, '');
+
+  if (!oldTitle || !oldUrl) continue;
+
+  const oldSlug = oldUrl.split('/').pop();
+
+  try {
+    const { data: docs } = await supabase
+      .from('documents')
+      .select('slug, title_fr, title')
+      .or(`title_fr.ilike.%${oldTitle}%,title.ilike.%${oldTitle}%`)
+      .limit(1);
+
+    if (docs && docs.length > 0) {
+      const newSlug = docs[0].slug;
+      mapping.push({ oldUrl, newUrl: `https://service-manuels-pro.fr/docs/${newSlug}` });
+      console.log(`✅ ${oldSlug} → ${newSlug}`);
+    } else {
+      missing.push({ title: oldTitle, url: oldUrl });
+      console.log(`❌ MANQUANT : ${oldSlug}`);
+    }
+  } catch (err) {
+    console.error(`⚠️ Erreur : ${err.message}`);
+  }
+
+  processed++;
+  if (processed % 50 === 0) console.log(`  ${processed} traités...`);
+}
+
+fs.writeFileSync('mapping-redirects.csv', 
+  mapping.map(m => `${m.oldUrl},${m.newUrl}`).join('\n')
+);
+fs.writeFileSync('missing-docs.json', JSON.stringify(missing, null, 2));
+
+console.log(`\n✅ Trouvés : ${mapping.length}, ❌ Manquants : ${missing.length}`);

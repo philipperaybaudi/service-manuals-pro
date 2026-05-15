@@ -1,0 +1,33 @@
+Found 1 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Photography/AATON
+
+======================================================================
+FILE: aaton 35mn Notice GB.pdf
+======================================================================
+Warning: Not enough parameters for hvcurveto; actual: 3, expected: 4
+Warning: Not enough parameters for hvcurveto; actual: 3, expected: 4
+Warning: Found too many parameters for stack-clearing command
+Warning: Not enough parameters for vlineto; actual: 0, expected: 1
+Warning: Not enough parameters for rrcurveto; actual: 3, expected: 6
+Warning: Not enough parameters for vvcurveto; actual: 0, expected: 4
+Warning: Found too many parameters for stack-clearing command
+Warning: Found too many parameters for stack-clearing command
+Warning: Not enough parameters for vhcurveto; actual: 3, expected: 4
+Warning: Found too many parameters for stack-clearing command
+Warning: Not enough parameters for rrcurveto; actual: 5, expected: 6
+Warning: Found too many parameters for stack-clearing command
+Warning: Found too many parameters for stack-clearing command
+Pages: 101
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/aaton_35mn_Notice_GB_p1.jpg (494 KB)
+Warning: Not enough parameters for hvcurveto; actual: 3, expected: 4
+Warning: Not enough parameters for hvcurveto; actual: 3, expected: 4
+Warning: Found too many parameters for stack-clearing command
+Warning: Not enough parameters for vlineto; actual: 0, expected: 1
+Warning: Not enough parameters for rrcurveto; actual: 3, expected: 6
+Warning: Not enough parameters for vvcurveto; actual: 0, expected: 4
+Warning: Found too many parameters for stack-clearing command
+Warning: Found too many parameters for stack-clearing command
+Warning: Not enough parameters for vhcurveto; actual: 3, expected: 4
+
+[TEXT EXTRACTED]
+U ser’s Guide June 97 3 5 - I I I 2 3 INTRODUCTION The AATON 35-III User Guide AATON 2 rue de la Paix BP 3002 38000 Grenoble FRANCE +33 4 7642 9550 +33 4 7651 3491 fax E-mail: support@aaton.com Web: http://www.aaton.com (c) June 1997 Aaton / Grenoble , France. Limitation of Liability The information contained in this manual is distributed without warranty of any kind, express or implied. To the maxi- mum extent permitted by law, Aaton and its licensors disclaim any and all warranties, express or implied, by statute or otherwise, regarding this manual, including the fitness for a particular purpose, quality, or merchantability. Under no cir- cumstances shall Aaton or its licensors be liable to the user of this manual or any other person for any incidental, special, or consequential damages resulting from the use of this manual or the operation of the equipment described therein, whether arising out of breach of warranty, breach of contract, or otherwise. Under no circumstances shall Aaton or its licensors be liable for any damages arising out of the operation of the equipment described in this manual, whether ope- rated in a manner which is consistent with or contrary to the instructions contained therein, for physical abuse or misuse of the equipment. No oral or written information or advice given by Aaton or its licensors, their respective employees, distributors, dealers, or agents, shall create any warranty. Aaton and its licensors further disclaim any and all warranties, 
+

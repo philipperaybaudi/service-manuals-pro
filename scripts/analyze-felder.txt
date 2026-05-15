@@ -1,0 +1,93 @@
+Found 2 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Machines/FELDER
+
+======================================================================
+FILE: Felder Manuel S-308 F-38 F-48 V-3 V-4.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_F.".
+Pages: 44
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Felder_Manuel_S-308_F-38_F-48_V-3_V-4_p1.jpg (39 KB)
+
+[TEXT EXTRACTED]
+223 F S-308 F-48 V-3 F-38 V-4 224 F FELDER TIENT A VOUS REMER- CIER D’AVOIR CHOISI UN DE SES PRODUITS Lire attentivement toutes les parties de ce manuel puisqu’elles contiennent des informations, des suggestions et des instructions qui, avec un entretien pé- riodique approprié et l’emploi de piè- ces de rechange originales, vous per- mettront de garantir le bon fonctionne- ment de l’entraîneur pendant long- temps. Salutations distinguées. DÉCLARATION DE CONFORMITÉ La famille des Entraîneurs pour bois est conforme à la réglementation suivante: • directive CE 89/392/CEE (directive machine), modifiée ensuite par la directive 93/68/CEE et 98/37/CEE. • directive CE 73/23/CEE (directive basse tension), modifiée ensuite par la directive 93/68/CEE. • directive CE 89/336/CEE (direcive EMV), modifiée ensuite par la direc- tive 93/68/CEE. Les normes suivantes ont été appli- quées lors de la construction et du montage de la machine: CERTIFICAT DE RÉCEPTION GS Les entraîneurs Maggi ont été soumis à l’essai de technique de construction par: Fachausschuß Holz Prüf- und Zertifizierungsstelle im BG-PRÜFZERT Vollmoellerstraße 11 70563 Stuttgart Institut allemand reconnu au niveau internatio- nal de certification de la sécurité des produits, avec remise d'un certificat d'essai n° 971102. BREVETS Les entraîneurs S-3/8 et F-38 possè- dent trois systèmes brevetés: SYSTEM SHS MONEY SAVER Semi-Hub System SYSTEM SPS S A F E T Y Slip Proof System SYSTEM P I N S A F E T Y Elastic Pin System • EN 292-1 
+
+======================================================================
+FILE: Felder-six-series-combi-planer-.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_B.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_i.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_b.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_n.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_l.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_g.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_M.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_'.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_c.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_O.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_p.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_B.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_F.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_-.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_,.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_4.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_K.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_7.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_8.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_G.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_H.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_o.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_l.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_z.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_s.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_t.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_a.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_u.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_b.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_g.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_e.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_p.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_r.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ü.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_f.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_F.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_1.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_/.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_9.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_5.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_O.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_3.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_W.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Pages: 214
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Felder-six-series-combi-planer-_p1.jpg (138 KB)
+
+[TEXT EXTRACTED]
+- 1 - Betriebsanleitung Manuel D'Instruction Operating Manual BF 6-26, BF 6-31, BF 6-41 AD 6-31, AD 6-41 KFS-37, K-37, F-38 KFS-6, K-6 BG-Holzstaubgeprüft DEF 1/95 ON 300WA - 101 - A 0- Vorwort Sehr geehrter Kunde ! Wir gratulieren Ihnen zum Kauf Ihrer FELDER-Maschine. Sie haben sich damit sicher für eine Maschine ent- schieden, deren hohe Präzision und Stabilität Ihnen lange Jahre beste Leistungen garantiert und Ihnen Freude bereitet. Diese Betriebsanleitung soll Sie über die grundsätzliche Bedienung und Instandhaltung Ihrer neuen Maschine informieren. Nehmen Sie sich bitte die Zeit, die Anleitung sorgfältig durchzulesen. Ein Exemplar dieser Anweisung gehört in die Hände derer, die für die Maschine verantwortlich sind, sie bedienen und pflegen. Die Maschine darf nicht in Betrieb gesetzt werden, bevor die Betriebs- anleitung nicht gelesen wurde. Die Maschine darf nur von Bedie- nern benutzt werden, die mit Ihrem Gebrauch vertraut sind und die Betriebsanleitung gelesen haben. Bitte beachten Sie die Anleitungs- hinweise für Reinigung und Wartung Ihrer Maschine, denn nur so kann ein reibungsloser und störungsfreier Betrieb gewährleistet werden. Stellen Sie vor Inbetriebnahme der Maschine sicher, daß alle für Sie geltenden Unfallverhütungsvor- schriften bezüglich Schutzvorrich- tungen etc. erfüllt sind ! Alle Angaben, Abbildungen, Anlei- tungen und die technischen Daten in dieser Druckschrift beziehen sich auf den neuesten Stand der zur Zeit des Druckes gegeben war. Die Fa. FELDE
+

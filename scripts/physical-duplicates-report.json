@@ -1,0 +1,1643 @@
+{
+  "folder_mirrors": [
+    {
+      "folder_a": "AUTO MOTO/ATV - All Terrain Vehicle",
+      "folder_b": "AUTO MOTO/Quad ATV - All Terrain Vehicle",
+      "pdfs_a": 91,
+      "pdfs_b": 83,
+      "size_a_mb": "1136.8",
+      "size_b_mb": "887.8",
+      "common_files": 83,
+      "similarity_pct": 92
+    },
+    {
+      "folder_a": "BIOMEDICAL",
+      "folder_b": "MEDICAL/MEDICAL",
+      "pdfs_a": 50,
+      "pdfs_b": 13,
+      "size_a_mb": "134.7",
+      "size_b_mb": "31.6",
+      "common_files": 13,
+      "similarity_pct": 26
+    },
+    {
+      "folder_a": "MEDICAL/DENTAIRE",
+      "folder_b": "BIOMEDICAL/DENTAIRE",
+      "pdfs_a": 23,
+      "pdfs_b": 15,
+      "size_a_mb": "44.6",
+      "size_b_mb": "26.6",
+      "common_files": 15,
+      "similarity_pct": 65
+    },
+    {
+      "folder_a": "SON/GRUNDIG",
+      "folder_b": "RADIO COM/GRUNDIG",
+      "pdfs_a": 48,
+      "pdfs_b": 61,
+      "size_a_mb": "153.3",
+      "size_b_mb": "107.5",
+      "common_files": 0,
+      "similarity_pct": 0
+    }
+  ],
+  "file_duplicates": [
+    {
+      "name": "ac_trv_650_h1_2007_quadmanual.pdf",
+      "size_mb": "140.30",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\ARCTIC CAT\\AC_TRV_650_H1_2007_quadmanual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\ARCTIC CAT\\AC_TRV_650_H1_2007_quadmanual.pdf"
+      ]
+    },
+    {
+      "name": "revox-a88_notice.pdf",
+      "size_mb": "57.67",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\Revox-A88_Notice.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\REVOX A88\\Revox-A88_Notice.pdf"
+      ]
+    },
+    {
+      "name": "lt-a750xpkingquad.pdf",
+      "size_mb": "56.42",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SUZUKI\\LT-A750XPKingQuad.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\SUZUKI\\LT-A750XPKingQuad.pdf"
+      ]
+    },
+    {
+      "name": "suzuki_kingquad_lta_700.pdf",
+      "size_mb": "56.16",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SUZUKI\\Suzuki_KingQuad_LTA_700.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\SUZUKI\\Suzuki_KingQuad_LTA_700.pdf"
+      ]
+    },
+    {
+      "name": "sp 500 -08 service manual(1)[1].pdf",
+      "size_mb": "52.80",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\SP 500 -08 service manual(1)[1].pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\POLARIS\\SP 500 -08 service manual(1)[1].pdf"
+      ]
+    },
+    {
+      "name": "bruteforceshopmanual.pdf",
+      "size_mb": "50.74",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\bruteforceshopmanual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KAWASAKI\\bruteforceshopmanual.pdf"
+      ]
+    },
+    {
+      "name": "revox_c27x_autolocator_diagr.pdf",
+      "size_mb": "49.71",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_C270\\Revox_C27x_Autolocator_Diagr.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_C274-C278\\Revox_C27x_Autolocator_Diagr.pdf"
+      ]
+    },
+    {
+      "name": "911 carrera et turbo.pdf",
+      "size_mb": "49.07",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\PORSCHE\\911 Carrera et Turbo.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\911 Carrera et Turbo.pdf"
+      ]
+    },
+    {
+      "name": "pioneer avic-d3 (crt3879).pdf",
+      "size_mb": "37.54",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Pioneer AVIC-D3 (CRT3879).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Pioneer AVIC-D3 (CRT3879).pdf"
+      ]
+    },
+    {
+      "name": "788_18174312-kymco-mxu-500-onroad-en.pdf",
+      "size_mb": "37.29",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\788_18174312-Kymco-MXU-500-ONROAD-EN.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\788_18174312-Kymco-MXU-500-ONROAD-EN.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\788_18174312-Kymco-MXU-500-ONROAD-EN.pdf"
+      ]
+    },
+    {
+      "name": "all_sa200_manuals.pdf",
+      "size_mb": "36.85",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Lincoln SA200\\ALL_SA200_manuals.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\ENERGIE\\Lincoln SA200\\ALL_SA200_manuals.pdf"
+      ]
+    },
+    {
+      "name": "2006-20outlander-20series.pdf",
+      "size_mb": "34.20",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\2006-20Outlander-20Series.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\2006-20Outlander-20Series.pdf"
+      ]
+    },
+    {
+      "name": "prairie360manual.pdf",
+      "size_mb": "31.40",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\prairie360manual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KAWASAKI\\prairie360manual.pdf"
+      ]
+    },
+    {
+      "name": "911 sc et turbo.pdf",
+      "size_mb": "29.76",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\PORSCHE\\911 SC et Turbo.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\911 SC et Turbo.pdf"
+      ]
+    },
+    {
+      "name": "2007-2008_can-am_rene.pdf",
+      "size_mb": "28.77",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\2007-2008_Can-Am_Rene.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\2007-2008_Can-Am_Rene.pdf"
+      ]
+    },
+    {
+      "name": "elan-m100-service-manual-v2.pdf",
+      "size_mb": "24.59",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Elan-M100-Service-Manual-v2.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\Elan-M100-Service-Manual-v2.pdf"
+      ]
+    },
+    {
+      "name": "manuel 500 ho carbu et injection 2009.pdf",
+      "size_mb": "22.85",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\POLARIS\\Manuel 500 ho carbu et injection 2009.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\POLARIS\\Manuel 500 ho carbu et injection 2009.pdf"
+      ]
+    },
+    {
+      "name": "manuel-atelier-blade-tgb-250.pdf",
+      "size_mb": "21.01",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\TGB\\manuel-atelier-blade-tgb-250.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\TGB\\manuel-atelier-blade-tgb-250.pdf"
+      ]
+    },
+    {
+      "name": "cf500(europe version).pdf",
+      "size_mb": "20.37",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CF\\CF500(Europe version).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CF\\CF500(Europe version).pdf"
+      ]
+    },
+    {
+      "name": "cf500-a(europe version).pdf",
+      "size_mb": "20.08",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CF\\CF500-A(Europe version).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CF\\CF500-A(Europe version).pdf"
+      ]
+    },
+    {
+      "name": "manuel_atelier_mxu_250_300.pdf",
+      "size_mb": "19.13",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\manuel_atelier_mxu_250_300.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\manuel_atelier_mxu_250_300.pdf"
+      ]
+    },
+    {
+      "name": "700r2006.pdf",
+      "size_mb": "18.91",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\YAMAHA\\700R2006.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\YAMAHA\\700R2006.pdf"
+      ]
+    },
+    {
+      "name": "kymco_kxr250.pdf",
+      "size_mb": "18.87",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR250.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR250.pdf"
+      ]
+    },
+    {
+      "name": "x6 owner's manual(eu).pdf",
+      "size_mb": "17.64",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CF\\X6 OWNER'S MANUAL(EU).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CF\\X6 OWNER'S MANUAL(EU).pdf"
+      ]
+    },
+    {
+      "name": "yashica electro manual.pdf",
+      "size_mb": "17.49",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\A TRIER\\Yashica Electro Manual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\YASHICA\\Yashica Electro 35\\Yashica Electro Manual.pdf"
+      ]
+    },
+    {
+      "name": "leica_m320_ver.5.pdf",
+      "size_mb": "17.04",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\LEICA MEDICAL\\leica_m320_ver.5.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\LEICA MEDICAL\\leica_m320_ver.5.pdf"
+      ]
+    },
+    {
+      "name": "warrior.pdf",
+      "size_mb": "16.26",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\YAMAHA\\warrior.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\YAMAHA\\warrior.pdf"
+      ]
+    },
+    {
+      "name": "kymco_mxu250.pdf",
+      "size_mb": "16.01",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MXU250.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MXU250.pdf"
+      ]
+    },
+    {
+      "name": "yashica_mat_124g_a_e_a_fr.pdf",
+      "size_mb": "15.90",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\A TRIER\\Yashica_Mat_124G_A_E_A_Fr.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\YASHICA\\Yashica Electro 35\\Yashica_Mat_124G_A_E_A_Fr.pdf"
+      ]
+    },
+    {
+      "name": "quadraider600-partie2.pdf",
+      "size_mb": "15.32",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SYM\\Quadraider600-partie2.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\SYM\\Quadraider600-partie2.pdf"
+      ]
+    },
+    {
+      "name": "maxxer-450i-service-manual.pdf",
+      "size_mb": "14.69",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Maxxer-450i-Service-Manual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Maxxer-450i-Service-Manual.pdf"
+      ]
+    },
+    {
+      "name": "leica_wild-m680_surgical_microscope.pdf",
+      "size_mb": "12.60",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\LEICA MEDICAL\\leica_wild-m680_surgical_microscope.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\LEICA MEDICAL\\leica_wild-m680_surgical_microscope.pdf"
+      ]
+    },
+    {
+      "name": "yashica_electro_35_eng_fr_ger_esp.pdf",
+      "size_mb": "12.55",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\A TRIER\\Yashica_electro_35_Eng_Fr_Ger_Esp.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\YASHICA\\Yashica Electro 35\\Yashica_electro_35_Eng_Fr_Ger_Esp.pdf"
+      ]
+    },
+    {
+      "name": "grizzly.pdf",
+      "size_mb": "12.27",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\YAMAHA\\grizzly.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\YAMAHA\\grizzly.pdf"
+      ]
+    },
+    {
+      "name": "yamaha660raptorfr.pdf",
+      "size_mb": "12.03",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\YAMAHA\\Yamaha660RaptorFR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\YAMAHA\\Yamaha660RaptorFR.pdf"
+      ]
+    },
+    {
+      "name": "revox_b260_diagr.pdf",
+      "size_mb": "12.01",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_B260\\Revox_B260_Diagr.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_B260_B160\\Revox_B260_Diagr.pdf"
+      ]
+    },
+    {
+      "name": "siemens_ventilateur d'anesthésie servo900-900b_manuel_gb.pdf",
+      "size_mb": "11.84",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\SIEMENS\\Ventilateur d'anesthésie Servo900  900B - SIEMENS\\SIEMENS_Ventilateur d'anesthésie Servo900-900B_Manuel_GB.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\SIEMENS\\Ventilateur d'anesthésie Servo900  900B - SIEMENS\\SIEMENS_Ventilateur d'anesthésie Servo900-900B_Manuel_GB.pdf"
+      ]
+    },
+    {
+      "name": "manuel atelier 650 kvf (fr).pdf",
+      "size_mb": "11.63",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\Manuel atelier 650 kvf (FR).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KAWASAKI\\Manuel atelier 650 kvf (FR).pdf"
+      ]
+    },
+    {
+      "name": "kawasaki_kvf_750_a_b1_brute_force_2005_manual_de_reparatie_www.manualedereparatie.info.pdf",
+      "size_mb": "11.30",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KAWASAKI\\Kawasaki_KVF_750_A_B1_Brute_Force_2005_Manual_de_reparatie_www.manualedereparatie.info.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KAWASAKI\\Kawasaki_KVF_750_A_B1_Brute_Force_2005_Manual_de_reparatie_www.manualedereparatie.info.pdf"
+      ]
+    },
+    {
+      "name": "800_engine_manual.pdf",
+      "size_mb": "10.62",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\800_Engine_manual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\800_Engine_manual.pdf"
+      ]
+    },
+    {
+      "name": "manuatsmcbarossa250.pdf",
+      "size_mb": "10.50",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SMC\\manuatsmcbarossa250.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\SMC\\manuatsmcbarossa250.pdf"
+      ]
+    },
+    {
+      "name": "08_c_navgate_fr_lowr.pdf",
+      "size_mb": "8.86",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\GPS\\PIONEER\\08_C_NAVGATE_FR_LowR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\NAVIGATION\\GPS\\08_C_NAVGATE_FR_LowR.pdf"
+      ]
+    },
+    {
+      "name": "outlander 2007.pdf",
+      "size_mb": "8.83",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\Outlander 2007.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\Outlander 2007.pdf"
+      ]
+    },
+    {
+      "name": "ctlg_09_hylk.pdf",
+      "size_mb": "8.41",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\ctlg_09_hylk.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\ctlg_09_hylk.pdf"
+      ]
+    },
+    {
+      "name": "quadraider600-partie1.pdf",
+      "size_mb": "8.30",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SYM\\Quadraider600-partie1.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\SYM\\Quadraider600-partie1.pdf"
+      ]
+    },
+    {
+      "name": "ctlg_09_hylk_déverrouillé.pdf",
+      "size_mb": "8.21",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\ctlg_09_hylk_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\ctlg_09_hylk_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "2006_400_atv_motor.pdf",
+      "size_mb": "7.36",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\2006_400_ATV_Motor.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\2006_400_ATV_Motor.pdf"
+      ]
+    },
+    {
+      "name": "technics_su-7100_su-7100k.pdf",
+      "size_mb": "7.28",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics SU-7100\\technics_su-7100_su-7100k.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\TECHNICS SU-7100\\technics_su-7100_su-7100k.pdf"
+      ]
+    },
+    {
+      "name": "revox_a36_f36_serv_d.pdf",
+      "size_mb": "6.90",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_B36\\Revox_A36_F36_Serv_D.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_C36\\Revox_A36_F36_Serv_D.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_D36\\Revox_A36_F36_Serv_D.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_E36\\Revox_A36_F36_Serv_D.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_F36\\Revox_A36_F36_Serv_D.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\REVOX A36\\Revox_A36_F36_Serv_D.pdf"
+      ]
+    },
+    {
+      "name": "outlander 2004 fr.pdf",
+      "size_mb": "6.70",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\Outlander 2004 FR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\Outlander 2004 FR.pdf"
+      ]
+    },
+    {
+      "name": "grundig.pdf",
+      "size_mb": "6.04",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Grundig.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Grundig.pdf"
+      ]
+    },
+    {
+      "name": "satellit 2000.pdf",
+      "size_mb": "6.04",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 2000.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 2000.pdf"
+      ]
+    },
+    {
+      "name": "compur_rapid_shutter_repair(2).pdf",
+      "size_mb": "5.72",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\compur_rapid_shutter_repair(2).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\A TRIER\\compur_rapid_shutter_repair(2).pdf"
+      ]
+    },
+    {
+      "name": "outlander 2006.pdf",
+      "size_mb": "5.67",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\Outlander 2006.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\Outlander 2006.pdf"
+      ]
+    },
+    {
+      "name": "siemens_ventilateur d'anesthésie servo900-900b_manuel_gb_bd.pdf",
+      "size_mb": "5.60",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\SIEMENS\\Ventilateur d'anesthésie Servo900  900B - SIEMENS\\SIEMENS_Ventilateur d'anesthésie Servo900-900B_Manuel_GB_BD.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\SIEMENS\\Ventilateur d'anesthésie Servo900  900B - SIEMENS\\SIEMENS_Ventilateur d'anesthésie Servo900-900B_Manuel_GB_BD.pdf"
+      ]
+    },
+    {
+      "name": "sym quadlander 250 service manual.pdf",
+      "size_mb": "5.33",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\SYM\\SYM Quadlander 250 Service manual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\SYM\\SYM Quadlander 250 Service manual.pdf"
+      ]
+    },
+    {
+      "name": "rolleiflext.pdf",
+      "size_mb": "5.16",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\rolleiflext.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\ROLLEI\\RolleiflexT.pdf"
+      ]
+    },
+    {
+      "name": "3m.pdf",
+      "size_mb": "5.12",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\3M\\3M.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\3M.pdf"
+      ]
+    },
+    {
+      "name": "ventilateur serie 700.pdf",
+      "size_mb": "5.10",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\Ventilateur serie 700.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\Ventilateur serie 700.pdf"
+      ]
+    },
+    {
+      "name": "satellit_1400_pro.pdf",
+      "size_mb": "5.09",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 1400\\Satellit_1400_Pro.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 1400\\Satellit_1400_Pro.pdf"
+      ]
+    },
+    {
+      "name": "3m_déverrouillé.pdf",
+      "size_mb": "5.03",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\3M\\3M_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\3M_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "revox_d36_f36_serv_e.pdf",
+      "size_mb": "4.85",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_D36\\Revox_D36_F36_Serv_E.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_E36\\Revox_D36_F36_Serv_E.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_F36\\Revox_D36_F36_Serv_E.pdf"
+      ]
+    },
+    {
+      "name": "technics_sa700_manuel.pdf",
+      "size_mb": "4.67",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics_SA700_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\Technics_SA700_manuel.pdf"
+      ]
+    },
+    {
+      "name": "tba931_replacement_rev2.pdf",
+      "size_mb": "4.18",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\REVOX A700\\TBA931_Replacement_Rev2.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\REVOX A720\\TBA931_Replacement_Rev2.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 01 (info generali).pdf",
+      "size_mb": "4.14",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 01 (info generali).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 01 (info generali).pdf"
+      ]
+    },
+    {
+      "name": "drager_julian_manuel_fr.pdf",
+      "size_mb": "4.12",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DRAGER\\Ventilateur d'anesthesie Julian - DRAGER\\DRAGER_Julian_Manuel_FR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\DRÄGER\\Ventilateur d'anesthésie Julian - DRÄGER\\DRAGER_Julian_Manuel_FR.pdf"
+      ]
+    },
+    {
+      "name": "adly_50_rs_parts_list.pdf",
+      "size_mb": "4.03",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\ADLY\\Adly_50_RS_Parts_List.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\ADLY\\Adly_50_RS_Parts_List.pdf"
+      ]
+    },
+    {
+      "name": "notice.pdf",
+      "size_mb": "3.94",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Alfa Romeo 156 1.9 JTD 16V\\NOTICE.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Citroen-Peugeot_Berlingo-Partner\\NOTICE.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Opel Meriva\\NOTICE.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Peugeot 307 HDi\\NOTICE.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Peugeot 407 HDi\\NOTICE.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Renault Modus\\NOTICE.pdf"
+      ]
+    },
+    {
+      "name": "notice.pdf",
+      "size_mb": "3.94",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Citroen C2\\NOTICE.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Ford Focus C-Max\\NOTICE.pdf"
+      ]
+    },
+    {
+      "name": "oximètre de pouls n-560.pdf",
+      "size_mb": "3.87",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\Oximètre de pouls N-560.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\Oximètre de pouls N-560.pdf"
+      ]
+    },
+    {
+      "name": "001_pdfsam_prontor.pdf",
+      "size_mb": "3.86",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\A TRIER\\001_pdfsam_prontor.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\PRONTOR\\001_pdfsam_prontor.pdf"
+      ]
+    },
+    {
+      "name": "technics_sl1900_manuel.pdf",
+      "size_mb": "3.86",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics_SL1900_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\Technics_SL1900_manuel.pdf"
+      ]
+    },
+    {
+      "name": "drager_julian_notice_fr.pdf",
+      "size_mb": "3.76",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DRAGER\\Ventilateur d'anesthesie Julian - DRAGER\\DRAGER_Julian_Notice_FR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\DRÄGER\\Ventilateur d'anesthésie Julian - DRÄGER\\DRAGER_Julian_Notice_FR.pdf"
+      ]
+    },
+    {
+      "name": "yashica_electro_35_kit.pdf",
+      "size_mb": "3.69",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\A TRIER\\Yashica_electro_35_Kit.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\YASHICA\\Yashica Electro 35\\Yashica_electro_35_Kit.pdf"
+      ]
+    },
+    {
+      "name": "schema faisceau electrique mxu300.pdf",
+      "size_mb": "3.51",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Schema faisceau electrique mxu300.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Schema faisceau electrique mxu300.pdf"
+      ]
+    },
+    {
+      "name": "081_pdfsam_prontor.pdf",
+      "size_mb": "3.48",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\A TRIER\\081_pdfsam_prontor.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\PRONTOR\\081_pdfsam_prontor.pdf"
+      ]
+    },
+    {
+      "name": "yaesu-vx-7r_notice_fr.pdf",
+      "size_mb": "3.45",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\YAESU\\YAESU VX-7R\\YAESU-VX-7R_Notice_FR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\YAESU\\YAESU-VX-7R_Notice_FR.pdf"
+      ]
+    },
+    {
+      "name": "technics_sl1200 et 1210mk2_manuel.pdf",
+      "size_mb": "3.41",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics_SL1200 et 1210MK2_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\Technics_SL1200 et 1210MK2_manuel.pdf"
+      ]
+    },
+    {
+      "name": "satellit 600.pdf",
+      "size_mb": "3.37",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 600.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 600.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 09 (trasmissione).pdf",
+      "size_mb": "3.14",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 09 (trasmissione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 09 (trasmissione).pdf"
+      ]
+    },
+    {
+      "name": "kymco_schema_ electrique_maxxer300.pdf",
+      "size_mb": "2.97",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_schema_ electrique_MAXXER300.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_schema_ electrique_MAXXER300.pdf"
+      ]
+    },
+    {
+      "name": "rolleiflex-t-dans-la-pratique-optimise.pdf",
+      "size_mb": "2.96",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\rolleiflex-t-dans-la-pratique-optimise.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\ROLLEI\\rolleiflex-t-dans-la-pratique-optimise.pdf"
+      ]
+    },
+    {
+      "name": "satelec malette dentaire.pdf",
+      "size_mb": "2.95",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\SATELEC\\Satelec malette dentaire.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\Satelec malette dentaire.pdf"
+      ]
+    },
+    {
+      "name": "satellit 1400 pro_1.pdf",
+      "size_mb": "2.94",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 1400\\Satellit 1400 Pro_1.PDF",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 1400\\Satellit 1400 Pro_1.PDF"
+      ]
+    },
+    {
+      "name": "mxu300 service manual.pdf",
+      "size_mb": "2.78",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\MXU300 Service manual.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\MXU300 Service manual.pdf"
+      ]
+    },
+    {
+      "name": "satellit 2400 pro.pdf",
+      "size_mb": "2.70",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 2400 Pro.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 2400 Pro.pdf"
+      ]
+    },
+    {
+      "name": "satellit 700.pdf",
+      "size_mb": "2.64",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 700.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 700.pdf"
+      ]
+    },
+    {
+      "name": "satellit 1000_transistor 6002.pdf",
+      "size_mb": "2.61",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 1000_Transistor 6002.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 1000_Transistor 6002.pdf"
+      ]
+    },
+    {
+      "name": "pioneer_sx434.pdf",
+      "size_mb": "2.39",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\DOCS à compléter\\Pioneer_SX434.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\PIONEER\\Pioneer_SX434.pdf"
+      ]
+    },
+    {
+      "name": "technics_su-v4 et v4k_plan.pdf",
+      "size_mb": "2.37",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics_SU-V4 et V4K_plan.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\Technics_SU-V4 et V4K_plan.pdf"
+      ]
+    },
+    {
+      "name": "tsb_water_pump_vtwin.pdf",
+      "size_mb": "2.20",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\TSB_water_Pump_VTwin.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\TSB_water_Pump_VTwin.pdf"
+      ]
+    },
+    {
+      "name": "water_pump_rad_cap_tsb.pdf",
+      "size_mb": "2.20",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\water_pump_rad_cap_TSB.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\water_pump_rad_cap_TSB.pdf"
+      ]
+    },
+    {
+      "name": "5kmu_2005.pdf",
+      "size_mb": "2.19",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\YAMAHA\\5KMU_2005.PDF",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\YAMAHA\\5KMU_2005.PDF"
+      ]
+    },
+    {
+      "name": "rolleiflex-6x6-brochure-commerciale-francais-optimise.pdf",
+      "size_mb": "2.17",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\rolleiflex-6x6-brochure-commerciale-francais-optimise.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\ROLLEI\\rolleiflex-6x6-brochure-commerciale-francais-optimise.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 13 (ruota freno post).pdf",
+      "size_mb": "2.16",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 13 (ruota freno post).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 13 (ruota freno post).pdf"
+      ]
+    },
+    {
+      "name": "vital signs monitor dinamap (model 8100) operating manual.60.pdf",
+      "size_mb": "2.15",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\Vital Signs Monitor DINAMAP (Model 8100) Operating Manual.60.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\Vital Signs Monitor DINAMAP (Model 8100) Operating Manual.60.pdf"
+      ]
+    },
+    {
+      "name": "kymco_mxu250(1).pdf",
+      "size_mb": "2.11",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\kymco_MXU250(1).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\kymco_MXU250(1).pdf"
+      ]
+    },
+    {
+      "name": "technics_su-v2_manuel.pdf",
+      "size_mb": "2.10",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics_SU-V2_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\Technics_SU-V2_manuel.pdf"
+      ]
+    },
+    {
+      "name": "aspi_pierre_arp62b_notice.pdf",
+      "size_mb": "2.07",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\PIERRE MEDICAL\\ASPIRATEUR ARP 62 B\\Aspi_Pierre_ARP62B_Notice.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\PIERRE MEDICAL\\ASPIRATEUR ARP 62 B\\Aspi_Pierre_ARP62B_Notice.pdf"
+      ]
+    },
+    {
+      "name": "rollei-les-complements-pratiques-optimise.pdf",
+      "size_mb": "2.06",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\rollei-les-complements-pratiques-optimise.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\PHOTOGRAPHIE\\ROLLEI\\rollei-les-complements-pratiques-optimise.pdf"
+      ]
+    },
+    {
+      "name": "manuel-atelier-blade-tgb-250-chapitre-variateur.pdf",
+      "size_mb": "2.02",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\TGB\\manuel-atelier-blade-tgb-250-chapitre-variateur.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\TGB\\manuel-atelier-blade-tgb-250-chapitre-variateur.pdf"
+      ]
+    },
+    {
+      "name": "micromega_fr.pdf",
+      "size_mb": "2.02",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\MICROMEGA\\micromega_fr.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\micromega_fr.pdf"
+      ]
+    },
+    {
+      "name": "micromega_fr_déverrouillé.pdf",
+      "size_mb": "2.02",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\MICROMEGA\\micromega_fr_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\micromega_fr_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 09 (trasmissione).pdf",
+      "size_mb": "1.85",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 09 (trasmissione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 09 (trasmissione).pdf"
+      ]
+    },
+    {
+      "name": "formes desfraises dentaires.pdf",
+      "size_mb": "1.85",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\Formes desFraises Dentaires.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\Formes desFraises Dentaires.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 16 (imp avviamento).pdf",
+      "size_mb": "1.84",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 16 (imp avviamento).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 16 (imp avviamento).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 05 (alimentazione).pdf",
+      "size_mb": "1.82",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 05 (alimentazione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 05 (alimentazione).pdf"
+      ]
+    },
+    {
+      "name": "thorens_td145-160-165-166_manuel.pdf",
+      "size_mb": "1.75",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\THORENS\\TD-145\\thorens_td145-160-165-166_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\THORENS\\TD-160\\thorens_td145-160-165-166_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\THORENS\\TD-165\\thorens_td145-160-165-166_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\THORENS\\TD-166\\thorens_td145-160-165-166_manuel.pdf"
+      ]
+    },
+    {
+      "name": "bosch_ve_pumps.pdf",
+      "size_mb": "1.62",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\BOSCH\\bosch_ve_pumps.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\bosch_ve_pumps.pdf"
+      ]
+    },
+    {
+      "name": "landrover_catalogue_outils_speciaux.pdf",
+      "size_mb": "1.58",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\LAND ROVER\\LandRover_catalogue_outils_speciaux.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\LandRover_catalogue_outils_speciaux.pdf"
+      ]
+    },
+    {
+      "name": "flyer_2007_04.pdf",
+      "size_mb": "1.58",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\flyer_2007_04.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\flyer_2007_04.pdf"
+      ]
+    },
+    {
+      "name": "flyer_2007_04_déverrouillé.pdf",
+      "size_mb": "1.58",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\flyer_2007_04_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\flyer_2007_04_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "dg2002_de.pdf",
+      "size_mb": "1.56",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\ODAM\\DEFIGARD 2002\\DG2002_DE.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\ODAM\\DEFIGARD 2002\\DG2002_DE.pdf"
+      ]
+    },
+    {
+      "name": "technics_su-a600_manuel.pdf",
+      "size_mb": "1.52",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics_SU-A600_manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\Technics_SU-A600_manuel.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 03 (manutenzione).pdf",
+      "size_mb": "1.50",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 03 (manutenzione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 03 (manutenzione).pdf"
+      ]
+    },
+    {
+      "name": "kymco_mxu300.pdf",
+      "size_mb": "1.50",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\kymco_MXU300.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\kymco_MXU300.pdf"
+      ]
+    },
+    {
+      "name": "fraises 1.pdf",
+      "size_mb": "1.50",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\Fraises 1.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\Fraises 1.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 03 (manutenzione).pdf",
+      "size_mb": "1.49",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 03 (manutenzione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 03 (manutenzione).pdf"
+      ]
+    },
+    {
+      "name": "im142_sa200.pdf",
+      "size_mb": "1.46",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Lincoln SA200\\im142_sa200.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\ENERGIE\\Lincoln SA200\\im142_sa200.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 13 (ruota freno post).pdf",
+      "size_mb": "1.45",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 13 (ruota freno post).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 13 (ruota freno post).pdf"
+      ]
+    },
+    {
+      "name": "drager_cato-edition_notice_fr.pdf",
+      "size_mb": "1.45",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DRAGER\\Poste anesthesie Cato-edition - DRAGER\\DRAGER_Cato-edition_Notice_FR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\DRÄGER\\Poste anesthésie Cato-edition - DRAGER\\DRAGER_Cato-edition_Notice_FR.pdf"
+      ]
+    },
+    {
+      "name": "43pc_2009.pdf",
+      "size_mb": "1.43",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\YAMAHA\\43PC_2009.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\YAMAHA\\43PC_2009.pdf"
+      ]
+    },
+    {
+      "name": "audi tt instrument cluster repair.pdf",
+      "size_mb": "1.37",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Audi TT instrument cluster repair.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\Audi TT instrument cluster repair.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 01 (info generali).pdf",
+      "size_mb": "1.36",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 01 (info generali).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 01 (info generali).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 12 (ruota freno sospensione ant).pdf",
+      "size_mb": "1.30",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 12 (ruota freno sospensione ant).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 12 (ruota freno sospensione ant).pdf"
+      ]
+    },
+    {
+      "name": "manuel_util_sipap_fr.pdf",
+      "size_mb": "1.27",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\manuel_util_sipap_fr.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\manuel_util_sipap_fr.pdf"
+      ]
+    },
+    {
+      "name": "viasys_util_sipap_notice_fr.pdf",
+      "size_mb": "1.27",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\VIASYS\\Respirateur néonatal - Infant Flow SiPAP - VIASYS\\VIASYS_util_sipap_Notice_FR.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\VIASYS\\Respirateur néonatal - Infant Flow SiPAP - VIASYS\\VIASYS_util_sipap_Notice_FR.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 08 (cilindro pistone).pdf",
+      "size_mb": "1.21",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 08 (cilindro pistone).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 08 (cilindro pistone).pdf"
+      ]
+    },
+    {
+      "name": "satellit 500.pdf",
+      "size_mb": "1.17",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 500.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 500.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 05 (alimentazione).pdf",
+      "size_mb": "1.09",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 05 (alimentazione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 05 (alimentazione).pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 12 (ruota freni sospens ant).pdf",
+      "size_mb": "1.08",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 12 (ruota freni sospens ant).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 12 (ruota freni sospens ant).pdf"
+      ]
+    },
+    {
+      "name": "manuel_yech_sipap_ang.pdf",
+      "size_mb": "1.07",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\VIASYS\\Respirateur néonatal - Infant Flow SiPAP - VIASYS\\manuel_yech_sipap_ang.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\VIASYS\\Respirateur néonatal - Infant Flow SiPAP - VIASYS\\manuel_yech_sipap_ang.pdf"
+      ]
+    },
+    {
+      "name": "satellit 1400 pro_2.pdf",
+      "size_mb": "1.06",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 1400\\Satellit 1400 Pro_2.PDF",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 1400\\Satellit 1400 Pro_2.PDF"
+      ]
+    },
+    {
+      "name": "kxr50 cap 11 (albero motore).pdf",
+      "size_mb": "1.03",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 11 (albero motore).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 11 (albero motore).pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 04 (lubrificazione).pdf",
+      "size_mb": "1.01",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 04 (lubrificazione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 04 (lubrificazione).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 17 (luci).pdf",
+      "size_mb": "1.01",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 17 (luci).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 17 (luci).pdf"
+      ]
+    },
+    {
+      "name": "satellit 1400 pro_4.pdf",
+      "size_mb": "1.01",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 1400\\Satellit 1400 Pro_4.PDF",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 1400\\Satellit 1400 Pro_4.PDF"
+      ]
+    },
+    {
+      "name": "mxer50 cap 07 (testa cilindro pistone).pdf",
+      "size_mb": "0.98",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 07 (testa cilindro pistone).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 07 (testa cilindro pistone).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 15 (imp accensione).pdf",
+      "size_mb": "0.92",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 15 (imp accensione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 15 (imp accensione).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 14 (imp ricarica).pdf",
+      "size_mb": "0.90",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 14 (imp ricarica).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 14 (imp ricarica).pdf"
+      ]
+    },
+    {
+      "name": "satellit 1400 pro_3.pdf",
+      "size_mb": "0.88",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\RADIO COM\\GRUNDIG\\Satellit 1400\\Satellit 1400 Pro_3.PDF",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\GRUNDING\\Satellit 1400\\Satellit 1400 Pro_3.PDF"
+      ]
+    },
+    {
+      "name": "capstan.pdf",
+      "size_mb": "0.85",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\LAND ROVER\\LAND ROVER Series II et IIA\\capstan.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\LAND ROVER\\LAND ROVER Series III\\capstan.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 02 (plastiche marmitta).pdf",
+      "size_mb": "0.77",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 02 (plastiche marmitta).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 02 (plastiche marmitta).pdf"
+      ]
+    },
+    {
+      "name": "caalto.pdf",
+      "size_mb": "0.77",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\CAALTO\\caalto.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\caalto.pdf"
+      ]
+    },
+    {
+      "name": "hp codemaster xl+.pdf",
+      "size_mb": "0.77",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\HP Codemaster XL+.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\HP Codemaster XL+.pdf"
+      ]
+    },
+    {
+      "name": "caalto_déverrouillé.pdf",
+      "size_mb": "0.76",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\CAALTO\\caalto_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\caalto_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "sans titre.pdf",
+      "size_mb": "0.76",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\Sans titre.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\Sans titre.pdf"
+      ]
+    },
+    {
+      "name": "sans titre_déverrouillé.pdf",
+      "size_mb": "0.76",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\Sans titre_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\Sans titre_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 07 (testa cilindro valvole).pdf",
+      "size_mb": "0.75",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 07 (testa cilindro valvole).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 07 (testa cilindro valvole).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 10 (riduzione finale).pdf",
+      "size_mb": "0.74",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 10 (riduzione finale).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 10 (riduzione finale).pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 14 (imp ricarica).pdf",
+      "size_mb": "0.73",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 14 (imp ricarica).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 14 (imp ricarica).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 16 (imp avviamento).pdf",
+      "size_mb": "0.69",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 16 (imp avviamento).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 16 (imp avviamento).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 11 (carter albero motore).pdf",
+      "size_mb": "0.68",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 11 (carter albero motore).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 11 (carter albero motore).pdf"
+      ]
+    },
+    {
+      "name": "manuel_esu.pdf",
+      "size_mb": "0.68",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\manuel_esu.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\manuel_esu.pdf"
+      ]
+    },
+    {
+      "name": "manuel_esu_déverrouillé.pdf",
+      "size_mb": "0.67",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\manuel_esu_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\manuel_esu_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 02 (plastiche marmitta).pdf",
+      "size_mb": "0.64",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 02 (plastiche marmitta).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 02 (plastiche marmitta).pdf"
+      ]
+    },
+    {
+      "name": "leg.pdf",
+      "size_mb": "0.62",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Citroen-Peugeot_Berlingo-Partner\\LEG.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Peugeot 307 HDi\\LEG.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\RTA\\Peugeot 407 HDi\\LEG.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 08 (statore volano).pdf",
+      "size_mb": "0.58",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 08 (statore volano).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 08 (statore volano).pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 06 (rimozione motore).pdf",
+      "size_mb": "0.55",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 06 (rimozione motore).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 06 (rimozione motore).pdf"
+      ]
+    },
+    {
+      "name": "revox_lsc8_prod_info.pdf",
+      "size_mb": "0.55",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_C270\\Revox_LSC8_Prod_Info.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_C274-C278\\Revox_LSC8_Prod_Info.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 04 (lubrificazione).pdf",
+      "size_mb": "0.54",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 04 (lubrificazione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 04 (lubrificazione).pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 06 (rimozione motore).pdf",
+      "size_mb": "0.51",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 06 (rimozione motore).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 06 (rimozione motore).pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 15 (imp accensione).pdf",
+      "size_mb": "0.47",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 15 (imp accensione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 15 (imp accensione).pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 17 (luci strumentaz  clacson).pdf",
+      "size_mb": "0.47",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 17 (luci strumentaz  clacson).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 17 (luci strumentaz  clacson).pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 10 (riduzione finale).pdf",
+      "size_mb": "0.46",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 10 (riduzione finale).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 10 (riduzione finale).pdf"
+      ]
+    },
+    {
+      "name": "tarifs distrimed.pdf",
+      "size_mb": "0.46",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\Tarifs Distrimed.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\Tarifs Distrimed.pdf"
+      ]
+    },
+    {
+      "name": "clutch_lubrication_outlander.pdf",
+      "size_mb": "0.42",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\clutch_lubrication_Outlander.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\clutch_lubrication_Outlander.pdf"
+      ]
+    },
+    {
+      "name": "technics_rs-tr474_plan.pdf",
+      "size_mb": "0.42",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics_RS-TR474_plan.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\Technics_RS-TR474_plan.pdf"
+      ]
+    },
+    {
+      "name": "revox_f36_g36_mod.pdf",
+      "size_mb": "0.37",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_F36\\Revox_F36_G36_Mod.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_G36\\Revox_F36_G36_Mod.pdf"
+      ]
+    },
+    {
+      "name": "lubrificationtransmissioncvc.pdf",
+      "size_mb": "0.36",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\CAN AM\\LubrificationtransmissionCVC.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\CAN AM\\LubrificationtransmissionCVC.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 18 (strumentazione frecce clacson).pdf",
+      "size_mb": "0.36",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 18 (strumentazione frecce clacson).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 18 (strumentazione frecce clacson).pdf"
+      ]
+    },
+    {
+      "name": "revox_f36_g36_nab.pdf",
+      "size_mb": "0.28",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_F36\\Revox_F36_G36_NAB.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_G36\\Revox_F36_G36_NAB.pdf"
+      ]
+    },
+    {
+      "name": "technics_su-7100_710k_sch.pdf",
+      "size_mb": "0.26",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECHNICS\\Technics SU-7100\\technics_su-7100_710k_sch.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TECKNICS\\TECHNICS SU-7100\\technics_su-7100_710k_sch.pdf"
+      ]
+    },
+    {
+      "name": "tba931_50.05.0139_datasheet.pdf",
+      "size_mb": "0.25",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\REVOX A700\\TBA931_50.05.0139_DataSheet.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\REVOX A720\\TBA931_50.05.0139_DataSheet.pdf"
+      ]
+    },
+    {
+      "name": "wax_463-466.pdf",
+      "size_mb": "0.23",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\Wax_463-466.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\Wax_463-466.pdf"
+      ]
+    },
+    {
+      "name": "wax_463-466_déverrouillé.pdf",
+      "size_mb": "0.23",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\Wax_463-466_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\Wax_463-466_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "uher-4000l_manuel.pdf",
+      "size_mb": "0.20",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\DIVERS\\Uher-4000L_Manuel.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\UHER\\UHER 4000 REPORT L et S et 4200 - 4400 STEREO\\Uher-4000L_Manuel.pdf"
+      ]
+    },
+    {
+      "name": "za_filter_fr.pdf",
+      "size_mb": "0.17",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\KAVO\\ZA_Filter_fr.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\KAVO\\ZA_Filter_fr.pdf"
+      ]
+    },
+    {
+      "name": "revox_c27x_remote_diagr.pdf",
+      "size_mb": "0.16",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_C270\\Revox_C27x_Remote_Diagr.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\STUDER REVOX\\A TRIER\\Revox_C274-C278\\Revox_C27x_Remote_Diagr.pdf"
+      ]
+    },
+    {
+      "name": "thenot 1000_notice_déverrouillé_déverrouillé.pdf",
+      "size_mb": "0.15",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\THENOT\\Thenot 1000_Notice_déverrouillé_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\THENOT\\Thenot 1000_Notice_déverrouillé_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "thenot 1000_notice.pdf",
+      "size_mb": "0.15",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\Thenot 1000_Notice.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\Thenot 1000_Notice.pdf"
+      ]
+    },
+    {
+      "name": "thenot 1000_notice_déverrouillé.pdf",
+      "size_mb": "0.15",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\Thenot 1000_Notice_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\Thenot 1000_Notice_déverrouillé.pdf"
+      ]
+    },
+    {
+      "name": "fraises 2.pdf",
+      "size_mb": "0.10",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\Fraises 2.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\Fraises 2.pdf"
+      ]
+    },
+    {
+      "name": "tfkt541.pdf",
+      "size_mb": "0.09",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\DOCS à compléter\\TELEFUNKEN 541\\tfkt541.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\SON\\TELEFUNKEN\\TELEFUNKEN 541\\tfkt541.pdf"
+      ]
+    },
+    {
+      "name": "kxr50 cap 00 (prefazione).pdf",
+      "size_mb": "0.08",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 00 (prefazione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_KXR_50_Manual_de_reparatie_www.manualedereparatie.info\\KXR50 cap 00 (prefazione).pdf"
+      ]
+    },
+    {
+      "name": "electrocardiogramme.pdf",
+      "size_mb": "0.07",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\Electrocardiogramme.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\MEDICAL\\Electrocardiogramme.pdf"
+      ]
+    },
+    {
+      "name": "mxer50 cap 00 (prefazione).pdf",
+      "size_mb": "0.06",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 00 (prefazione).pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\AUTO MOTO\\Quad ATV - All Terrain Vehicle\\KYMCO\\Kymco_MX_Er50_Manual_de_reparatie_www.manualedereparatie.info\\MXer50 cap 00 (prefazione).pdf"
+      ]
+    },
+    {
+      "name": "page_esu_pdf.pdf",
+      "size_mb": "0.03",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\page_esu_pdf.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\page_esu_pdf.pdf"
+      ]
+    },
+    {
+      "name": "page_esu_pdf_déverrouillé.pdf",
+      "size_mb": "0.03",
+      "paths": [
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\BIOMEDICAL\\DENTAIRE\\page_esu_pdf_déverrouillé.pdf",
+        "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS A CLASSER\\MEDICAL\\DENTAIRE\\page_esu_pdf_déverrouillé.pdf"
+      ]
+    }
+  ],
+  "misnamed_folders": [
+    {
+      "wrong": "SON/GRUNDING",
+      "correct": "SON/GRUNDIG",
+      "pdf_count": 13,
+      "size_mb": "73.1"
+    },
+    {
+      "wrong": "SON/TECKNICS",
+      "correct": "SON/TECHNICS",
+      "pdf_count": 9,
+      "size_mb": "25.9"
+    },
+    {
+      "wrong": "SON/GRUNDING/Satellit 1400",
+      "correct": "RADIO COM/GRUNDIG/Satellit 1400",
+      "pdf_count": 5,
+      "size_mb": "11.0"
+    }
+  ],
+  "misplaced_files": [
+    {
+      "folder": "SON/DOCS à compléter",
+      "reason": "Documents PHOTOGRAPHIE rangés dans SON/",
+      "files": [
+        "NIKON_F_Notice_GB.pdf",
+        "NIKON_FE_Schéma.pdf",
+        "NIKON_FM2_Notice.pdf",
+        "Notice_SB24.pdf",
+        "Pioneer_SX434.pdf",
+        "tfkt541.pdf"
+      ],
+      "size_mb": "10.0"
+    },
+    {
+      "folder": "ENERGIE/Lincoln SA200",
+      "reason": "Doublon de AUTO MOTO/Lincoln SA200",
+      "files": [
+        "ALL_SA200_manuals.pdf",
+        "im142_sa200.pdf"
+      ],
+      "size_mb": "38.3"
+    },
+    {
+      "folder": "AUTO MOTO/RTA/Collection/Help",
+      "reason": "Fichiers d'aide RTA Collection (non pertinents)",
+      "files": [
+        "ACROBAT.PDF",
+        "MiniReader.pdf",
+        "Acrobat.pdf",
+        "MiniReader.pdf"
+      ],
+      "size_mb": "0.2"
+    },
+    {
+      "folder": "AUTO MOTO/RTA/Collection/Resource",
+      "reason": "Ressources RTA Collection (non pertinents)",
+      "files": [
+        "ENUtxt.pdf",
+        "FRAtxt.pdf"
+      ],
+      "size_mb": "0.0"
+    },
+    {
+      "folder": "AUTO MOTO/NAVIGATION/GPS",
+      "reason": "Doublon de AUTO MOTO/GPS/PIONEER",
+      "files": [
+        "08_C_NAVGATE_FR_LowR.pdf"
+      ],
+      "size_mb": "8.9"
+    }
+  ]
+}

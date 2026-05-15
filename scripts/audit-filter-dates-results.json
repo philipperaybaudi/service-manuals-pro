@@ -1,0 +1,1516 @@
+{
+  "generated_at": "2026-04-22T04:04:29.389Z",
+  "post_lot1": {
+    "count": 64,
+    "docs": [
+      {
+        "slug": "atelier-how-to-use-battery-tubes-technical-guide",
+        "title": "How to Properly Use Battery Tubes - Complete Technical Guide",
+        "title_fr": "Comment bien utiliser les tubes batteries - Guide technique complet",
+        "brand": "ATELIER",
+        "category_slug": "diy-home-improvement",
+        "category_name": "DIY & Home Improvement",
+        "page_count": 5,
+        "created_at": "2026-04-21T08:52:20.180339+00:00",
+        "desc_en_len": 52,
+        "desc_fr_len": 56,
+        "desc_en_preview": "Technical guide on the use of battery-powered tubes.",
+        "desc_fr_preview": "Guide technique sur l'utilisation des tubes à batteries.",
+        "suspect": true,
+        "reasons": [
+          "description_fr trop courte (56c)",
+          "description EN trop courte (52c)"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beocenter-3300-type-1604-service-manual",
+        "title": "Bang & Olufsen Beocenter 3300 Type 1604 Service Manual",
+        "title_fr": "Manuel de Service Bang & Olufsen Beocenter 3300 Type 1604",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 7,
+        "created_at": "2026-04-21T08:08:09.337558+00:00",
+        "desc_en_len": 1080,
+        "desc_fr_len": 1147,
+        "desc_en_preview": "Complete service and maintenance manual for the Bang & Olufsen Beocenter 3300 Type 1604 receiver. This technical documen",
+        "desc_fr_preview": "Manuel complet de service et d'entretien pour le récepteur Bang & Olufsen Beocenter 3300 Type 1604. Ce document techniqu",
+        "suspect": true,
+        "reasons": [
+          "Langue mélangée : description FR contient 4 mots anglais"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beocenter-3500-type-2401-service-manual",
+        "title": "Beocenter 3500 Type 2401 Service Manual",
+        "title_fr": "Manuel d'Entretien Beocenter 3500 Type 2401",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 5,
+        "created_at": "2026-04-21T08:08:12.019402+00:00",
+        "desc_en_len": 951,
+        "desc_fr_len": 1042,
+        "desc_en_preview": "Complete service and maintenance manual for the Bang & Olufsen Beocenter 3500 Type 2401 turntable system. This technical",
+        "desc_fr_preview": "Manuel complet d'entretien et de maintenance pour le système tourne-disque Bang & Olufsen Beocenter 3500 Type 2401. Cett",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (5) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beocord-1700-2200-service-manual",
+        "title": "Bang & Olufsen Beocord 1700/2200 Service Manual",
+        "title_fr": "Manuel de Service Bang & Olufsen Beocord 1700/2200",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:08:30.447849+00:00",
+        "desc_en_len": 1159,
+        "desc_fr_len": 1111,
+        "desc_en_preview": "Comprehensive technical documentation for the Bang & Olufsen Beocord 1700 and 2200 tape recorder models, covering types ",
+        "desc_fr_preview": "Documentation technique complète pour les modèles de magnétophones Bang & Olufsen Beocord 1700 et 2200, couvrant les typ",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beogram-1102-1902-service-manual",
+        "title": "Bang & Olufsen Beogram 1102-1902 Service Manual",
+        "title_fr": "Manuel d'Entretien Bang & Olufsen Beogram 1102-1902",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:08:48.846615+00:00",
+        "desc_en_len": 1087,
+        "desc_fr_len": 1149,
+        "desc_en_preview": "Complete service and maintenance manual for Bang & Olufsen Beogram 1102-1902 turntables, covering both Type 5715 and 571",
+        "desc_fr_preview": "Manuel complet d'entretien et de service pour les platines Bang & Olufsen Beogram 1102-1902, couvrant les modèles Type 5",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beogram-1700-service-manual",
+        "title": "Bang & Olufsen Beogram 1700 Service Manual",
+        "title_fr": "Manuel d'Entretien Bang & Olufsen Beogram 1700",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 5,
+        "created_at": "2026-04-21T08:08:51.367379+00:00",
+        "desc_en_len": 992,
+        "desc_fr_len": 1073,
+        "desc_en_preview": "Comprehensive service and maintenance manual for Bang & Olufsen Beogram 1700 turntable models 5731 and 5733. This techni",
+        "desc_fr_preview": "Manuel complet d'entretien et de service pour le tourne-disque Bang & Olufsen Beogram 1700, modèles 5731 et 5733. Cette ",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (5) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beogram-6000-service-manual",
+        "title": "Bang & Olufsen Beogram 6000 Service Manual",
+        "title_fr": "Manuel d'Entretien Bang & Olufsen Beogram 6000",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 4,
+        "created_at": "2026-04-21T08:09:05.126754+00:00",
+        "desc_en_len": 1080,
+        "desc_fr_len": 1063,
+        "desc_en_preview": "Complete service and maintenance manual for the Bang & Olufsen Beogram 6000 record player, covering models Type 5751, 57",
+        "desc_fr_preview": "Manuel complet de service et d'entretien pour le tourne-disque Bang & Olufsen Beogram 6000, couvrant les modèles Type 57",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (4) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beogram-8000-8002-6006-schematic-diagram",
+        "title": "Beogram 8000/8002/6006 Complete Schematic Diagram",
+        "title_fr": "Schéma Électrique Complet Beogram 8000/8002/6006",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:09:07.468879+00:00",
+        "desc_en_len": 1002,
+        "desc_fr_len": 1027,
+        "desc_en_preview": "Complete electronic schematic documentation for Bang & Olufsen Beogram turntable models 8000, 8002, and 6006. This techn",
+        "desc_fr_preview": "Documentation schématique électronique complète pour les modèles de platine Bang & Olufsen Beogram 8000, 8002 et 6006. C",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beogram-9000-service-manual",
+        "title": "Bang & Olufsen Beogram 9000 Service Manual",
+        "title_fr": "Manuel d'Entretien Bang & Olufsen Beogram 9000",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:09:10.211321+00:00",
+        "desc_en_len": 926,
+        "desc_fr_len": 965,
+        "desc_en_preview": "Comprehensive service and maintenance manual for Bang & Olufsen Beogram turntable models 9000, including types 5961, 596",
+        "desc_fr_preview": "Manuel complet d'entretien et de maintenance pour les platines tourne-disque Bang & Olufsen Beogram modèle 9000, incluan",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-bang-olufsen-beomaster-4400-type-2417-schematic-diagrams",
+        "title": "Beomaster 4400 Type 2417 - Complete Schematic Diagrams",
+        "title_fr": "Beomaster 4400 Type 2417 - Schémas Électriques Complets",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 5,
+        "created_at": "2026-04-21T08:09:50.024268+00:00",
+        "desc_en_len": 1023,
+        "desc_fr_len": 1152,
+        "desc_en_preview": "Complete technical schematic diagrams for the Bang & Olufsen Beomaster 4400 Type 2417 stereo receiver. This comprehensiv",
+        "desc_fr_preview": "Schémas électriques techniques complets du récepteur stéréo Bang & Olufsen Beomaster 4400 Type 2417. Cette documentation",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (5) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beocord-6500-tape-deck-version-ii-service-manual",
+        "title": "Beocord 6500 Tape Deck Version II Service Manual",
+        "title_fr": "Manuel de Service Beocord 6500 Lecteur de Cassette Version II",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 5,
+        "created_at": "2026-04-21T08:08:42.965254+00:00",
+        "desc_en_len": 766,
+        "desc_fr_len": 804,
+        "desc_en_preview": "Complete service manual for the Bang & Olufsen Beocord 6500 Tape Deck Version II. This comprehensive technical documenta",
+        "desc_fr_preview": "Manuel de service complet pour le lecteur de cassette Beocord 6500 Version II de Bang & Olufsen. Cette documentation tec",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (5) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beocord-vx5500-service-manual",
+        "title": "Beocord VX5500 Service Manual - Bang & Olufsen",
+        "title_fr": "Manuel de Service Beocord VX5500 - Bang & Olufsen",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 5,
+        "created_at": "2026-04-21T08:08:46.758764+00:00",
+        "desc_en_len": 886,
+        "desc_fr_len": 940,
+        "desc_en_preview": "Complete service manual for the Bang & Olufsen Beocord VX5500 tape recorder and related models. This technical documenta",
+        "desc_fr_preview": "Manuel de service complet pour le magnétoscope Beocord VX5500 de Bang & Olufsen et modèles associés. Cette documentation",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (5) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beogram-1800-service-manual",
+        "title": "Beogram 1800 Type 5811/13/14/15 Service Manual",
+        "title_fr": "Manuel d'Entretien Beogram 1800 Type 5811/13/14/15",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:08:53.45355+00:00",
+        "desc_en_len": 1193,
+        "desc_fr_len": 1179,
+        "desc_en_preview": "Complete service and maintenance manual for the Bang & Olufsen Beogram 1800 record player, covering types 5811, 5813, 58",
+        "desc_fr_preview": "Manuel complet d'entretien et de maintenance pour le tourne-disque Beogram 1800 de Bang & Olufsen, couvrant les types 58",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beogram-2200-service-manual",
+        "title": "Beogram 2200 Service Manual - Complete Schematic Documentation",
+        "title_fr": "Manuel de Service Beogram 2200 - Documentation Complète",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 2,
+        "created_at": "2026-04-21T08:08:56.793443+00:00",
+        "desc_en_len": 1108,
+        "desc_fr_len": 1217,
+        "desc_en_preview": "Comprehensive service manual for the Bang & Olufsen Beogram 2200 turntable, featuring detailed schematic diagrams and te",
+        "desc_fr_preview": "Manuel de service complet pour le tourne-disque Beogram 2200 de Bang & Olufsen, contenant des schémas détaillés et des s",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (2) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beogram-4002-6000-schematic-diagram",
+        "title": "Beogram 4002/6000 Complete Schematic Diagram",
+        "title_fr": "Schéma Électrique Complet Beogram 4002/6000",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 6,
+        "created_at": "2026-04-21T08:09:00.816509+00:00",
+        "desc_en_len": 917,
+        "desc_fr_len": 1011,
+        "desc_en_preview": "Complete schematic diagram for Bang & Olufsen Beogram 4002 Type 5501 and Beogram 6000 Type 5502 turntables. This technic",
+        "desc_fr_preview": "Schéma électrique complet pour les platines vinyle Bang & Olufsen Beogram 4002 Type 5501 et Beogram 6000 Type 5502. Ce d",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beogram-5000-type-580x-582x-service-manual-schematic",
+        "title": "Beogram 5000 Service Manual - Complete Electrical Schematic",
+        "title_fr": "Manuel d'entretien Beogram 5000 - Schéma électrique complet",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 2,
+        "created_at": "2026-04-21T08:09:02.981815+00:00",
+        "desc_en_len": 993,
+        "desc_fr_len": 1173,
+        "desc_en_preview": "Complete technical service documentation for the Bang & Olufsen Beogram 5000, types 580x and 582x turntables. This schem",
+        "desc_fr_preview": "Documentation technique complète de maintenance pour les platines tourne-disques Bang & Olufsen Beogram 5000, types 580x",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (2) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beogram-rx-2-type-5831-5835-service-manual-supplement",
+        "title": "Beogram RX-2 Service Manual Supplement for Models 1800-5000",
+        "title_fr": "Manuel de Service Beogram RX-2 Supplément Modèles 1800-5000",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:09:12.959705+00:00",
+        "desc_en_len": 1083,
+        "desc_fr_len": 1235,
+        "desc_en_preview": "Complete service manual supplement for the Beogram RX-2 record player, covering types 5831, 5833, and 5835. This technic",
+        "desc_fr_preview": "Manuel de service complet pour le tourne-disque Beogram RX-2, couvrant les types 5831, 5833 et 5835. Cette documentation",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beolab-1700-type-2605-maintenance-manual",
+        "title": "Beolab 1700 Type 2605 Service Manual",
+        "title_fr": "Manuel d'Entretien Beolab 1700 Type 2605",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:09:14.9817+00:00",
+        "desc_en_len": 948,
+        "desc_fr_len": 946,
+        "desc_en_preview": "Complete technical maintenance and service documentation for the Bang & Olufsen Beolab 1700 Type 2605 audio amplifier. T",
+        "desc_fr_preview": "Documentation technique complète d'entretien et de maintenance pour l'amplificateur audio Bang & Olufsen Beolab 1700 Typ",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beolab-8000-service-manual-schematics",
+        "title": "Beolab 8000 Service Manual - Electrical Schematics",
+        "title_fr": "Manuel d'Entretien Beolab 8000 - Schémas Électriques",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:09:17.193109+00:00",
+        "desc_en_len": 970,
+        "desc_fr_len": 1062,
+        "desc_en_preview": "Complete electrical schematics and service documentation for Bang & Olufsen Beolab 8000 speaker system, covering models ",
+        "desc_fr_preview": "Documentation technique complète des schémas électriques pour le système de haut-parleurs Bang & Olufsen Beolab 8000, co",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beomaster-1600-service-manual",
+        "title": "Beomaster 1600 Type 2113, 2115 Service Manual",
+        "title_fr": "Manuel de Service Beomaster 1600 Type 2113, 2115",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 4,
+        "created_at": "2026-04-21T08:09:29.763439+00:00",
+        "desc_en_len": 963,
+        "desc_fr_len": 1137,
+        "desc_en_preview": "Complete service and maintenance manual for the Bang & Olufsen Beomaster 1600 stereo receiver, covering models Type 2113",
+        "desc_fr_preview": "Manuel complet de service et d'entretien du récepteur stéréo Bang & Olufsen Beomaster 1600, couvrant les modèles Type 21",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (4) avec description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beomaster-1900-2-type-2903-schematic-diagram",
+        "title": "Beomaster 1900-2 Type 2903 Schematic Diagram",
+        "title_fr": "Schéma Électrique Beomaster 1900-2 Type 2903",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 3,
+        "created_at": "2026-04-21T08:09:34.44443+00:00",
+        "desc_en_len": 996,
+        "desc_fr_len": 1066,
+        "desc_en_preview": "Complete schematic diagram documentation for the Bang & Olufsen Beomaster 1900-2, model type 2903. This technical bluepr",
+        "desc_fr_preview": "Documentation complète du schéma électrique pour le Beomaster 1900-2, modèle type 2903 de Bang & Olufsen. Ce blueprint t",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "bang-olufsen-beomaster-2000-type-2801-service-manual",
+        "title": "Beomaster 2000 Type 2801 Service Manual",
+        "title_fr": "Manuel d'Entretien Beomaster 2000 Type 2801",
+        "brand": "BANG & OLUFSEN",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 4,
+        "created_at": "2026-04-21T08:09:36.932632+00:00",
+        "desc_en_len": 1101,
+        "desc_fr_len": 1177,
+        "desc_en_preview": "Comprehensive service and maintenance manual for the Bang & Olufsen Beomaster 2000 Type 2801 integrated amplifier. This ",
+        "desc_fr_preview": "Manuel complet d'entretien et de maintenance du récepteur intégré Bang & Olufsen Beomaster 2000 Type 2801. Cette documen",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (4) avec description longue"
+        ]
+      },
+      {
+        "slug": "corsair-corsair-flash-padlock-2-user-manual",
+        "title": "Corsair Flash Padlock 2 User Manual",
+        "title_fr": "Manuel Utilisateur Corsair Flash Padlock 2",
+        "brand": "CORSAIR",
+        "category_slug": "computers-it",
+        "category_name": "Computers & IT",
+        "page_count": 5,
+        "created_at": "2026-04-19T07:27:58.232579+00:00",
+        "desc_en_len": 988,
+        "desc_fr_len": 1131,
+        "desc_en_preview": "Complete user manual for the Corsair Flash Padlock 2, a hardware-encrypted USB 2.0 flash drive featuring 256-bit encrypt",
+        "desc_fr_preview": "Manuel d'utilisation complet du lecteur Corsair Flash Padlock 2, un lecteur Flash USB 2.0 doté d'un chiffrement matériel",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (5) avec description longue"
+        ]
+      },
+      {
+        "slug": "de-dietrich-de-dietrich-dop750-user-guide",
+        "title": "De Dietrich DOP750 Oven User Manual",
+        "title_fr": "Guide d'utilisation Four De Dietrich DOP750",
+        "brand": "DE DIETRICH",
+        "category_slug": "home-appliances",
+        "category_name": "Home Appliances",
+        "page_count": 200,
+        "created_at": "2026-04-19T07:35:27.950071+00:00",
+        "desc_en_len": 930,
+        "desc_fr_len": 899,
+        "desc_en_preview": "Comprehensive user guide for De Dietrich DOP750 built-in oven. This manual covers complete operation and maintenance of ",
+        "desc_fr_preview": "Guide complet d'utilisation du four encastrable De Dietrich DOP750. Ce manuel couvre le fonctionnement intégral de l'app",
+        "suspect": true,
+        "reasons": [
+          "Langue mélangée : description FR contient 4 mots anglais"
+        ]
+      },
+      {
+        "slug": "de-dietrich-de-dietrich-dop870-user-guide",
+        "title": "DE Dietrich DOP870 Oven User Guide",
+        "title_fr": "Guide d'utilisation Four DE Dietrich DOP870",
+        "brand": "DE DIETRICH",
+        "category_slug": "home-appliances",
+        "category_name": "Home Appliances",
+        "page_count": 23,
+        "created_at": "2026-04-19T07:35:33.629713+00:00",
+        "desc_en_len": 925,
+        "desc_fr_len": 971,
+        "desc_en_preview": "Complete user guide for the DE Dietrich DOP870 built-in oven. This comprehensive manual covers all aspects of oven opera",
+        "desc_fr_preview": "Guide complet d'utilisation du four encastrable DE Dietrich DOP870. Ce manuel détaillé couvre tous les aspects du foncti",
+        "suspect": true,
+        "reasons": [
+          "Langue mélangée : description FR contient 4 mots anglais"
+        ]
+      },
+      {
+        "slug": "elektor-lead-acid-battery-desulfator-rejuvenator-circuit",
+        "title": "Lead Acid Battery Desulfator and Rejuvenator Circuit",
+        "title_fr": "Désulfateur et Régénérateur de Batterie au Plomb",
+        "brand": "ELECTRONIQUE",
+        "category_slug": "diy-home-improvement",
+        "category_name": "DIY & Home Improvement",
+        "page_count": 4,
+        "created_at": "2026-04-19T07:25:42.53612+00:00",
+        "desc_en_len": 1237,
+        "desc_fr_len": 1204,
+        "desc_en_preview": "This technical project presents a comprehensive solution for revitalizing lead-acid batteries affected by sulfation, a c",
+        "desc_fr_preview": "Ce projet technique présente une solution complète pour revitaliser les batteries au plomb endommagées par la sulfatatio",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (4) avec description longue"
+        ]
+      },
+      {
+        "slug": "gaudillat-gaudillat-radio-receiver-schematics-fascicule-1",
+        "title": "Radio Receiver Schematics - Fascicule 1",
+        "title_fr": "Schémas de Radiorécepteurs - Fascicule 1",
+        "brand": "GAUDILLAT",
+        "category_slug": "radio-communications",
+        "category_name": "Radio & Communications",
+        "page_count": 34,
+        "created_at": "2026-04-19T07:28:40.647907+00:00",
+        "desc_en_len": 1053,
+        "desc_fr_len": 1032,
+        "desc_en_preview": "Technical manual containing detailed circuit schematics for radio receivers published by Société des Éditions Radio. Thi",
+        "desc_fr_preview": "Manuel technique contenant des schémas électriques détaillés pour récepteurs radiophoniques édité par la Société des Édi",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "gaudillat-radio-receiver-schematics-fascicule-3-gaudillat",
+        "title": "Radio Receiver Schematics - Fascicule 3",
+        "title_fr": "Schémas de Radiorécepteurs - Fascicule 3",
+        "brand": "GAUDILLAT",
+        "category_slug": "radio-communications",
+        "category_name": "Radio & Communications",
+        "page_count": 20,
+        "created_at": "2026-04-21T08:52:40.359835+00:00",
+        "desc_en_len": 1152,
+        "desc_fr_len": 1134,
+        "desc_en_preview": "Technical documentation containing seven radio receiver circuit schematics featuring Rimlock series tubes. This fascicul",
+        "desc_fr_preview": "Documentation technique contenant sept schémas de radiorécepteurs utilisant les lampes de la série Rimlock. Ce fascicule",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "grundig-grundig-satellit-1000-electronic-schematic-diagram",
+        "title": "Grundig Satellit 1000 Electronic Schematic Diagram",
+        "title_fr": "Schéma Électronique Grundig Satellit 1000",
+        "brand": "GRUNDIG",
+        "category_slug": "radio-communications",
+        "category_name": "Radio & Communications",
+        "page_count": 2,
+        "created_at": "2026-04-21T08:52:49.609191+00:00",
+        "desc_en_len": 187,
+        "desc_fr_len": 243,
+        "desc_en_preview": "Electronic schematic for the Grundig Satellit 1000 world receiver. Also contains an interior photograph showing componen",
+        "desc_fr_preview": "Document avec le schéma électronique pour le récepteur mondial Grundig Satellit 1000. Contient également une photographi",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "grundig-grundig-satellit-2400-professional-stereo-schematic",
+        "title": "Grundig Satellit 2400 Professional Stereo - Electronic Schematic Diagram",
+        "title_fr": "Grundig Satellit 2400 Professional Stereo - Schéma Électronique",
+        "brand": "GRUNDIG",
+        "category_slug": "radio-communications",
+        "category_name": "Radio & Communications",
+        "page_count": 8,
+        "created_at": "2026-04-21T08:53:10.444774+00:00",
+        "desc_en_len": 64,
+        "desc_fr_len": 58,
+        "desc_en_preview": "Electronic schematic for the Grundig Satellit 2400 Professional.",
+        "desc_fr_preview": "Schéma électronique du Grundig Satellit 2400 Professional.",
+        "suspect": true,
+        "reasons": [
+          "description_fr trop courte (58c)"
+        ]
+      },
+      {
+        "slug": "grundig-grundig-satellit-600-electronic-schematics",
+        "title": "Grundig Satellit 600 Electronic Schematics and Service Documentation",
+        "title_fr": "Schémas électroniques Grundig Satellit 600 et documentation de maintenance",
+        "brand": "GRUNDIG",
+        "category_slug": "radio-communications",
+        "category_name": "Radio & Communications",
+        "page_count": 10,
+        "created_at": "2026-04-21T08:53:18.229766+00:00",
+        "desc_en_len": 50,
+        "desc_fr_len": 44,
+        "desc_en_preview": "Electronic schematic for the Grundig Satellit 600.",
+        "desc_fr_preview": "Schéma électronique du Grundig Satellit 600.",
+        "suspect": true,
+        "reasons": [
+          "description_fr trop courte (44c)",
+          "description EN trop courte (50c)"
+        ]
+      },
+      {
+        "slug": "grundig-grundig-studio-3000-electronic-schematic",
+        "title": "Grundig Studio 3000 Electronic Schematic Diagram",
+        "title_fr": "Schéma Électronique Grundig Studio 3000",
+        "brand": "GRUNDIG",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": 4,
+        "created_at": "2026-04-21T08:10:11.160485+00:00",
+        "desc_en_len": 49,
+        "desc_fr_len": 43,
+        "desc_en_preview": "Electronic schematic for the Grundig Studio 3000.",
+        "desc_fr_preview": "Schéma électronique du Grundig Studio 3000.",
+        "suspect": true,
+        "reasons": [
+          "description_fr trop courte (43c)",
+          "description EN trop courte (49c)"
+        ]
+      },
+      {
+        "slug": "honda-honda-gc-gcv-gs-gsv-carburetor-cleaning-kit-guide",
+        "title": "Carburetor Cleaning and Maintenance Guide GC-GCV-GS-GSV",
+        "title_fr": "Guide de nettoyage et entretien carburateur GC-GCV-GS-GSV",
+        "brand": "HONDA",
+        "category_slug": "outdoor-power",
+        "category_name": "Outdoor Power",
+        "page_count": 1,
+        "created_at": "2026-04-18T14:35:47.568861+00:00",
+        "desc_en_len": 979,
+        "desc_fr_len": 1049,
+        "desc_en_preview": "Comprehensive technical guide for cleaning and troubleshooting carburetors on Honda GC-GCV135/160/190 and GS-GSV160/190 ",
+        "desc_fr_preview": "Guide technique complet pour le nettoyage et dépannage des carburateurs des moteurs Honda GC-GCV135/160/190 et GS-GSV160",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (1) avec description longue"
+        ]
+      },
+      {
+        "slug": "l-gaudillat-schemas-de-radiorecepteurs-fascicule-2",
+        "title": "Radio Receiver Schematics - Fascicle 2",
+        "title_fr": "Schémas de Radiorécepteurs - Fascicule 2",
+        "brand": "GAUDILLAT",
+        "category_slug": "radio-communications",
+        "category_name": "Radio & Communications",
+        "page_count": 34,
+        "created_at": "2026-04-19T07:28:59.707453+00:00",
+        "desc_en_len": 1012,
+        "desc_fr_len": 951,
+        "desc_en_preview": "Technical documentation from the Société des Éditions Radio presenting detailed circuit schematics for 4 to 8 tube radio",
+        "desc_fr_preview": "Documentation technique de la Société des Éditions Radio présentant des schémas détaillés de récepteurs radio à 4 à 8 la",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "l-gaudillat-schemas-de-radiorecepteurs-fascicule-4",
+        "title": "Radio Receiver Schematics - Fascicule 4",
+        "title_fr": "Schémas de Radiorécepteurs - Fascicule 4",
+        "brand": "GAUDILLAT",
+        "category_slug": "radio-communications",
+        "category_name": "Radio & Communications",
+        "page_count": 17,
+        "created_at": "2026-04-19T07:29:07.139922+00:00",
+        "desc_en_len": 965,
+        "desc_fr_len": 1061,
+        "desc_en_preview": "Technical documentation presenting seven detailed radio receiver schematics from the Noval tube series, including the Tr",
+        "desc_fr_preview": "Documentation technique présentant sept schémas détaillés de radiorécepteurs utilisant des tubes de la série Noval, incl",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "makita-makita-um536-um616-v-belt-pulley-tension-arm-assembly-manual",
+        "title": "UM536/UM616 V-Belt Pulley Tension Arm Service Manual",
+        "title_fr": "Manuel de Service Courroie UM536/UM616",
+        "brand": "MAKITA",
+        "category_slug": "outdoor-power",
+        "category_name": "Outdoor Power",
+        "page_count": 2,
+        "created_at": "2026-04-18T14:35:34.237641+00:00",
+        "desc_en_len": 937,
+        "desc_fr_len": 1017,
+        "desc_en_preview": "Complete technical documentation for disassembly, reassembly and maintenance of the V-belt, pulley and tension arm assem",
+        "desc_fr_preview": "Documentation technique complète pour le démontage, remontage et entretien de l'ensemble courroie trapézoïdale, poulie e",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (2) avec description longue"
+        ]
+      },
+      {
+        "slug": "nikon-nikon-d-series-fine-focus-adjustment-guide",
+        "title": "Nikon D Series Fine Focus Adjustment Guide",
+        "title_fr": "Guide de réglage fin de la mise au point Nikon série D",
+        "brand": "NIKON",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 3,
+        "created_at": "2026-04-21T06:25:01.384282+00:00",
+        "desc_en_len": 1200,
+        "desc_fr_len": 1309,
+        "desc_en_preview": "This comprehensive technical guide provides detailed instructions for performing fine autofocus adjustments on Nikon D-s",
+        "desc_fr_preview": "Ce guide technique complet fournit des instructions détaillées pour effectuer les ajustements fins de l'autofocus sur le",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (3) avec description longue"
+        ]
+      },
+      {
+        "slug": "realt-realt-ii-luxe-quick-user-guide",
+        "title": "Realt II-Luxe Quick Operating Instructions",
+        "title_fr": "Mode d'emploi rapide du Realt II-Luxe",
+        "brand": "REALT",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 2,
+        "created_at": "2026-04-20T07:22:00.287185+00:00",
+        "desc_en_len": 960,
+        "desc_fr_len": 1085,
+        "desc_en_preview": "This quick reference guide provides essential operating instructions for the Realt II-Luxe projector. The document inclu",
+        "desc_fr_preview": "Ce guide de référence rapide fournit les instructions essentielles pour l'utilisation du projecteur Realt II-Luxe. Le do",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (2) avec description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rollei-abschlusskasten-closure-box-repair-manual-parts-list",
+        "title": "Rollei Closure Box - Repair Manual and Parts List",
+        "title_fr": "Rollei Boîtier de Fermeture - Manuel de Réparation et Liste de Pièces",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 56,
+        "created_at": "2026-04-20T07:22:17.803099+00:00",
+        "desc_en_len": 1035,
+        "desc_fr_len": 1009,
+        "desc_en_preview": "Complete repair and maintenance documentation for the Rollei Abschlusskasten closure box assembly, an essential componen",
+        "desc_fr_preview": "Documentation technique complète pour la réparation et l'entretien du Rollei Abschlusskasten, composant essentiel des ap",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rollei-b35-c35-instruction-manual",
+        "title": "Rollei B35 and C35 Camera - Instruction Manual",
+        "title_fr": "Appareil photo Rollei B35 et C35 - Notice d'utilisation",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 5,
+        "created_at": "2026-04-20T07:25:00.903331+00:00",
+        "desc_en_len": 995,
+        "desc_fr_len": 1052,
+        "desc_en_preview": "Complete instruction manual for the Rollei B35 and C35 compact 35mm cameras. This comprehensive guide covers all aspects",
+        "desc_fr_preview": "Manuel complet d'utilisation pour les appareils photo compacts 35mm Rollei B35 et C35. Ce guide exhaustif couvre tous le",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (5) avec description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rollei-lichtschacht-chest-viewing-hood-repair-manual-parts-list",
+        "title": "Rollei Chest Viewing Hood - Repair Manual and Parts List",
+        "title_fr": "Rollei Viseur de Poitrine - Manuel de Réparation et Liste des Pièces",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 26,
+        "created_at": "2026-04-20T07:24:31.530698+00:00",
+        "desc_en_len": 971,
+        "desc_fr_len": 1149,
+        "desc_en_preview": "Complete repair manual and comprehensive parts catalog for the Rollei Lichtschacht chest viewing hood, a specialized pho",
+        "desc_fr_preview": "Manuel complet de réparation et catalogue exhaustif des pièces du viseur de poitrine Rollei Lichtschacht, un dispositif ",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rollei-ruckwand-camera-back-repair-manual-parts-list",
+        "title": "Rollei Camera Back Repair Manual and Parts Book",
+        "title_fr": "Manuel de Réparation et Liste de Pièces pour dos Rollei",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 20,
+        "created_at": "2026-04-20T07:22:29.57401+00:00",
+        "desc_en_len": 1073,
+        "desc_fr_len": 1142,
+        "desc_en_preview": "Comprehensive technical documentation for Rollei camera backs including detailed repair instructions and complete parts ",
+        "desc_fr_preview": "Documentation technique complète pour les dos d'appareil photo Rollei incluant des instructions de réparation détaillées",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rollei-tele-rolleiflex-220-service-manual-parts-list",
+        "title": "Rollei Tele-Rolleiflex 220 Repair Manual and Parts List",
+        "title_fr": "Manuel de réparation et liste de pièces Rollei Tele-Rolleiflex 220",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 28,
+        "created_at": "2026-04-20T07:24:26.72348+00:00",
+        "desc_en_len": 975,
+        "desc_fr_len": 983,
+        "desc_en_preview": "Comprehensive technical documentation for the Rollei Tele-Rolleiflex 220 camera system. This service manual contains det",
+        "desc_fr_preview": "Documentation technique complète pour le système de caméra Rollei Tele-Rolleiflex 220. Ce manuel d'entretien contient de",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleicord-v-kpl-repair-manual-and-parts-list",
+        "title": "Rolleicord V KPL Service Manual & Parts List",
+        "title_fr": "Manuel de Service Rolleicord V KPL et Liste de Pièces",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 2,
+        "created_at": "2026-04-20T07:23:02.178228+00:00",
+        "desc_en_len": 1046,
+        "desc_fr_len": 991,
+        "desc_en_preview": "Complete repair manual and parts documentation for the Rolleicord V KPL twin-lens reflex camera, manufactured between 19",
+        "desc_fr_preview": "Manuel de réparation complet et documentation des pièces détachées pour l'appareil photographique Rolleicord V KPL à dou",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (2) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleicord-va-service-manual-parts-list",
+        "title": "Rolleicord VA Repair Manual and Parts Book",
+        "title_fr": "Manuel de réparation et liste de pièces Rolleicord VA",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 12,
+        "created_at": "2026-04-20T07:22:55.050864+00:00",
+        "desc_en_len": 1062,
+        "desc_fr_len": 1138,
+        "desc_en_preview": "Complete service documentation for the Rolleicord VA medium format camera, a twin-lens reflex (TLR) model produced from ",
+        "desc_fr_preview": "Documentation technique complète pour l'appareil photo Rolleicord VA de format moyen, modèle reflex bi-objectif produit ",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleicord-vb-service-manual-and-parts-list",
+        "title": "Rolleicord VB KPL Repair Manual and Parts List",
+        "title_fr": "Manuel de réparation et liste des pièces Rolleicord VB KPL",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 16,
+        "created_at": "2026-04-20T07:22:59.738701+00:00",
+        "desc_en_len": 1117,
+        "desc_fr_len": 1127,
+        "desc_en_preview": "Complete service and repair documentation for the Rolleicord VB KPL twin-lens reflex camera. This comprehensive manual c",
+        "desc_fr_preview": "Documentation complète de service et réparation pour l'appareil photo Rolleicord VB KPL, un reflex bi-objectif de format",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-2-07-repair-manual-parts-list-einstellseitenwand",
+        "title": "Rolleiflex Camera Repair Manual and Parts List",
+        "title_fr": "Manuel de réparation et liste de pièces Rolleiflex",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 16,
+        "created_at": "2026-04-20T07:22:08.048451+00:00",
+        "desc_en_len": 955,
+        "desc_fr_len": 1029,
+        "desc_en_preview": "Comprehensive repair and maintenance manual for Rolleiflex cameras, specifically covering the Einstellseitenwand (adjust",
+        "desc_fr_preview": "Manuel complet de réparation et d'entretien pour appareils photo Rolleiflex, couvrant spécifiquement les modèles Einstel",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-2-8f-repair-manual-parts-list",
+        "title": "Rolleiflex 2.8F Repair Manual and Parts Book",
+        "title_fr": "Manuel de réparation Rolleiflex 2.8F et liste des pièces",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 28,
+        "created_at": "2026-04-20T07:23:35.784736+00:00",
+        "desc_en_len": 1076,
+        "desc_fr_len": 1211,
+        "desc_en_preview": "Comprehensive service and repair documentation for the Rolleiflex 2.8F twin-lens reflex camera. This technical manual co",
+        "desc_fr_preview": "Documentation complète de service et de réparation pour l'appareil photographique Rolleiflex 2.8F avec viseur à deux obj",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-3-5-kpl-repair-manual-and-parts-list",
+        "title": "Rolleiflex 3.5 KPL Repair Manual and Parts Catalog",
+        "title_fr": "Manuel de réparation et catalogue de pièces Rolleiflex 3.5 KPL",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 14,
+        "created_at": "2026-04-20T07:24:14.687188+00:00",
+        "desc_en_len": 883,
+        "desc_fr_len": 881,
+        "desc_en_preview": "Comprehensive service documentation for the Rolleiflex 3.5 KPL medium format twin-lens reflex camera. This manual contai",
+        "desc_fr_preview": "Documentation technique complète pour la réparation et l'entretien de l'appareil photo reflex bi-objectif Rolleiflex 3.5",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-3-5e-service-manual-parts-list",
+        "title": "Rolleiflex 3.5E Complete Service Manual and Parts Catalog",
+        "title_fr": "Manuel d'Entretien Complet Rolleiflex 3.5E et Catalogue de Pièces",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 34,
+        "created_at": "2026-04-20T07:23:46.782439+00:00",
+        "desc_en_len": 1019,
+        "desc_fr_len": 1107,
+        "desc_en_preview": "Comprehensive service documentation for the Rolleiflex 3.5E twin-lens reflex camera system. This official repair manual ",
+        "desc_fr_preview": "Documentation d'entretien complète pour le système de caméra reflex bilitentille Rolleiflex 3.5E. Ce manuel de réparatio",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-3-5f-kpl-repair-manual-and-parts-list",
+        "title": "Rolleiflex 3.5F KPL Repair Manual and Parts List",
+        "title_fr": "Manuel de réparation et liste de pièces Rolleiflex 3.5F KPL",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 31,
+        "created_at": "2026-04-20T07:24:03.375156+00:00",
+        "desc_en_len": 868,
+        "desc_fr_len": 1036,
+        "desc_en_preview": "Comprehensive repair manual and parts catalog for the Rolleiflex 3.5F KPL twin-lens reflex camera system. This technical",
+        "desc_fr_preview": "Manuel de réparation complet et catalogue des pièces pour le système d'appareil photographique Rolleiflex 3.5F KPL refle",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-4x4-service-manual-and-parts-list",
+        "title": "Rolleiflex 4×4 Repair Manual and Parts Catalog",
+        "title_fr": "Manuel de réparation et catalogue de pièces Rolleiflex 4×4",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 14,
+        "created_at": "2026-04-20T07:24:18.740686+00:00",
+        "desc_en_len": 1160,
+        "desc_fr_len": 1242,
+        "desc_en_preview": "Comprehensive service documentation for the Rolleiflex 4×4 medium format camera system. This technical manual contains d",
+        "desc_fr_preview": "Documentation complète de service pour le système de caméra moyen format Rolleiflex 4×4. Ce manuel technique contient de",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-film-feeler-mechanism-repair-manual-parts-list",
+        "title": "Rolleiflex Film Feeler Mechanism Repair Manual and Parts List",
+        "title_fr": "Manuel de réparation et liste de pièces du palpeur de film Rolleiflex",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 2,
+        "created_at": "2026-04-20T07:22:32.620426+00:00",
+        "desc_en_len": 1169,
+        "desc_fr_len": 1233,
+        "desc_en_preview": "Complete repair and adjustment manual for the Rolleiflex film feeler mechanism (model 07000.28.3). This technical docume",
+        "desc_fr_preview": "Manuel complet de réparation et d'ajustement du palpeur de film Rolleiflex (modèle 07000.28.3). Cette documentation tech",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (2) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-teilmontiert-service-manual-parts-list",
+        "title": "Rolleiflex Partially Assembled - Repair Manual and Parts List",
+        "title_fr": "Rolleiflex Partiellement Assemblé - Manuel de Réparation et Liste de Pièces",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 19,
+        "created_at": "2026-04-20T07:22:37.55548+00:00",
+        "desc_en_len": 1033,
+        "desc_fr_len": 1130,
+        "desc_en_preview": "Complete repair manual and illustrated parts catalog for the Rolleiflex Teilmontiert (partially assembled) camera series",
+        "desc_fr_preview": "Manuel complet de réparation et catalogue illustré de pièces détachées pour la série de caméras Rolleiflex Teilmontiert ",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleimagic-ii-kpl-repair-manual-and-parts-list",
+        "title": "Rolleimagic II KPL Repair Manual and Parts List",
+        "title_fr": "Manuel de Réparation et Liste de Pièces Rolleimagic II KPL",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 2,
+        "created_at": "2026-04-20T07:24:40.33639+00:00",
+        "desc_en_len": 945,
+        "desc_fr_len": 1060,
+        "desc_en_preview": "Official service documentation for the Rolleimagic II KPL twin-lens reflex camera, covering model 09000.98.0. This compr",
+        "desc_fr_preview": "Documentation officielle de service pour l'appareil photo reflex bi-objectif Rolleimagic II KPL, couvrant le modèle 0900",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (2) avec description longue",
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "rollei-rolleimagic-kpl-repair-manual-parts-list",
+        "title": "Rolleimagic KPL Service Repair Manual and Parts List",
+        "title_fr": "Manuel de réparation et liste de pièces Rolleimagic KPL",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 14,
+        "created_at": "2026-04-20T07:24:45.115976+00:00",
+        "desc_en_len": 978,
+        "desc_fr_len": 1148,
+        "desc_en_preview": "Comprehensive service and repair documentation for the Rolleimagic KPL twin lens reflex camera. This technical manual co",
+        "desc_fr_preview": "Documentation complète de service et réparation pour l'appareil photographique Rolleimagic KPL à viseur bifocal. Ce manu",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "singer-singer-212g140-212g141-212g145-212g146-illustrated-parts-list",
+        "title": "Singer 212G140-G146 Illustrated Parts List",
+        "title_fr": "Liste des pièces illustrée Singer 212G140-G146",
+        "brand": "SINGER",
+        "category_slug": "diy-home-improvement",
+        "category_name": "DIY & Home Improvement",
+        "page_count": 56,
+        "created_at": "2026-04-19T07:26:18.069785+00:00",
+        "desc_en_len": 924,
+        "desc_fr_len": 1105,
+        "desc_en_preview": "Comprehensive illustrated parts list for Singer industrial sewing machines models 212G140, 212G141, 212G145, and 212G146",
+        "desc_fr_preview": "Liste complète et illustrée des pièces de rechange pour les machines à coudre industrielles Singer modèles 212G140, 212G",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "singer-singer-2491d-instruction-manual-illustrated-parts-list",
+        "title": "Singer 2491D Sewing Machine Instruction Manual",
+        "title_fr": "Manuel d'instruction Singer 2491D",
+        "brand": "SINGER",
+        "category_slug": "diy-home-improvement",
+        "category_name": "DIY & Home Improvement",
+        "page_count": 44,
+        "created_at": "2026-04-19T07:26:21.714857+00:00",
+        "desc_en_len": 1195,
+        "desc_fr_len": 1123,
+        "desc_en_preview": "Complete instruction manual and illustrated parts list for Singer 2491D sewing machines, covering models 200A and 300A f",
+        "desc_fr_preview": "Manuel d'instruction complet avec liste illustrée des pièces pour les machines à coudre Singer 2491D, couvrant les modèl",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "singer-singer-99-24-parts-list",
+        "title": "Singer 99-24 Sewing Machine Parts List",
+        "title_fr": "Liste des pièces détachées Singer 99-24",
+        "brand": "SINGER",
+        "category_slug": "diy-home-improvement",
+        "category_name": "DIY & Home Improvement",
+        "page_count": 49,
+        "created_at": "2026-04-19T07:27:04.774001+00:00",
+        "desc_en_len": 961,
+        "desc_fr_len": 941,
+        "desc_en_preview": "Complete parts list for the Singer Model 99-24 sewing machine, a lock stitch drop feed family use machine with electric ",
+        "desc_fr_preview": "Liste complète des pièces détachées pour la machine à coudre Singer modèle 99-24, une machine familiale à point noué ave",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "stihl-stihl-fr-350-fr-450-fr-480-spare-parts-list",
+        "title": "STIHL FR 350, FR 450, FR 480 Spare Parts List",
+        "title_fr": "STIHL FR 350, FR 450, FR 480 Liste des Pièces de Rechange",
+        "brand": "STIHL",
+        "category_slug": "outdoor-power",
+        "category_name": "Outdoor Power",
+        "page_count": 52,
+        "created_at": "2026-04-18T14:36:34.390899+00:00",
+        "desc_en_len": 842,
+        "desc_fr_len": 916,
+        "desc_en_preview": "Comprehensive spare parts catalog for STIHL FR 350, FR 450, and FR 480 brushcutter models. This official parts list incl",
+        "desc_fr_preview": "Catalogue complet des pièces de rechange pour les modèles de débroussailleuse STIHL FR 350, FR 450 et FR 480. Cette list",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "stihl-stihl-fr460tc-em-brush-cutter-parts-list",
+        "title": "STIHL FR460 TC-EM Brush Cutter Parts Catalog",
+        "title_fr": "Catalogue des pièces détachées STIHL FR460 TC-EM",
+        "brand": "STIHL",
+        "category_slug": "outdoor-power",
+        "category_name": "Outdoor Power",
+        "page_count": 35,
+        "created_at": "2026-04-18T14:36:30.514554+00:00",
+        "desc_en_len": 799,
+        "desc_fr_len": 843,
+        "desc_en_preview": "Complete illustrated parts list for the STIHL FR460 TC-EM brush cutter. This comprehensive technical documentation inclu",
+        "desc_fr_preview": "Liste complète et illustrée des pièces détachées pour la débroussailleuse STIHL FR460 TC-EM. Cette documentation techniq",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "stihl-stihl-ms290-ms310-ms390-spare-parts-list",
+        "title": "STIHL MS 290, 310, 390 Spare Parts List",
+        "title_fr": "STIHL MS 290, 310, 390 Liste des pièces détachées",
+        "brand": "STIHL",
+        "category_slug": "outdoor-power",
+        "category_name": "Outdoor Power",
+        "page_count": 38,
+        "created_at": "2026-04-18T14:36:42.096628+00:00",
+        "desc_en_len": 1015,
+        "desc_fr_len": 1104,
+        "desc_en_preview": "Comprehensive spare parts catalog for STIHL MS 290, MS 310, and MS 390 chainsaw models. This official parts list provide",
+        "desc_fr_preview": "Catalogue complet de pièces détachées pour les modèles de tronçonneuses STIHL MS 290, MS 310 et MS 390. Cette liste offi",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "unaohm-oscilloscope-unaohm-g4030-electronic-schema",
+        "title": "UNAOHM G4030 Oscilloscope Electronic Schema",
+        "title_fr": "Schéma électronique oscilloscope UNAOHM G4030",
+        "brand": "UNAOHM",
+        "category_slug": "electronics",
+        "category_name": "Electronics",
+        "page_count": 9,
+        "created_at": "2026-04-19T07:38:33.700517+00:00",
+        "desc_en_len": 1239,
+        "desc_fr_len": 1391,
+        "desc_en_preview": "Complete electronic schema and technical documentation for the UNAOHM G4030 oscilloscope. This comprehensive manual prov",
+        "desc_fr_preview": "Documentation technique complète avec schémas électroniques détaillés de l'oscilloscope UNAOHM G4030. Ce manuel exhausti",
+        "suspect": true,
+        "reasons": [
+          "Slug schéma/schema mais description longue"
+        ]
+      },
+      {
+        "slug": "vivitar-vivitar-macroflash-5000-user-manual",
+        "title": "Vivitar Macroflash 5000 Ring Flash - User Manual",
+        "title_fr": "Flash Annulaire Vivitar Macroflash 5000 - Manuel Utilisateur",
+        "brand": "VIVITAR",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 4,
+        "created_at": "2026-04-20T07:25:04.33931+00:00",
+        "desc_en_len": 1035,
+        "desc_fr_len": 1072,
+        "desc_en_preview": "Complete user manual for the Vivitar Macroflash 5000 automatic ring flash, specifically designed for close-up photograph",
+        "desc_fr_preview": "Manuel complet du flash annulaire automatique Vivitar Macroflash 5000, conçu spécialement pour la photographie rapproché",
+        "suspect": true,
+        "reasons": [
+          "Peu de pages (4) avec description longue"
+        ]
+      }
+    ]
+  },
+  "lot1_graves_html": {
+    "count": 17,
+    "docs": [
+      {
+        "slug": "collection-antique-trader-cameras-price-guide-complete",
+        "title": "Antique Trader Cameras and Photographica Price Guide",
+        "title_fr": "Antique Trader Cameras and Photographica Price Guide",
+        "brand": "COLLECTION",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 305,
+        "created_at": "2026-03-31T06:46:59.980538+00:00",
+        "desc_en_len": 253,
+        "desc_fr_len": 274,
+        "desc_en_preview": "<p>Documentation for the Antique Trader Cameras and Photographica Price Guide.</p><p>Comprehensive 306-page documentatio",
+        "desc_fr_preview": "<p>Documentation du Guide de prix Antique Trader pour appareils photo et objets photographiques.</p><p>Documentation com",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "title_fr identique au titre EN"
+        ]
+      },
+      {
+        "slug": "collection-classic-cameras-by-colin-harding",
+        "title": "Classic Cameras by Colin Harding",
+        "title_fr": "Classic Cameras par Colin Harding",
+        "brand": "COLLECTION",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T10:58:48.251888+00:00",
+        "desc_en_len": 190,
+        "desc_fr_len": 190,
+        "desc_en_preview": "<p>Documentation for the Classic Cameras by Colin Harding.</p><p>192-page documentation.</p><p>This documentation will a",
+        "desc_fr_preview": "<p>documentation for the Classic Cameras by Colin Harding.</p><p>192-page documentation.</p><p>This documentation will a",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "Langue mélangée : description FR contient 5 mots anglais"
+        ]
+      },
+      {
+        "slug": "collection-mckeowns-price-guide-complete",
+        "title": "McKeown’s Price guide to antique and classic Cameras 2001-2002",
+        "title_fr": "McKeown’s Price Guide to antique and classic Cameras 2001-2002",
+        "brand": "COLLECTION",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": 906,
+        "created_at": "2026-03-31T06:29:59.356021+00:00",
+        "desc_en_len": 220,
+        "desc_fr_len": 220,
+        "desc_en_preview": "<p>Documentation for the McKeown’s Price guide to antique and classic Cameras 2001-2002.</p><p>900-page documentation.</",
+        "desc_fr_preview": "<p>documentation for the McKeown’s Price guide to antique and classic Cameras 2001-2002.</p><p>900-page documentation.</",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "Langue mélangée : description FR contient 6 mots anglais"
+        ]
+      },
+      {
+        "slug": "collection-russian-and-soviet-cameras-1840-1991",
+        "title": "Russian & Soviet Cameras 1840-1991",
+        "title_fr": null,
+        "brand": "COLLECTION",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T11:06:03.308614+00:00",
+        "desc_en_len": 162,
+        "desc_fr_len": 185,
+        "desc_en_preview": "<p>Documentation for the Russian & Soviet Cameras 1840-1991.</p><p>This documentation will allow you to use and maintain",
+        "desc_fr_preview": "<p>Documentation pour les appareils photo russes et soviétiques 1840-1991.</p><p>Cette documentation vous permettra d'ut",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "title_fr absent"
+        ]
+      },
+      {
+        "slug": "flash-photo-repa-maintenance-flashs-electroniques",
+        "title": "Photographic Flash Units Maintenance & Repair Manual",
+        "title_fr": "resize",
+        "brand": "FLASH",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T10:30:00.05648+00:00",
+        "desc_en_len": 184,
+        "desc_fr_len": 216,
+        "desc_en_preview": "<p>Documentation for the Photographic Flash Units Maintenance & Repair Manual.</p><p>34-page documentation.</p><p>Essent",
+        "desc_fr_preview": "<p>Documentation pour le manuel d'entretien et de réparation des flashes photographiques.</p><p> Documentation de 34 pag",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "page_count inconnu avec description longue (EN:184c / FR:216c)"
+        ]
+      },
+      {
+        "slug": "hasselbald-tele-hd",
+        "title": "Telephoto Photography by Hasselblad",
+        "title_fr": "resize",
+        "brand": "HASSELBLAD",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T11:14:53.115602+00:00",
+        "desc_en_len": 222,
+        "desc_fr_len": 237,
+        "desc_en_preview": "<p>Telephoto Photography by HASSELBLAD</p><p>A guide from the prestigious Hasselblad photography series, exploring techn",
+        "desc_fr_preview": "<p>Téléobjectif photo par HASSELBLAD</p><p>Un guide de la prestigieuse série de photographies Hasselblad, explorant les ",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "page_count inconnu avec description longue (EN:222c / FR:237c)"
+        ]
+      },
+      {
+        "slug": "minolta-demontage-et-reglages-telemetre-minolta-cle",
+        "title": "Minolta CLE Disassembly & Rangefinder Overhaul",
+        "title_fr": "Minolta CLE DisAssemblage & Rangefinder Overhaul",
+        "brand": "MINOLTA",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T11:18:02.940404+00:00",
+        "desc_en_len": 460,
+        "desc_fr_len": 458,
+        "desc_en_preview": "<p>Documentation for the Minolta CLE Disassembly & Rangefinder Overhaul.</p><p>This documentation will allow you to use ",
+        "desc_fr_preview": "<p>documentation for the Minolta CLE Disassemblage & Rangefinder Overhaul.</p><p>This documentation will allow you to us",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "page_count inconnu avec description longue (EN:460c / FR:458c)",
+          "Langue mélangée : description FR contient 7 mots anglais"
+        ]
+      },
+      {
+        "slug": "nagra-nagra-ares-lb",
+        "title": "NAGRA LB User Manual Digital Recorder",
+        "title_fr": "NAGRA LB Manuel d'utilisation Digital Recorder",
+        "brand": "NAGRA",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": null,
+        "created_at": "2026-03-28T11:41:09.65327+00:00",
+        "desc_en_len": 148,
+        "desc_fr_len": 158,
+        "desc_en_preview": "<p>User manual for the NAGRA LB.</p><p>51-page user manual.</p><p>Essential documentation for maintenance and troublesho",
+        "desc_fr_preview": "<p>Manuel d'utilisation for the NAGRA LB.</p><p>51-page Manuel d'utilisation.</p><p>Essential documentation for entretie",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "Langue mélangée : description FR contient 4 mots anglais"
+        ]
+      },
+      {
+        "slug": "nagra-nagra-iv-models",
+        "title": "NAGRA 4 User Manual Tape Recorders Nagra IV",
+        "title_fr": "NAGRA 4 Manuel d'utilisation Tape Recorders Nagra IV",
+        "brand": "NAGRA",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": null,
+        "created_at": "2026-03-28T11:40:44.645166+00:00",
+        "desc_en_len": 147,
+        "desc_fr_len": 157,
+        "desc_en_preview": "<p>User manual for the NAGRA 4.</p><p>52-page user manual.</p><p>Essential documentation for maintenance and troubleshoo",
+        "desc_fr_preview": "<p>Manuel d'utilisation for the NAGRA 4.</p><p>52-page Manuel d'utilisation.</p><p>Essential documentation for entretien",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "Langue mélangée : description FR contient 4 mots anglais"
+        ]
+      },
+      {
+        "slug": "nikon-demontage-et-reparation-du-zoom-nikkor-af-24-50-f3-3-4-5",
+        "title": "Zoom Nikkor AF 24-50mm f/3.3-4.5 - Repair Manual",
+        "title_fr": "Zoom Nikkor AF 24-50mm f/3.3-4.5 - Manuel de réparation",
+        "brand": "NIKON",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T11:24:14.009196+00:00",
+        "desc_en_len": 189,
+        "desc_fr_len": 203,
+        "desc_en_preview": "<p>Repair manual for the Zoom Nikkor AF 24-50mm f/3.3-4.5.</p><p>22-page repair manual.</p><p>This documentation will al",
+        "desc_fr_preview": "<p>manuel de réparation for the Zoom Nikkor AF 24-50mm f/3.3-4.5.</p><p>22-page manuel de réparation.</p><p>This documen",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "page_count inconnu avec description longue (EN:189c / FR:203c)",
+          "Langue mélangée : description FR contient 5 mots anglais"
+        ]
+      },
+      {
+        "slug": "nikon-service-manual-nikon-f3",
+        "title": "Nikon F3 Repair Manual",
+        "title_fr": "Nikon F3 Manuel de réparation",
+        "brand": "NIKON",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T11:22:09.811412+00:00",
+        "desc_en_len": 255,
+        "desc_fr_len": 264,
+        "desc_en_preview": "<p>Complete workshop manual for the Nikon F3 Repair Manual.</p><p>391-page complete workshop manual. Original manufactur",
+        "desc_fr_preview": "<p>Complete manuel d'atelier for the Nikon F3 manuel de réparation.</p><p>391-page complete manuel d'atelier. Original m",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "page_count inconnu avec description longue (EN:255c / FR:264c)",
+          "Langue mélangée : description FR contient 9 mots anglais"
+        ]
+      },
+      {
+        "slug": "polaris-400-500-service-manual-complete",
+        "title": "Quads Polaris Sportsman 400 et 500 cc Service Manual",
+        "title_fr": "Quads Polaris Sportsman 400 et 500 cc Manuel de Service",
+        "brand": "POLARIS",
+        "category_slug": "automotive",
+        "category_name": "Automotive",
+        "page_count": 312,
+        "created_at": "2026-03-31T06:52:49.25779+00:00",
+        "desc_en_len": 356,
+        "desc_fr_len": 377,
+        "desc_en_preview": "<p>Complete workshop manual for the Polaris Sportsman 400 et 500 cc.</p><p>312-page complete workshop manual. Original m",
+        "desc_fr_preview": "<p>Manuel d'atelier complet pour les Polaris Sportsman 400 et 500 cc.</p><p>Manuel d'atelier complet de 312 pages. Versi",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR"
+        ]
+      },
+      {
+        "slug": "radiateur-calidou-depannage-thermostat-noirot-airelec-acova",
+        "title": "Noirot / Airelec / Acova Thermostat Troubleshooting Guide",
+        "title_fr": "Noirot / Airelec / Acova Thermostat Dépannage Guide",
+        "brand": "CALIDOU HEATER",
+        "category_slug": "home-appliances",
+        "category_name": "Home Appliances",
+        "page_count": null,
+        "created_at": "2026-03-28T10:56:08.532763+00:00",
+        "desc_en_len": 161,
+        "desc_fr_len": 153,
+        "desc_en_preview": "<p>Documentation for the Troubleshooting thermostat NOIROT – AIRELEC – ACOVA.</p><p>Essential documentation for troubles",
+        "desc_fr_preview": "<p>documentation for the dépannage thermostat NOIROT – AIRELEC – ACOVA.</p><p>Essential documentation for dépannage and ",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "Langue mélangée : description FR contient 4 mots anglais"
+        ]
+      },
+      {
+        "slug": "rollei-rolleiflex-2-8f-methode-de-reparation",
+        "title": "Rolleiflex 2.8F Original Technician Repair Manual",
+        "title_fr": "Rolleiflex 2.8F Original Technician Manuel de réparation",
+        "brand": "ROLLEI",
+        "category_slug": "photography",
+        "category_name": "Photography",
+        "page_count": null,
+        "created_at": "2026-03-28T11:35:25.251908+00:00",
+        "desc_en_len": 169,
+        "desc_fr_len": 183,
+        "desc_en_preview": "<p>Repair manual for the Rolleiflex T.</p><p>33-page repair manual.</p><p>This documentation will allow you to use and m",
+        "desc_fr_preview": "<p>Manuel de réparation pour le Rolleiflex T.</p><p>33-page Manuel de réparation.</p><p>This documentation will allow yo",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR"
+        ]
+      },
+      {
+        "slug": "rowenta-rh8771-air-force-extreme",
+        "title": "Rowenta Air Force Extreme Vacuum Cleaner User Manual",
+        "title_fr": "Rowenta Air Force Extreme Vacuum Cleaner Manuel d'utilisation",
+        "brand": "ROWENTA",
+        "category_slug": "home-appliances",
+        "category_name": "Home Appliances",
+        "page_count": null,
+        "created_at": "2026-03-28T10:29:18.665878+00:00",
+        "desc_en_len": 165,
+        "desc_fr_len": 190,
+        "desc_en_preview": "<p>User manual for the Aspirateur AIR FORCE EXTRÊME ROWENTA.</p><p>190-page user manual.</p><p>Essential documentation f",
+        "desc_fr_preview": "<p>Manuel d'utilisation pour le Aspirateur AIR FORCE EXTRÊME ROWENTA.</p><p>190-page Manuel d'utilisation.</p><p>Documen",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR"
+        ]
+      },
+      {
+        "slug": "studer-revox-revox-b77-mki-mkii-manuel",
+        "title": "Revox B77 MKI & MKII Reel-to-Reel Troubleshooting Manual",
+        "title_fr": "Revox B77 MKI & MKII Reel-to-Reel Dépannage Manual",
+        "brand": "STUDER REVOX",
+        "category_slug": "audio-hifi",
+        "category_name": "Audio & HiFi",
+        "page_count": null,
+        "created_at": "2026-03-28T11:42:14.601763+00:00",
+        "desc_en_len": 152,
+        "desc_fr_len": 162,
+        "desc_en_preview": "<p>User manual for the B77 MKI MKII.</p><p>83-page user manual.</p><p>Essential documentation for maintenance and troubl",
+        "desc_fr_preview": "<p>Manuel d'utilisation for the B77 MKI MKII.</p><p>83-page Manuel d'utilisation.</p><p>Essential documentation for entr",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "Langue mélangée : description FR contient 4 mots anglais"
+        ]
+      },
+      {
+        "slug": "vestel-manuel-vestel",
+        "title": "Vestel 17IPS62 17IPS6-1/2/3 17PW06-2 17PW25-4 17IPS19-5/5P Board Repair Guide & Schematics",
+        "title_fr": "resize",
+        "brand": "VESTEL",
+        "category_slug": "television",
+        "category_name": "Television",
+        "page_count": null,
+        "created_at": "2026-03-28T10:32:06.934675+00:00",
+        "desc_en_len": 349,
+        "desc_fr_len": 387,
+        "desc_en_preview": "<p>Repair manual for the Vestel 17IPS62 17IPS6-1/2/3 17PW06-2 17PW25-4 17IPS19-5/5P Board Repair Guide & Schematics.</p>",
+        "desc_fr_preview": "<p>Manuel de réparation pour la carte Vestel 17IPS62 17IPS6-1/2/3 17PW06-2 17PW25-4 17IPS19-5/5P Guide de réparation et ",
+        "suspect": true,
+        "reasons": [
+          "HTML dans description EN",
+          "HTML dans description FR",
+          "page_count inconnu avec description longue (EN:349c / FR:387c)"
+        ]
+      }
+    ]
+  }
+}

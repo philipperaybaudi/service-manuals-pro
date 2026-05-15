@@ -1,0 +1,87 @@
+Fetching all EMCO documents...
+
+Found 16 EMCO documents
+
+====================================================================================================
+
+[1] ⚠️  EMCO Compact 5 Lathe User Manual
+    Slug: emco-compact-5-lathe-user-manual
+    Language field: fr
+    Description: User manual for the EMCO Compact 5 benchtop metal lathe. Includes operating instructions, specifications, accessories, and maintenance guidelines.
+
+[2] ⚠️  EMCO Compact 8 Lathe User Manual
+    Slug: machines-outil-notice-emco-compact-8
+    Language field: en
+    Description: <p>User manual for the EMCO Compact 8 lathe.</p><p>125-page user manual.</p><p>Essential documentation for anyone wishing to operate and maintain this machine tool.</p><h3>Topics covered:</h3><ul><li>Setup & getting started</li><li>Machine components</li><li>Control elements</li><li>Working with the Compact 8</li><li>Lathe accessories</li><li>Backlash adjustment</li><li>Lubrication plan</li><li>Wiring schematic</li><li>Complete spare parts list</li></ul>
+
+[3] ⚠️  Emco DB-5 Wood Lathe Betriebsanleitung & Serviceteile
+    Slug: emco-db-5-wood-lathe-betriebsanleitung-serviceteile
+    Language field: de
+    Description: German-language operating instructions and service parts (Betriebsanleitung & Serviceteile) for the Emco DB-5 wood lathe (Drechselbank). Covers safety precautions (Unfallverhütung), technical specifications (Spitzenweite 1000 mm, Spitzenhöhe 200 mm, turning diameter 400 mm over bed, 4 speeds: 600–2700 rpm, 0.55 kW motor), assembly and installation on stand, operating procedures, and illustrated service parts list. Ausgabe 7801, Ref. Nr. DE 2690. Document in German.
+
+[4] ⚠️  Emco DB-6 Wood Lathe Betriebsanleitung & Serviceteile
+    Slug: emco-db-6-wood-lathe-betriebsanleitung-serviceteile
+    Language field: de
+    Description: German-language operating instructions and service parts (Betriebsanleitung & Serviceteile) for the Emco DB-6 wood lathe (Drechselbank). Covers safety precautions (Unfallverhütung), technical specifications (Spitzenweite 1000 mm, turning diameter 330 mm, 4 speeds at 50 Hz: 550/910/1500/2500 rpm, 1 kW motor), operating procedures, and illustrated service parts list. Best.-Nr. DE6 430, multiple editions from 1985 to 1992. Document in German.
+
+[5] ⚠️  Emco DB-7 Drechselbank Betriebsanleitung
+    Slug: emco-db-7-drechselbank-betriebsanleitung
+    Language field: de
+    Description: German-language Betriebsanleitung for the Emco Drechselbank DB 7 wood lathe. Covers safety precautions (Unfallverhütung), technical specifications (Spitzenweite 1000 mm, turning diameter 330 mm, 4 speeds at 50 Hz: 550/910/1500/2500 rpm, 1 kW motor, IP 54 protection class), operating procedures, and safety electrical standards (VDE 0113 and 0740). Ausgabe 89-8, Ref. Nr. DE6 438. Document in German.
+
+[6] ⚠️  Emco Multistar Combination Woodworking Machine User Manual
+    Slug: emco-multistar-combination-woodworking-machine-user-manual
+    Language field: en
+    Description: User manual for the Emco Multistar combination woodworking machine (N° 23-48-030-00). The Multistar is a multi-function woodworking machine combining circular saw, jointer, thicknesser, and router functions. CE certified (EC Test Certificate 0070 050 C 5047 10 94, issued by INRS). Multilingual document.
+
+[7] ⚠️  Emco Star & Rex Holzbearbeitungsmaschine Betriebsanleitung
+    Slug: emco-star-rex-holzbearbeitungsmaschine-betriebsanleitung
+    Language field: de
+    Description: German-language Betriebsanleitung for the Emcostar combination woodworking machine and Emco Rex jointer/thicknesser (Abrichte- und Dicktenhobelmaschine). Covers 16 different woodworking operations (16 verschiedene Arbeitsmöglichkeiten), safety requirements, assembly and setup, and operating procedures for all functions. Includes a safety supplement (Zusatz) for BRO compliance per Maschinenschutzgesetz and TÜV regulations, covering scroll saw safety and simultaneous tool operation restrictions. Document in German.
+
+[8] ⚠️  Emco Star & Rex Machine à Bois Multiple Mode d'Emploi
+    Slug: emco-star-rex-machine-bois-multiple-mode-emploi
+    Language field: fr
+    Description: Mode d'emploi pour la machine à bois multiple Emco Star et la raboteuse-dégauchisseuse Emco Rex. Couvre 16 travaux du bois avec une précision professionnelle : scie circulaire, scie à ruban, scie à chantourner, scie à égoine, ponçage à ruban et à disque, défonçage, dégauchissage et rabotage. Inclut le montage et l'assemblage, les procédures d'utilisation pour chaque fonction et les consignes de sécurité. Document en français.
+
+[9] ⚠️  Emco Star & Rex Machine à Bois Multiple Mode d'Emploi (Éd. 7809)
+    Slug: emco-star-rex-machine-bois-multiple-mode-emploi-ed-7809
+    Language field: fr
+    Description: Mode d'emploi pour la machine à bois multiple Emco Star et la raboteuse-dégauchisseuse Emco Rex (édition 7809, Réf. FET 820). Couvre 16 opérations de travail du bois avec une précision professionnelle : scie circulaire, scie à ruban, scie à chantourner, scie à égoine, ponçage à ruban et à disque, défonçage, dégauchissage et rabotage. Inclut le montage et les procédures d'utilisation pour chaque fonction. Document en français.
+
+[10] ⚠️  Emco Star 3000 Junior Combination Woodworking Machine User Manual
+    Slug: emco-star-3000-junior-combination-woodworking-machine-user-manual
+    Language field: en
+    Description: User manual for the Emco Star 3000 Junior Fant combination woodworking machine (N° 23-90-030-00). Covers general safety recommendations, dimensions and installation, assembly, electrical connection and wiring diagram, technical specifications, and operating sections for circular saw (scie circulaire), jointer (dégauchisseuse), thicknesser (raboteuse), and router (défonceuse) with detailed safety requirements, description, guard setup, and operating procedures for each function. Multilingual: German, English, French, Spanish.
+
+[11] ⚠️  Emco Unimat 3 Mode d'Emploi / Modo de Empleo
+    Slug: emco-unimat-3-mode-emploi-modo-de-empleo
+    Language field: fr
+    Description: Bilingual user manual (French/Spanish) for the Emco Unimat 3 universal mini machine tool. The Unimat 3 is a precision lathe that quickly converts into a drill press, milling machine, or grinder. Covers the full range of machining operations on steel, plastic, and wood, accessories for routing, circular sawing, scroll sawing, surface planing, and profile milling, operating procedures, and specifications for the two-speed universal motor. Ref. VS2 031, Auflage 7708. Document in French and Spanish.
+
+[12] ⚠️  EMCO Unimat Lathe User Manual
+    Slug: machines-outil-emco-unimat-notice
+    Language field: en
+    Description: <p>User manual for the Notice Tour EMCO Unimat.</p><p>26-page user manual.</p><p>Essential documentation for anyone wishing to operate and maintain this machine tool.</p>
+
+[13] ⚠️  Emco Woodworker TF 10 Tischfräse Betriebsanleitung
+    Slug: emco-woodworker-tf-10-tischfrase-betriebsanleitung
+    Language field: de
+    Description: German-language Betriebsanleitung for the Emco Woodworker TF 10 table router (Tischfräse). Covers safety requirements and safety devices, technical specifications, assembly including stand mounting, spindle setup and cutter guard, fence and stop adjustment, routing and milling operating procedures, tool mounting for various cutter types, maintenance instructions, and electrical equipment specifications. CE compliant per EG-Richtlinie 89/392/EWG. Ausgabe 1994, Ref. Nr. DE 6235. Document in German.
+
+[14] ⚠️  Emco-Rex B20 Planing and Thicknessing Machine Operating Instructions
+    Slug: emco-rex-b20-planing-thicknessing-machine-operating-instructions
+    Language field: en
+    Description: Operating instructions for the Emco-Rex B20 Planing and Thicknessing Machine. Covers machine stand assembly with dimensioned sketch for a self-built worktable, preparation for operation, electrical connection, surfacing (jointing) procedures with accident prevention guidance, thicknessing procedures with safety precautions, straight-edge knife sharpening and replacement, machine maintenance, wiring diagrams for flanged motors (single and three-phase), and illustrated spare parts list.
+
+[16] ⚠️  Tour EMCO Unimat Basic - Parts List
+    Slug: machines-outil-emco-unimat-basic-pieces
+    Language field: en
+    Description: <p>Parts catalog for the Tour EMCO Unimat Basic.</p><p>22-page parts catalog.</p><p>Essential documentation for anyone wishing to operate and maintain this machine tool.</p>
+
+====================================================================================================
+
+Total EMCO documents: 16
+Non-English descriptions found: 15
+
+❌ Some EMCO descriptions need correction

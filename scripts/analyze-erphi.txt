@@ -1,0 +1,22 @@
+Found 1 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Machines/ERPHI
+
+======================================================================
+FILE: ERPHI 561 combine bois Notice utilisation.pdf
+======================================================================
+Pages: 18
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/ERPHI_561_combine_bois_Notice_utilisation_p1.jpg (389 KB)
+
+[NO TEXT — running OCR (fra)...]
+  OCR page 1/3...
+
+--- OCR Page 1 ---
+ae | BLOC ETAGLI | NOTICE D'UTILISATION A ; EN % > &- 2 , æ- , 2 y :R EL ® ‘ 5 08" © j GD Ets R. PHILIPPE S.A. au capital de 400.000 F. : Route de Saverne, STEINBOURG 67790 - Tél. : 91.15.12 À .... .. .
+  OCR page 2/3...
+
+--- OCR Page 2 ---
+222000 es 7 3 COMBINÉ 561 Vous recevez le bloc monté, seuls les 4 pieds sont à monter aux 4 coins de la machine (voir croquis). BRANCHEMENT ÉLECTRIQUE : Faites apparaître la lame de scie circulaire en tournant le volant A dans le sens inverse des aiguilles d’une montre. Puis branchez l’interrupteur suivant le schéma joint ; ne pas oublier de brancher la mise à terre : si votre machine est monophasée 220 V seulement, le fil d'arrivée du courant doit comporter 3 brins (2 fils d'amenée du courant + fil de terre) ; si votre machine est triphasée 220 V ou 380 V, vérifiez le branchement suivant schéma, le fil d'arrivée du courant doit comporter 4 brins (3 phases + fil de terre). Si vous n'avez pas d'autre moteur électrique en service, faites vérifier la mise à terre par un électricien. Pour atteindre le moteur, il suffit de démonter les 4 vis de fixation de la table de sortie de la dégauchisseuse. Lors du remontage de cette table, bien vérifier qu’elle repose parfaitement sur le bâti. Le bra
+  OCR page 3/3...
+
+--- OCR Page 3 ---
+A COMBINÉ 561 POSITION TOUPIE : Les tables restent dans les positions décrites ci-dessus ; abaissez la scie circulaire en tournant le volant A dans le sens des aiguilles d’une montre jusqu’à ce qu’il vienne en butée. Avec la machine, nous livrons un porte-fers de toupie muni de deux fentes. Dans chaque fente, montez le même fer profilé afin d’équilibrer le porte-fers. Il est également possible d'utiliser ce porte-fers avec un fer profilé et un contre-fer ; dans ce cas, il faut veiller à ce que le contre-fer équilibre rigoureusement le fer profilé. Montez le porte-fer ainsi équipé (ou une molette alésage 20 mm) en bout de l'arbre-dégau et bien serrer la vis du bout d'arbre pour bloquer le porte-fers. Vous réglez la profondeur de toupillage grâce au volant A. Avant de travailler en une autre position que toupie, toujours démonter le porte-fers. Pour bloquer l’arbre, glisser un morceau de bois entre l'arbre et le contre-fer et bloquer l'arbre contre la table sur l’un ou l’autre côté. POSI
+

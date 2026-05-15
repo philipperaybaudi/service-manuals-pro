@@ -8,7 +8,7 @@
  * Usage : node scripts/classify-docs.mjs
  */
 import dotenv from 'dotenv';
-dotenv.config({ path: '.env.local' });
+dotenv.config({ path: '.env.local', override: true });
 import Anthropic from '@anthropic-ai/sdk';
 import { PDFDocument } from 'pdf-lib';
 import { createRequire } from 'module';
@@ -18,6 +18,17 @@ import path from 'path';
 const require = createRequire(import.meta.url);
 const pdfjs  = require('pdfjs-dist');
 const canvas = require('canvas');
+
+// Polyfills — node-canvas ne les exporte pas en global, pdfjs en a besoin
+if (typeof Path2D === 'undefined' || typeof Path2D !== 'function') {
+  global.Path2D = class Path2D {
+    constructor(path) { this._path = path || null; }
+    addPath() {} closePath() {} moveTo() {} lineTo() {}
+    bezierCurveTo() {} quadraticCurveTo() {} arc() {}
+    arcTo() {} ellipse() {} rect() {}
+  };
+}
+if (typeof DOMMatrix === 'undefined') global.DOMMatrix = canvas.DOMMatrix;
 
 const SUBFOLDER       = process.argv[2] || ''; // ex: node classify-docs.mjs Motoculture
 const DOCS_A_CLASSER  = path.join('C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories', SUBFOLDER);
@@ -33,9 +44,9 @@ const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const CATEGORIES_FR = [
   'Animaux & Soins', 'Audio & HiFi', 'Automobile', 'Biomédical',
   'Bricolage & DIY', 'Camping & Caravaning', 'Cinéma & Vidéo', 'Drones',
-  'Électroménager', 'Électronique', 'Équipements Sportifs', 'Informatique',
-  'Machines-Outils', 'Marine', 'Motoculture', 'Photographie',
-  'Radio & Communications', 'Téléphonie & Télécom', 'Télévision', 'Usinage',
+  'Électroménager', 'Électronique', 'Équipements Sportifs', 'Horlogerie',
+  'Informatique', 'Machines-Outils', 'Marine', 'Motoculture', 'Nature',
+  'Photographie', 'Radio & Communications', 'Téléphonie & Télécom', 'Télévision', 'Usinage',
 ];
 
 if (!fs.existsSync(TEMP_PREVIEWS)) fs.mkdirSync(TEMP_PREVIEWS, { recursive: true });
@@ -60,17 +71,49 @@ function findPdfs(dir) {
 
 // Tronquer le PDF pour Claude
 async function truncatePdf(buffer, maxPages) {
-  const src = await PDFDocument.load(buffer, { ignoreEncryption: true });
-  const total = src.getPageCount();
-  if (total <= maxPages) return { buffer, pageCount: total };
-  try {
-    const dst = await PDFDocument.create();
-    const pages = await dst.copyPages(src, Array.from({ length: maxPages }, (_, i) => i));
-    pages.forEach(p => dst.addPage(p));
-    return { buffer: Buffer.from(await dst.save()), pageCount: total };
-  } catch {
-    return { buffer, pageCount: total };
+  const SIZE_LIMIT = 15 * 1024 * 1024; // > 15 MB → compression directe via pdfjs
+
+  // Tentative classique avec pdf-lib (fichiers petits et valides)
+  if (buffer.length <= SIZE_LIMIT) {
+    try {
+      const src   = await PDFDocument.load(buffer, { ignoreEncryption: true });
+      const total = src.getPageCount();
+      if (total <= maxPages) return { buffer, pageCount: total };
+      const dst   = await PDFDocument.create();
+      const pages = await dst.copyPages(src, Array.from({ length: maxPages }, (_, i) => i));
+      pages.forEach(p => dst.addPage(p));
+      return { buffer: Buffer.from(await dst.save()), pageCount: total };
+    } catch { /* PDF corrompu → fallback compression */ }
   }
+
+  // Fallback : rendu JPEG via pdfjs + reconstruction pdf-lib
+  // Gère les PDFs corrompus ET les fichiers trop volumineux
+  const data    = new Uint8Array(buffer);
+  const pdfjsDoc = await pdfjs.getDocument({
+    data, canvasFactory: new NodeCanvasFactory(),
+    standardFontDataUrl: STANDARD_FONTS, useSystemFonts: true,
+  }).promise;
+  const total        = pdfjsDoc.numPages;
+  const pagesToRender = Math.min(total, maxPages);
+  const newPdf       = await PDFDocument.create();
+
+  for (let i = 1; i <= pagesToRender; i++) {
+    const page  = await pdfjsDoc.getPage(i);
+    const vp0   = page.getViewport({ scale: 1 });
+    const scale = Math.min(800 / vp0.width, 1.5);
+    const vp    = page.getViewport({ scale });
+    const f     = new NodeCanvasFactory();
+    const cc    = f.create(vp.width, vp.height);
+    await page.render({ canvasContext: cc.context, viewport: vp, canvasFactory: f }).promise;
+    const jpgBytes = cc.canvas.toBuffer('image/jpeg', { quality: 0.75 });
+    const img      = await newPdf.embedJpg(jpgBytes);
+    const p        = newPdf.addPage([vp.width, vp.height]);
+    p.drawImage(img, { x: 0, y: 0, width: vp.width, height: vp.height });
+  }
+
+  const compressed = Buffer.from(await newPdf.save());
+  console.log(`  ✓ Compressé: ${(buffer.length / 1024 / 1024).toFixed(1)}MB → ${(compressed.length / 1024 / 1024).toFixed(1)}MB (${pagesToRender}/${total} pages)`);
+  return { buffer: compressed, pageCount: total };
 }
 
 // Générer preview page 1
@@ -80,21 +123,61 @@ class NodeCanvasFactory {
   destroy(cc) { cc.canvas.width = 0; cc.canvas.height = 0; }
 }
 
-async function renderFirstPage(pdfBuffer) {
+const SCHEMA_KEYWORDS = /schema|scheme|schematic|wiring/i;
+
+// pageCount : si ≤ 2, on tronque la preview à 55% de la hauteur pour protéger le contenu
+async function renderFirstPage(pdfBuffer, filename = '', pageCount = 99) {
+  const isSchema    = SCHEMA_KEYWORDS.test(filename);
+  const isSingleDoc = pageCount <= 2; // fiches 1-2 pages : parts list, éclaté mécanique
   const data = new Uint8Array(pdfBuffer);
   const doc = await pdfjs.getDocument({ data, canvasFactory: new NodeCanvasFactory(), standardFontDataUrl: STANDARD_FONTS, useSystemFonts: true }).promise;
   const page = await doc.getPage(1);
-  const scale = 800 / page.getViewport({ scale: 1 }).width;
-  const vp = page.getViewport({ scale });
-  const factory = new NodeCanvasFactory();
-  const cc = factory.create(vp.width, vp.height);
-  await page.render({ canvasContext: cc.context, viewport: vp, canvasFactory: factory }).promise;
-  return cc.canvas.toBuffer('image/jpeg', { quality: 0.85 });
+
+  if (isSchema || isSingleDoc) {
+    // Rendu à ×2 → recadrage sur la moitié supérieure (visiteur ne voit pas le contenu en entier)
+    const scale = (800 / page.getViewport({ scale: 1 }).width) * 2;
+    const vp    = page.getViewport({ scale });
+    const factory = new NodeCanvasFactory();
+    const cc    = factory.create(vp.width, vp.height);
+    await page.render({ canvasContext: cc.context, viewport: vp, canvasFactory: factory }).promise;
+    // Canvas de sortie = largeur normale × 55% hauteur
+    const outW = Math.round(vp.width / 2);
+    const outH = Math.round(vp.height * 0.55);
+    const out = canvas.createCanvas(outW, outH);
+    out.getContext('2d').drawImage(cc.canvas, 0, 0);
+    return out.toBuffer('image/jpeg', { quality: 0.85 });
+  } else {
+    const scale = 800 / page.getViewport({ scale: 1 }).width;
+    const vp    = page.getViewport({ scale });
+    const factory = new NodeCanvasFactory();
+    const cc    = factory.create(vp.width, vp.height);
+    await page.render({ canvasContext: cc.context, viewport: vp, canvasFactory: factory }).promise;
+    return cc.canvas.toBuffer('image/jpeg', { quality: 0.85 });
+  }
 }
 
 // Générer métadonnées via Claude (brand et category_fr lus depuis le dossier, pas par Claude)
-async function classifyWithClaude(filename, pdfBuffer, pageCount) {
+async function classifyWithClaude(filename, pdfBuffer, pageCount, subfolder = '') {
   const { buffer: truncated } = await truncatePdf(pdfBuffer, MAX_PAGES_CLAUDE);
+  const isHorlogerie  = subfolder === 'Horlogerie';
+  const isAutomobile  = subfolder === 'Automobile';
+
+  const prixBlock = isHorlogerie ? `
+- **price_cents** : prix de vente en centimes d'euro. Analyse le contenu et applique ces règles :
+  * Fiche 1-2 pages (liste de pièces numérotées, éclaté mécanique seul, fiche technique brève) → 300
+  * Quelques pages avec explications techniques (démontage, réglage, avec ou sans liste de pièces) → 700 à 1000
+  * Manuel de service avec plusieurs pages d'explications techniques détaillées → 1200 à 1500
+  * Dossier technique conséquent ou marque très prestigieuse (ex : Rolex, Patek, Jaeger-LeCoultre) → 1700 à 2500
+  Si le nom du fichier contient "$N", utilise N×100 comme référence mais ajuste selon le contenu réel.`
+  : isAutomobile ? `
+- **price_cents** : prix de vente en centimes d'euro. Analyse le contenu et applique ces règles :
+  * Liste de pièces seule ou document de quelques pages sans explications techniques → 500
+  * Manuel d'utilisation / guide du propriétaire → 700 à 1000
+  * Manuel de réparation ou d'atelier partiel (sous-ensemble, section unique) → 1000 à 1500
+  * Manuel d'atelier ou de service complet (plusieurs systèmes couverts) → 1500 à 2000
+  * Manuel d'atelier complet pour marque prestigieuse ou véhicule rare (Alpine, Bugatti, Rolls-Royce, Land Rover Series, etc.) → 2000 à 2500
+  Si le nom du fichier contient "$N", utilise N×100 comme référence mais ajuste selon le contenu réel.`
+  : '';
 
   const prompt = `Tu es un expert en documentation technique pour un site de vente de manuels.
 
@@ -108,7 +191,7 @@ Lis ce PDF et réponds en JSON avec exactement ces champs :
 - **title_fr** : titre EN FRANÇAIS (60 chars max)
 - **description_en** : description EN ANGLAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
 - **description_fr** : description EN FRANÇAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
-- **language** : langue principale du document ("fr" ou "en")
+- **language** : langue principale du document ("fr" ou "en")${prixBlock}
 
 RÈGLES ABSOLUES :
 - Décris UNIQUEMENT ce que tu vois dans les pages. Rien d'autre.
@@ -118,8 +201,10 @@ RÈGLES ABSOLUES :
 - Un descriptif court et exact vaut mieux qu'un descriptif long et inventé.
 - Si le nom du fichier contient "Schema", "Scheme", "Schematic" ou "Parts List" : le contenu est probablement des schémas électroniques et/ou des listes de pièces avec vues éclatées. Décris uniquement ce que tu vois (ex: "Schéma électronique du [modèle]." ou "Liste de pièces avec vues éclatées pour le [modèle]."). Pas de blabla.
 - Texte brut, pas de markdown.
+- TOUJOURS utiliser les caractères accentués corrects en français (é, è, ê, à, â, ù, û, ô, î, ï, ç, œ, etc.). Ne jamais omettre les accents.
 - Ne mentionne JAMAIS la langue du document.
 - Ne commence pas par "Ce document..." ou "This document..."
+- Si le document contient une section "Produkt-Information" ou "Product Information" : extrais impérativement les références exactes de modèles (ex : Airtronic D2, Hydronic D5, Eberspächer B4L...) et intègre-les dans le titre ET la description. Le titre doit contenir la référence exacte du modèle concerné.
 
 Réponds UNIQUEMENT en JSON valide.`;
 
@@ -156,7 +241,7 @@ if (fs.existsSync(REPORT_FILE)) {
   console.log(`  Reprise : ${report.docs.filter(d => d.status === 'done').length} déjà traités\n`);
 }
 
-const processedPaths = new Set(report.docs.map(d => d.original_path));
+const processedPaths = new Set(report.docs.filter(d => d.status !== 'error').map(d => d.original_path));
 
 for (const [i, pdfPath] of pdfs.entries()) {
   const filename = path.basename(pdfPath);
@@ -196,7 +281,7 @@ for (const [i, pdfPath] of pdfs.entries()) {
   try {
     const slugBase = slugify(filename.replace(/\.pdf$/i, '').slice(0, 60));
     const previewFile = path.join(TEMP_PREVIEWS, `${slugBase}.jpg`);
-    const jpgBuffer = await renderFirstPage(pdfBuffer);
+    const jpgBuffer = await renderFirstPage(pdfBuffer, filename, pageCount);
     fs.writeFileSync(previewFile, jpgBuffer);
     entry.preview_file = previewFile;
     console.log(`  ✓ Preview: ${(jpgBuffer.length / 1024).toFixed(0)} KB`);
@@ -206,21 +291,26 @@ for (const [i, pdfPath] of pdfs.entries()) {
   }
 
   // Brand et catégorie lus depuis l'arborescence — jamais depuis Claude
-  const brand      = path.basename(path.dirname(pdfPath));
-  const category_fr = path.basename(path.dirname(path.dirname(pdfPath)));
+  // Brand en majuscules (les dossiers sont parfois en minuscules)
+  const brand      = path.basename(path.dirname(pdfPath)).toUpperCase();
+  const category_fr = SUBFOLDER || path.basename(path.dirname(path.dirname(pdfPath)));
   entry.brand       = brand;
   entry.category_fr = category_fr;
 
   // 2. Générer métadonnées avec Claude
   try {
     console.log('  Analyse Claude...');
-    const meta = await classifyWithClaude(filename, pdfBuffer, pageCount);
+    const meta = await classifyWithClaude(filename, pdfBuffer, pageCount, SUBFOLDER);
     entry.filename_clean  = meta.filename_clean;
     entry.title_en        = meta.title_en;
     entry.title_fr        = meta.title_fr;
     entry.description_en  = meta.description_en;
     entry.description_fr  = meta.description_fr;
     entry.language        = meta.language;
+    // Prix Claude (Horlogerie) : écrase le prix du nom de fichier
+    if (meta.price_cents && Number.isInteger(meta.price_cents) && meta.price_cents > 0) {
+      entry.price = meta.price_cents;
+    }
     entry.slug = `${slugify(brand)}-${slugify(meta.filename_clean)}`.slice(0, 120);
     // Renommer preview avec le bon slug si généré
     if (entry.preview_file && fs.existsSync(entry.preview_file)) {

@@ -1,0 +1,32 @@
+Found 1 PDF(s) in C:/Users/adm/Documents/SHEMATHEQUE/DOSSIER SOURCE/Machines/BERNARDO
+
+======================================================================
+FILE: Bernardo PT260 degau - rabot.pdf
+======================================================================
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_N.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_O.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_T.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_I.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_C.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_E.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_ .".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_D.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_U.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_L.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_S.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_A.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_G.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_H.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_R.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_B.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_Y.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_P.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_2.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_6.".
+Warning: getPathGenerator - ignoring character: "Error: Requesting object that isn't resolved yet Helvetica_path_0.".
+Pages: 21
+Cover: C:/Users/adm/Claude Doc GB test/service-manuals-pro/scripts/covers/Bernardo_PT260_degau_-_rabot_p1.jpg (98 KB)
+
+[TEXT EXTRACTED]
+www.probois-machinoutils.com 1 NOTICE D UTILISATION DEGAUCHISSEUSE RABOTEUSE TYPE PT260 ATTENTION: Lisez et suivez toutes les règles de sécurité et d'utilisation avant la première utilisation de ce produit. www.probois-machinoutils.com 2 TABLE DES MATIÈRES Spécifications .............................................................. 2 Règles de sécurité ....................................................... 3-6 Déballage .................................................................... 6 Composition ……………………………………………………………. 7 Installation .................................................................. 8 Structure électrique – Guide parallèle …..................... 9 Extracteur de copeaux……………………………………………… 11 à 12 Dégauchir ……………………………………………………………….. 13 à 14 Raboter …………………………………………………………………… 15 Remplacement des fers …………………………………………… 16 à 17 Entretien ..................................................................... 17 Anomalies de fonctionnement.................................... 18 Diagramme d'assemblage et Liste .............................. 1 - à 21 Modèle PT 260 Moteur Voir sur la machine Nombre de couteaux 2 Vitesse de rotation de l’arbre Voir sur la machine Poids 81 kg Détails Techni ques en dégauchissage Largeur de coupe (max) 254 mm Epaisseur de coupe (max) 3 mm (1 mm pour les bois durs) Dimensions du guide d’angle 610x122 mm Inclinaison du guide 90°-135° Dimensions de la table de travail 1050x260 mm Détails Techniques en Rabotage Largeur de coupe (max) 
+

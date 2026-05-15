@@ -13,11 +13,14 @@
     "process-ai": "npx tsx scripts/process-ai-metadata.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.88.0",
     "@supabase/supabase-js": "^2.100.1",
     "archiver": "^7.0.1",
     "canvas": "^3.2.3",
+    "csv-parse": "^6.2.1",
     "lucide-react": "^1.7.0",
     "next": "14.2.35",
+    "pdf-lib": "^1.17.1",
     "pdf-parse": "^2.4.5",
     "pdf2pic": "^3.2.0",
     "pdfjs-dist": "^3.11.174",

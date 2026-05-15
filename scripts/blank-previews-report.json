@@ -1,0 +1,1242 @@
+{
+  "generated_at": "2026-05-15T12:02:15.312Z",
+  "total_analysed": 6497,
+  "blank_count": 202,
+  "error_count": 4,
+  "blank_previews": [
+    {
+      "slug": "axel-axel-ax3000-ethernet-terminal-installation-guide-model-56",
+      "title": "AX3000 Ethernet TCP/IP Terminal Installation Manual",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/axel-axel-ax3000-ethernet-terminal-installation-guide-model-56.jpg?t=1777856103813"
+    },
+    {
+      "slug": "isa-isa-9006-tide-user-manual",
+      "title": "ISA 9006 TIDE Watch User Manual",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/isa-isa-9006-tide-user-manual.jpg?t=1777856114709"
+    },
+    {
+      "slug": "isa-isa-9009-yachting-user-manual",
+      "title": "ISA 9009 Yachting User Manual - Models 9009/7300 and 9009/1300",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/isa-isa-9009-yachting-user-manual.jpg?t=1777856117783"
+    },
+    {
+      "slug": "isa-isa-9001-swiss-made-movement-user-manual",
+      "title": "ISA 9001 Swiss Made Movement Instruction Manual",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/isa-isa-9001-swiss-made-movement-user-manual.jpg?t=1777856111472"
+    },
+    {
+      "slug": "isa-isa-caliber-9004-9005-user-manual",
+      "title": "ISA Caliber 9004-9005 User Manual",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/isa-isa-caliber-9004-9005-user-manual.jpg?t=1777856120367"
+    },
+    {
+      "slug": "photo-informatisation-d-un-fonds-photographique",
+      "title": "Digitization of a Photographic Collection",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/photo-informatisation-d-un-fonds-photographique.jpg"
+    },
+    {
+      "slug": "seeburg-seeburg-mra3-l6-master-remote-amplifier-schema-parts-list",
+      "title": "Seeburg MRA3-L6 Master-Remote Amplifier Schematic Diagram",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/seeburg-seeburg-mra3-l6-master-remote-amplifier-schema-parts-list.jpg?t=1777856181758"
+    },
+    {
+      "slug": "standard-standard-junior-2-microscope-operating-instructions",
+      "title": "Standard Junior 2 Microscope Operating Instructions",
+      "content_ratio": "0.00%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/standard-standard-junior-2-microscope-operating-instructions.jpg"
+    },
+    {
+      "slug": "reparation-depannage-ks-15-4-camera-set-repair-training-program",
+      "title": "KS-15(4) Camera Set Repair Training Program",
+      "content_ratio": "0.01%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/reparation-depannage-ks-15-4-camera-set-repair-training-program.jpg"
+    },
+    {
+      "slug": "viasys-viasys-infant-flow-sipap-m675-service-manual",
+      "title": "Infant Flow SiPAP Model M675 Service Manual",
+      "content_ratio": "0.12%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/viasys-viasys-infant-flow-sipap-m675-service-manual.jpg"
+    },
+    {
+      "slug": "composants-tba931-replacement-pcb-documentation",
+      "title": "TBA931 Replacement PCB 1.081.998.00 Assembly Guide",
+      "content_ratio": "0.17%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/composants-tba931-replacement-pcb-documentation.jpg"
+    },
+    {
+      "slug": "bricolage-diy-ship-construction-fifth-edition",
+      "title": "Ship Construction - Fifth Edition",
+      "content_ratio": "0.18%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/bricolage-diy-ship-construction-fifth-edition.jpg"
+    },
+    {
+      "slug": "nav-n-go-nav-n-go-igo-8-user-manual",
+      "title": "Nav N Go iGO 8 PDA Navigation Software User Manual",
+      "content_ratio": "0.24%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nav-n-go-nav-n-go-igo-8-user-manual.jpg"
+    },
+    {
+      "slug": "polaris-polaris-850-hd-eps-service-manual",
+      "title": "Polaris 850 HD EPS Service Manual",
+      "content_ratio": "0.30%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/polaris-polaris-850-hd-eps-service-manual.jpg"
+    },
+    {
+      "slug": "eclair-eclair-acl-16mm-camera-user-manual",
+      "title": "Eclair ACL 1 Camera Manual",
+      "content_ratio": "0.31%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/eclair-eclair-acl-16mm-camera-user-manual.jpg"
+    },
+    {
+      "slug": "canon-natcam-canon-ftb-guide",
+      "title": "Canon FTb Camera Guide",
+      "content_ratio": "0.38%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/canon-natcam-canon-ftb-guide.jpg"
+    },
+    {
+      "slug": "hasselblad-hasselblad-service-test-system-user-instruction",
+      "title": "Hasselblad Service Test System User Instruction",
+      "content_ratio": "0.41%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/hasselblad-hasselblad-service-test-system-user-instruction.jpg"
+    },
+    {
+      "slug": "hp-hp-54200a-digitizing-oscilloscope-service-manual",
+      "title": "HP Model 54200A/D Digitizing Oscilloscope Operating Manual",
+      "content_ratio": "0.41%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/hp-hp-54200a-digitizing-oscilloscope-service-manual.jpg"
+    },
+    {
+      "slug": "kymco-kymco-mongoose-kxr-90-50-service-manual-preface",
+      "title": "KYMCO Mongoose/KXR 90/50 Service Manual - Preface",
+      "content_ratio": "0.41%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/kymco-kymco-mongoose-kxr-90-50-service-manual-preface.jpg"
+    },
+    {
+      "slug": "a-minima-aaton-a-minima-user-guide",
+      "title": "A-Minima 16mm Film Camera User's Guide",
+      "content_ratio": "0.42%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/a-minima-aaton-a-minima-user-guide.jpg"
+    },
+    {
+      "slug": "citizen-citizen-caliber-e010-solar-watch-setting-instructions",
+      "title": "Setting Instructions for Movement Caliber E010",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-caliber-e010-solar-watch-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-caliber-b230-solar-watch-setting-instructions",
+      "title": "Setting Instructions for Movement Caliber B230",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-caliber-b230-solar-watch-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-caliber-e100-setting-instructions",
+      "title": "Citizen Caliber E100 Setting Instructions Manual",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-caliber-e100-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-e110-movement-setting-instructions",
+      "title": "Citizen Caliber E110 Solar Watch Setting Instructions",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-e110-movement-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-eco-drive-b232-setting-instructions-manual",
+      "title": "Citizen Eco-Drive B232 Setting Instructions Manual",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-eco-drive-b232-setting-instructions-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-eco-drive-e000-setting-instructions",
+      "title": "Citizen Eco-Drive E000 Setting Instructions Manual",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-eco-drive-e000-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-eco-drive-e030-movement-setting-instructions",
+      "title": "Citizen Eco-Drive E030 Movement - Setting Instructions",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-eco-drive-e030-movement-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-perpetual-calendar-b110-setting-instructions",
+      "title": "Setting Instructions for Perpetual Calendar Movement Caliber B110",
+      "content_ratio": "0.43%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-perpetual-calendar-b110-setting-instructions.jpg"
+    },
+    {
+      "slug": "yashica-yashica-campus-user-manual",
+      "title": "Yashica Campus F2.8 35mm Camera - User Manual",
+      "content_ratio": "0.45%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/yashica-yashica-campus-user-manual.jpg?t=1777856214418"
+    },
+    {
+      "slug": "citizen-citizen-automatic-day-date-8200-8210-instruction-manual",
+      "title": "Citizen Automatic Day/Date Instruction Manual Calibers 8200, 8210",
+      "content_ratio": "0.46%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-automatic-day-date-8200-8210-instruction-manual.jpg"
+    },
+    {
+      "slug": "eclair-eclair-16-operating-manual",
+      "title": "Eclair 16 Operating Manual",
+      "content_ratio": "0.47%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/eclair-eclair-16-operating-manual.jpg"
+    },
+    {
+      "slug": "minolta-minolta-dimage7-parts",
+      "title": "MINOLTA - Minolta Dimage7 Parts",
+      "content_ratio": "0.48%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/minolta-minolta-dimage7-parts.jpg"
+    },
+    {
+      "slug": "seeburg-seeburg-shfa4-stereo-high-fidelity-amplifier-schematic-and-parts-list",
+      "title": "Seeburg SHFA4 Stereo Amplifier Schematic and Parts List",
+      "content_ratio": "0.48%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/seeburg-seeburg-shfa4-stereo-high-fidelity-amplifier-schematic-and-parts-list.jpg"
+    },
+    {
+      "slug": "seeburg-seeburg-shfa3-stereo-amplifier-schematic-and-parts-list",
+      "title": "Seeburg SHFA3 Stereo High Fidelity Amplifier Schematic",
+      "content_ratio": "0.48%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/seeburg-seeburg-shfa3-stereo-amplifier-schematic-and-parts-list.jpg"
+    },
+    {
+      "slug": "studer-revox-revox-pr99-lsm2-schematic",
+      "title": "Revox PR99 LSM2 Schematic Diagrams and Parts",
+      "content_ratio": "0.51%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/studer-revox-revox-pr99-lsm2-schematic.jpg"
+    },
+    {
+      "slug": "audi-audi-tt-instrument-cluster-removal-and-repair",
+      "title": "Audi TT Instrument Cluster Repair Guide",
+      "content_ratio": "0.54%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/audi-audi-tt-instrument-cluster-removal-and-repair.jpg"
+    },
+    {
+      "slug": "3m-3m-r70-accuglide-2-random-case-sealer-instructions-parts-list",
+      "title": "3M-Matic r70 Random Case Sealer Type 10700 Instructions",
+      "content_ratio": "0.61%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/3m-3m-r70-accuglide-2-random-case-sealer-instructions-parts-list.jpg"
+    },
+    {
+      "slug": "zeiss-ikon-zeissikon-contina-service",
+      "title": "ZEISS IKON - ZeissIkon Contina Service",
+      "content_ratio": "0.61%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/zeiss-ikon-zeissikon-contina-service.jpg"
+    },
+    {
+      "slug": "citizen-6810",
+      "title": "6810 Technical Documentation",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-6810.jpg"
+    },
+    {
+      "slug": "citizen-a510-e-book",
+      "title": "A510 E-Book",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-a510-e-book.jpg"
+    },
+    {
+      "slug": "citizen-c026-e-book",
+      "title": "C026 E-Book",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c026-e-book.jpg"
+    },
+    {
+      "slug": "citizen-c023-e-book",
+      "title": "C023 Technical Documentation",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c023-e-book.jpg"
+    },
+    {
+      "slug": "citizen-c029-technical-documentation",
+      "title": "C029 Technical Documentation",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c029-technical-documentation.jpg"
+    },
+    {
+      "slug": "citizen-c021",
+      "title": "C021 Technical Documentation",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c021.jpg"
+    },
+    {
+      "slug": "citizen-c020-service-manual",
+      "title": "C020 Service Manual",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c020-service-manual.jpg"
+    },
+    {
+      "slug": "citizen-c080-technical-documentation",
+      "title": "C080 Technical Manual",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c080-technical-documentation.jpg"
+    },
+    {
+      "slug": "citizen-unknown-technical-document",
+      "title": "Technical Documentation",
+      "content_ratio": "0.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-unknown-technical-document.jpg"
+    },
+    {
+      "slug": "canon-canon-f1-service-manual",
+      "title": "Canon F1 Service Manual",
+      "content_ratio": "0.63%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/canon-canon-f1-service-manual.jpg"
+    },
+    {
+      "slug": "dell-dell-latitude-131l-user-guide",
+      "title": "Dell Latitude 131L User Guide",
+      "content_ratio": "0.63%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/dell-dell-latitude-131l-user-guide.jpg"
+    },
+    {
+      "slug": "lenovo-lenovo-thinkpad-edge-e145-user-guide",
+      "title": "ThinkPad Edge E145 User Guide",
+      "content_ratio": "0.68%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/lenovo-lenovo-thinkpad-edge-e145-user-guide.jpg"
+    },
+    {
+      "slug": "polaris-polaris-500-ho-carburetor-and-injection-manual-2009",
+      "title": "Polaris 500 HO Carburetor and Injection Manual 2009",
+      "content_ratio": "0.69%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/polaris-polaris-500-ho-carburetor-and-injection-manual-2009.jpg"
+    },
+    {
+      "slug": "citizen-citizen-eco-drive-bp1xxx-b872-instruction-manual",
+      "title": "Citizen Eco-Drive BP1XXX Cal. B872 Instruction Manual",
+      "content_ratio": "0.70%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-eco-drive-bp1xxx-b872-instruction-manual.jpg"
+    },
+    {
+      "slug": "canon-canon-scoopic-16mm-service",
+      "title": "CANON - Canon Scoopic 16mm Service",
+      "content_ratio": "0.71%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/canon-canon-scoopic-16mm-service.jpg"
+    },
+    {
+      "slug": "citizen-citizen-e760-e761-e76x-perpetual-calendar-setting-instructions",
+      "title": "Citizen E760 E761 E76x Perpetual Calendar Setting Instructions",
+      "content_ratio": "0.79%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-e760-e761-e76x-perpetual-calendar-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-e760-e-book",
+      "title": "E760 E-Book",
+      "content_ratio": "0.79%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-e760-e-book.jpg"
+    },
+    {
+      "slug": "citizen-e810-service-manual",
+      "title": "E810 Service Manual",
+      "content_ratio": "0.79%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-e810-service-manual.jpg"
+    },
+    {
+      "slug": "kymco-kymco-mxu-250-300-workshop-manual",
+      "title": "KYMCO MXU 250/300 Workshop Manual",
+      "content_ratio": "0.82%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/kymco-kymco-mxu-250-300-workshop-manual.jpg"
+    },
+    {
+      "slug": "repair-troubleshooting-bellows-replacement-dan-mitchell",
+      "title": "REPAIR & TROUBLESHOOTING - Bellows Replacement Dan Mitchell",
+      "content_ratio": "0.82%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/repair-troubleshooting-bellows-replacement-dan-mitchell.jpg"
+    },
+    {
+      "slug": "fluke-fluke-5522a-multi-product-calibrator-service-manual",
+      "title": "Fluke 5522A Multi-Product Calibrator Service Manual",
+      "content_ratio": "0.85%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/fluke-fluke-5522a-multi-product-calibrator-service-manual.jpg"
+    },
+    {
+      "slug": "canon-canonet-giii-repair",
+      "title": "CANON - canonet giii repair",
+      "content_ratio": "0.87%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/canon-canonet-giii-repair.jpg"
+    },
+    {
+      "slug": "us-army-us-army-1-4-ton-2-wheel-trailers-m100-m115-m367-technical-manual",
+      "title": "Operator's Maintenance Manual for 1/4-Ton 2-Wheel Trailers M100, M115, M367",
+      "content_ratio": "0.87%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/us-army-us-army-1-4-ton-2-wheel-trailers-m100-m115-m367-technical-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-c660-eco-drive-recharge-guide",
+      "title": "Eco Drive Recharge Guide - Movement Caliber C660",
+      "content_ratio": "0.91%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-c660-eco-drive-recharge-guide.jpg"
+    },
+    {
+      "slug": "hasselblad-hasselblad-500cm-repair-manual",
+      "title": "HASSELBLAD - Hasselblad 500CM Repair Manual",
+      "content_ratio": "0.91%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/hasselblad-hasselblad-500cm-repair-manual.jpg"
+    },
+    {
+      "slug": "kodak-kodak-instamatic-100-camera-disassembly-and-service-manual",
+      "title": "Kodak Instamatic 100 Service Manual - Disassembly & Shutter Operation",
+      "content_ratio": "0.91%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/kodak-kodak-instamatic-100-camera-disassembly-and-service-manual.jpg"
+    },
+    {
+      "slug": "camera-repair-vishnevsky-english",
+      "title": "Camera Repair — English Edition",
+      "content_ratio": "0.93%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/camera-repair-vishnevsky-english.jpg"
+    },
+    {
+      "slug": "nikon-nikon-f3t-f3p-service",
+      "title": "NIKON - Nikon F3T F3P service",
+      "content_ratio": "0.93%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-f3t-f3p-service.jpg"
+    },
+    {
+      "slug": "nikon-nikon-f3t-f3p-f3-limited-supplementary-repair-manual",
+      "title": "Nikon F3T/F3P/F3 Limited Supplementary Repair Manual",
+      "content_ratio": "0.93%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-f3t-f3p-f3-limited-supplementary-repair-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-perpetual-calendar-e71x-instruction-manual",
+      "title": "Citizen Quartz Perpetual Calendar E71X Instruction Manual",
+      "content_ratio": "0.94%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-perpetual-calendar-e71x-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-eco-drive-ep7xxx-instruction-manual",
+      "title": "Citizen Quartz Eco-Drive EP7XXX Instruction Manual",
+      "content_ratio": "0.97%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-eco-drive-ep7xxx-instruction-manual.jpg"
+    },
+    {
+      "slug": "durst-durst-elite2000-af2000-service-v2",
+      "title": "DURST - Durst Elite2000 AF2000 Service V2",
+      "content_ratio": "1.01%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/durst-durst-elite2000-af2000-service-v2.jpg"
+    },
+    {
+      "slug": "avid-edl-manager-user-guide",
+      "title": "EDL-Manager User Guide",
+      "content_ratio": "1.08%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/avid-edl-manager-user-guide.jpg"
+    },
+    {
+      "slug": "kymco-kymco-mxu250-service-manual",
+      "title": "Kymco MXU250 Service and Maintenance Manual",
+      "content_ratio": "1.08%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/kymco-kymco-mxu250-service-manual.jpg"
+    },
+    {
+      "slug": "omega-omega-calibre-490-491-spare-parts",
+      "title": "Omega Calibre 490, 491 Spare Parts Catalog",
+      "content_ratio": "1.18%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/omega-omega-calibre-490-491-spare-parts.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-diver-s-watch-bk3xx-emxxx-instruction-manual",
+      "title": "Citizen Quartz Diver's Watch Instruction Manual",
+      "content_ratio": "1.19%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-diver-s-watch-bk3xx-emxxx-instruction-manual.jpg"
+    },
+    {
+      "slug": "camera-repairs-yakovlev-russian",
+      "title": "Camera Repairs — Russian Edition",
+      "content_ratio": "1.24%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/camera-repairs-yakovlev-russian.jpg"
+    },
+    {
+      "slug": "citizen-adec-quartz-ht2-dc9a-instruction-manual",
+      "title": "ADEC Quartz HT2 Instruction Manual",
+      "content_ratio": "1.24%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-adec-quartz-ht2-dc9a-instruction-manual.jpg"
+    },
+    {
+      "slug": "elmo-elmo-st1200hd-service-manual-20",
+      "title": "ELMO - Elmo ST1200HD Service Manual",
+      "content_ratio": "1.24%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/elmo-elmo-st1200hd-service-manual-20.jpg"
+    },
+    {
+      "slug": "durst-durst-401-mk2-color-head-manual",
+      "title": "DURST - Durst 401 MK2 Color Head Manual",
+      "content_ratio": "1.25%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/durst-durst-401-mk2-color-head-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikon-nikkorex-f-repair-manual",
+      "title": "Nikon Nikkorex F Repair Manual",
+      "content_ratio": "1.27%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-nikkorex-f-repair-manual.jpg"
+    },
+    {
+      "slug": "sigma-sigma-421dn17-parts",
+      "title": "SIGMA - Sigma 421DN17 Parts",
+      "content_ratio": "1.29%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/sigma-sigma-421dn17-parts.jpg"
+    },
+    {
+      "slug": "canon-canon-demi28-service",
+      "title": "CANON - Canon Demi28 service",
+      "content_ratio": "1.31%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/canon-canon-demi28-service.jpg"
+    },
+    {
+      "slug": "nikon-nikon-mb22-service-manual",
+      "title": "NIKON - Nikon MB22 service manual",
+      "content_ratio": "1.32%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-mb22-service-manual.jpg"
+    },
+    {
+      "slug": "lurem-cb410-rlx-parts-list",
+      "title": "CB410 RLX Exploded Views and Parts List",
+      "content_ratio": "1.34%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/lurem-cb410-rlx-parts-list.jpg"
+    },
+    {
+      "slug": "nikon-nikon-fe2-service",
+      "title": "NIKON - Nikon FE2 Service",
+      "content_ratio": "1.34%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-fe2-service.jpg"
+    },
+    {
+      "slug": "canon-canonet-ql25-falcao",
+      "title": "CANON - Canonet QL25 falcao",
+      "content_ratio": "1.39%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/canon-canonet-ql25-falcao.jpg"
+    },
+    {
+      "slug": "akai-akai-x-200d-service-manual",
+      "title": "AKAI X-200D Service Manual",
+      "content_ratio": "1.40%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/akai-akai-x-200d-service-manual.jpg"
+    },
+    {
+      "slug": "akai-akai-x-201-d-service-manual",
+      "title": "Akai X-201-D Service Manual",
+      "content_ratio": "1.40%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/akai-akai-x-201-d-service-manual.jpg"
+    },
+    {
+      "slug": "ouvrages-de-reference-crisis-management-tools-for-decision-makers",
+      "title": "Crisis Management: Tools for Decision Makers",
+      "content_ratio": "1.40%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/ouvrages-de-reference-crisis-management-tools-for-decision-makers.jpg"
+    },
+    {
+      "slug": "grenoble-alpes-university-hybrid-opto-wireless-systems-millimeter-wave-networks-60ghz",
+      "title": "Hybrid Opto/Wireless Systems for Multi-Gigabit Networks at Millimeter Frequencies",
+      "content_ratio": "1.41%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/grenoble-alpes-university-hybrid-opto-wireless-systems-millimeter-wave-networks-60ghz.jpg"
+    },
+    {
+      "slug": "us-army-us-army-vehicle-recovery-manual-fm-21-305-afman-24-306",
+      "title": "Vehicle Recovery Operations Manual - FM 21-305/AFMAN 24-306",
+      "content_ratio": "1.41%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/us-army-us-army-vehicle-recovery-manual-fm-21-305-afman-24-306.jpg"
+    },
+    {
+      "slug": "alpine-refection-faisceau-electrique-a110-1300vc",
+      "title": "A110 1300VC Electrical Wiring Harness Repair Guide",
+      "content_ratio": "1.44%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/alpine-refection-faisceau-electrique-a110-1300vc.jpg"
+    },
+    {
+      "slug": "citizen-adec-quartz-ht7-instruction-manual",
+      "title": "ADEC Quartz HT7 Digital Watch Instruction Manual",
+      "content_ratio": "1.46%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-adec-quartz-ht7-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-movement-caliber-0610-setting-instructions",
+      "title": "Citizen Caliber 0610 Movement Setting Instructions",
+      "content_ratio": "1.46%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-movement-caliber-0610-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-navihawk-c300-instruction-manual",
+      "title": "Citizen Quartz Navihawk C300 Instruction Manual",
+      "content_ratio": "1.46%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-navihawk-c300-instruction-manual.jpg"
+    },
+    {
+      "slug": "wurlitzer-wurlitzer-model-2250-phonograph-service-manual",
+      "title": "Wurlitzer Model 2250 Phonograph Service Manual",
+      "content_ratio": "1.46%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/wurlitzer-wurlitzer-model-2250-phonograph-service-manual.jpg"
+    },
+    {
+      "slug": "collection-traite-general-de-photographie",
+      "title": "General Treatise on Photography - Fifth Edition",
+      "content_ratio": "1.49%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/collection-traite-general-de-photographie.jpg"
+    },
+    {
+      "slug": "repair-troubleshooting-rebuilding-cds-lightmeters3",
+      "title": "REPAIR & TROUBLESHOOTING - Rebuilding CdS lightmeters3",
+      "content_ratio": "1.50%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/repair-troubleshooting-rebuilding-cds-lightmeters3.jpg"
+    },
+    {
+      "slug": "nikon-nikkormat-camera-fs-ft",
+      "title": "NIKON - nikkormat camera fs ft",
+      "content_ratio": "1.52%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikkormat-camera-fs-ft.jpg"
+    },
+    {
+      "slug": "citizen-adec-quartz-ht5-dc98-instruction-manual",
+      "title": "ADEC Quartz HT5 Model DC98 Instruction Manual",
+      "content_ratio": "1.54%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-adec-quartz-ht5-dc98-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-c050-e-book",
+      "title": "C050 E-Book",
+      "content_ratio": "1.55%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c050-e-book.jpg"
+    },
+    {
+      "slug": "compur-compur-electronic-shutter-prontor-25",
+      "title": "COMPUR - compur electronic shutter prontor",
+      "content_ratio": "1.56%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/compur-compur-electronic-shutter-prontor-25.jpg"
+    },
+    {
+      "slug": "nikon-nikonos-iva-service-manual",
+      "title": "NIKON - nikonos IVa service manual",
+      "content_ratio": "1.56%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikonos-iva-service-manual.jpg"
+    },
+    {
+      "slug": "rollei-rolleiflex-sl35-photometer-repair-guide",
+      "title": "Rolleiflex SL35 Photometer Repair and Calibration Guide",
+      "content_ratio": "1.57%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/rollei-rolleiflex-sl35-photometer-repair-guide.jpg"
+    },
+    {
+      "slug": "minolta-minolta-himatic-g-service-manual",
+      "title": "MINOLTA - Minolta Himatic G Service Manual",
+      "content_ratio": "1.58%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/minolta-minolta-himatic-g-service-manual.jpg"
+    },
+    {
+      "slug": "bronica-bronica-etr-ae-finder-e-repair-20",
+      "title": "BRONICA - Bronica ETR AE Finder E Repair",
+      "content_ratio": "1.61%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/bronica-bronica-etr-ae-finder-e-repair-20.jpg"
+    },
+    {
+      "slug": "pentax-p30t-infinite-winding-fix-fr",
+      "title": "Pentax P30T Correction du rembobinage infini - Guide de reparation",
+      "content_ratio": "1.61%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/pentax-p30t-infinite-winding-fix-fr.jpg"
+    },
+    {
+      "slug": "fujica-fuji-gw690-gsw690-g617-service-manual-25",
+      "title": "FUJICA - Fuji GW690 GSW690 G617 Service Manual",
+      "content_ratio": "1.62%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/fujica-fuji-gw690-gsw690-g617-service-manual-25.jpg"
+    },
+    {
+      "slug": "arriflex-arriflex-2-service",
+      "title": "ARRIFLEX - Arriflex 2 Service",
+      "content_ratio": "1.65%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/arriflex-arriflex-2-service.jpg"
+    },
+    {
+      "slug": "agilent-technologies-agilent-34401a-6-5-digit-multimeter-user-guide",
+      "title": "Agilent 34401A 6½ Digit Multimeter User's Guide",
+      "content_ratio": "1.66%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/agilent-technologies-agilent-34401a-6-5-digit-multimeter-user-guide.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-6115-instruction-manual",
+      "title": "Citizen Watch Model 6115 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-6115-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-1030",
+      "title": "Citizen Watch Instruction Manual CAL 1030",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-1030.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-cal-461x-instruction-manual",
+      "title": "Citizen Watch Instruction Manual CAL 461x Series",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-cal-461x-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-1010",
+      "title": "Citizen Watch Instruction Manual - Setting and Maintenance",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-1010.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-5421-instruction-manual",
+      "title": "Citizen Quartz Watch Model 5421 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-5421-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-1010-1020-1030",
+      "title": "Citizen Watch Instruction Manual - Setting and Operation",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-1010-1020-1030.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-9620",
+      "title": "Citizen Watch Instruction Manual - Setting and Maintenance",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-9620.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-1010-9630",
+      "title": "Citizen Watch Instruction Manual - Setting and Maintenance Guide",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-1010-9630.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-5920-instruction-manual",
+      "title": "Citizen Watch Model 5920 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-5920-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-6010",
+      "title": "Citizen Watch Instruction Manual - Setting, Water Resistance & Care",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-6010.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-7630",
+      "title": "Citizen Watch Instruction Manual - Setting and Maintenance Guide",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-7630.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-model-6790",
+      "title": "Citizen Quartz Watch Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-model-6790.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual",
+      "title": "Citizen Watch Instruction Manual - Setup and Maintenance",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-464",
+      "title": "Citizen Watch Instruction Manual - Models CAL 464 Series",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-464.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-models-1010-9630",
+      "title": "Citizen Watch Instruction Manual - Setting and Care Guide",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-models-1010-9630.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-4633-instruction-manual",
+      "title": "Citizen Watch Model 4633 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-4633-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-instruction-manual-cal-5930",
+      "title": "Citizen Watch Instruction Manual - Setting and Maintenance",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-instruction-manual-cal-5930.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-model-3220-instruction-manual",
+      "title": "Citizen Watch Model 3220 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-model-3220-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-quartz-manual-model-1020",
+      "title": "Citizen Quartz Watch Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-quartz-manual-model-1020.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-quartz-movement-setting-and-safety-manual",
+      "title": "Citizen Quartz Watch Instruction Manual - Setting and Maintenance Guide",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-quartz-movement-setting-and-safety-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-quartz-instruction-manual-model-5500",
+      "title": "Citizen Quartz Watch Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-quartz-instruction-manual-model-5500.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-model-1110-instruction-manual",
+      "title": "Citizen Watch Model 1110 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-model-1110-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-manual-model-5431",
+      "title": "Citizen Watch Instruction Manual - Model 5431",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-manual-model-5431.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-quartz-model-6020-instruction-manual",
+      "title": "Citizen Watch Quartz Model 6020 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-quartz-model-6020-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-watch-quartz-4713-instruction-manual",
+      "title": "Citizen Quartz Watch Model 4713 Instruction Manual",
+      "content_ratio": "1.67%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-watch-quartz-4713-instruction-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikon-camera-f",
+      "title": "NIKON - nikon camera f",
+      "content_ratio": "1.68%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-camera-f.jpg"
+    },
+    {
+      "slug": "citizen-b810-2-exploded-parts-diagram",
+      "title": "B810-2 Exploded Parts Diagram and Assembly",
+      "content_ratio": "1.70%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-b810-2-exploded-parts-diagram.jpg"
+    },
+    {
+      "slug": "citizen-citizen-0855-service-manual",
+      "title": "Citizen 0855 Service Manual",
+      "content_ratio": "1.70%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-0855-service-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-eco-drive-caliber-0850-setting-instructions",
+      "title": "Citizen Eco-Drive Caliber 0850 Setting Instructions",
+      "content_ratio": "1.70%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-eco-drive-caliber-0850-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-unknown-document-blank-pages",
+      "title": "Unable to Determine - Document Content Not Readable",
+      "content_ratio": "1.70%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-unknown-document-blank-pages.jpg"
+    },
+    {
+      "slug": "olympus-olympus-om2s-program-troubleshooting",
+      "title": "Olympus OM2S Program Troubleshooting Guide",
+      "content_ratio": "1.71%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/olympus-olympus-om2s-program-troubleshooting.jpg"
+    },
+    {
+      "slug": "olympus-om-2s-spt",
+      "title": "OLYMPUS - OM 2S spt",
+      "content_ratio": "1.71%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/olympus-om-2s-spt.jpg"
+    },
+    {
+      "slug": "zeiss-ikon-zeiss-contaflex-super-repair",
+      "title": "ZEISS IKON - Zeiss Contaflex Super Repair",
+      "content_ratio": "1.72%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/zeiss-ikon-zeiss-contaflex-super-repair.jpg"
+    },
+    {
+      "slug": "cinema-products-cp16r-cp16r-a-sound-camera-repair-service",
+      "title": "CINEMA-PRODUCTS - CP16R CP16R A Sound Camera Repair Service",
+      "content_ratio": "1.73%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/cinema-products-cp16r-cp16r-a-sound-camera-repair-service.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-mc8-instruction-manual",
+      "title": "Citizen Quartz MC8 XXX Cal. D295 Instruction Manual",
+      "content_ratio": "1.73%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-mc8-instruction-manual.jpg"
+    },
+    {
+      "slug": "pentax-national-camera-pentax-h3v-technical-training-guide",
+      "title": "Pentax H3v Shutter and Mirror Operation Technical Guide",
+      "content_ratio": "1.73%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/pentax-national-camera-pentax-h3v-technical-training-guide.jpg"
+    },
+    {
+      "slug": "beaulieu-beaulieu-5008s-service",
+      "title": "BEAULIEU - Beaulieu 5008S Service",
+      "content_ratio": "1.74%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/beaulieu-beaulieu-5008s-service.jpg"
+    },
+    {
+      "slug": "bronica-bronica-etr-repair-manual-25",
+      "title": "BRONICA - Bronica ETR Repair Manual",
+      "content_ratio": "1.74%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/bronica-bronica-etr-repair-manual-25.jpg"
+    },
+    {
+      "slug": "citizen-citizen-eco-drive-ep4xxx-ep3xxx-instruction-manual",
+      "title": "Citizen Eco-Drive Solar Watch Instruction Manual",
+      "content_ratio": "1.74%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-eco-drive-ep4xxx-ep3xxx-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-eco-drive-quartz-watch-ep4xxx-ep3xxx-instruction-manual",
+      "title": "Citizen Eco-Drive Quartz Watch Instruction Manual",
+      "content_ratio": "1.74%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-eco-drive-quartz-watch-ep4xxx-ep3xxx-instruction-manual.jpg"
+    },
+    {
+      "slug": "lurem-c260n-parts-overview",
+      "title": "LUREM C260N — Parts Overview",
+      "content_ratio": "1.74%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/lurem-c260n-parts-overview.jpg"
+    },
+    {
+      "slug": "nikon-nikon-mb10-service",
+      "title": "NIKON - Nikon MB10 service",
+      "content_ratio": "1.76%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-mb10-service.jpg"
+    },
+    {
+      "slug": "isa-9003-provisional-datasheet-watch-manual",
+      "title": "Model 9003 Watch User Manual and Operation Guide",
+      "content_ratio": "1.77%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/isa-9003-provisional-datasheet-watch-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikon-camera-fm2",
+      "title": "NIKON - nikon camera fm2",
+      "content_ratio": "1.79%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-camera-fm2.jpg"
+    },
+    {
+      "slug": "omega-omega-cs-extranet-bracelet-acier-020st1316283",
+      "title": "Steel Bracelet Assembly 020ST1316283 - Parts List",
+      "content_ratio": "1.79%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/omega-omega-cs-extranet-bracelet-acier-020st1316283.jpg"
+    },
+    {
+      "slug": "citizen-cal-d195-instruction-manual",
+      "title": "CAL D195 Instruction Manual - Digital Watch",
+      "content_ratio": "1.81%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-cal-d195-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-caliber-6350-6355-6380-setting-instructions",
+      "title": "Setting Instructions for Movement Calibers 6350 - 6355 - 6380",
+      "content_ratio": "1.81%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-caliber-6350-6355-6380-setting-instructions.jpg"
+    },
+    {
+      "slug": "citizen-citizen-movement-calibers-6350-6355-6380-setting-instructions",
+      "title": "Setting Instructions for Movement Calibers 6350, 6355, 6380",
+      "content_ratio": "1.81%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-movement-calibers-6350-6355-6380-setting-instructions.jpg"
+    },
+    {
+      "slug": "nikon-nikon-camera-fe",
+      "title": "NIKON - nikon camera fe",
+      "content_ratio": "1.82%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-camera-fe.jpg"
+    },
+    {
+      "slug": "sony-sony-trinitron-gdm-fw900-monitor-notice",
+      "title": "Sony Trinitron GDM-FW900 Monitor User Guide",
+      "content_ratio": "1.82%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/sony-sony-trinitron-gdm-fw900-monitor-notice.jpg"
+    },
+    {
+      "slug": "longines-longines-l990-service-manual-movement-reconditioning",
+      "title": "Longines L990 Movement Service Manual Pages 7-12",
+      "content_ratio": "1.83%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/longines-longines-l990-service-manual-movement-reconditioning.jpg"
+    },
+    {
+      "slug": "mamiya-mamiya-rz67-pro-repair-manual-20",
+      "title": "MAMIYA - Mamiya RZ67 Pro Repair Manual",
+      "content_ratio": "1.83%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/mamiya-mamiya-rz67-pro-repair-manual-20.jpg"
+    },
+    {
+      "slug": "omega-omega-calibre-1863a-technical-guide",
+      "title": "Omega Calibre 1863A Technical Guide",
+      "content_ratio": "1.83%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/omega-omega-calibre-1863a-technical-guide.jpg"
+    },
+    {
+      "slug": "omega-omega-calibre-863a-technical-guide",
+      "title": "Omega Calibre 863A Technical Guide and Parts List",
+      "content_ratio": "1.83%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/omega-omega-calibre-863a-technical-guide.jpg"
+    },
+    {
+      "slug": "alinco-alinco-radio-modifications-and-adjustments",
+      "title": "Alinco Radio Modifications and Adjustment Points",
+      "content_ratio": "1.84%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/alinco-alinco-radio-modifications-and-adjustments.jpg"
+    },
+    {
+      "slug": "fujica-fujinon-28mm-f35-repair",
+      "title": "FUJICA - Fujinon 28mm f35 Repair",
+      "content_ratio": "1.84%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/fujica-fujinon-28mm-f35-repair.jpg"
+    },
+    {
+      "slug": "kodak-kodak-retina-iiis-repair-manual",
+      "title": "KODAK - Kodak Retina IIIS Repair Manual",
+      "content_ratio": "1.84%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/kodak-kodak-retina-iiis-repair-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikkormat-camera-ftn",
+      "title": "NIKON - nikkormat camera ftn",
+      "content_ratio": "1.84%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikkormat-camera-ftn.jpg"
+    },
+    {
+      "slug": "nikon-nikon-fm-repair",
+      "title": "NIKON - Nikon FM Repair",
+      "content_ratio": "1.84%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-fm-repair.jpg"
+    },
+    {
+      "slug": "pentax-p30t-infinite-winding-fix-en",
+      "title": "Pentax P30T Infinite Winding Fix - Repair Guide",
+      "content_ratio": "1.86%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/pentax-p30t-infinite-winding-fix-en.jpg"
+    },
+    {
+      "slug": "citizen-c506-manual",
+      "title": "C506 Technical Manual",
+      "content_ratio": "1.87%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c506-manual.jpg"
+    },
+    {
+      "slug": "citizen-c500-e-book",
+      "title": "C500 E-Book",
+      "content_ratio": "1.87%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c500-e-book.jpg"
+    },
+    {
+      "slug": "omega-omega-calibre-1431-a-technical-guide",
+      "title": "Omega Calibre 1431 A Technical Guide",
+      "content_ratio": "1.87%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/omega-omega-calibre-1431-a-technical-guide.jpg"
+    },
+    {
+      "slug": "omega-omega-calibre-1432-a-technical-guide",
+      "title": "Omega Calibre 1432 A Technical Guide and Spare Parts",
+      "content_ratio": "1.87%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/omega-omega-calibre-1432-a-technical-guide.jpg"
+    },
+    {
+      "slug": "singer-singer-projector-instaload2200",
+      "title": "SINGER - singer projector instaload2200",
+      "content_ratio": "1.89%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/singer-singer-projector-instaload2200.jpg"
+    },
+    {
+      "slug": "canon-canon-f1-120711",
+      "title": "CANON - Canon F1 120711",
+      "content_ratio": "1.91%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/canon-canon-f1-120711.jpg"
+    },
+    {
+      "slug": "citizen-c070-technical-documentation",
+      "title": "C070 Technical Documentation",
+      "content_ratio": "1.91%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-c070-technical-documentation.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-analog-depth-meter-chronograph-ay5xxx-cal-374-instruction-manual",
+      "title": "Citizen Quartz Analog Depth Meter with Chronograph Manual",
+      "content_ratio": "1.91%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-analog-depth-meter-chronograph-ay5xxx-cal-374-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-cal-db95-instruction-manual",
+      "title": "CAL DB95 Digital Watch Instruction Manual",
+      "content_ratio": "1.92%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-cal-db95-instruction-manual.jpg"
+    },
+    {
+      "slug": "mamiya-mamiya-7-lens-80mm-parts",
+      "title": "MAMIYA - Mamiya 7 Lens 80mm Parts",
+      "content_ratio": "1.92%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/mamiya-mamiya-7-lens-80mm-parts.jpg"
+    },
+    {
+      "slug": "camera-repair-vishnevsky-russian",
+      "title": "Camera Repair — Russian Edition",
+      "content_ratio": "1.93%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/camera-repair-vishnevsky-russian.jpg"
+    },
+    {
+      "slug": "nikon-nikon-fg20-service-manual",
+      "title": "NIKON - Nikon FG20 service manual",
+      "content_ratio": "1.93%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-fg20-service-manual.jpg"
+    },
+    {
+      "slug": "durst-durst-pictochrom-pictograph-service-v2",
+      "title": "DURST - Durst Pictochrom Pictograph Service V2",
+      "content_ratio": "1.94%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/durst-durst-pictochrom-pictograph-service-v2.jpg"
+    },
+    {
+      "slug": "informatique-van-wijngaarden-grammars-formalization-k-ary-malware",
+      "title": "Van Wijngaarden Grammars for K-ary Malware Formalization",
+      "content_ratio": "1.95%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/informatique-van-wijngaarden-grammars-formalization-k-ary-malware.jpg"
+    },
+    {
+      "slug": "nikon-nikkor-35mm-f28-ais-repair",
+      "title": "NIKON - Nikkor 35mm f28 ais Repair",
+      "content_ratio": "1.95%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikkor-35mm-f28-ais-repair.jpg"
+    },
+    {
+      "slug": "bell-howell-bell-howell-eyemo-35mm-military-service",
+      "title": "BELL & HOWELL - Bell Howell Eyemo 35mm Military Service",
+      "content_ratio": "1.96%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/bell-howell-bell-howell-eyemo-35mm-military-service.jpg"
+    },
+    {
+      "slug": "citizen-adec-quartz-hc0-5a80-instruction-manual",
+      "title": "ADEC Quartz HC0 Solar-Powered Watch Instruction Manual",
+      "content_ratio": "1.96%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-adec-quartz-hc0-5a80-instruction-manual.jpg"
+    },
+    {
+      "slug": "citizen-b800-2-exploded-parts-view",
+      "title": "B800-2 Exploded Parts Diagram",
+      "content_ratio": "1.96%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-b800-2-exploded-parts-view.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-analog-alarm-aq775-instruction-manual",
+      "title": "Citizen Quartz Analog Alarm Model AQ775 Instruction Manual",
+      "content_ratio": "1.96%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-analog-alarm-aq775-instruction-manual.jpg"
+    },
+    {
+      "slug": "kiev-kiev4-service-russian",
+      "title": "KIEV - kiev4 service russian",
+      "content_ratio": "1.96%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/kiev-kiev4-service-russian.jpg"
+    },
+    {
+      "slug": "mamiya-mamiya-7-lens-65mm-parts",
+      "title": "MAMIYA - Mamiya 7 Lens 65mm Parts",
+      "content_ratio": "1.96%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/mamiya-mamiya-7-lens-65mm-parts.jpg"
+    },
+    {
+      "slug": "bolex-bolex-projector-sm8",
+      "title": "BOLEX - Bolex projector SM8",
+      "content_ratio": "1.97%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/bolex-bolex-projector-sm8.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-magic-light-jq5xxx-c430-instruction-manual",
+      "title": "Citizen Quartz Magic Light JQ5XXX - Instruction Manual",
+      "content_ratio": "1.97%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-magic-light-jq5xxx-c430-instruction-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikon-photomictn-finder-service",
+      "title": "NIKON - Nikon PhotomicTn Finder Service",
+      "content_ratio": "1.97%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-photomictn-finder-service.jpg"
+    },
+    {
+      "slug": "camera-repairs-yakovlev-english",
+      "title": "Camera Repairs — English Edition",
+      "content_ratio": "1.98%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/camera-repairs-yakovlev-english.jpg"
+    },
+    {
+      "slug": "nikon-nikon-f-501-repair-manual",
+      "title": "Nikon F-501 Repair Manual - Specifications and Mechanism",
+      "content_ratio": "1.98%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-f-501-repair-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikon-mb20-service-manual",
+      "title": "NIKON - Nikon MB20 service manual",
+      "content_ratio": "1.98%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-mb20-service-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikon-mb23-service-manual",
+      "title": "NIKON - Nikon MB23 service manual",
+      "content_ratio": "1.98%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-mb23-service-manual.jpg"
+    },
+    {
+      "slug": "citizen-citizen-quartz-racing-combo-c401-instruction-manual",
+      "title": "Citizen Quartz Racing Combo C401 Instruction Manual",
+      "content_ratio": "1.99%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/citizen-citizen-quartz-racing-combo-c401-instruction-manual.jpg"
+    },
+    {
+      "slug": "nikon-nikon-camera-f501",
+      "title": "NIKON - nikon camera f501",
+      "content_ratio": "1.99%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-camera-f501.jpg"
+    },
+    {
+      "slug": "nikon-nikon-finder-dp12",
+      "title": "NIKON - nikon finder dp12",
+      "content_ratio": "1.99%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/nikon-nikon-finder-dp12.jpg"
+    },
+    {
+      "slug": "ouvrages-de-reference-maison-rustique-xixe-siecle-horticulture-tome-5",
+      "title": "Rural House of the 19th Century - Horticulture Volume 5",
+      "content_ratio": "1.99%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/ouvrages-de-reference-maison-rustique-xixe-siecle-horticulture-tome-5.jpg"
+    },
+    {
+      "slug": "ouvrages-de-reference-maison-rustique-xixe-siecle-tome-2-cultures-industrielles-animaux-domestiques",
+      "title": "Rural House of the 19th Century - Volume 2: Industrial Crops and Domestic Animals",
+      "content_ratio": "1.99%",
+      "url": "https://ylsbqehotapcprfinsnu.supabase.co/storage/v1/object/public/logos/previews/ouvrages-de-reference-maison-rustique-xixe-siecle-tome-2-cultures-industrielles-animaux-domestiques.jpg"
+    }
+  ],
+  "errors": [
+    {
+      "slug": "a-schild-schild-a-s-grenchen-1906-1916-technical-specifications",
+      "title": "Schild A.S. Grenchen Movement Cal. 1906 and 1916 Technical Data",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "slug": "citizen-citizen-e760-eco-drive-recharge-guide",
+      "title": "Eco Drive Recharge Guide - Movement Caliber E760",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "slug": "delonghi-delonghi-bco-261-b-combined-espresso-coffee-maker-user-manual",
+      "title": "BCO 261.B Combined Espresso & Filter Coffee Maker Manual",
+      "error": "Unsupported image type"
+    },
+    {
+      "slug": "seiko-seiko-quartz-cal-h249a-h259a-technical-guide",
+      "title": "Seiko Quartz H249A H259A Technical Service Guide",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+Fetching all LUREM documents from database...
+
+Found 61 LUREM documents
+
+========================================================================================================================
+
+[1] LUREM C20 Combination Woodworking Machine Manual
+    Slug: lurem-c20-manual
+    Language: fr
+    Description: Complete instruction manual for the LUREM C20 combination woodworking machine. T...
+
+[2] LUREM C20 Technical Manual
+    Slug: menuiserie-lurem-c20
+    Language: en
+    Description: <p>User manual for the LUREM C20.</p><p>42-page user manual.</p><p>Essential doc...
+
+[3] LUREM C200 / C210 / C260 Combination Machine Manual
+    Slug: lurem-c200-c210-c260-manual
+    Language: fr
+    Description: Instruction manual covering the LUREM C200, C210, and C260 combination woodworki...
+
+[4] LUREM C2000 User & Maintenance Manual
+    Slug: menuiserie-lurem-c2000
+    Language: en
+    Description: <p>Documentation for the LUREM C2000.</p><p>Essential documentation for anyone w...
+
+[5] LUREM C2100 User & Maintenance Manual
+    Slug: menuiserie-lurem-c2100-eclate
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM C2100.</p><p>13-page exploded v...
+
+[6] LUREM C210B Technical Manual
+    Slug: menuiserie-lurem-c210b-notice
+    Language: en
+    Description: <p>Complete workshop manual for the LUREM C210B.</p><p>59-page complete workshop...
+
+[7] LUREM C210B Universal Woodworker - Operating Instructions & Spare Parts
+    Slug: lurem-c210b-operating-instructions
+    Language: en
+    Description: Complete operating instructions and spare parts list for the LUREM C210B 8-inch ...
+
+[8] LUREM C2600 Technical Manual
+    Slug: menuiserie-lurem-c2600-notice
+    Language: en
+    Description: <p>User manual for the LUREM C2600.</p><p>56-page user manual.</p><p>Essential d...
+
+[9] LUREM C260E C310E Exploded Views with Parts Lists
+    Slug: menuiserie-notice-lurem-c310e-c260e
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C310e et C260e.</p><p>Essential documenta...
+
+[10] LUREM C260E Technical Manual
+    Slug: menuiserie-lurem-c200-210-260-notice
+    Language: en
+    Description: <p>User manual for the s bois LUREM C200 210 260.</p><p>23-page user manual.</p>...
+
+[11] LUREM C260J User & Maintenance Manual
+    Slug: lurem-c260j-user-maintenance-manual
+    Language: fr
+    Description: User and maintenance manual for the LUREM C260J jointer-planer combination machi...
+
+[12] LUREM C260N Electrical Wiring Diagrams
+    Slug: lurem-c260n-electrical-wiring-diagrams
+    Language: fr
+    Description: Complete electrical wiring diagrams for the LUREM C260N combination woodworking ...
+
+[13] LUREM C260N User & Maintenance Manual (French)
+    Slug: lurem-c260n-user-maintenance-manual-french
+    Language: fr
+    Description: User and maintenance manual in French for the LUREM C260N combination woodworkin...
+
+[14] LUREM C260S2 User & Maintenance Manual
+    Slug: lurem-c260s2-user-maintenance-manual
+    Language: fr
+    Description: User and maintenance manual for the LUREM C260S2 combination woodworking machine...
+
+[15] LUREM C263 Electrical Wiring Diagrams
+    Slug: menuiserie-schemas-c263-france
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C263.</p><p>Essential documentation for a...
+
+[16] LUREM C265 - Electrical Schematics
+    Slug: menuiserie-schemas-c265-france
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C265.</p><p>Essential documentation for a...
+
+[17] LUREM C266 Electrical Wiring Diagrams
+    Slug: lurem-c266-electrical-wiring-diagrams
+    Language: fr
+    Description: Complete electrical wiring diagrams for the LUREM C266 combination woodworking m...
+
+[18] LUREM C266 User & Maintenance Manual
+    Slug: menuiserie-lurem-c266-manuel
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C266.</p><p>Essential documentation for a...
+
+[19] LUREM C310 STI Technical Documentation
+    Slug: menuiserie-documentation-lurem-former-310-sti
+    Language: en
+    Description: <p>Parts catalog for the LUREM C310 STI.</p><p>Essential documentation for anyon...
+
+[20] LUREM C310i - Electrical Schematics
+    Slug: menuiserie-schemas-c310i-france
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C310i.</p><p>Essential documentation for ...
+
+[21] LUREM C310si - Electrical Schematics
+    Slug: menuiserie-lurem-c310si-user-manual
+    Language: en
+    Description: <p>Documentation for the LUREM C310SI.</p><p>80-page documentation.</p><p>Essent...
+
+[22] LUREM C310sti - Electrical Schematics
+    Slug: menuiserie-schemas-c310sti-france
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C310sti.</p><p>Essential documentation fo...
+
+[23] LUREM C310SX - Electrical Schematics
+    Slug: menuiserie-schemas-c310sx-france
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C310SX.</p><p>Essential documentation for...
+
+[24] LUREM C311 - Electrical Schematics
+    Slug: menuiserie-schemas-c311-france
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C311.</p><p>Essential documentation for a...
+
+[25] LUREM C315 - Electrical Schematics
+    Slug: menuiserie-schemas-lurem-c315
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C315.</p><p>Essential documentation for a...
+
+[26] LUREM C317 - Electrical Schematics
+    Slug: menuiserie-schemas-lurem-c317
+    Language: en
+    Description: <p>Electrical schematics for the LUREM C317.</p><p>Essential documentation for a...
+
+[27] LUREM C36 User & Maintenance Manual
+    Slug: menuiserie-lurem-c36
+    Language: en
+    Description: <p>Documentation for the LUREM C36.</p><p>Essential documentation for anyone wis...
+
+[28] LUREM C360 Technical Manual
+    Slug: menuiserie-lurem-c360-c410
+    Language: en
+    Description: <p>User manual for the LUREM C360.</p><p>29-page user manual.</p><p>Essential do...
+
+[29] LUREM C410N User & Maintenance Manual
+    Slug: lurem-c410n-user-maintenance-manual
+    Language: fr
+    Description: User and maintenance manual for the LUREM C410N combination woodworking machine....
+
+[30] LUREM C7 Compact 7 User & Maintenance Manual
+    Slug: menuiserie-lurem-c7-compact-7
+    Language: en
+    Description: <p>Documentation for the LUREM C260N.</p><p>41-page documentation.</p><p>Essenti...
+
+[31] LUREM CB 310 RL RLX - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-cb310rlrlx-eclate
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM CB 310 RL RLX.</p><p>62-page ex...
+
+[32] LUREM CB 310 SL - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-cb310sl-eclates
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM CB 310 SL.</p><p>28-page explod...
+
+[33] LUREM CB310HZ User & Maintenance Manual
+    Slug: menuiserie-lurem-cb310hz-v2
+    Language: en
+    Description: <p>Documentation for the LUREM C260N.</p><p>41-page documentation.</p><p>Essenti...
+
+[34] LUREM CB310SL User & Maintenance Manual
+    Slug: menuiserie-lurem-cb310sl
+    Language: en
+    Description: <p>Documentation for the LUREM C260N.</p><p>41-page documentation.</p><p>Essenti...
+
+[35] LUREM CB410RLX - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-cb410-rlx-eclates
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM CB410RLX.</p><p>Essential docum...
+
+[36] LUREM Dahlander Motor Switch Replacement Guide
+    Slug: lurem-dahlander-motor-switch-replacement
+    Language: en
+    Description: Technical guide for replacing the Dahlander motor switch on LUREM woodworking ma...
+
+[37] LUREM FORMER 260 si - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-former-310-si-eclates
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM FORMER 260 si.</p><p>33-page ex...
+
+[38] LUREM FORMER 260 STI - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-former-260s-eclate
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM FORMER 260 STI.</p><p>32-page e...
+
+[39] LUREM Former 260S - Exploded Views with Parts Lists
+    Slug: lurem-former-260s-exploded-views-parts-lists
+    Language: fr
+    Description: Exploded views with complete parts lists for the LUREM Former 260S woodworking m...
+
+[40] LUREM Former 310S - Exploded Views with Parts Lists
+    Slug: lurem-former-310s-exploded-views-parts-lists
+    Language: fr
+    Description: Exploded views with complete parts lists for the LUREM Former 310S woodworking m...
+
+[41] LUREM Former 310SI - Exploded Views with Parts Lists
+    Slug: lurem-former-310si-exploded-views-parts-lists
+    Language: fr
+    Description: Exploded views with complete parts lists for the LUREM Former 310SI woodworking ...
+
+[42] LUREM Former 310ST - Exploded Views with Parts Lists
+    Slug: lurem-former-310st-exploded-views-parts-lists
+    Language: fr
+    Description: Exploded views with complete parts lists for the LUREM Former 310ST woodworking ...
+
+[43] LUREM Former 310STI - Exploded Views with Parts Lists
+    Slug: lurem-former-310sti-exploded-views
+    Language: fr
+    Description: Exploded views with detailed parts lists for the LUREM Former 310STI combination...
+
+[44] LUREM Former RD30 / RD26 User Manual
+    Slug: lurem-former-rd30-rd26-manual
+    Language: fr
+    Description: User manual for the LUREM Former RD30 and RD26 thicknessing machines. This 38-pa...
+
+[45] LUREM Maxi 26 Plus - Exploded Views with Parts Lists
+    Slug: lurem-maxi-26-plus-exploded-views
+    Language: fr
+    Description: Exploded views with detailed parts lists for the LUREM Maxi 26 Plus combination ...
+
+[46] LUREM Maxi 26 Plus Technical Manual
+    Slug: lurem-maxi-26-plus-technical-manual
+    Language: fr
+    Description: Complete technical manual for the LUREM Maxi 26 Plus combination woodworking mac...
+
+[47] LUREM MF260L CB260TL User & Maintenance Manual
+    Slug: menuiserie-lurem-mf260l-cb260tl-manuel
+    Language: en
+    Description: <p>Documentation for the s bois LUREM MF260L CB260TL.</p><p>Essential documentat...
+
+[48] LUREM OPTAL 26 - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-optal-26-pieces
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM OPTAL 26.</p><p>Essential docum...
+
+[49] LUREM Optal 26 Technical Manual
+    Slug: lurem-optal-26-technical-manual
+    Language: fr
+    Description: Complete technical manual for the LUREM Optal 26 combination woodworking machine...
+
+[50] LUREM Optimake Router Table Manual
+    Slug: lurem-optimake-router-table-manual
+    Language: fr
+    Description: Complete user manual for the LUREM Optimake router table (defonceuse). This 38-p...
+
+[51] LUREM RD26F User & Maintenance Manual
+    Slug: menuiserie-lurem-maxi26-plus
+    Language: en
+    Description: <p>Documentation for the LUREM RD26F.</p><p>Essential documentation for anyone w...
+
+[52] LUREM RD41e - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-rd41e-eclates
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM RD41e.</p><p>Essential document...
+
+[53] LUREM Router 7 User & Maintenance Manual
+    Slug: menuiserie-lurem-router-7-manuel-utilisation
+    Language: en
+    Description: <p>Documentation for the LUREM Router 7.</p><p>Essential documentation for anyon...
+
+[54] LUREM SAR 400 User & Maintenance Manual
+    Slug: menuiserie-lurem-sar-400
+    Language: en
+    Description: <p>Documentation for the LUREM SAR 400.</p><p>Essential documentation for anyone...
+
+[55] LUREM SC25 User & Maintenance Manual
+    Slug: menuiserie-lurem-sc25
+    Language: en
+    Description: <p>Documentation for the LUREM SC25.</p><p>Essential documentation for anyone wi...
+
+[56] LUREM Solo 4 User & Maintenance Manual
+    Slug: lurem-solo-4-manual
+    Language: fr
+    Description: User and maintenance manual for the LUREM Solo 4 woodworking machine. This 27-pa...
+
+[57] LUREM T180 - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-t180-eclates
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM T180.</p><p>Essential documenta...
+
+[58] LUREM T30N User & Maintenance Manual
+    Slug: menuiserie-lurem-t30n
+    Language: en
+    Description: <p>Documentation for the LUREM T30N.</p><p>Essential documentation for anyone wi...
+
+[59] LUREM TB1250 - Exploded Views with Parts Lists
+    Slug: menuiserie-lurem-tb1250-eclates
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM TB1250.</p><p>Essential documen...
+
+[60] s LUREM C360N C410N C510N - Electrical Schematics
+    Slug: menuiserie-schemas-lurem-c360n-c410n-c510n
+    Language: en
+    Description: <p>User manual for the LUREM C410N.</p><p>21-page user manual.</p><p>Essential d...
+
+[61] Woodworker LUREM C260N - Owner and Service Manual
+    Slug: menuiserie-lurem-c260n-manual-gb-hd
+    Language: en
+    Description: <p>Exploded views with parts lists for the LUREM C260N.</p><p>17-page exploded v...
+
+========================================================================================================================
+
+Total LUREM documents: 61
+
+Note: Match these with the 28 LUREM PDFs from the analysis

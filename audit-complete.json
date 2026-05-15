@@ -1,0 +1,1539 @@
+{
+  "totalProblems": 373,
+  "noTitleFr": [],
+  "badTitleFr": [
+    {
+      "slug": "leica-leica-r4s-et-r5-qui-ne-declenche-plus",
+      "value": "resize"
+    },
+    {
+      "slug": "flash-photo-repa-maintenance-flashs-electroniques",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260n-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-ts41sti-ts4ti-ts4i-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "sony-kdl-55x4500-kdl-55x4500-manuel",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c263-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-paysage-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-sc25-technical-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-sport-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "pentax-p30t-infinite-winding-fix-en",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c266-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-tele-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "holtzling-holtzling-ot5260-combine-7-fonctions-250-mm",
+      "value": "resize"
+    },
+    {
+      "slug": "hubsan-hubsan-h501s-pro-manual-manuel-fr",
+      "value": "resize"
+    },
+    {
+      "slug": "holtzling-holtzling-ot8350-scie-sur-table",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-hasselblad-500-c-et-cm-manuel-de-service",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-vision-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "vestel-manuel-vestel",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-animaux-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "hammer-hammer-rabot-degau-a3-26-a3-31-a3-41-degau-a3-41-a",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-archi-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c410e-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-scie-circulaire-master-341-037",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c310si-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-scie-circulaire-major-341-018",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-scie-a-ruban-expert-500-342-025",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c360n-c410n-c510n-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-degauchisseuse-raboteuse",
+      "value": "resize"
+    },
+    {
+      "slug": "scm-scm-s520-e-raboteuse-fonctionnement-entretien",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c315-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "alligator-nm3-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "machining-cours-complet-usinage",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb310rlx-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "alligator-sm80-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "akai-akai-gx646-manuel",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb410rlx-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "alligator-sm1000-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "minimax-minimax-c26-30-genius-manuel",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-hz-concept-cb310-ts",
+      "value": "resize"
+    },
+    {
+      "slug": "vollmer-map-200-400-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-former-310si-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-rd41e-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-former-260s-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-manuel-nikon-fe-fr",
+      "value": "resize"
+    },
+    {
+      "slug": "axminster-awbl1200-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb410-rlx-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260j-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-maxi26plus-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "canon-objectif-canon-ef-17-85-is",
+      "value": "resize"
+    },
+    {
+      "slug": "bernardo-pt260-user-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c360-c410-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "vollmer-t-330-420-cas-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "axminster-aptc-m-900-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c210b-operators-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "baby-1130-assembly-user-guide",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb310sl-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-former-310sti-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "bronica-zenza-ec-complete-documentation",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260-s2-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260e-c310e-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260n-parts-overview",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-r3-electronic-complete-documentation",
+      "value": "resize"
+    },
+    {
+      "slug": "aaton-35-iii-users-guide",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260n-operators-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-r4-stuck-shutter-not-triggering-fix",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-r4s-stuck-shutter-not-triggering-fix",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c2100-parts-overview",
+      "value": "resize"
+    },
+    {
+      "slug": "camera-repair-vishnevsky-russian",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c210b-instructions",
+      "value": "resize"
+    },
+    {
+      "slug": "camera-repairs-yakovlev-english",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-m4p-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-leica-m6-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselblad-500-c-cm-troubleshooting-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-leica-m5-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c210b-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "bridgeport-milling-machine-instruction-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c36-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-compact7-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-d2x-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bell-howell-eyemo-35mm-military-service",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb310sl-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-d70s-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-rd26f-technical-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bellhowell-filmosoundprojectors-service",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-maxi26plus-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "renault-scenic-2-air-conditioning-service-manual-vol-1",
+      "value": "resize"
+    },
+    {
+      "slug": "renault-scenic-2-chassis-transmission-service-manual-vol-1",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-optal26-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-sar500-600-700-parts",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-camera-design-70",
+      "value": "resize"
+    },
+    {
+      "slug": "elektra-beckum-bas-315-band-saw-instruction-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bronica-zenza-s2c-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "elektra-beckum-hc-260-m-betriebsanleitung",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-leica-m3-notice-bd",
+      "value": "resize"
+    },
+    {
+      "slug": "gossen-lunasix-3-calibration-guide",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-256",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-db900",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-db450",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c266-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-10-0638-05-10-0639-05-rabo-degau",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-439",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-lumina2",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-618-eclates",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-627-toupie-eclates",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-636-degau-rabo-eclates",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-637-degau-raboteuse",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-junior-6",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-k5-bis",
+      "value": "resize"
+    },
+    {
+      "slug": "leman-leman-tou-030-tou-030t-toupie",
+      "value": "resize"
+    },
+    {
+      "slug": "stihl-tronconneuse-stihl-017-018",
+      "value": "resize"
+    },
+    {
+      "slug": "samco-samco-catalogue-pieces",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-613",
+      "value": "resize"
+    }
+  ],
+  "identicalTitleFr": [
+    "pentax-pentax-lx-bloque",
+    "nikon-repair-nikkor-24mm-f2-ais",
+    "akai-akai-x201d-notice",
+    "lurem-c2000-technical-manual",
+    "nikon-demontage-nikonos-iii",
+    "fox-f46-255-variable-speed-wood-lathe-assembly-operating-instructions",
+    "phot-argus-leica-r6-hd",
+    "grundig-grundig-satellit-1400-sl-pro-notice-fr-hd",
+    "felder-s308-f38-f48-v3-v4-user-manual",
+    "bell-howell-bh-projector-1575-1580-1680",
+    "bell-howell-bh-projector-1580",
+    "nikon-nikon-f5-notice",
+    "bell-howell-bh-projector-1585a-1590a-92a",
+    "bell-howell-bh-projector-1620-23",
+    "bell-howell-bh-projector-266a",
+    "bell-howell-bh-projector-2580-82",
+    "fox-f60-001-combined-circular-saw-spindle-shaper-assembly-operating-instructions",
+    "hasselbald-industrie1-hd",
+    "bell-howell-bh-projector-202",
+    "emco-star-3000-junior-combination-woodworking-machine-user-manual",
+    "bell-howell-bh-projector-567",
+    "emco-woodworker-tf-10-tischfrase-betriebsanleitung",
+    "bell-howell-bh-projector-245bay-baj",
+    "bell-howell-bh-projector-356-357",
+    "emco-db-6-wood-lathe-betriebsanleitung-serviceteile",
+    "emco-db-7-drechselbank-betriebsanleitung",
+    "bell-howell-bh-projector-253",
+    "kity-kity-feuille-technique-60-82-montage-reglage-dispositif-a-tenonner-2013",
+    "guilliet-guilliet-combine-zfa-zfp-zga-zgp",
+    "holzmann-hofmann-ad-515-635-de-fr",
+    "bell-howell-bh-projector-456",
+    "kamro-kamro-fk-et-fks-scie-a-format-1976",
+    "bell-howell-bh-projector-346a",
+    "holzstar-holzkraft-holzstar-db1000-1100-vario",
+    "renault-scenic-2-garnissage-et-sellerie",
+    "holzstar-holzkraft-holzstar-ah150-degauchisseuse",
+    "holzstar-holzkraft-holzstar-bts150-250-ponceuse-a-bande",
+    "holzstar-holzkraft-holzstar-dh250-raboteuse-degauchisseuse",
+    "holzprofi-holzprofi-sflna-1000",
+    "holzstar-holzkraft-holzstar-hbs-251-312-351-scie",
+    "holzstar-holzkraft-holzstar-hs5-520-fendeuse",
+    "inca-inca-scie-circulaire-compact-341-017-24-25",
+    "holzstar-holzkraft-holzstar-hs9-fendeuse",
+    "inca-inca-scie-a-ruban-342-186",
+    "holzstar-holzkraft-holzstar-hbs-431-433-533",
+    "jet-jet-jwl-1640evs-manual-en-de-fr-2016",
+    "inca-inca-scie-circulaire-professional-341-033",
+    "bell-howell-bh-projector-467",
+    "lurem-mf260l-cb260tl-manual",
+    "joubert-joubert-tiersot-machines-combinees",
+    "hasselbald-aerienne-hd",
+    "kity-kity-608-609",
+    "kity-kity-429",
+    "bell-howell-bh-projector-filmosound540-542",
+    "kity-kity-415-scie",
+    "hasselbald-industrie2-hd",
+    "kity-kity-612",
+    "kity-kity-609",
+    "bell-howell-bh-projector-566",
+    "bell-howell-bh-projector-filmosound545-552",
+    "bell-howell-bh-projector-monitor-950-960-1",
+    "kity-kity-612-scie-a-ruban-eclates",
+    "bell-howell-bh-projector-ringmaster2",
+    "bell-howell-bh-projector-cube-854a-862a",
+    "bell-howell-bh-projector-filmosound522",
+    "kity-kity-613-scie-a-ruban",
+    "kity-kity-617",
+    "kity-kity-617-bis",
+    "kity-kity-617-scie-circulaire-eclates",
+    "kity-kity-629-toupie",
+    "nikon-nikon-sb-24-repair-manual",
+    "kity-kity-626",
+    "kity-kity-633-635-636-642",
+    "kity-kity-623-toupie",
+    "kity-kity-619-1619-scie-circulaire",
+    "kity-kity-619",
+    "kity-kity-635-636",
+    "kity-kity-652",
+    "kity-kity-692-696-897-aspirateurs",
+    "machines-outil-manuel-d-utilisation-version-tour-opti-d180-x-300-vario-manuel-a-conserver-aupres-de-la-machine",
+    "kity-kity-bestcombi-2000",
+    "kity-kity-661-de",
+    "kity-kity-661-gb",
+    "kity-kity-bestcombi2000-bis-part1",
+    "robland-robland-k260-combinee",
+    "myford-myford-ml8-plaquette-bis",
+    "robland-robland-x310",
+    "kity-kity-branchement-moteur-380-220-volts",
+    "kity-kity-bestcombi2000-bis-part2",
+    "kity-kity-mb25-mortaiseuse",
+    "hasselbald-monochrome-hd",
+    "studer-revox-revox-b710-mkii-notice",
+    "kity-kity-montage-sur-table",
+    "kity-kity-k5",
+    "rikon-rikon-rabo-degau-10",
+    "kity-kity-reglage-des-fers-de-degau",
+    "robland-robland-nx-brochure",
+    "multico-multico-pm20-mortaiseuse",
+    "myford-myford-ml8-plaquette",
+    "hasselbald-reportage-hd",
+    "robland-robland-x310-x260-xtz30-xsd310-manual-parts-hd",
+    "samco-samco-manuel-utilisation",
+    "scheppach-scheppach-hms1070",
+    "pentax-pentax-p3-p30-ne-declenche-plus",
+    "robland-robland-x310-x260-xtz30-xsd310-manual-parts",
+    "scheppach-scheppach-hs250l",
+    "scm-scm-f520-e-degauchisseuse",
+    "scm-scm-record-130-tv",
+    "scm-scm-s-50n",
+    "sifmo-sifmo-sr35",
+    "sicm-s-i-c-m-chambon-sf284-scie-circulaire-1983",
+    "sicar-sicar-h210-h300-h350-ts250",
+    "teppaz-transit-electronic-schematic",
+    "nikon-nikon-fe-miroir-bloque-en-haut",
+    "holtzling-holtzling-otpt260-rabo-degau-notice",
+    "view-master-view-master-stereo-cam-repair",
+    "cinema-products-cp16r-cp16r-a-sound-camera-repair-service",
+    "repair-troubleshooting-bellows-replacement-dan-mitchell",
+    "repair-troubleshooting-benson-selenium-cells",
+    "repair-troubleshooting-how-to-test-lenses",
+    "repair-troubleshooting-gluing-leather-in-a-reversible-way-5"
+  ],
+  "noDescFr": [],
+  "badDescFr": [
+    {
+      "slug": "olympus-olympus-35dc-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-om-1-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "canon-objectif-canon-ef-24-70-l-usm",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-leica-r4s-et-r5-qui-ne-declenche-plus",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-35ec2-parts",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-sb-800-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-om2-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "topcon-topcon-camera-ic1",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-35ed-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "omega-omega-lamphouse-d5500-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "fujica-fujica-super-6",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-styluszoom115-parts",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260e-c310e-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c310i-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c2600-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-sport-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c310sx-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c2600-electrical-parts-reference",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-vision-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-animaux-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-tw-zoom-85-repair",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-archi-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-scie-circulaire-master-341-037",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-vr-micro-105mm-repair",
+      "value": "resize"
+    },
+    {
+      "slug": "scm-scm-s520-e-raboteuse-fonctionnement-entretien",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikonos-ii-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb310rl-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikonos-iii-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c360n-c410n-c510n-export-wiring-diagrams",
+      "value": "resize"
+    },
+    {
+      "slug": "machining-cours-complet-usinage",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-hz-concept-cb310-ts",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-autowinder-aw1",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikonos-iva-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikonos-v-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "canon-canon-dial35-service",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-former-310st-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-camara-f3",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb410-rlx-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "canon-canon-ef-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "topcon-topcon-camera-super-dm",
+      "value": "resize"
+    },
+    {
+      "slug": "agfa-agfa-colorflex-ambiflex-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bernardo-pt260-user-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-former310sti-parts-schemas",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c360-c410-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c210b-operators-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-camera-f501",
+      "value": "resize"
+    },
+    {
+      "slug": "ampro-ampro-projector-premier",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb310sl-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-former-310sti-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-repair-nikkor-24mm-f2-ais",
+      "value": "resize"
+    },
+    {
+      "slug": "argus-argus-c3-1947-cla",
+      "value": "resize"
+    },
+    {
+      "slug": "bronica-zenza-ec-complete-documentation",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260-s2-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "akai-akai-x201d-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "argus-argus-c3-service",
+      "value": "resize"
+    },
+    {
+      "slug": "argus-argus-c33-parts",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260e-c310e-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "arriflex-arriflex-16st-service-tutorial",
+      "value": "resize"
+    },
+    {
+      "slug": "argus-argus-c4-service",
+      "value": "resize"
+    },
+    {
+      "slug": "arriflex-arriflex-2-service",
+      "value": "resize"
+    },
+    {
+      "slug": "arriflex-arriflex-35-iic-service-tutorial",
+      "value": "resize"
+    },
+    {
+      "slug": "beaulieu-beaulieu-1008xl-service",
+      "value": "resize"
+    },
+    {
+      "slug": "audiscan-audiscan-1-projector-service",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260n-parts-overview",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-r3-electronic-complete-documentation",
+      "value": "resize"
+    },
+    {
+      "slug": "aaton-35-iii-users-guide",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-camera-fe2",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c260n-operators-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-r4-stuck-shutter-not-triggering-fix",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-r4s-stuck-shutter-not-triggering-fix",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c2100-parts-overview",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c210b-instructions",
+      "value": "resize"
+    },
+    {
+      "slug": "beaulieu-beaulieu-4008-service",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-m4p-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-leica-m6-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselblad-500-c-cm-troubleshooting-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "beaulieu-beaulieu-5008s-service",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-leica-m5-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c210b-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "bridgeport-milling-machine-instruction-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c36-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-compact7-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-camera-fm2",
+      "value": "resize"
+    },
+    {
+      "slug": "beaulieu-beaulieu-r16-service",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-d2x-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-camera-nikkorex35",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-solo4-installation-schemas",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-cb310sl-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-d70s-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-rd26f-technical-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bellhowell-filmosoundprojectors-service",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-maxi26plus-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-former-rd30-rd26-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "renault-scenic-2-air-conditioning-service-manual-vol-1",
+      "value": "resize"
+    },
+    {
+      "slug": "renault-scenic-2-chassis-transmission-service-manual-vol-1",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-optal26-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-solo8plus-parts-list",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-sar500-600-700-parts",
+      "value": "resize"
+    },
+    {
+      "slug": "elektra-beckum-bas-315-band-saw-instruction-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bronica-zenza-s2c-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "elektra-beckum-hc-260-m-betriebsanleitung",
+      "value": "resize"
+    },
+    {
+      "slug": "leica-leica-m3-notice-bd",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c2000-technical-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-demontage-nikonos-iii",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-camera-r10",
+      "value": "resize"
+    },
+    {
+      "slug": "fox-f46-255-variable-speed-wood-lathe-assembly-operating-instructions",
+      "value": "resize"
+    },
+    {
+      "slug": "phot-argus-leica-r6-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "gossen-lunasix-3-calibration-guide",
+      "value": "resize"
+    },
+    {
+      "slug": "grundig-grundig-satellit-1400-sl-pro-notice-fr-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "felder-s308-f38-f48-v3-v4-user-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-1575-1580-1680",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-1580",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-f5-notice",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-camera-r8-10",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-1585a-1590a-92a",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-1620-23",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-266a",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-2580-82",
+      "value": "resize"
+    },
+    {
+      "slug": "akai-akai-gx635d-manuel",
+      "value": "resize"
+    },
+    {
+      "slug": "fox-f60-001-combined-circular-saw-spindle-shaper-assembly-operating-instructions",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-industrie1-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-d200-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-202",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-d2xs",
+      "value": "resize"
+    },
+    {
+      "slug": "emco-star-3000-junior-combination-woodworking-machine-user-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-567",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-245bay-baj",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-356-357",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-finder-dp12",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-finder-dp3",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-finder-photomic-t",
+      "value": "resize"
+    },
+    {
+      "slug": "emco-db-6-wood-lathe-betriebsanleitung-serviceteile",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-256",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-finder-dp2",
+      "value": "resize"
+    },
+    {
+      "slug": "emco-db-7-drechselbank-betriebsanleitung",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-253",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-feuille-technique-60-82-montage-reglage-dispositif-a-tenonner-2013",
+      "value": "resize"
+    },
+    {
+      "slug": "guilliet-guilliet-combine-zfa-zfp-zga-zgp",
+      "value": "resize"
+    },
+    {
+      "slug": "holzmann-hofmann-ad-515-635-de-fr",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-456",
+      "value": "resize"
+    },
+    {
+      "slug": "kamro-kamro-fk-et-fks-scie-a-format-1976",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-346a",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-db1000-1100-vario",
+      "value": "resize"
+    },
+    {
+      "slug": "renault-scenic-2-garnissage-et-sellerie",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-ah150-degauchisseuse",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-db900",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-bts150-250-ponceuse-a-bande",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-dh250-raboteuse-degauchisseuse",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-db450",
+      "value": "resize"
+    },
+    {
+      "slug": "holzprofi-holzprofi-sflna-1000",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-hbs-251-312-351-scie",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-hs5-520-fendeuse",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-scie-circulaire-compact-341-017-24-25",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-hs9-fendeuse",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-scie-a-ruban-342-186",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-c266-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "holzstar-holzkraft-holzstar-hbs-431-433-533",
+      "value": "resize"
+    },
+    {
+      "slug": "jet-jet-jwl-1640evs-manual-en-de-fr-2016",
+      "value": "resize"
+    },
+    {
+      "slug": "inca-inca-scie-circulaire-professional-341-033",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-467",
+      "value": "resize"
+    },
+    {
+      "slug": "lurem-mf260l-cb260tl-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "joubert-joubert-tiersot-machines-combinees",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-aerienne-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "canon-canon-50l-85l-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "canon-canon-f1-120711",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-10-0638-05-10-0639-05-rabo-degau",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-608-609",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-429",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-439",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-finder-ftn",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-415-scie",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-lumina2",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-finder-photomic-tn",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-566",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-612-scie-a-ruban-eclates",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-ringmaster2",
+      "value": "resize"
+    },
+    {
+      "slug": "bell-howell-bh-projector-cube-854a-862a",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-617-scie-circulaire-eclates",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-626",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-633-635-636-642",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-619",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-627-toupie-eclates",
+      "value": "resize"
+    },
+    {
+      "slug": "bolex-bolex-d8l-service-tutorial",
+      "value": "resize"
+    },
+    {
+      "slug": "minolta-demontage-et-reparation-minolta-miniflex",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-661-de",
+      "value": "resize"
+    },
+    {
+      "slug": "robland-robland-k260-combinee",
+      "value": "resize"
+    },
+    {
+      "slug": "myford-myford-ml8-plaquette-bis",
+      "value": "resize"
+    },
+    {
+      "slug": "robland-robland-x310",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-guide-assemblage",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-bestcombi2000-bis-part2",
+      "value": "resize"
+    },
+    {
+      "slug": "kity-kity-k5-bis",
+      "value": "resize"
+    },
+    {
+      "slug": "hasselbald-monochrome-hd",
+      "value": "resize"
+    },
+    {
+      "slug": "rikon-rikon-rabo-degau-10",
+      "value": "resize"
+    },
+    {
+      "slug": "bowens-bowens-monolite-400bcx-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "robland-robland-nx-brochure",
+      "value": "resize"
+    },
+    {
+      "slug": "multico-multico-pm20-mortaiseuse",
+      "value": "resize"
+    },
+    {
+      "slug": "canon-canon-camera-f1",
+      "value": "resize"
+    },
+    {
+      "slug": "braun-braun-flash-460vcs",
+      "value": "resize"
+    },
+    {
+      "slug": "bronica-bronica-150ps",
+      "value": "resize"
+    },
+    {
+      "slug": "samco-samco-manuel-utilisation",
+      "value": "resize"
+    },
+    {
+      "slug": "robland-robland-x310-x260-xtz30-xsd310-manual-parts",
+      "value": "resize"
+    },
+    {
+      "slug": "scm-scm-record-130-tv",
+      "value": "resize"
+    },
+    {
+      "slug": "sicm-s-i-c-m-chambon-sf284-scie-circulaire-1983",
+      "value": "resize"
+    },
+    {
+      "slug": "sicar-sicar-h210-h300-h350-ts250",
+      "value": "resize"
+    },
+    {
+      "slug": "nikon-nikon-fe-miroir-bloque-en-haut",
+      "value": "resize"
+    },
+    {
+      "slug": "phot-argus-pentax-6x7-bd",
+      "value": "resize"
+    },
+    {
+      "slug": "bronica-bronica-etrsi-film-back-repair-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "topcon-topcon-camera-superd",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-om-2n-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-om-4-service-manual",
+      "value": "resize"
+    },
+    {
+      "slug": "olympus-olympus-om77af-service-manual",
+      "value": "resize"
+    }
+  ],
+  "identicalDescFr": [
+    "sony-kdl-55x4500-kdl-55x4500-manuel",
+    "hasselbald-paysage-hd",
+    "holtzling-holtzling-ot5260-combine-7-fonctions-250-mm",
+    "hasselbald-hasselblad-500-c-et-cm-manuel-de-service",
+    "pentax-pentax-lx-bloque",
+    "bell-howell-bh-projector-filmosound540-542",
+    "hasselbald-industrie2-hd",
+    "kity-kity-612",
+    "kity-kity-609",
+    "bell-howell-bh-projector-filmosound545-552",
+    "bell-howell-bh-projector-monitor-950-960-1",
+    "bell-howell-bh-projector-filmosound522",
+    "nikon-nikon-focusing-au1",
+    "bell-howell-bh-projector-filmosound-wiring-diagram",
+    "kity-kity-613-scie-a-ruban",
+    "kity-kity-617",
+    "bolex-bolex-h8-h16",
+    "canon-canon-7-exploded",
+    "kity-kity-617-bis",
+    "kity-kity-618-eclates",
+    "bolex-bolex-projector-sm8",
+    "kity-kity-629-toupie",
+    "nikon-nikon-sb-24-repair-manual",
+    "nikon-nikon-motordrive-md1",
+    "kity-kity-623-toupie",
+    "kity-kity-619-1619-scie-circulaire",
+    "canon-canon-a1-cla",
+    "kity-kity-635-636",
+    "kity-kity-636-degau-rabo-eclates",
+    "kity-kity-637-degau-raboteuse",
+    "kity-kity-652",
+    "kity-kity-692-696-897-aspirateurs",
+    "machines-outil-manuel-d-utilisation-version-tour-opti-d180-x-300-vario-manuel-a-conserver-aupres-de-la-machine",
+    "kity-kity-bestcombi-2000",
+    "kity-kity-661-gb",
+    "kity-kity-bestcombi2000-bis-part1",
+    "kity-kity-branchement-moteur-380-220-volts",
+    "kity-kity-junior-6",
+    "kity-kity-mb25-mortaiseuse",
+    "studer-revox-revox-b710-mkii-notice",
+    "bolex-bolex-h16-service",
+    "kity-kity-montage-sur-table",
+    "kity-kity-k5",
+    "leman-leman-tou-030-tou-030t-toupie",
+    "kity-kity-reglage-des-fers-de-degau",
+    "stihl-tronconneuse-stihl-017-018",
+    "myford-myford-ml8-plaquette",
+    "bowens-bowens-prolite-service-manual",
+    "hasselbald-reportage-hd",
+    "robland-robland-x310-x260-xtz30-xsd310-manual-parts-hd",
+    "scheppach-scheppach-hms1070",
+    "samco-samco-catalogue-pieces",
+    "pentax-pentax-p3-p30-ne-declenche-plus",
+    "scheppach-scheppach-hs250l",
+    "scm-scm-f520-e-degauchisseuse",
+    "bronica-bronica-150s",
+    "nikon-nikon-motordrive-md12",
+    "bronica-bronica-etr-ae-finder-e-repair-20",
+    "bronica-bronica-etr-motordrive-lenses-repair-25",
+    "scm-scm-s-50n",
+    "bronica-bronica-etr-40mm-50mm-150mm-repair",
+    "canon-canon-al1-service-guide",
+    "nikon-nikon-motordrive-md2",
+    "sifmo-sifmo-sr35",
+    "nikon-nikon-speedlight-sb101",
+    "nikon-nikon-speedlight-sb21",
+    "scm-scm-tf-130-class-toupie-instruction",
+    "nikon-nikon-speedlight-sb2-3",
+    "kity-kity-613",
+    "bronica-bronica-etrsi-repair-manual-25",
+    "bronica-bronica-etr-c-repair-manual-25",
+    "nord-nord-automatic-slr-camera-service-manual-20",
+    "bronica-seiko-zenzanon",
+    "bronica-bronica-s2-notice-10",
+    "calumet-calumet-8x10-parts-drawings-5",
+    "bronica-s2a-manual-notice-10",
+    "bronica-zenzanon-s-to-ps-lenses",
+    "olympus-olympus-35dc-parts",
+    "holtzling-holtzling-otpt260-rabo-degau-notice",
+    "olympus-olympus-c35ad4-parts",
+    "olympus-olympus-35ecr-parts",
+    "olympus-olympus-f280-service-manual",
+    "olympus-olympus-om-10-service-manual",
+    "nikon-nikon-fm-repair",
+    "nikon-nikon-d3-parts",
+    "olympus-olympus-ompc-service-manual",
+    "victor-victor-projector-40-60series-16mm-20",
+    "pentax-pentax-esii-motordrive-data-parts",
+    "canon-canon-ae-finderfn-parts",
+    "pentax-pentax-mx-tutorial",
+    "canon-canon-rangefinder-svc-manual",
+    "canon-canon-rangefinder-lenses-diagrams",
+    "chinon-chinon-camera-cp-7m",
+    "chinon-chinon-camera-132-133",
+    "vivitar-vivitar-slide-printer",
+    "durst-durst-laborator-138s-notice-fr-10",
+    "durst-durst-optoscan-service",
+    "durst-durst-pictochrom-pictograph-service-v2",
+    "eiki-eiki-projector-n",
+    "eiki-eiki-projector-ssl-esl-25",
+    "durst-durst-laborator-1840-repair",
+    "epson-epson-perfection3170photo-diagram",
+    "epson-epson-perfection3200photo-diagram",
+    "epson-epson-perfection4180photo-diagram",
+    "epson-epson-perfection2450photo-diagram",
+    "prontor-moriarty-klio-prontor-ii-tutorial",
+    "epson-epson-v600photo-diagram",
+    "eiki-eiki-projector-ex4000p-20",
+    "epson-epson-v500photo-diagram",
+    "epson-epson-v550photo-diagram",
+    "fed-fed-industar-61-cleaning",
+    "fujica-finepix-s9600-notice-fr-10",
+    "repair-troubleshooting-gluing-leather-in-a-reversible-way-5"
+  ]
+}
