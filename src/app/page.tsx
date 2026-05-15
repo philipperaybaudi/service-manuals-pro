@@ -43,19 +43,11 @@ async function getRecentDocs() {
 }
 
 async function searchDocs(query: string) {
-  // Découpe sur espaces ET toute ponctuation → "Edward-Ed-Romney" → ["Edward","Ed","Romney"]
-  const words = query
-    .trim()
-    .split(/[\s\-–—,;:.!?()[\]{}/"'«»]+/)
-    .map(w => w.replace(/[^a-zA-ZÀ-ÿ0-9]/g, ''))
-    .filter(w => w.length >= 3 || /\d/.test(w));  // ≥3 chars, ou 2 chars si contient un chiffre (ex: F3, R5)
+  const q = query.trim();
+  if (!q) return [];
 
-  if (words.length === 0) return [];
-
-  // Recherche insensible aux accents ET à la casse via RPC PostgreSQL (unaccent)
-  // Cherche dans title (EN) ET title_fr (FR) — couvre les deux sites
   const { data: rows } = await supabase
-    .rpc('search_documents_by_title', { search_words: words });
+    .rpc('search_documents_by_title', { query_text: q });
 
   if (!rows || rows.length === 0) return [];
 
