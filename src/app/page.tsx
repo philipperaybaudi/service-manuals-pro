@@ -43,11 +43,24 @@ async function getRecentDocs() {
 }
 
 async function searchDocs(query: string) {
-  const words = query.trim().split(/\s+/).filter(Boolean);
+  // Mots vides FR+EN à ignorer (stop words)
+  const STOP_WORDS = new Set([
+    'et','ou','de','du','des','le','la','les','un','une','en','au','aux',
+    'par','sur','dans','avec','pour','sans','sous','entre','vers','chez',
+    'the','and','or','of','in','on','at','to','for','a','an','is','it',
+    'by','as','be','do','if','no','so','up','we',
+  ]);
+
+  const words = query
+    .trim()
+    .split(/[\s\-–—,;:!?()[\]{}/"'«»]+/)  // découpe sur espaces ET ponctuation
+    .map(w => w.replace(/[^a-zA-ZÀ-ÿ0-9]/g, ''))  // retire caractères spéciaux résiduels
+    .filter(w => w.length >= 3 && !STOP_WORDS.has(w.toLowerCase()));
+
   if (words.length === 0) return [];
 
   // Recherche insensible aux accents ET à la casse via RPC PostgreSQL (unaccent)
-  // "réparation" matche "réparation", "reparation", "RÉPARATION", etc.
+  // Cherche dans title (EN) ET title_fr (FR) — couvre les deux sites
   const { data: rows } = await supabase
     .rpc('search_documents_by_title', { search_words: words });
 
