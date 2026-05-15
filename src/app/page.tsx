@@ -43,19 +43,12 @@ async function getRecentDocs() {
 }
 
 async function searchDocs(query: string) {
-  // Mots vides FR+EN à ignorer (stop words)
-  const STOP_WORDS = new Set([
-    'et','ou','de','du','des','le','la','les','un','une','en','au','aux',
-    'par','sur','dans','avec','pour','sans','sous','entre','vers','chez',
-    'the','and','or','of','in','on','at','to','for','a','an','is','it',
-    'by','as','be','do','if','no','so','up','we',
-  ]);
-
+  // Découpe sur espaces ET toute ponctuation → "Edward-Ed-Romney" → ["Edward","Ed","Romney"]
   const words = query
     .trim()
-    .split(/[\s\-–—,;:!?()[\]{}/"'«»]+/)  // découpe sur espaces ET ponctuation
-    .map(w => w.replace(/[^a-zA-ZÀ-ÿ0-9]/g, ''))  // retire caractères spéciaux résiduels
-    .filter(w => w.length >= 3 && !STOP_WORDS.has(w.toLowerCase()));
+    .split(/[\s\-–—,;:.!?()[\]{}/"'«»]+/)
+    .map(w => w.replace(/[^a-zA-ZÀ-ÿ0-9]/g, ''))
+    .filter(w => w.length >= 2);  // garde les mots de 2+ chars
 
   if (words.length === 0) return [];
 
