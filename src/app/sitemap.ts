@@ -6,7 +6,9 @@ import { SITE_URLS } from '@/lib/i18n';
 export const runtime = 'edge';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const locale = (headers().get('x-locale') === 'fr' ? 'fr' : 'en') as 'en' | 'fr';
+  const xLocale = headers().get('x-locale');
+  const host = headers().get('host') ?? '';
+  const locale = (xLocale === 'fr' || host.includes('service-manuels-pro.fr') ? 'fr' : 'en') as 'en' | 'fr';
   const baseUrl = SITE_URLS[locale];
 
   // Static pages
