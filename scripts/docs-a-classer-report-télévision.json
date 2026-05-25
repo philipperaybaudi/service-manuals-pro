@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-19T07:12:55.581Z",
-  "total": 12,
+  "generated_at": "2026-05-22T19:33:03.727Z",
+  "total": 1,
   "docs": [
     {
       "original_filename": "DMR-BWT800GL Notice.pdf",
@@ -217,6 +217,24 @@
       "description_fr": "Manuel complet du téléviseur numérique Toshiba série TL83. Ce guide exhaustif couvre l'installation, les consignes de sécurité et les procédures de configuration incluant les techniques appropriées de montage mural et les exigences de ventilation. Détaille les méthodes de connexion des équipements externes tels que les appareils HDMI, les connexions PC et la configuration du réseau domestique avec options filaires et sans fil. Comprend les instructions de configuration pour la syntonisation de la télévision numérique et analogique, la recherche de chaînes et l'ajustement fin manuel. Propose des informations étendues sur les capacités d'affichage 3D avec des précautions de sécurité détaillées et des directives d'utilisation des lunettes. Couvre les réglages audio et d'image avec options d'ajustement détaillées incluant la température de couleur et les modes image avancés. Fournit des instructions complètes de navigation dans les menus, un guide de référence de la télécommande et les fonctionnalités du lecteur multimédia pour les serveurs certifiés DLNA. Inclut l'intégration des enregistreurs vidéo numériques, les contrôles parentaux et les informations du guide des programmes.",
       "language": "fr",
       "slug": "toshiba-toshiba-tl83-series-digital-television-user-manual"
+    },
+    {
+      "original_filename": "Toshiba_42AV554D.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Télévision\\TOSHIBA\\Toshiba_42AV554D.pdf",
+      "file_size": 10771524,
+      "page_count": 181,
+      "price": 1200,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\toshiba-toshiba-42av554d-service-manual.jpg",
+      "brand": "TOSHIBA",
+      "category_fr": "Télévision",
+      "filename_clean": "Toshiba 42AV554D Service Manual",
+      "title_en": "Toshiba 42AV554D LCD Color Television Service Manual",
+      "title_fr": "Manuel de service téléviseur LCD couleur Toshiba 42AV554D",
+      "description_en": "Service manual for Toshiba 42AV554D LCD color television. Covers replacement parts for this green product model. Includes specifications for lead-free solder usage in accordance with RoHS and WEEE directives. Document version 2.00.",
+      "description_fr": "Manuel de service pour téléviseur LCD couleur Toshiba 42AV554D. Couvre les pièces de rechange pour ce produit écologique. Inclut les spécifications d'utilisation de soudure sans plomb conformément aux directives RoHS et WEEE. Version du document 2.00.",
+      "language": "en",
+      "slug": "toshiba-toshiba-42av554d-service-manual"
     }
   ]
 }

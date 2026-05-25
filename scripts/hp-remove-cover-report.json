@@ -1,0 +1,323 @@
+{
+  "removed": [
+    {
+      "file": "compaq-armada-1500c_381312.pdf",
+      "pages_before": 135,
+      "pages_after": 134
+    },
+    {
+      "file": "compaq-armada-1700_381315.pdf",
+      "pages_before": 152,
+      "pages_after": 151
+    },
+    {
+      "file": "compaq-armada-3500_381318.pdf",
+      "pages_before": 131,
+      "pages_after": 130
+    },
+    {
+      "file": "compaq-armada-6500_381324.pdf",
+      "pages_before": 91,
+      "pages_after": 90
+    },
+    {
+      "file": "compaq-armada-7000_381333.pdf",
+      "pages_before": 148,
+      "pages_after": 147
+    },
+    {
+      "file": "compaq-armada-7400_381336.pdf",
+      "pages_before": 169,
+      "pages_after": 168
+    },
+    {
+      "file": "compaq-armada-7800_381339.pdf",
+      "pages_before": 232,
+      "pages_after": 231
+    },
+    {
+      "file": "compaq-armadastation-em_381327.pdf",
+      "pages_before": 75,
+      "pages_after": 74
+    },
+    {
+      "file": "compaq-contura-aero_381351.pdf",
+      "pages_before": 126,
+      "pages_after": 125
+    },
+    {
+      "file": "compaq-evo-d510-e-pc_381357.pdf",
+      "pages_before": 24,
+      "pages_after": 23
+    },
+    {
+      "file": "compaq-evo-n1000_381375.pdf",
+      "pages_before": 205,
+      "pages_after": 204
+    },
+    {
+      "file": "compaq-evo-n1005_381378.pdf",
+      "pages_before": 188,
+      "pages_after": 187
+    },
+    {
+      "file": "compaq-evo-n1020v_381381.pdf",
+      "pages_before": 220,
+      "pages_after": 219
+    },
+    {
+      "file": "compaq-evo-n115_381360.pdf",
+      "pages_before": 184,
+      "pages_after": 183
+    },
+    {
+      "file": "compaq-lte-elite_381387.pdf",
+      "pages_before": 388,
+      "pages_after": 387
+    },
+    {
+      "file": "compaq-nc4000_381390.pdf",
+      "pages_before": 168,
+      "pages_after": 167
+    },
+    {
+      "file": "compaq-nc6000_381396.pdf",
+      "pages_before": 179,
+      "pages_after": 178
+    },
+    {
+      "file": "compaq-nc8000_381399.pdf",
+      "pages_before": 174,
+      "pages_after": 173
+    },
+    {
+      "file": "compaq-portable-486c-personal-computer_381414.pdf",
+      "pages_before": 89,
+      "pages_after": 88
+    },
+    {
+      "file": "compaq-portable-computer_381417.pdf",
+      "pages_before": 130,
+      "pages_after": 129
+    },
+    {
+      "file": "compaq-presario-1650_381453.pdf",
+      "pages_before": 132,
+      "pages_after": 131
+    },
+    {
+      "file": "compaq-presario-1805_381462.pdf",
+      "pages_before": 132,
+      "pages_after": 131
+    },
+    {
+      "file": "compaq-presario-1825_381459.pdf",
+      "pages_before": 143,
+      "pages_after": 142
+    },
+    {
+      "file": "compaq-presario-1900-xl1_381468.pdf",
+      "pages_before": 187,
+      "pages_after": 186
+    },
+    {
+      "file": "compaq-presario-1905_381465.pdf",
+      "pages_before": 177,
+      "pages_after": 176
+    },
+    {
+      "file": "compaq-presario-2800_381471.pdf",
+      "pages_before": 229,
+      "pages_after": 228
+    },
+    {
+      "file": "compaq-prolinea_381480.pdf",
+      "pages_before": 197,
+      "pages_after": 196
+    },
+    {
+      "file": "compaq-prosignia-150_381483.pdf",
+      "pages_before": 99,
+      "pages_after": 98
+    },
+    {
+      "file": "compaq-prosignia-170_381486.pdf",
+      "pages_before": 126,
+      "pages_after": 125
+    },
+    {
+      "file": "compaq-prosignia-190_381489.pdf",
+      "pages_before": 142,
+      "pages_after": 141
+    }
+  ],
+  "not_found": [
+    "2530p_444183.pdf",
+    "2533t_381519.pdf",
+    "3125-1_444300.pdf",
+    "420-2_443958.pdf",
+    "425-1_444237.pdf",
+    "430-4_444114.pdf",
+    "431_444249.pdf",
+    "435-1_444258.pdf",
+    "436_444261.pdf",
+    "4410t_381522.pdf",
+    "500-655_381501.pdf",
+    "510-2_381504.pdf",
+    "520_381507.pdf",
+    "530-2_381510.pdf",
+    "540-2_381513.pdf",
+    "540-2_444009.pdf",
+    "541_444174.pdf",
+    "550-2_381516.pdf",
+    "620-3_444222.pdf",
+    "625-1_444072.pdf",
+    "630-4_444255.pdf",
+    "631_444252.pdf",
+    "635-1_444264.pdf",
+    "636-1_444120.pdf",
+    "6360t_444138.pdf",
+    "6445b_444045.pdf",
+    "650-6_444147.pdf",
+    "655-1_444156.pdf",
+    "8730w_444000.pdf",
+    "compaq-2230s_444003.pdf",
+    "compaq-4415s_443955.pdf",
+    "compaq-4710s_443949.pdf",
+    "compaq-511_444042.pdf",
+    "compaq-516_381279.pdf",
+    "compaq-516_444039.pdf",
+    "compaq-615_381282.pdf",
+    "compaq-620_444219.pdf",
+    "compaq-621_444060.pdf",
+    "compaq-6530b_444012.pdf",
+    "compaq-6530s_444192.pdf",
+    "compaq-6720s_381288.pdf",
+    "compaq-6720t_381291.pdf",
+    "compaq-6735b_444015.pdf",
+    "compaq-6830s_444018.pdf",
+    "compaq-8510w_381294.pdf",
+    "compaq-8710p_381297.pdf",
+    "compaq-armada-110_381303.pdf",
+    "compaq-armada-1110_381306.pdf",
+    "compaq-armada-1500_381309.pdf",
+    "compaq-armada-4100_381321.pdf",
+    "compaq-armada-e500_381342.pdf",
+    "compaq-cq58_444348.pdf",
+    "compaq-evo-n180_381363.pdf",
+    "compaq-evo-n200_381366.pdf",
+    "compaq-evo-n400c_381369.pdf",
+    "compaq-evo-n600c_381372.pdf",
+    "compaq-nc4400_381393.pdf",
+    "compaq-nx6110_381405.pdf",
+    "compaq-presario-cq41_444024.pdf",
+    "compaq-presario-cq43_444087.pdf",
+    "compaq-presario-cq50_444021.pdf",
+    "compaq-presario-cq56_444240.pdf",
+    "compaq-presario-cq57_444246.pdf",
+    "compaq-presario-cq61_381474.pdf",
+    "compaq-tablet-pc-tc1000_381492.pdf",
+    "compaq-tablet-pc-tc1100_381495.pdf",
+    "compaq-tablet-pc-tc4200_381498.pdf",
+    "elitebook-2170p_444336.pdf",
+    "elitebook-2530p_381525.pdf",
+    "elitebook-2540p_444342.pdf",
+    "elitebook-2560p_444129.pdf",
+    "elitebook-2570p_444339.pdf",
+    "elitebook-2730p_381528.pdf",
+    "elitebook-2730p_444186.pdf",
+    "elitebook-2740p_444063.pdf",
+    "elitebook-2760p_444126.pdf",
+    "elitebook-6930p_381531.pdf",
+    "elitebook-6930p_444189.pdf",
+    "elitebook-8440p_443943.pdf",
+    "elitebook-8440w_443946.pdf",
+    "elitebook-8460p_443931.pdf",
+    "elitebook-8460w_443934.pdf",
+    "elitebook-8470p_443994.pdf",
+    "elitebook-8470w_444165.pdf",
+    "elitebook-8530p_381534.pdf",
+    "elitebook-8530p_444006.pdf",
+    "elitebook-8530w_444198.pdf",
+    "g3000-1_381552.pdf",
+    "g50-3_381546.pdf",
+    "g60-2_381549.pdf",
+    "g6000_381555.pdf",
+    "g7000-2_381558.pdf",
+    "mini-1000_381573.pdf",
+    "mini-1101_381576.pdf",
+    "mini-110_381570.pdf",
+    "omnibook-xe4400_318789.pdf",
+    "pavilion-27xi_444171.pdf",
+    "pavilion-dm1_381600.pdf",
+    "pavilion-dm1_443982.pdf",
+    "pavilion-dm3_381603.pdf",
+    "pavilion-dv1000_381627.pdf",
+    "pavilion-dv1400_381630.pdf",
+    "pavilion-dv2000_381633.pdf",
+    "pavilion-dv2_381606.pdf",
+    "pavilion-dv2_444036.pdf",
+    "pavilion-dv3000_381636.pdf",
+    "pavilion-dv3500_444195.pdf",
+    "pavilion-dv3_444210.pdf",
+    "pavilion-dv4000_381639.pdf",
+    "pavilion-dv4_381612.pdf",
+    "pavilion-dv4_444207.pdf",
+    "pavilion-dv5000_381642.pdf",
+    "pavilion-dv5_381615.pdf",
+    "pavilion-dv6000_381654.pdf",
+    "pavilion-dv6500_381645.pdf",
+    "pavilion-dv6_381618.pdf",
+    "pavilion-dv6_443937.pdf",
+    "pavilion-dv7_381621.pdf",
+    "pavilion-dv7_444066.pdf",
+    "pavilion-dv8000_381648.pdf",
+    "pavilion-dv8_381624.pdf",
+    "pavilion-dv9000_381651.pdf",
+    "pavilion-g6_444243.pdf",
+    "pavilion-g7_444084.pdf",
+    "pavilion-m6_444315.pdf",
+    "pavilion-n3400_381660.pdf",
+    "pavilion-n5400_550146.pdf",
+    "pavilion-n6000_381663.pdf",
+    "pavilion-xz200_318801.pdf",
+    "pavilion-zd7000_381681.pdf",
+    "pavilion-zd8000_381684.pdf",
+    "pavilion-ze2000_381690.pdf",
+    "pavilion-ze2300_381693.pdf",
+    "pavilion-ze4115_381696.pdf",
+    "pavilion-ze4900_381702.pdf",
+    "pavilion-ze5000_381705.pdf",
+    "pavilion-ze5100_381708.pdf",
+    "pavilion-ze5600_318762.pdf",
+    "pavilion-zt1100_318759.pdf",
+    "pavilion-zv5000_381714.pdf",
+    "pavilion-zv6000_381717.pdf",
+    "pavilion-zx5000_381720.pdf",
+    "probook-4230s_444102.pdf",
+    "probook-4310s_381723.pdf",
+    "probook-4330s_444090.pdf",
+    "probook-4331s_443970.pdf",
+    "probook-4341s_444150.pdf",
+    "probook-4410s_381726.pdf",
+    "probook-4430s_444096.pdf",
+    "probook-4431s_444093.pdf",
+    "probook-4435s_444267.pdf",
+    "probook-4436s_444270.pdf",
+    "probook-4440s_444153.pdf",
+    "probook-4445s_444324.pdf",
+    "probook-4530s_381729.pdf",
+    "probook-4530s_444099.pdf",
+    "probook-4535s_444273.pdf",
+    "probook-4540s_444159.pdf",
+    "probook-4545s_444327.pdf",
+    "probook-4710s_381732.pdf",
+    "probook-4730s_444123.pdf",
+    "probook-4740s_444162.pdf",
+    "probook-5310m_381735.pdf",
+    "probook-5310m_444051.pdf",
+    "probook-5320m_444069.pdf"
+  ],
+  "single_page": [],
+  "errors": []
+}

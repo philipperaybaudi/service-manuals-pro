@@ -1,0 +1,44 @@
+{
+  "true_error": [
+    {
+      "slug": "dell-dell-inspiron-11-3000-setup-and-specifications-zh",
+      "slug_lang": "zh",
+      "char_detected": "ar",
+      "confidence": "definitive",
+      "reason": "Arabe: 872 chars",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-11-3179_940212.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-11-3162-setup-and-specifications-guide-vi-2",
+      "slug_lang": "vi",
+      "char_detected": "ko",
+      "confidence": "definitive",
+      "reason": "Hangul: 311 chars",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-11-3162-3164_939882.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-11-3185-2-in-1-service-manual-zh",
+      "slug_lang": "zh",
+      "char_detected": "es",
+      "confidence": "definitive",
+      "reason": "ñ présent → Espagnol",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-11-3185-2-in-1_940254.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-5468-setup-and-specifications-zh",
+      "slug_lang": "zh",
+      "char_detected": "ar",
+      "confidence": "definitive",
+      "reason": "Arabe: 758 chars",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-5468_941631.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-24-3452-service-manual-ro",
+      "slug_lang": "ro",
+      "char_detected": "cs",
+      "confidence": "definitive",
+      "reason": "ř présent → Tchèque (unique)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3452_919161.pdf"
+    }
+  ]
+}

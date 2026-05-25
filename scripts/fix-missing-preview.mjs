@@ -10,12 +10,12 @@ import path from 'path';
 
 const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
 
-const BASE_SOURCE  = "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Photographie\\COLLECTION";
-const BASE_DEST    = "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Photographie\\COLLECTION";
+const BASE_SOURCE  = "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Automobile\\LAND ROVER";
+const BASE_DEST    = "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Automobile\\LAND ROVER";
 
 const DOCS = [
-  'collection-airplane-photography-1920',
-  'collection-american-photography-vol-16-1922',
+  'land-rover-rovers-north-land-rover-parts-catalogue-2000',
+  'land-rover-land-rover-range-rover-turbocharger-maintenance-workshop-bulletin-slr621',
 ];
 
 for (const SLUG of DOCS) {

@@ -30,12 +30,15 @@ if (typeof Path2D === 'undefined' || typeof Path2D !== 'function') {
 }
 if (typeof DOMMatrix === 'undefined') global.DOMMatrix = canvas.DOMMatrix;
 
-const SUBFOLDER       = process.argv[2] || ''; // ex: node classify-docs.mjs Motoculture
-const DOCS_A_CLASSER  = path.join('C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories', SUBFOLDER);
+const _ARG            = process.argv[2] || ''; // ex: node classify-docs.mjs Motoculture  OU chemin absolu
+const SUBFOLDER       = path.isAbsolute(_ARG) ? path.basename(_ARG) : _ARG;
+const DOCS_A_CLASSER  = path.isAbsolute(_ARG)
+  ? _ARG
+  : path.join('C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories', _ARG);
 const TEMP_PREVIEWS   = path.join('scripts', 'temp_previews');
-const REPORT_FILE     = path.join('scripts', `docs-a-classer-report${SUBFOLDER ? '-' + SUBFOLDER.toLowerCase() : ''}.json`);
+const REPORT_FILE     = path.join('scripts', `docs-a-classer-report${SUBFOLDER ? '-' + SUBFOLDER.toLowerCase().replace(/[\\\/]/g, '-') : ''}.json`);
 const STANDARD_FONTS  = 'C:/Users/adm/Claude Doc GB test/service-manuals-pro/node_modules/pdfjs-dist/standard_fonts/';
-const MAX_PAGES_CLAUDE = 10;
+const MAX_PAGES_CLAUDE = 3;
 const DEFAULT_PRICE    = 1200; // 12€
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -293,7 +296,8 @@ for (const [i, pdfPath] of pdfs.entries()) {
   // Brand et catégorie lus depuis l'arborescence — jamais depuis Claude
   // Brand en majuscules (les dossiers sont parfois en minuscules)
   const brand      = path.basename(path.dirname(pdfPath)).toUpperCase();
-  const category_fr = SUBFOLDER || path.basename(path.dirname(path.dirname(pdfPath)));
+  // Si SUBFOLDER contient un séparateur (ex: "Informatique\DELL"), on prend uniquement le 1er segment
+  const category_fr = (SUBFOLDER ? SUBFOLDER.split(/[\\\/]/)[0] : null) || path.basename(path.dirname(path.dirname(pdfPath)));
   entry.brand       = brand;
   entry.category_fr = category_fr;
 

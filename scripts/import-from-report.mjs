@@ -126,33 +126,55 @@ async function uploadPreview(slug, jpgBuffer) {
 }
 
 async function getOrCreateBrand(brandName, categoryId, categorySlug) {
-  // Chercher marque existante dans cette catégorie
+  // ── Recherche brand existante (robuste aux doublons) ─────────────────────
+  // IMPORTANT : ne pas utiliser .maybeSingle() — si plusieurs entrées existent
+  // pour la même marque (doublon accidentel), maybeSingle() retourne null et
+  // déclenche une tentative de création → conflit de slug → erreur en cascade.
+  // On prend simplement le premier résultat trouvé.
   const { data: existing } = await supabase
     .from('brands')
     .select('id, name, slug')
     .eq('category_id', categoryId)
     .ilike('name', brandName)
-    .maybeSingle();
-  if (existing) return existing;
+    .limit(1);
+
+  if (existing && existing.length > 0) return existing[0];
 
   if (DRY_RUN) return { id: 'DRY-BRAND', name: brandName, slug: slugify(brandName) };
 
-  // Créer avec slug simple, puis avec suffixe catégorie si conflit de slug global
+  // ── Création avec gestion robuste des conflits de slug ────────────────────
   const baseSlug = slugify(brandName);
   const slugCandidates = [baseSlug, `${baseSlug}-${categorySlug.split('-')[0]}`, `${baseSlug}-${categorySlug}`];
+
   for (const slug of slugCandidates) {
     const { data: created, error } = await supabase
       .from('brands')
       .insert({ name: brandName, slug, category_id: categoryId, logo_url: null })
       .select('id, name, slug')
       .single();
+
     if (!error) return created;
-    if (error.code !== '23505') {
-      console.error(`  Erreur création marque "${brandName}":`, error.message);
-      return null;
+
+    if (error.code === '23505') {
+      // Slug déjà pris — peut-être par une marque dans une autre catégorie.
+      // Avant d'essayer le slug suivant, vérifier si ce slug appartient à
+      // la bonne catégorie (doublon non détecté plus haut).
+      const { data: bySlug } = await supabase
+        .from('brands')
+        .select('id, name, slug')
+        .eq('slug', slug)
+        .eq('category_id', categoryId)
+        .limit(1);
+      if (bySlug && bySlug.length > 0) return bySlug[0];
+      // Sinon continuer avec le candidat suivant
+      continue;
     }
+
+    console.error(`  Erreur création marque "${brandName}":`, error.message);
+    return null;
   }
-  console.error(`  Impossible de créer la marque "${brandName}" (conflits de slug)`);
+
+  console.error(`  Impossible de créer la marque "${brandName}" (tous les slugs candidats sont pris)`);
   return null;
 }
 
@@ -283,10 +305,35 @@ for (const doc of todo) {
     continue;
   }
 
+  // ── Normalisation titres revues périodiques (tri alpha = tri chronologique) ──
+  // Le titre doit commencer par "[BRAND] N°XXX" pour que le tri alphabétique
+  // de la page marque corresponde à l'ordre chronologique.
+  const PERIODIC_BRANDS = ['ELEKTOR', 'ÉLECTRONIQUE PRATIQUE', 'ELECTRONIQUE PRATIQUE'];
+  let normalizedTitleEn = title_en;
+  let normalizedTitleFr = title_fr;
+  if (PERIODIC_BRANDS.some(b => brand.toUpperCase().replace(/[ÉÈÊË]/g, 'E') === b.replace(/[ÉÈÊË]/g, 'E'))) {
+    const issueMatch = doc.original_filename.match(/N[°o]?\s*(\d+)/i);
+    if (issueMatch) {
+      const n   = parseInt(issueMatch[1], 10);
+      const pad = String(n).padStart(3, '0');
+      // Extraire la partie date/mois-année depuis le nom de fichier
+      // Ex: "Elektor_mai-juin 1978-N°1 $3.pdf" → "mai-juin 1978"
+      const dateMatch = doc.original_filename.match(/[_-]\s*([^_$]+?)\s*-\s*N[°o]/i)
+                     || doc.original_filename.match(/(\b(?:jan|fév|feb|mar|avr|apr|mai|may|juin|jun|juil|jul|août|aug|sep|oct|nov|déc|dec)[^$_]*\d{4})\b/i);
+      const datePart = dateMatch ? dateMatch[1].trim() : '';
+      normalizedTitleEn = datePart
+        ? `${brand} No. ${pad} - ${datePart}`
+        : `${brand} No. ${pad}`;
+      normalizedTitleFr = datePart
+        ? `${brand} N°${pad} - ${datePart}`
+        : `${brand} N°${pad}`;
+    }
+  }
+
   // ── Insert Supabase ────────────────────────────────────────────────────────
   const record = {
-    title:          title_en,
-    title_fr:       title_fr,
+    title:          normalizedTitleEn,
+    title_fr:       normalizedTitleFr,
     slug:           slug,
     description:    description_en,
     description_fr: description_fr,

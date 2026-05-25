@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T09:34:01.981Z",
-  "total": 2,
+  "generated_at": "2026-05-17T19:15:29.816Z",
+  "total": 4,
   "docs": [
     {
       "original_filename": "Circuits_Integres_lineaires H.LILEN 1978.pdf",
@@ -595,6 +595,78 @@
       "description_fr": "Documentation technique pour cartes PCB de remplacement TBA931 (modèles 1.081.998.00 et 1.080.770.81). Comprend schémas électroniques, circuits imprimés côté cuivre et côté composants, spécifications des broches avec dessin dimensionnel, listes de composants et notes d'assemblage. Contient les schémas de câblage pour PCB VU-mètre 1.080.807 et schémas électroniques d'équipements audio Studer connexes avec listes de pièces.",
       "language": "en",
       "slug": "composants-tba931-replacement-pcb-documentation"
+    },
+    {
+      "original_filename": "Elektor_mai-juin 1978-N°1 $3.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Électronique\\ELEKTOR\\Elektor_mai-juin 1978-N°1 $3.pdf",
+      "file_size": 12034494,
+      "page_count": 76,
+      "price": 300,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\elektor-elektor-magazine-issue-1-may-june-1978.jpg",
+      "brand": "ELEKTOR",
+      "category_fr": "Électronique",
+      "filename_clean": "Elektor Magazine Issue 1 May-June 1978",
+      "title_en": "Elektor Magazine No. 1 - May/June 1978",
+      "title_fr": "Revue Elektor N°1 - Mai/Juin 1978",
+      "description_en": "First issue of Elektor electronics magazine covering function generators, microprocessors, preamplifiers, receivers, and integrated circuits. Includes component catalogs from BERIC and Fanatronic distributors, featuring TTL circuits, transistors, diodes, and other electronic components with prices. Contains technical articles, circuit designs, and hobbyist projects for laboratory and leisure applications.\n\nContents:\n- 5-13 Selektor\n- 5-16 Introduction aux microprocesseurs\n- 5-22 Mini-récepteur ondes courtes\n- 5-23 Générateur de fonctions\n- 5-30 Préco (préampli et régulateur télécommandé)\n- 5-41 Mini-phasing\n- 5-42 Récepteur BLU\n- 5-49 Tup-tun\n- 5-50 Le microprocesseur en jouant\n- 5-61 Commande automatique de changement de diapositives\n- 5-69 Magnétiseur\n- 5-71 Marché",
+      "description_fr": "Premier numéro de la revue Elektor consacré à l'électronique. Contient des articles sur les générateurs de fonctions, les microprocesseurs, les préamplificateurs, les récepteurs et les circuits intégrés. Inclut des catalogues de composants des distributeurs BERIC et Fanatronic avec circuits TTL, transistors, diodes et autres composants électroniques avec tarifs. Propose des projets techniques et des montages pour amateurs.\n\nSommaire :\n- 5-13 Selektor\n- 5-16 Introduction aux microprocesseurs\n- 5-22 Mini-récepteur ondes courtes\n- 5-23 Générateur de fonctions\n- 5-30 Préco (préampli et régulateur télécommandé)\n- 5-41 Mini-phasing\n- 5-42 Récepteur BLU\n- 5-49 Tup-tun\n- 5-50 Le microprocesseur en jouant\n- 5-61 Commande automatique de changement de diapositives\n- 5-69 Magnétiseur\n- 5-71 Marché",
+      "language": "fr",
+      "slug": "elektor-elektor-magazine-issue-1-may-june-1978"
+    },
+    {
+      "original_filename": "Elektor_juil-aout 1978-N°2 $3.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Électronique\\ELEKTOR\\Elektor_juil-aout 1978-N°2 $3.pdf",
+      "file_size": 11417248,
+      "page_count": 76,
+      "price": 300,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\elektor-elektor-magazine-july-august-1978-issue-2.jpg",
+      "brand": "ELEKTOR",
+      "category_fr": "Électronique",
+      "filename_clean": "Elektor Magazine July-August 1978 Issue 2",
+      "title_en": "Elektor Magazine No. 2 - July/August 1978",
+      "title_fr": "Magazine Elektor n° 2 - Juillet/Août 1978",
+      "description_en": "French electronics magazine issue featuring articles on Hi-Fi amplifier construction, Kirlian photography apparatus, steam train sound simulation circuit, vapor whistle simulator, microphone preamplifier, printed stylus force gauge, local FM receiver, signal tracer, interior MF antenna, and SC/MP microprocessor programming. Includes component price lists, integrated circuits catalog, transistors, diodes, and electronic parts suppliers directory for France and Belgium.\n\nContents:\n- 7-13 Selektor\n- 7-15 Microprofesseur\n- 7-16 Equin (ampli 40 Watt)\n- 7-32 Compresseur de modulation\n- 7-33 Photographie Kirlian\n- 7-38 Préamplificateur pour microphone à électret\n- 7-40 Train à vapeur\n- 7-41 Sifflet à vapeur\n- 7-43 Pèse-bras imprimé\n- 7-44 Récepteur FM local\n- 7-49 Signal-traceur\n- 7-50 Antenne MF d'intérieur\n- 7-54 Apprenons à utiliser le SC/MP (2)\n- 7-68 TUP-TUN-DUG-DUS\n- 7-71 Marché",
+      "description_fr": "Magazine français d'électronique contenant des articles sur la construction d'un amplificateur Hi-Fi, la photographie Kirlian, la simulation sonore d'un train à vapeur, un sifflet à vapeur électronique, un préamplificateur pour microphone à électret, une balance pour cellule de tourne-disque, un récepteur FM local, un tracer de signal, une antenne MF d'intérieur, et la programmation du microprocesseur SC/MP. Inclut des listes de prix de composants, catalogues de circuits intégrés, transistors, diodes, et annuaires de fournisseurs de pièces électroniques pour la France et la Belgique.\n\nSommaire :\n- 7-13 Selektor\n- 7-15 Microprofesseur\n- 7-16 Equin (ampli 40 Watt)\n- 7-32 Compresseur de modulation\n- 7-33 Photographie Kirlian\n- 7-38 Préamplificateur pour microphone à électret\n- 7-40 Train à vapeur\n- 7-41 Sifflet à vapeur\n- 7-43 Pèse-bras imprimé\n- 7-44 Récepteur FM local\n- 7-49 Signal-traceur\n- 7-50 Antenne MF d'intérieur\n- 7-54 Apprenons à utiliser le SC/MP (2)\n- 7-68 TUP-TUN-DUG-DUS\n- 7-71 Marché",
+      "language": "fr",
+      "slug": "elektor-elektor-magazine-july-august-1978-issue-2"
+    },
+    {
+      "original_filename": "Elektor_sept-oct 1978-N°3 $3.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Électronique\\ELEKTOR\\Elektor_sept-oct 1978-N°3 $3.pdf",
+      "file_size": 14253363,
+      "page_count": 92,
+      "price": 300,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\elektor-elektor-magazine-september-october-1978-issue-3.jpg",
+      "brand": "ELEKTOR",
+      "category_fr": "Électronique",
+      "filename_clean": "Elektor Magazine September October 1978 Issue 3",
+      "title_en": "Elektor Magazine No. 3 September/October 1978",
+      "title_fr": "Elektor Magazine N°3 Septembre/Octobre 1978",
+      "description_en": "Electronics magazine issue featuring stereo mixing table for discotheque, peak voltmeter with logarithmic scale, universal note generator for electronic piano and organs, electronic piano with modular construction, TTL logic tester, square wave to staircase converter, FM transmitter pen, SC/MP microprocessor tutorials, semiconductor product announcements, component listings and prices from various electronics suppliers (Magnetic-France, BERIC, TEVELABO, Selectronic, Elektronikladen, Fanatronic).\n\nContents:\n- 9-14 Selektor\n- 9-18 Voltmètre à LEDs (UAA 180)\n- 9-22 Indicateur de défaut d'éclairage\n- 9-23 Table de mixage stéréo\n- 9-29 Voltmètre de crête BF\n- 9-32 Générateur de notes universel\n- 9-35 Elektor Software Service\n- 9-35 Un piano intégré\n- 9-36 Piano électronique\n- 9-48 Testeur logique universel\n- 9-49 Convertisseur signaux carrés / marches d'escalier\n- 9-50 Stylo émetteur FM\n- 9-52 Apprenons à utiliser le SC/MP (3)\n- 9-68 TUP-TUN testeur\n- 9-77 Présentation de semiconducteurs",
+      "description_fr": "Revue d'électronique contenant table de mixage stéréophonique pour discothèque, voltmètre de crête BF avec échelle logarithmique, générateur de notes universel pour piano et orgues électroniques, piano électronique avec construction modulaire, testeur logique TTL, convertisseur de signaux carrés en marches d'escalier, émetteur FM portatif, cours sur microprocesseur SC/MP, annonces de nouveaux semiconducteurs, catalogues et tarifs de différents distributeurs électroniques.\n\nSommaire :\n- 9-14 Selektor\n- 9-18 Voltmètre à LEDs (UAA 180)\n- 9-22 Indicateur de défaut d'éclairage\n- 9-23 Table de mixage stéréo\n- 9-29 Voltmètre de crête BF\n- 9-32 Générateur de notes universel\n- 9-35 Elektor Software Service\n- 9-35 Un piano intégré\n- 9-36 Piano électronique\n- 9-48 Testeur logique universel\n- 9-49 Convertisseur signaux carrés / marches d'escalier\n- 9-50 Stylo émetteur FM\n- 9-52 Apprenons à utiliser le SC/MP (3)\n- 9-68 TUP-TUN testeur\n- 9-77 Présentation de semiconducteurs",
+      "language": "fr",
+      "slug": "elektor-elektor-magazine-september-october-1978-issue-3"
+    },
+    {
+      "original_filename": "Elektor_nov-dec 1978-N°4 $3.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Électronique\\ELEKTOR\\Elektor_nov-dec 1978-N°4 $3.pdf",
+      "file_size": 13159713,
+      "page_count": 84,
+      "price": 300,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\elektor-elektor-electronics-magazine-november-december-1978-issue-4.jpg",
+      "brand": "ELEKTOR",
+      "category_fr": "Électronique",
+      "filename_clean": "Elektor Electronics Magazine November December 1978 Issue 4",
+      "title_en": "Elektor Electronics Magazine No. 4 Nov-Dec 1978",
+      "title_fr": "Magazine Elektor Électronique N°4 Nov-Déc 1978",
+      "description_en": "French electronics magazine containing articles on TV-scope oscilloscope conversion, digital reverberation chamber, microprocessor power supply, bicycle speed counter, optical combination lock, SC/MP microprocessor programming, and various electronic projects. Includes circuit diagrams, component listings, and EPS printed circuit boards catalog. Features advertisements from electronics component suppliers across Europe.\n\nContents:\n- 11-12 Selektor\n- 11-16 Circuit imprimé et soudage\n- 11-20 Petite expérience avec une RAM\n- 11-21 Carte RAM 4 k\n- 11-24 Compteur de vitesse pour bicyclette\n- 11-28 Alimentation pour systèmes à microprocesseur\n- 11-29 Introduction au TV-scope\n- 11-34 Serrure à combinaison optique\n- 11-36 TV-scope, version de base\n- 11-48 Chambre de réverbération digitale\n- 11-57 Apprenons à utiliser le SC/MP\n- 11-62 Compte pose logarithmique\n- 11-66 Jeu de billes\n- 11-69 Mini fréquencemètre\n- 11-72 Modulateur TV VHF/UHF",
+      "description_fr": "Magazine français d'électronique contenant des articles sur la conversion du téléviseur en oscilloscope, chambre de réverbération numérique, alimentation pour système microprocesseur, compteur de vitesse pour bicyclette, serrure à combinaison optique, programmation du SC/MP, et divers projets électroniques. Inclut schémas électroniques, listes de composants et catalogue des circuits imprimés EPS. Comporte des annonces de fournisseurs de composants électroniques en Europe.\n\nSommaire :\n- 11-12 Selektor\n- 11-16 Circuit imprimé et soudage\n- 11-20 Petite expérience avec une RAM\n- 11-21 Carte RAM 4 k\n- 11-24 Compteur de vitesse pour bicyclette\n- 11-28 Alimentation pour systèmes à microprocesseur\n- 11-29 Introduction au TV-scope\n- 11-34 Serrure à combinaison optique\n- 11-36 TV-scope, version de base\n- 11-48 Chambre de réverbération digitale\n- 11-57 Apprenons à utiliser le SC/MP\n- 11-62 Compte pose logarithmique\n- 11-66 Jeu de billes\n- 11-69 Mini fréquencemètre\n- 11-72 Modulateur TV VHF/UHF",
+      "language": "fr",
+      "slug": "elektor-elektor-electronics-magazine-november-december-1978-issue-4"
     }
   ]
 }

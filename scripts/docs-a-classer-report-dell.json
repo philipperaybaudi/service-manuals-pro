@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-21T07:13:01.083Z",
+  "total": 1,
+  "docs": [
+    {
+      "original_filename": "inspiron-11-3162-3164_939786.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Informatique\\DELL\\inspiron-11-3162-3164_939786.pdf",
+      "file_size": 6909587,
+      "page_count": 88,
+      "price": 1200,
+      "status": "imported",
+      "preview_file": "scripts\\temp_previews\\dell-dell-inspiron-11-3162-service-manual.jpg",
+      "brand": "DELL",
+      "category_fr": "Informatique",
+      "filename_clean": "Dell Inspiron 11-3162 Service Manual",
+      "title_en": "Dell Inspiron 11-3162 Service Manual",
+      "title_fr": "Manuel de service Dell Inspiron 11-3162",
+      "description_en": "Service manual for Dell Inspiron 11-3162 (Regulatory Model P24T). Contains procedures for removing and installing base cover, battery, and I/O board. Includes safety instructions and recommended tools.",
+      "description_fr": "Manuel de service pour Dell Inspiron 11-3162 (modèle réglementaire P24T). Contient les procédures de retrait et d'installation du capot de base, de la batterie et de la carte d'entrée/sortie. Inclut les instructions de sécurité et les outils recommandés.",
+      "language": "fr",
+      "slug": "dell-dell-inspiron-11-3162-service-manual"
+    }
+  ]
+}

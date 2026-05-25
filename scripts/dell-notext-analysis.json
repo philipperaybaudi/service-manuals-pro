@@ -1,0 +1,1056 @@
+{
+  "confirmed": [],
+  "true_error": [
+    {
+      "slug": "dell-dell-inspiron-n3010-quick-start-guide-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-13-n3010_941076.pdf",
+      "char_detected": "th",
+      "confidence": "definitive",
+      "reason": "Thaï: 50 chars",
+      "text_length": 5428,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-13-n3010_941076.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-15-f08p-series-specifications-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-1564_943197.pdf",
+      "char_detected": "he",
+      "confidence": "definitive",
+      "reason": "Hébreu: 1109 chars",
+      "text_length": 1943,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-1564_943197.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-1764-specifications-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-1764_948723.pdf",
+      "char_detected": "he",
+      "confidence": "definitive",
+      "reason": "Hébreu: 1109 chars",
+      "text_length": 1944,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-1764_948723.pdf"
+    },
+    {
+      "slug": "dell-dell-latitude-e4200-e4300-setup-guide-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "latitude-e4200_965691.pdf",
+      "char_detected": "th",
+      "confidence": "definitive",
+      "reason": "Thaï: 26 chars",
+      "text_length": 4398,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\latitude-e4200_965691.pdf"
+    }
+  ],
+  "still_notext": [
+    {
+      "slug": "dell-alienware-14-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938280.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938280.pdf"
+    },
+    {
+      "slug": "dell-alienware-14-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938286.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938286.pdf"
+    },
+    {
+      "slug": "dell-alienware-14-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938289.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938289.pdf"
+    },
+    {
+      "slug": "dell-alienware-14-documentation-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938292.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938292.pdf"
+    },
+    {
+      "slug": "dell-alienware-14-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938295.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938295.pdf"
+    },
+    {
+      "slug": "dell-alienware-14-documentation-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938301.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938301.pdf"
+    },
+    {
+      "slug": "dell-alienware-14-documentation-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938304.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938304.pdf"
+    },
+    {
+      "slug": "dell-alienware-14-documentation-xx-5",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-14_938310.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-14_938310.pdf"
+    },
+    {
+      "slug": "dell-alienware-17-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-17_938646.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-17_938646.pdf"
+    },
+    {
+      "slug": "dell-alienware-17-documentation-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-17_938649.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-17_938649.pdf"
+    },
+    {
+      "slug": "dell-alienware-17-documentation-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-17_938652.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-17_938652.pdf"
+    },
+    {
+      "slug": "dell-alienware-17-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-17_938661.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-17_938661.pdf"
+    },
+    {
+      "slug": "dell-alienware-17-documentation-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-17_938667.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-17_938667.pdf"
+    },
+    {
+      "slug": "dell-alienware-18-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-18_939027.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-18_939027.pdf"
+    },
+    {
+      "slug": "dell-alienware-18-documentation-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-18_939030.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-18_939030.pdf"
+    },
+    {
+      "slug": "dell-alienware-18-documentation-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-18_939036.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-18_939036.pdf"
+    },
+    {
+      "slug": "dell-alienware-18-user-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-18_939039.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-18_939039.pdf"
+    },
+    {
+      "slug": "dell-alienware-18-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-18_939045.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-18_939045.pdf"
+    },
+    {
+      "slug": "dell-alienware-18-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-18_939048.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-18_939048.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-user-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568928.pdf",
+      "reason": "Aucun texte (29 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568928.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-guide-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568952.pdf",
+      "reason": "Aucun texte (29 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568952.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568964.pdf",
+      "reason": "Aucun texte (25 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568964.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-user-manual-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_939195.pdf",
+      "reason": "Aucun texte (29 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_939195.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r2-tutorial-2-basic-to-advanced-mode-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r2_907728.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r2_907728.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-specifications-and-overview-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939489.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939489.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-specifications-and-features-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939492.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939492.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-views-and-technical-data-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939495.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939495.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-views-and-specifications-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939498.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939498.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-views-and-characteristics-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939501.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939501.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-product-overview-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939504.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939504.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-overview-and-specifications-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939507.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939507.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-overview-and-specifications-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939516.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939516.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-specifications-and-overview-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939519.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939519.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-appearance-and-specifications-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939522.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939522.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-specifications-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939525.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939525.pdf"
+    },
+    {
+      "slug": "dell-alienware-m17x-r4-diagram-and-specifications-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m17x-r4_939528.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m17x-r4_939528.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-11z-ac-adapter-installation-guide-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-11z-1110_940398.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-11z-1110_940398.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941751.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941751.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941754.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941754.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941757.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941757.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941766.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941766.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-service-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941769.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941769.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-service-manual-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941775.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941775.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941778.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941778.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-xx-5",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941781.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941781.pdf"
+    },
+    {
+      "slug": "dell-inspiron-14-m4040-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941787.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941787.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-service-manual-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941790.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941790.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-xx-6",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941793.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941793.pdf"
+    },
+    {
+      "slug": "dell-inspiron-14-m4040-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941796.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941796.pdf"
+    },
+    {
+      "slug": "dell-inspiron-14-m4040-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941799.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941799.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-xx-7",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941805.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941805.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14-m4040-service-manual-xx-5",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14-m4040_941811.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14-m4040_941811.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_910269.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_910269.pdf"
+    },
+    {
+      "slug": "dell-inspiron-14z-n411z-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943089.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943089.pdf"
+    },
+    {
+      "slug": "dell-inspiron-14z-n411z-service-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943101.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943101.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943104.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943104.pdf"
+    },
+    {
+      "slug": "dell-inspiron-14z-n411z-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943107.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943107.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943110.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943110.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943113.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943113.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943116.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943116.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-service-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943128.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943128.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-service-manual-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943131.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943131.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-14z-n411z-service-manual-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-14z-n411z_943137.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-14z-n411z_943137.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-1564-quick-start-guide-hebrew-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-1564_943272.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-1564_943272.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-15-n5040-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-n5040_910482.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-n5040_910482.pdf"
+    },
+    {
+      "slug": "dell-inspiron-15-n5040-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-n5040_946254.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-n5040_946254.pdf"
+    },
+    {
+      "slug": "dell-inspiron-15-n5050-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-n5050_910485.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-n5050_910485.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-15-n5050-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-n5050_946326.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-n5050_946326.pdf"
+    },
+    {
+      "slug": "dell-inspiron-15-n5050-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-n5050_946329.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-n5050_946329.pdf"
+    },
+    {
+      "slug": "dell-inspiron-15-n5050-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15-n5050_946371.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15-n5050_946371.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-15r-5520-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-15r-5520_946971.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-15r-5520_946971.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-1764-setup-and-safety-guide-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-1764_948786.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-1764_948786.pdf"
+    },
+    {
+      "slug": "dell-inspiron-17r-5737-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-17r-5737_949014.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-17r-5737_949014.pdf"
+    },
+    {
+      "slug": "dell-inspiron-17r-se-7720-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-17r-se-7720_949230.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-17r-se-7720_949230.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3721-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3721_953124.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3721_953124.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3721-service-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3721_953175.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3721_953175.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3721-service-manual-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3721_953181.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3721_953181.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3721-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3721_953184.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3721_953184.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3721-service-manual-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3721_953190.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3721_953190.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953280.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953280.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953283.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953283.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953286.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953286.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953310.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953310.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953313.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953313.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953322.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953322.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-service-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953331.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953331.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-service-manual-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953334.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953334.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-service-manual-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953337.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953337.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-service-manual-xx-5",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953343.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953343.pdf"
+    },
+    {
+      "slug": "dell-inspiron-3737-service-manual-xx-6",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-3737_953346.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-3737_953346.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957882.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957882.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957885.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957885.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957888.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957888.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957903.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957903.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-documentation-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957906.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957906.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957909.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957909.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957912.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957912.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-4",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957915.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957915.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-5",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957918.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957918.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-957921-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957921.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957921.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-6",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957924.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957924.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-7",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957927.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957927.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-8",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957933.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957933.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-documentation-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957936.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957936.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-9",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957939.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957939.pdf"
+    },
+    {
+      "slug": "dell-inspiron-7537-service-manual-xx-10",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-7537_957945.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-7537_957945.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-m301z-n301z-service-manual-hebrew-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-m301z_959130.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-m301z_959130.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-m431r-5435-documentation-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-m431r-5435_911517.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-m431r-5435_911517.pdf"
+    },
+    {
+      "slug": "dell-dell-inspiron-1011-quick-start-guide-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "inspiron-mini-10v-1011_959823.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\inspiron-mini-10v-1011_959823.pdf"
+    },
+    {
+      "slug": "dell-dell-latitude-13-setup-guide-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "latitude-13_961050.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\latitude-13_961050.pdf"
+    },
+    {
+      "slug": "dell-dell-latitude-2120-service-manual-hebrew-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "latitude-2120_961401.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\latitude-2120_961401.pdf"
+    },
+    {
+      "slug": "dell-dell-latitude-e6400-e6400-atg-precision-m2400-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "latitude-e6400_967530.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\latitude-e6400_967530.pdf"
+    },
+    {
+      "slug": "dell-xps-13-l321x-service-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "xps-13-l321x_912774.pdf",
+      "reason": "Aucun texte (0 chars)",
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\xps-13-l321x_912774.pdf"
+    }
+  ],
+  "uncertain": [
+    {
+      "slug": "dell-alienware-m11x-mobile-handbook-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568919.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 30,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568919.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-handbook-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568922.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 31,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568922.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-laptop-user-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568925.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 34,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568925.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-computer-user-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568937.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 44,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568937.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-laptop-manual-xx",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568940.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 44,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568940.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-user-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_1568955.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 33,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_1568955.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-mobile-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_939189.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 31,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_939189.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-laptop-manual-xx-2",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_939192.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 34,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_939192.pdf"
+    },
+    {
+      "slug": "dell-alienware-m11x-laptop-manual-xx-3",
+      "slug_lang": "xx",
+      "detected": null,
+      "pdf": "alienware-m11x-r3_939210.pdf",
+      "char_detected": null,
+      "confidence": "low",
+      "reason": "Aucun caractère distinctif (PDF image ou texte insuffisant)",
+      "text_length": 44,
+      "pdf_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOCS EN LIGNE\\Informatique\\DELL\\alienware-m11x-r3_939210.pdf"
+    }
+  ]
+}

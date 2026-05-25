@@ -1,0 +1,923 @@
+TOYOTA LAND CRUISER — PROPOSITIONS DE RENOMMAGE
+======================================================================
+
+Fichiers déjà nommés avec prix :
+  36044E $35.pdf
+
+======================================================================
+
+FICHIERS À RENOMMER (proposition) :
+
+ORIGINAL : 35008.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36043E.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36047E.pdf (270p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : B, 2B, 3B
+MOTEUR   : B, 2B, 3B
+ANNÉE    : 1980
+TITRE    : Toyota B Series Engine Repair Manual
+LANGUE   : English
+NOTES    : Publication No. 36047. Covers B, 2B & 3B engine variants. Published August 1980 by Toyota Motor Sales Co., Ltd.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36048E.pdf (255p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 2H
+ANNÉE    : 1980
+TITRE    : Toyota 2H Engine Repair Manual
+LANGUE   : English
+NOTES    : Publication number 36048E. Document dated Aug., 1980. Published by Toyota Motor Corporation.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36104E.pdf (270p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 2F
+ANNÉE    : 1980
+TITRE    : Toyota 2F Engine Repair Manual
+LANGUE   : English
+NOTES    : Publication number 36104E. Document dated August 1980. Published by Toyota Motor Corporation. This manual covers the 2F engine used in various Toyota vehicles of that era.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36237E.pdf (114p)
+TYPE     : Transmission Manual
+SÉRIE    : Other
+MODÈLES  : H41, H42, H50, H55F
+MOTEUR   : None
+ANNÉE    : 1982
+TITRE    : TOYOTA H41, H42, H50, H55F TRANSMISSION REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication Number: 36237E. Date: April 1982. These are transmission model designations rather than vehicle models.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36253E.pdf (206p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Land Cruiser 60
+MODÈLES  : None
+MOTEUR   : 3F
+ANNÉE    : 1984
+TITRE    : Heavy Duty Land Cruiser Toyota 3F Engine Repair Manual
+LANGUE   : English
+NOTES    : Published December 1984. Publication Number 36253E. Handwritten annotation '1984' visible on cover.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36262E.pdf (720p)
+TYPE     : Repair Manual
+SÉRIE    : Land Cruiser 60
+MODÈLES  : FJ6_, FJ7_, BJ6_, BJ7_, HJ6_, HJ7_ series
+MOTEUR   : None
+ANNÉE    : 1984
+TITRE    : Toyota Repair Manual for Chassis & Body - Land Cruiser (Heavy Duty)
+LANGUE   : English
+NOTES    : Publication No. 36262E. October 1984. Covers chassis and body repairs for Heavy Duty Land Cruiser models.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36264E.pdf (194p)
+TYPE     : Transmission Manual
+SÉRIE    : Other
+MODÈLES  : A440F, A440L
+MOTEUR   : None
+ANNÉE    : 1984
+TITRE    : Toyota A440F, A440L Automatic Transmission Repair Manual
+LANGUE   : English
+NOTES    : Publication No. 36264E. This is an automatic transmission repair manual for the A440F and A440L transmissions, published November 1984. Not vehicle-model specific, but rather transmission-specific documentation.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36380E.pdf (96p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : 3Y / 22R / 3F
+MOTEUR   : 3Y, 22R, 3F
+ANNÉE    : 1984
+TITRE    : Toyota 3Y, 22R, 3F Engine Repair Manual for Emission Control
+LANGUE   : English
+NOTES    : Publication date: November 1984. Publication No. 36380E. This manual covers emission control systems for the 3Y, 22R, and 3F engine variants.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36683F.pdf (56p)
+TYPE     : Electrical Wiring Diagram
+SÉRIE    : Other
+MODÈLES  : 1983 Commercial Vehicles
+MOTEUR   : None
+ANNÉE    : 1983
+TITRE    : TOYOTA ELECTRICAL WIRING DIAGRAM 1983 Commercial Vehicles
+LANGUE   : English
+NOTES    : Publication No. 36683F. Document covers Toyota commercial vehicles from 1983. Specific models/series not detailed on cover page.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 36713F.pdf (69p)
+TYPE     : Electrical Wiring Diagram
+SÉRIE    : Other
+MODÈLES  : 1985 Passenger Cars (various models)
+MOTEUR   : None
+ANNÉE    : 1985
+TITRE    : Toyota Electrical Wiring Diagram - 1985 Passenger Cars
+LANGUE   : English
+NOTES    : Publication number: 36713F. This is a comprehensive wiring diagram manual covering all 1985 Toyota passenger car models. Specific models not listed on cover but would include Corolla, Celica, Camry, Cressida, Supra, and other passenger vehicles from that model year.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 608131.pdf (121p)
+TYPE     : Technical Specifications
+SÉRIE    : Land Cruiser 60
+MODÈLES  : Station Wagon (60 Series)
+MOTEUR   : None
+ANNÉE    : 1986
+TITRE    : Technical Specifications Toyota Land Cruiser Station Wagon (60 Series)
+LANGUE   : English
+NOTES    : Published August 1986. This is a technical specifications document for the 60 Series Land Cruiser Station Wagon variant.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 98126E.pdf (220p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other (not specified on cover)
+MODÈLES  : None
+MOTEUR   : 2F
+ANNÉE    : None
+TITRE    : Toyota 2F Engine Repair Manual
+LANGUE   : English
+NOTES    : Published by Toyota Motor Corporation. Publication number visible as 8572-E. Document appears to be vintage based on cover condition. This is page 1 of 220.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : 98961.pdf (45p)
+TYPE     : Electrical Wiring Diagram
+SÉRIE    : Other
+MODÈLES  : 1982 Commercial Vehicles
+MOTEUR   : None
+ANNÉE    : 1982
+TITRE    : TOYOTA ELECTRICAL WIRING DIAGRAM 1982 Commercial Vehicles
+LANGUE   : English
+NOTES    : Publication No. 98961. This appears to be a general wiring diagram manual for Toyota commercial vehicles from 1982, not specific to Land Cruiser series.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : AANCF004.pdf (72p)
+TYPE     : New Car Features Supplement
+SÉRIE    : Land Cruiser 80
+MODÈLES  : None
+MOTEUR   : None
+ANNÉE    : 1995
+TITRE    : LAND CRUISER New Car Features Supplement Jan., 1995
+LANGUE   : English
+NOTES    : This is a supplement document for new car features, published in January 1995. Based on the timeframe, this likely covers the Land Cruiser 80 series (FJ80/HZJ80/HDJ80 models).
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : ATH021F.pdf (18p)
+TYPE     : Transmission Manual
+SÉRIE    : Land Cruiser 80
+MODÈLES  : FJ70, FJ73, HZJ73, FJ80, HZJ80, HDJ80
+MOTEUR   : None
+ANNÉE    : 1990
+TITRE    : A440F, A442F Automatic Transmission Hydraulic Circuit Diagrams
+LANGUE   : English
+NOTES    : Document covers A440F and A442F automatic transmissions applicable to FJ70, FJ73 series (HZJ73 series), FJ80 series (HZJ80, HDJ80 series). Publication number ATH021F. Also references related manuals: RM183E, RM184E, RM188E, EWD090F, NCF064E for comprehensive service information.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : ATH031F.pdf (16p)
+TYPE     : Transmission Manual
+SÉRIE    : Other (FZJ80 / HDJ80 Series)
+MODÈLES  : FZJ80 Series, HDJ80 Series
+MOTEUR   : None
+ANNÉE    : 1992
+TITRE    : TOYOTA A442F AUTOMATIC TRANSMISSION HYDRAULIC CIRCUIT DIAGRAMS
+LANGUE   : English
+NOTES    : Publication number ATH031F. Applicable to Land Cruiser (Hardtop, Canvastop and Station Wagon) models for General, Europe and Australia destinations. For detailed service specifications and repair procedures, refer to A442F Automatic Transmission Repair Manual (RM314E) or Land Cruiser Chassis and Body Repair Manual Supplement (RM315E).
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : BRM050E.pdf (85p)
+TYPE     : Repair Manual
+SÉRIE    : Land Cruiser 80
+MODÈLES  : FZJ80 HZJ80 HDJ80
+MOTEUR   : None
+ANNÉE    : 1995
+TITRE    : Toyota Repair Manual for Collision Damage - Land Cruiser
+LANGUE   : English
+NOTES    : Publication Number: BRM050E. This is a collision damage/body repair manual for the 80 series Land Cruiser. Document dated January 1995.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : BRM061E.pdf (132p)
+TYPE     : Repair Manual / Body Repair Manual
+SÉRIE    : Land Cruiser Prado 90
+MODÈLES  : RZJ9_, VZJ9_, KZJ9_, LJ9_
+MOTEUR   : None
+ANNÉE    : 1996
+TITRE    : TOYOTA REPAIR MANUAL FOR COLLISION DAMAGE - LAND CRUISER / LAND CRUISER PRADO
+LANGUE   : English
+NOTES    : Publication Number: BRM061E. Specific focus on collision damage repair for Land Cruiser Prado 90 series (RZJ9, VZJ9, KZJ9, LJ9 variants). Published April 1996.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : ERM068E.pdf (83p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 3F, 3F-E
+ANNÉE    : 1990
+TITRE    : Toyota 3F, 3F-E Engine Repair Manual for Emission Control
+LANGUE   : English
+NOTES    : Publication No. ERM068E. Dated Jan., 1990. This manual focuses specifically on emission control systems for the 3F and 3F-E engines.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : ERM096E.pdf (56p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Not specified
+MOTEUR   : 1FZ-FE
+ANNÉE    : 1992
+TITRE    : Toyota 1FZ-FE Engine Repair Manual for Emission Control
+LANGUE   : English
+NOTES    : Publication number: ERM096E. Date: August 1992. This manual specifically covers emission control systems for the 1FZ-FE engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : ERM111E.pdf (32p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 1HD-FT
+ANNÉE    : 1995
+TITRE    : Toyota 1HD-FT Engine Repair Manual for Emission Control
+LANGUE   : English
+NOTES    : Publication number: ERM111E. Date: Jan., 1995. This is a specialized emission control repair manual for the 1HD-FT diesel engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD046F.pdf (101p)
+TYPE     : Electrical Wiring Diagram
+SÉRIE    : Other
+MODÈLES  : Commercial Vehicles (1988)
+MOTEUR   : None
+ANNÉE    : 1988
+TITRE    : TOYOTA ELECTRICAL WIRING DIAGRAM 1988 Commercial Vehicles
+LANGUE   : English
+NOTES    : Publication No. EWD046F. This is a wiring diagram manual for Toyota commercial vehicles from 1988. Specific models/engines not identified on cover page.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD066F.pdf (115p)
+TYPE     : Electrical Wiring Diagram
+SÉRIE    : Other
+MODÈLES  : Commercial Vehicles (1989)
+MOTEUR   : None
+ANNÉE    : 1989
+TITRE    : Toyota Electrical Wiring Diagram - 1989 Commercial Vehicles
+LANGUE   : English
+NOTES    : Publication number EWD066F. This document covers electrical wiring diagrams for Toyota commercial vehicles from 1989. Specific vehicle models/series not identified on cover page.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD090F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD114F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD169F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD232F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD269F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD272F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD340F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : EWD376F.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-1004.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-1019.pdf (64p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Toyota Hiace
+MODÈLES  : HZJ80R, HDJ80R, FJ80R
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Hiace Air Conditioner Installation Manual
+LANGUE   : English
+NOTES    : Document code: MAC-1019. Manufacturer: Nippondenso (Australia) Pty. Ltd. This is an installation manual for air conditioning systems in Toyota Hiace vehicles.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-1032.pdf (27p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser 80
+MODÈLES  : FZJ80R
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Land Cruiser Air Conditioner Installation Manual
+LANGUE   : English
+NOTES    : Model code FZJ80R indicates 80 Series Land Cruiser. Document code MAC-1032. Manufacturer: Nippondenso (Australia) Pty. Ltd. This is an installation manual for the air conditioning system.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-1067.pdf (35p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser 80
+MODÈLES  : HZJ80R
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Land Cruiser HZJ80R Air Conditioning HFC-134a(R134a)
+LANGUE   : English
+NOTES    : Document code: MAC-1067. Refrigerant type: HFC-134a(R134a). This is an installation manual for the air conditioning system.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-1079.pdf (33p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser 100
+MODÈLES  : VZJ95R
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Land Cruiser VZJ95R Air Conditioning Installation Manual
+LANGUE   : English
+NOTES    : Installation manual by Nippondenso (Australia) Pty. Ltd. Document code: MAC-1079. HFC-134a refrigerant (Ozone Friendly Refrigerant indicated by logo on cover)
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-501.pdf (29p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser (FJ60RV Series)
+MODÈLES  : FJ60RV Series
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Land Cruiser Air Conditioner Installation Instructions - All Season Type / FJ60RV Series
+LANGUE   : English
+NOTES    : Document code: MAC-501. This is an installation instruction manual for an aftermarket or replacement air conditioning system for Toyota Land Cruiser FJ60RV series vehicles.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-515.pdf (26p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser 60
+MODÈLES  : HJ60 Series
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Land Cruiser Air Conditioner - All Season & Boost Ventilator Type / HJ60 Series Installation Instructions
+LANGUE   : English
+NOTES    : Document code: MAC-515. This is an installation instruction manual for aftermarket air conditioning systems compatible with HJ60 series Land Cruisers. The document appears to be a table of contents or index page showing the structure of the manual with multiple sections.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-A458.pdf (8p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser Prado 90
+MODÈLES  : KZJ90 / KZJ95 (inferred from Prado 90 series)
+MOTEUR   : None
+ANNÉE    : 1996-2002 (estimated for Prado 90 generation)
+TITRE    : LANDCRUISER PRADO A/C AIR MIX DOOR
+LANGUE   : English
+NOTES    : Document code: MAC-A458. Manufacturer: Denso International Australia Pty Ltd. This is a specialized manual covering the air conditioning air mix door system for the Prado 90 series.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-A486.pdf (41p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser 100
+MODÈLES  : VZJ95R
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Land Cruiser VZJ95R Air Conditioning Installation Manual
+LANGUE   : English
+NOTES    : Document code: MAC-A486. Manufacturer: Denso International Australia Pty Ltd. HFC-134a Ozone Friendly Refrigerant. Installation/Service manual for air conditioning system.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : MAC-A510.pdf (39p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser 90
+MODÈLES  : KZJ95R
+MOTEUR   : None
+ANNÉE    : None
+TITRE    : Toyota Land Cruiser KZJ95R Air Conditioning
+LANGUE   : English
+NOTES    : Installation Manual. Manufacturer: Denso International Australia Pty Ltd. Document code: MAC-A510. HFC-134a Ozone Friendly Refrigerant certified.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : NCF064E.pdf (279p)
+TYPE     : New Car Features
+SÉRIE    : Land Cruiser 80
+MODÈLES  : None
+MOTEUR   : None
+ANNÉE    : 1990
+TITRE    : LAND CRUISER New Car Features Jan., 1990
+LANGUE   : English
+NOTES    : This is a cover page for a new car features document introducing the January 1990 Land Cruiser model updates. The document appears to be a promotional or informational brochure highlighting new features and improvements for that model year.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : NCF131E.pdf (238p)
+TYPE     : New Car Features
+SÉRIE    : Land Cruiser Prado 90
+MODÈLES  : KZJ90 KZJ95 RZJ95 VZJ95
+MOTEUR   : None
+ANNÉE    : 1996
+TITRE    : Land Cruiser Land Cruiser Prado New Car Features May, 1996
+LANGUE   : English
+NOTES    : Document appears to be an informational brochure detailing new features for the 1996 Land Cruiser Prado model lineup
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : NCF195E.pdf (269p)
+TYPE     : New Car Features Supplement
+SÉRIE    : Land Cruiser Prado 90 / Corolla / MR2 / Avensis
+MODÈLES  : Corolla / MR2 / Avensis / Land Cruiser / Land Cruiser Prado
+MOTEUR   : None
+ANNÉE    : 2000
+TITRE    : TOYOTA model New Car Features Supplement
+LANGUE   : English
+NOTES    : Document dated July 2000. Covers multiple Toyota models including Corolla, MR2, Avensis, Land Cruiser, and Land Cruiser Prado. Intended for sales and service activities.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RAC-015.pdf (79p)
+TYPE     : Air Conditioning Manual
+SÉRIE    : Land Cruiser
+MODÈLES  : Not specified on cover
+MOTEUR   : None
+ANNÉE    : Not specified on cover
+TITRE    : Toyota Land Cruiser Repair Manual - All Season Type Airconditioning System
+LANGUE   : English
+NOTES    : Document code: RAC-015. This is a specialized manual focusing exclusively on the air conditioning system for Land Cruiser vehicles. The specific generation/model year is not indicated on this cover page.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM012E.pdf (338p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 2H, 12H-T
+ANNÉE    : 1985
+TITRE    : TOYOTA 2H, 12H-T ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication No. RM012E, dated November 1985. This manual covers the 2H and 12H-T diesel engines used in various Toyota vehicles of that era.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM024E.pdf (265p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : 11B, 13B, 13B-T
+MOTEUR   : 11B / 13B / 13B-T
+ANNÉE    : 1985
+TITRE    : Toyota 11B, 13B, 13B-T Engine Repair Manual
+LANGUE   : English
+NOTES    : Publication No. RM024E, dated Nov. 1985. These are forklift engine variants (11B and 13B series), not Land Cruiser engines.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM033E.pdf (84p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser 60
+MODÈLES  : FJ6_ FJ7_ series, BJ7_ series, HJ6_ HJ7_ series
+MOTEUR   : None
+ANNÉE    : 1985
+TITRE    : TOYOTA REPAIR MANUAL SUPPLEMENT FOR CHASSIS & BODY - LAND CRUISER (Heavy Duty)
+LANGUE   : English
+NOTES    : Publication No. RM033E. This is a supplement document dated November 1985 covering heavy duty Land Cruiser models with series designations FJ6_, FJ7_, BJ7_, HJ6_, and HJ7_
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM035E.pdf (339p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : B, 3B, 11B, 13B, 13B-T
+MOTEUR   : B / 3B / 11B / 13B / 13B-T
+ANNÉE    : 1986
+TITRE    : TOYOTA B, 3B, 11B, 13B, 13B-T ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication No. RM035E, dated Mar. 1986. These are diesel engines used in various Toyota commercial vehicles and light trucks.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM132E.pdf (270p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : B, 3B, 11B, 14B (engine variants)
+MOTEUR   : B, 3B, 11B, 14B
+ANNÉE    : 1988
+TITRE    : TOYOTA B, 3B, 11B, 14B ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication number: RM132E. Date: Aug., 1988. These are 4-cylinder diesel engines used in various Toyota models during the 1980s-1990s period.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM134E.pdf (187p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 3F-E
+ANNÉE    : 1988
+TITRE    : TOYOTA 3F-E ENGINE REPAIR MANUAL SUPPLEMENT
+LANGUE   : English
+NOTES    : Publication number: RM134E. This is a supplement to the main repair manual, dated August 1988. The 3F-E is a carbureted version of the 3F engine, commonly used in Toyota Land Cruiser and other models during this period.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM172E.pdf (348p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 1PZ, 1HZ, 1HD-T
+ANNÉE    : 1990
+TITRE    : TOYOTA 1PZ, 1HZ, 1HD-T ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication number: RM172E. February 1990 issue. Document covers three diesel engine variants (1PZ, 1HZ, and 1HD-T) in a single repair manual.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM184E.pdf (979p)
+TYPE     : Repair Manual
+SÉRIE    : Land Cruiser 80
+MODÈLES  : FJ80 HZJ80 HDJ80
+MOTEUR   : None
+ANNÉE    : 1990
+TITRE    : Toyota Repair Manual for Chassis & Body - Land Cruiser (Station Wagon)
+LANGUE   : English
+NOTES    : Publication Number: RM184E. This manual covers FJ80, HZJ80, and HDJ80 series Land Cruiser Station Wagon models from January 1990.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM188E.pdf (162p)
+TYPE     : Transmission Manual
+SÉRIE    : Other
+MODÈLES  : A441L, A440F, A442F
+MOTEUR   : None
+ANNÉE    : 1990
+TITRE    : Toyota A441L, A440F, A442F Automatic Transmission Repair Manual
+LANGUE   : English
+NOTES    : Publication number RM188E. March 1990 edition. This is an automatic transmission repair manual covering three transmission models (A441L, A440F, A442F), applicable to various Toyota vehicles of that era.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM283E.pdf (305p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 1FZ-F
+ANNÉE    : 1992
+TITRE    : TOYOTA 1FZ-F ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication No. RM283E, dated Jan., 1992. The 1FZ-F is a 4.5L naturally aspirated petrol engine used in various Toyota models including Land Cruiser 80 series.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM290E.pdf (472p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser 80
+MODÈLES  : RJ7 series, LJ7 series, FJ7_80 series, FZJ7_80 series, PZJ7_series, HZJ7_80 series, HDJ7_80 series
+MOTEUR   : None
+ANNÉE    : Jan., 1992
+TITRE    : TOYOTA REPAIR MANUAL SUPPLEMENT FOR CHASSIS & BODY - LAND CRUISER (Hardtop, Canvas Top & Station Wagon)
+LANGUE   : English
+NOTES    : Publication No. RM290E. This is a supplement document covering multiple Land Cruiser 80 series variants including hardtop, canvas top, and station wagon body styles.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM314E-Supp.pdf (21p)
+TYPE     : Supplement
+SÉRIE    : Land Cruiser 80
+MODÈLES  : FZJ80, HZJ80
+MOTEUR   : None
+ANNÉE    : 1995
+TITRE    : Land Cruiser FZJ80, HZJ80 Supplement for changes to A442F automatic transmission
+LANGUE   : English
+NOTES    : Supplement to A442F automatic transmission repair manual (pub. no. RM314E). Published January 1995. Changes indicated by black marker/highlight. Document by Toyota Motor Corporation Australia Limited.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM314E.pdf (142p)
+TYPE     : Transmission Manual
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : None
+ANNÉE    : 1992
+TITRE    : Toyota A442F Automatic Transmission Repair Manual
+LANGUE   : English
+NOTES    : Publication No. RM314E. August 1992. A442F is a 4-speed automatic transmission used in various Toyota models from the late 1980s through 1990s.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM315E.pdf (438p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser 70
+MODÈLES  : RJ7 series, LJ7 series, FZJ7 series, 80 series, PZJ7 series, HZJ7 series, 80 series, HDJ80 series
+MOTEUR   : None
+ANNÉE    : 1992 (August)
+TITRE    : Toyota Repair Manual Supplement for Chassis & Body - Land Cruiser (Hardtop/Canvas Top/Station Wagon)
+LANGUE   : English
+NOTES    : Publication Number: RM315E. This is a chassis and body repair manual supplement covering multiple Land Cruiser series variants from the late 1980s to early 1990s.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM321E.pdf (500p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 1FZ-F, 1FZ-FE
+ANNÉE    : 1992
+TITRE    : TOYOTA 1FZ-F, 1FZ-FE ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication date: Aug., 1992. Publication Number: RM321E. This manual covers the 1FZ-F and 1FZ-FE engine variants.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM353E.pdf (336p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 1KZ-T
+ANNÉE    : 1993
+TITRE    : TOYOTA 1KZ-T ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication number RM353E, dated May 1993. The 1KZ-T engine is a 3.0L turbocharged diesel engine commonly found in Toyota Land Cruiser Prado 90 series and other Toyota vehicles from the 1990s.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM434E.pdf (278p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser 80
+MODÈLES  : FZJ80 HZJ80 HDJ80
+MOTEUR   : None
+ANNÉE    : 1995
+TITRE    : Toyota Repair Manual Supplement for Chassis & Body - Land Cruiser (Station Wagon)
+LANGUE   : English
+NOTES    : This is a supplement manual for chassis and body repairs. Publication number: RM434E. Covers FZJ80, HZJ80, and HDJ80 series Land Cruiser 80 Station Wagons as of January 1995.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM436E.pdf (106p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 1FZ-FE
+ANNÉE    : 1995
+TITRE    : TOYOTA 1FZ-FE ENGINE REPAIR MANUAL SUPPLEMENT
+LANGUE   : English
+NOTES    : Publication Number: RM436E. Date: Jan., 1995. This is a supplement to the main repair manual for the 1FZ-FE engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM437E.pdf (275p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 1HD-FT
+ANNÉE    : 1995
+TITRE    : Toyota 1HD-FT Engine Repair Manual
+LANGUE   : English
+NOTES    : Publication number RM437E. Dated January 1995. The 1HD-FT is a turbocharged diesel engine commonly found in Toyota Land Cruiser and other commercial vehicles.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM517E.pdf (1155p)
+TYPE     : Repair Manual
+SÉRIE    : Land Cruiser Prado 90
+MODÈLES  : RZJ9_, VZJ9_, KZJ9_, LJ9_
+MOTEUR   : None
+ANNÉE    : 1996
+TITRE    : Toyota Repair Manual for Chassis & Body Land Cruiser / Land Cruiser Prado
+LANGUE   : English
+NOTES    : Publication No. RM517E. Covers RZJ9_, VZJ9_ series and KZJ9_, LJ9_ series. April 1996 publication date.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM519E.pdf (251p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 5VZ-FE
+ANNÉE    : 1996
+TITRE    : Toyota 5VZ-FE Engine Repair Manual
+LANGUE   : English
+NOTES    : Publication number RM519E. April 1996 edition. The 5VZ-FE engine was used in various Toyota vehicles including 4Runner and Tacoma models of the mid-1990s.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM520E.pdf (284p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 2L, 3L
+ANNÉE    : 1996
+TITRE    : TOYOTA 2L, 3L ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication number: RM520E. Document dated April 1996. Covers 2L and 3L engine variants.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM521E.pdf (292p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 3RZ-F, 3RZ-FE
+ANNÉE    : 1996
+TITRE    : TOYOTA 3RZ-F, 3RZ-FE ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication date: Apr., 1996. Publication No. RM521E. This manual covers the 3RZ-F and 3RZ-FE engine variants.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM522E.pdf (201p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 1KZ-T, 1KZ-TE
+ANNÉE    : 1996
+TITRE    : TOYOTA 1KZ-T, 1KZ-TE ENGINE REPAIR MANUAL SUPPLEMENT
+LANGUE   : English
+NOTES    : Publication date: April 1996. Publication No. RM522E. This is a supplement document to the main repair manual for the 1KZ-T and 1KZ-TE engines.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM523E.pdf (106p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 1HD-FT
+ANNÉE    : 1996
+TITRE    : Toyota 1HD-FT Engine Repair Manual Supplement
+LANGUE   : English
+NOTES    : Publication No. RM523E, dated May 1996. This is a supplement to the main repair manual for the 1HD-FT engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM528E.pdf (117p)
+TYPE     : Transmission Manual
+SÉRIE    : Other
+MODÈLES  : A343F
+MOTEUR   : None
+ANNÉE    : 1996
+TITRE    : Toyota A343F Automatic Transmission Repair Manual
+LANGUE   : English
+NOTES    : Publication No. RM528E. April 1996 edition. A343F is an automatic transmission model used across various Toyota vehicles, not specific to a single series.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM534E.pdf (178p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser 80
+MODÈLES  : FZJ80 HZJ80 HDJ80
+MOTEUR   : None
+ANNÉE    : 1996
+TITRE    : Toyota Repair Manual Supplement for Chassis & Body - Land Cruiser (Station Wagon)
+LANGUE   : English
+NOTES    : Publication number RM534E. This is a supplement document for chassis and body repair for Land Cruiser 80 series station wagon variants.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM627E.pdf (307p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser Prado 90
+MODÈLES  : RZJ9_, VZJ9_, KZJ9_, LJ9_
+MOTEUR   : None
+ANNÉE    : 1998
+TITRE    : TOYOTA REPAIR MANUAL SUPPLEMENT FOR CHASSIS & BODY - LAND CRUISER/LAND CRUISER PRADO
+LANGUE   : English
+NOTES    : Publication No. RM627E. This is a supplement manual covering chassis and body systems for Land Cruiser Prado series vehicles (RZJ9, VZJ9, KZJ9, LJ9 series). Published January 1998.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM702E.pdf (678p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser Prado 90
+MODÈLES  : RZJ9_, VZJ9_, KZJ9_, LJ9_
+MOTEUR   : None
+ANNÉE    : 1999
+TITRE    : Toyota Repair Manual Supplement for Chassis & Body - Land Cruiser/Land Cruiser Prado
+LANGUE   : English
+NOTES    : Publication No. RM702E. This is a supplement manual covering multiple series variants (RZJ9, VZJ9, KZJ9, LJ9). Published June 1999.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM703E.pdf (161p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : None
+MOTEUR   : 5VZ-FE
+ANNÉE    : 1999
+TITRE    : TOYOTA 5VZ-FE ENGINE REPAIR MANUAL SUPPLEMENT
+LANGUE   : English
+NOTES    : Publication No. RM703E, dated June 1999. This is a supplement to the main repair manual for the 5VZ-FE engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM704E.pdf (212p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : Not specified
+MOTEUR   : 3RZ-FE
+ANNÉE    : 1999
+TITRE    : TOYOTA 3RZ-FE ENGINE REPAIR MANUAL SUPPLEMENT
+LANGUE   : English
+NOTES    : Publication Number: RM704E. Document date: Jun., 1999. This is a supplement to the main repair manual for the 3RZ-FE engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM710E.pdf (412p)
+TYPE     : Engine Repair Manual
+SÉRIE    : Other
+MODÈLES  : Unknown (1KZ-TE engine equipped vehicles)
+MOTEUR   : 1KZ-TE
+ANNÉE    : 1999
+TITRE    : TOYOTA 1KZ-TE ENGINE REPAIR MANUAL
+LANGUE   : English
+NOTES    : Publication date: Aug., 1999. Publication number: RM710E. The 1KZ-TE engine was used in Land Cruiser Prado 90 series and other Toyota models from the mid-1990s onwards.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM790E.pdf (285p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : Not specified on cover
+MOTEUR   : 1KZ-TE
+ANNÉE    : 2000
+TITRE    : TOYOTA 1KZ-TE ENGINE REPAIR MANUAL SUPPLEMENT
+LANGUE   : English
+NOTES    : Publication date: August 2000. Publication number: RM790E. This is a supplement to the main repair manual for the 1KZ-TE engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM805E.pdf (272p)
+TYPE     : Repair Manual Supplement
+SÉRIE    : Land Cruiser Prado 90
+MODÈLES  : RZJ9_, VZJ9_ series, KZJ9_, KDJ9_ series, LJ9_ series
+MOTEUR   : None
+ANNÉE    : 2000
+TITRE    : TOYOTA REPAIR MANUAL SUPPLEMENT FOR CHASSIS & BODY - LAND CRUISER/LAND CRUISER PRADO
+LANGUE   : English
+NOTES    : Publication No. RM805E. Covers RZJ9, VZJ9, KZJ9, KDJ9, and LJ9 series. Published August 2000.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : RM898E.pdf (213p)
+TYPE     : Engine Repair Manual Supplement
+SÉRIE    : Other
+MODÈLES  : Not specified
+MOTEUR   : 5VZ-FE
+ANNÉE    : 2001
+TITRE    : TOYOTA 5VZ-FE ENGINE REPAIR MANUAL SUPPLEMENT
+LANGUE   : English
+NOTES    : Publication No. RM89BE; Dated Aug. 2001. This is a supplement to the main repair manual for the 5VZ-FE engine.
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------
+ORIGINAL : STI006E.pdf (0p)
+TYPE     : ?
+SÉRIE    : ?
+MODÈLES  : ?
+MOTEUR   : ?
+ANNÉE    : ?
+TITRE    : ?
+LANGUE   : ?
+NOTES    : 
+PROPOSÉ  : *** À COMPLÉTER ***
+----------------------------------------------------------------------

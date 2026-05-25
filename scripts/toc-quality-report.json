@@ -1,0 +1,911 @@
+{
+  "ok": [
+    "moviola-library-reader-projector-lvseries-service-manual",
+    "contax-contax-ax-repair",
+    "fujica-fujica-hds-repair",
+    "jobo-jobo-processor-atl-2-atl-3-service-manual-25",
+    "lurem-ts41sti-ts4ti-ts4i-manual",
+    "bronica-bronica-etr-repair-manual-25",
+    "zenza-bronica-bronica-etrsi-repair-manual",
+    "minimax-minimax-c26-30-genius-manuel",
+    "epson-epson-sp4000-fieldrepair",
+    "nikon-nikon-af-nikkor-75-300mm-f45-56-repair",
+    "canon-canon-eos-20d-sm",
+    "lurem-c260e-c310e-manual",
+    "hasselblad-hasselblad-503cw-service-manual",
+    "canon-canon-580exii-repair",
+    "fujica-fujica-st701-repair-parts",
+    "yashica-yashica-fx103-program-repair-manual",
+    "nikon-nikon-sb-800-service-manual",
+    "compur-compur-factory-shutter-repair-manual",
+    "robland-robland-x310-x260-xtz30-xsd310-manual-parts",
+    "bowens-bowens-monolite-400bcx-service-manual",
+    "elmo-elmo-st1200hd-service-manual-20",
+    "fujica-fujica-zxm300-single-8-sound-movie-camera-service-manual",
+    "canon-canon-g9-service-manuel",
+    "contax-contax-s2-repair-manual",
+    "contax-contax-137-repair",
+    "contax-contax-g2-repair-manual-20",
+    "contax-contax-tvs-repair-manual",
+    "edixa-edixa-reflex-repair",
+    "contax-contax-t2-repair-manual",
+    "petri-petri-7s-service-manual",
+    "yashica-yashica-t4-slim-repair",
+    "graflex-graflex-ground-camera-c6-repair",
+    "lurem-c210b-operators-manual",
+    "fujica-fuji-gs645-service-manual-25",
+    "fujica-fuji-hdm-repair-18",
+    "fujica-fujica-dl100-repair-manual",
+    "hasselblad-hasselblad-1600f-repair-manual",
+    "lurem-c260n-user-manual",
+    "hasselblad-hasselblad-backs-service-manual",
+    "hasselblad-hasselblad-555eld-service-manual",
+    "hasselblad-hasselblad-cfi-cfe-lenses-service-manual",
+    "nikon-nikon-afs-vr70-300f45g-repair",
+    "kodak-kodak-35-service-manual",
+    "kodak-kodak-military-kodak35-repair",
+    "kodak-kodak-shutters-1946-55-service-manual-20",
+    "koni-koni-rapid-repair-manual",
+    "konica-konica-auto-s3-c35fd-service-manual",
+    "kowa-kowa-super-66-service-manual",
+    "rollei-rolleiflex-tlr-repair-manual-20",
+    "mamiya-mamiya-shutter-for-lenses-rz-service-manual-20",
+    "mamiya-mamiya-ze-ze2-quartz-repair-manual",
+    "minolta-minolta-x300-x370-service-manual",
+    "minolta-minolta-dynax-5d-sm",
+    "minolta-minolta-himaticf-repair",
+    "minolta-minolta-sr-t-303-102-super-repair",
+    "minolta-minolta-xm-ae-finder-service-manual",
+    "nikon-nikkor-28-300-vr-repair",
+    "nikon-nikkormat-el-repair-manual",
+    "sunpak-sunpak-autozoom5000-auto611-flash-service-manual",
+    "nikon-nikon-d1-service-manual",
+    "sunpak-sunpak-auto622-flash-service-manual",
+    "nikon-nikon-d90-service-manual",
+    "nikon-nikon-fm2-repair-manual",
+    "nikon-nikon-n50-f50-service-manual",
+    "zeiss-ikon-contaflex-service-manual-25",
+    "lurem-c310e-c260e-manual",
+    "nikon-nikon-f100-repair",
+    "reparation-depannage-camera-maintenance-repair-book-1-fundamental-techniques-a-comprehensive-fully-illustrated-guide-by-thomas-tomosy",
+    "nikon-nikon-f3-service-manual",
+    "kodak-kodak-ektasound-235-245-service-manual",
+    "suzuki-samurai-service-manual-complete",
+    "kodak-kodak-medalist-ii-service-manual",
+    "nikon-nikon-mb21-service-manual",
+    "foundations-of-mechanical-accuracy-wayne-r-moore-1970",
+    "graflex-graflex-rangefinder-service-manual",
+    "kodak-kodak-projector-kodascope-90-90a-service-manual",
+    "kodak-kodak-projector-pageant-av-256tr-service-manual-25",
+    "prontor-instructions-for-repairing-prontor-photographic-shutters",
+    "fujica-fuji-gx680-repair-manual-25",
+    "kodak-kodakscope-mk4-service-manual",
+    "machines-outil-notice-emco-compact-8",
+    "fujica-fujica-p100-single-8-sound-movie-camera-service-manual",
+    "bowens-bowens-prolite-service-manual",
+    "fujica-fuji-g690bl-service-manual-20",
+    "graflex-graflex-graphic-view-service-manual",
+    "hasselblad-hasselblad-903swc-service-manual",
+    "hasselblad-hasselblad-accessories-3-service-manual",
+    "jet-jet-jwl-1640evs-manual-en-de-fr-2016",
+    "nikon-nikon-fa-service-manual",
+    "lurem-c260n-operators-manual",
+    "mamiya-mamiya-rz67-pro-repair-manual-20",
+    "minolta-minolta-auto-winder-d-g-service-manual",
+    "minolta-minolta-dynax7-repair",
+    "minolta-minolta-himatic-9-service-manual",
+    "minolta-minolta-himatic-g-service-manual",
+    "minolta-minolta-maxxum-303si-400si-500si-service-manual",
+    "minolta-minolta-maxxum-5000-service-manual",
+    "minolta-minolta-maxxum5-service-manual",
+    "minolta-minolta-xd-series-service-manual",
+    "minolta-minolta-srt101-service-manual",
+    "minolta-minolta-xe-service-manual",
+    "minolta-minolta-xk-repair-manual",
+    "nikon-nikkor-24-120mm-ed-afs-vr-g-repair",
+    "nikon-nikon-fg20-service-manual",
+    "nikon-nikon-n65-f65-service-manual",
+    "nikon-nikon-tw-zoom-85-repair",
+    "nikon-nikonos-ii-service-manual",
+    "nikon-nikonos-iii-service-manual",
+    "nikon-nikonos-v-service-manual",
+    "nikon-nikon-d70-notice",
+    "nikon-nikon-d700",
+    "nikon-nikon-f4-assembly-adjustment",
+    "nord-nord-automatic-slr-camera-service-manual-20",
+    "omega-omega-lamphouse-d5500-service-manual",
+    "pentacon-pentacon-six-service-manual",
+    "pentax-pentax-accessories-lens-finder-6x7-service-manual",
+    "pentax-pentax-me-super-service-manual",
+    "pentax-pentax-s3-service-manual",
+    "polaroid-polaroid-100-200-300-repair-manual",
+    "polaroid-polaroid-600se-repair-manual",
+    "polaroid-polaroid-sx70-repair-manual-20",
+    "repair-troubleshooting-cinemaproducts-cp16-technical"
+  ],
+  "no_toc": [
+    "lurem-sc25-technical-manual",
+    "bronica-zenzanon-lenses-seiko-shutter-repair-manuals",
+    "kalart-kalart-rangefinder-sevice-and-repair-manual",
+    "repair-troubleshooting-revision-et-reparation-des-appareils-photo-edward-ed-romney",
+    "lurem-c360-c410n-manual",
+    "leica-r4s2-stuck-shutter-not-triggering-fix",
+    "lurem-c260j-manual",
+    "adria-restauration-des-freins-dune-adria-prima-350-td-de-1989-nkoi6l",
+    "repair-troubleshooting-isaak-solomonovich-mayzenberg-ustroystvo",
+    "agfa-agfa-colorflex-ambiflex-repair-manual",
+    "kiev-kiev-15-repair-russian",
+    "kiev-kiev-20-repair-russian",
+    "bronica-zenza-s2c-repair-manual",
+    "exa-exa-repair-manual",
+    "hasselbald-hasselblad-500-c-et-cm-manuel-de-service",
+    "kiev-kiev-80-repair-russian",
+    "rollei-cremaillere-de-mise-au-point-sur-rolleiflex-sl66",
+    "polaris-polaris-700-et-800-efi-service-manual",
+    "lurem-cb310sl-manual",
+    "lpb-lpb-signature-ii-audio-console-instruction-manual",
+    "lurem-optal26-parts-list",
+    "lurem-former310sti-parts-schemas",
+    "contax-contax-645-repair-manual-20",
+    "canon-canon-ef-100-400mm-f45-56l-is-usm-parts",
+    "pentax-pentax-k2-service-manual",
+    "canon-canon-ef-400mm-f56l-usm-parts",
+    "canon-canon-ef-500mm-f45l-usm-parts",
+    "contax-contax-rts-iii-repair",
+    "lurem-sar400-technical-manual",
+    "contax-contax-rx-repair-manual-25",
+    "contax-contax-159-repair-manual",
+    "contax-contax-aria-repair-manual",
+    "foca-universel-repair-manual-complete",
+    "pentax-pentax-superprog-service-manual",
+    "petri-petri-color35-service-manual",
+    "prontor-prontor-press7-shutter-repair-manual",
+    "camera-repair-vishnevsky-english",
+    "lurem-c2600-manual",
+    "kiev-kiev-19-repair-russian",
+    "lurem-c266-manual",
+    "konica-konica-lenses-service-manual-23",
+    "mini-cooper-rover-mini-manuel-de-reparation-akm6348",
+    "mini-cooper-rover-mini-repair-manual-akm6353",
+    "nikon-nikon-d200-repair-manual",
+    "nikon-nikon-d200-service-manual",
+    "nikon-nikon-d300-service-manual",
+    "nikon-nikon-d50-service-manual",
+    "minolta-minolta-x-series-service-manual",
+    "minolta-minolta-x700-service-manual",
+    "nikon-nikon-d60-service-manual",
+    "minolta-minolta-xgm-service-manual",
+    "pentax-pentax-645-sm",
+    "nikon-nikon-d70-service-manual",
+    "nikon-nikon-d80-service-manual",
+    "nikon-nikon-af-nikkor-28-85mm-f35-45-new-repair",
+    "nikon-nikon-coolscan-v-repair",
+    "nikon-nikon-d40-service-manual",
+    "nikon-nikon-f3-finders-service-manual",
+    "nikon-nikon-fm-revised-service-manual",
+    "nikon-nikon-fm3a-service-manual",
+    "nikon-nikon-mb22-service-manual",
+    "nikon-nikon-mb23-service-manual",
+    "nikon-nikon-n4004-service-manual",
+    "topcon-topcon-super-d-service-manual",
+    "wollensak-wollensak-rapax-shutters-disassembly",
+    "lurem-c36-manual",
+    "foca-entretien-et-reparation-des-focaflex",
+    "rolleiflex-t-original-technician-repair-manual",
+    "revox-pr99-mki-mkii-troubleshooting-manual",
+    "lurem-t30n-technical-manual",
+    "nikon-nikon-fm-repair",
+    "kodak-kodak-ektra-repair-manual",
+    "nikon-nikon-mb20-service-manual",
+    "reparation-depannage-restoring-classic-cameras-complete",
+    "pentax-pentax-lx-service-manual",
+    "lurem-router7-technical-manual",
+    "graflex-graflex-norita-service-manual",
+    "nikon-nikon-f36-service-manual",
+    "hasselbald-miroir-et-armement-bloque-sur-rolleiflex-sl66",
+    "nikon-tutoriel-de-demontage-complet-du-nikon-f4",
+    "collection-mckeowns-price-guide-complete",
+    "nikon-nikon-f4-dp20-service-man",
+    "lurem-c360-c410-manual",
+    "leica-leica-r4s-et-r5-qui-ne-declenche-plus",
+    "leica-r4-mot-stuck-shutter-not-triggering-fix",
+    "leica-r4-stuck-shutter-not-triggering-fix",
+    "reparation-depannage-all-you-need-to-know-about-design-and-repair-of-russian-cameras",
+    "leica-leica-m2-manuel",
+    "kodak-demontage-kodak-retina-reflex",
+    "lurem-c2100-operators-manual",
+    "leica-r4s-stuck-shutter-not-triggering-fix",
+    "canon-canon-ef-28-135mm-f35-56-is-usm-parts",
+    "canon-canon-ef-400mmf28l-is-usm-parts",
+    "canon-canon-ef-500mm-f4l-is-usm-parts",
+    "canon-canon-ef-70-300-f4-56-is-usm-parts",
+    "canon-canon-ef-repair-manual",
+    "canon-canon-eos-1v-service-manual",
+    "hasselblad-hasselblad-201-202-service-manual",
+    "hasselblad-hasselblad-500c-repair-manual",
+    "hasselblad-hasselblad-500cm-repair-manual",
+    "hasselblad-500-c-cm-troubleshooting-manual",
+    "lurem-c2000-technical-manual",
+    "nikon-nikon-fm10-service-manual",
+    "nikon-nikon-fe10-repair-manual",
+    "nikon-nikon-vr-micro-105mm-repair",
+    "lurem-hz-concept-cb310-ts",
+    "mamiya-mamiya-500dtl-1000dtl-service-manual",
+    "mamiya-mamiya-645-pro-service-manual",
+    "mamiya-mamiya-film-powerdrive-120-220-service-manual",
+    "mamiya-mamiya-m645-m645-1000s-service-manual-20",
+    "mamiya-mamiya-m645-super-ae-prism-techbulletin",
+    "minolta-minolta-xg1-xg1n-xga-service-manual",
+    "minolta-comment-reparer-son-minolta-tc1",
+    "minox-c-disassembly-tutorial",
+    "nikon-nikkor-afs-14-24-f28-repair",
+    "nikon-nikon-18-55-repair",
+    "nikon-nikon-24-70-f28g-repair-manual",
+    "nikon-nikon-n60-f60-service-manual",
+    "nikon-nikon-n8008-f801-practical-repair",
+    "nikon-nikon-af-s-nikkor-400mm-f2-8d-ed-ii-if",
+    "nikon-nikon-d70s-repair-manual",
+    "olympus-olympus-xa-service-manual",
+    "olympus-demontage-des-olympus-pen-f-ft-et-fv",
+    "pentax-pentax-67-ttl-prism-repair",
+    "pentax-pentax-6x7-service-manual",
+    "pentax-pentax-auto110-service-manual",
+    "pentax-pentax-k1000-service-manual",
+    "pentax-pentax-me-service-manual",
+    "pentax-pentax-mx-service-manual",
+    "pentax-pentax-mx-service-manuel",
+    "pentax-pentax-super-program-service-manual",
+    "petri-petri-racer-service-manual",
+    "polaroid-polaroid-sx70-repair-book",
+    "prontor-prontor-s-sv-svs1-repair-manual"
+  ],
+  "issues": [
+    {
+      "slug": "olympus-olympus-om2-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- PARTS LIST & DRAWING\n- GENERAL OUTLINE AND MECHANICAL FEATURES\n- CHECK POINTS (INSPECTION STANDARDS)\n- ORDER OF DISASSEMBLY\n- OUTLINE OF REPAIRS\n- PARTS WHERE OIL, GREASE, ETC. SHALL BE USED\n- SPECI",
+      "toc_fr_preview": "- LISTE DES PIÈCES ET DESSIN\n- APERÇU GÉNÉRAL ET CARACTÉRISTIQUES MÉCANIQUES\n- POINTS DE CONTRÔLE (NORMES D'INSPECTION)\n- ORDRE DE DÉMONTAGE\n- APERÇU DES RÉPARATIONS\n- PIÈCES OÙ HUILE, GRAISSE, ETC. D"
+    },
+    {
+      "slug": "canon-canon-ef-28mm-f18-usm-parts",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- REF.No.C21-5351\n- P A R T S L I S T\n- PARTS NO.\n- CLASS\n- D E S C R I P T I O N\n- CONTACT ASS'Y\n- SCREW, MOUNT STOPPER\n- SCREW\n- PCB ASS'Y, M-FLEX\n- CY1-2178-000(XXX)\n- WASHER, MOUNT\n- CY1-2180-000(",
+      "toc_fr_preview": "- RÉF.N°C21-5351\n- LISTE DES PIÈCES\n- NUMÉRO DE PIÈCES.\n- CLASSE\n- DESCRIPTION\n- CONTACTER ASS'Y\n- VIS DE MONTAGE DE BUTÉE\n- VIS\n- PCB ASS'Y, M-FLEX\n- CY1-2178-000(XXX)\n- RONDELLE DE MONTAGE\n- CY1-218"
+    },
+    {
+      "slug": "canon-canon-ef-85mm-f1-8-usm-parts",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- REF.No.C21-7321\n- P A R T S L I S T\n- PARTS NO.\n- CLASS\n- D E S C R I P T I O N\n- CONTACT ASS'Y\n- SCREW, MOUNT STOPPER\n- SCREW\n- CY1-2178-000(XXX)\n- WASHER, MOUNT\n- CY1-2180-000(XXX)\n- MOUNT, LENS\n-",
+      "toc_fr_preview": "- RÉF.N°C21-7321\n- LISTE DES PIÈCES\n- NUMÉRO DE PIÈCES.\n- CLASSE\n- DESCRIPTION\n- CONTACTER ASS'Y\n- VIS DE MONTAGE DE BUTÉE\n- VIS\n- CY1-2178-000(XXX)\n- RONDELLE DE MONTAGE\n- CY1-2180-000(XXX)\n- MONTURE"
+    },
+    {
+      "slug": "lurem-c20-notice",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- I. — DEGAUCHISSAGE\n- II. — RABOTAGE\n- III. — MORTAISAGE\n- IV. — TOUPILLAGE\n- V. — SCIAGE\n- VI. — CHARIOT DE TENONNAGE-SCIAGE\n- VII. — COMMANDE ELECTRIQUE",
+      "toc_fr_preview": "- I. — DÉGAUCHISSAGE\n- II. — RABOTAGE\n- III. — Mortaisage\n- IV. — TOUPILLAGE\n- V. — SCIAGE\n- VI. — CHARIOT DE TENONNAGE-SCIAGE\n- VII. — COMMANDE ÉLECTRIQUE"
+    },
+    {
+      "slug": "fujica-fujica-st705-st705w-repair-parts",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- I. TROUBLESHOOTING\n- 1. METER NEEDLE DOES NOT DEFLECT\n- 2. METER NEEDLE DEFLECTS CONTINUOUSLY TO THE MAXIMUM\n- 3. METER DOES NOT OPERATE ACCORDINGLY WITH SELECTED APERTURE OR SHUTTER SPEED OR CHANGE",
+      "toc_fr_preview": "- I. DÉPANNAGE\n- 1. L’AIGUILLE DU COMPTEUR NE DÉVIE PAS\n- 2. L’AIGUILLE DU COMPTEUR DÉVIE CONTINUELLEMENT AU MAXIMUM\n- 3. LE COMPTEUR NE FONCTIONNE PAS EN CONSÉQUENCE AVEC L'OUVERTURE OU LA VITESSE D'"
+    },
+    {
+      "slug": "olympus-olympus-ompc-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- A. GENERAL OUTLINE\n- B. INSPECTION STANDARDS\n- C. DISASSEMBLING PROCEDURES\n- D. REASSEMBLING AND ADJUSTING PROCEDURES\n- E. REPAIRING PROCEDURES\n- G. PARTS WHERE OIL, GREASE, ETC. SHALL BE USED\n- H. ",
+      "toc_fr_preview": "- A. APERÇU GÉNÉRAL\n- B. NORMES D'INSPECTION\n- C. PROCÉDURES DE DÉMONTAGE\n- D. PROCÉDURES DE RÉASSEMBLAGE ET DE RÉGLAGE\n- E. PROCÉDURES DE RÉPARATION\n- G. PIÈCES OÙ HUILE, GRAISSE, ETC. DOIT ÊTRE UTIL"
+    },
+    {
+      "slug": "canon-canon-ef-20mm-f28-usm-parts",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- REF.No.C21-5341 EF20mm 1:2.8 USMP A R T S L I S T\n- PARTS NO.\n- CLASS\n- D E S C R I P T I O N\n- SCREW\n- CA2-4377-000(XXX)\n- RING, SNAP\n- CONTACT ASS'Y\n- SCREW, MOUNT STOPPER\n- SCREW\n- CA2-5483-000(X",
+      "toc_fr_preview": "- REF.No.C21-5341 EF20mm 1:2.8 USMP A R T S L I S T\n- NUMÉRO DE PIÈCES.\n- CLASSE\n- DESCRIPTION\n- VIS\n- CA2-4377-000(XXX)\n- ANNEAU, PRESSION\n- CONTACTER ASS'Y\n- VIS DE MONTAGE DE BUTÉE\n- VIS\n- CA2-5483"
+    },
+    {
+      "slug": "canon-canon-ef-35-105mm-f45-56-usm-parts",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- REF.No.C21-9671\n- P A R T S L I S T\n- PARTS NO.\n- CLASS\n- D E S C R I P T I O N\n- RED MOUNTING INDEX\n- BRUSH, ZOOMING\n- M-FLEX\n- 1ST LENS GROUP ASS'Y\n- 2ND LENS GROUP ASS'Y\n- 3RD LENS GROUP ASS'Y\n- ",
+      "toc_fr_preview": "- RÉF.N°C21-9671\n- LISTE DES PIÈCES\n- NUMÉRO DE PIÈCES.\n- CLASSE\n- DESCRIPTION\n- INDICE DE MONTAGE ROUGE\n- BROSSE, ZOOM\n- M-FLEX\n- 1ER GROUPE DE LENTILLES ASS'Y\n- 2ÈME GROUPE DE LENTILLES ASS'Y\n- 3ÈME"
+    },
+    {
+      "slug": "contax-contax-rts-ii-repair-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- 1. DISASSEMBLING OF THE EXTERIOR PARTS\n- 2. DISASSEMBLING OF THE MOUNT BASE ASS'Y FROM THE CAMERA BODY (W/F.P.C and Mirror Box Ass'y)\n- 3. ASSEMBLING OF THE MOUNT BASE ASS'Y TO THE CAMERA BODY\n- 4. ",
+      "toc_fr_preview": "- 1. DÉMONTAGE DES PARTIES EXTÉRIEURES\n- 2. DÉMONTAGE DE L'ENSEMBLE DE BASE DE MONTAGE DU CORPS DE LA CAMÉRA (avec F.P.C et ensemble de boîte de miroir)\n- 3. ASSEMBLAGE DE L'ENSEMBLE DE BASE DE MONTAG"
+    },
+    {
+      "slug": "yaesu-yaesu-ft-757gx-manuel-gb",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- ERRATA FOR THE FT-757GX OPERATING MANUAL\n- SOLDERING AND DESOLDERING TECHNIQUE\n- PERFORMANCE IMPROVEMENT MODIFICATIONS\n- CAT SYSTEM INTERFACE DATA MANUAL\n- OUTER COVER REMOVAL AND UNIT ACCESS\n- SERV",
+      "toc_fr_preview": "- ERRATA POUR LE MANUEL D'UTILISATION DU FT-757GX\n- TECHNIQUE DE SOUDAGE ET DESSOUDAGE\n- MODIFICATIONS D’AMÉLIORATION DES PERFORMANCES\n- MANUEL DE DONNÉES DE L'INTERFACE DU SYSTÈME CAT\n- RETRAIT DU CO"
+    },
+    {
+      "slug": "edixa-edixa-reflex-repair-german",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- 1. Allgemeine Hinweise\n- 2. Sperrhebel, genietet 1000.05 - U 21\n- 3. Kontakthebel 1000.05 - U 19 und U 20\n- 4. MX Platine und Blitzbuchsen 1000.05 - U 2\n- 5. Zeiteinstellhebel 1000.05 - 98\n- 6. Vers",
+      "toc_fr_preview": "- 1. Généralités\n- 2. Sperrhebel, génération 1000.05 - U 21\n- 3. Contacter le 1000.05 - U 19 et U 20\n- 4. MX Platine et Blitzbuchsen 1000.05 - U 2\n- 5. Zeiteinstellhebel 1000.05 - 98\n- 6. Verschlusspl"
+    },
+    {
+      "slug": "hasselblad-hasselblad-accessories-repair-manual",
+      "issues": [
+        [
+          "CRITICAL",
+          "EN",
+          "Texte cyrillique (russe) dans description EN"
+        ],
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"sv\" dans description EN"
+        ],
+        [
+          "CRITICAL",
+          "FR",
+          "Texte cyrillique (russe) dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- 1. Wrist strap / Armband / Armband / Bracelet / Bracciale porta esposimetro / Pulsera\n- 2. Tube extension 21/55 / ​​Mellanringar 21/55 / ​​Zwischenringe 21/55 / ​​Extension rings 21/55 / ​​Anelli di",
+      "toc_fr_preview": "- 1. Wrist strap / Armband / Armband / Bracelet / Bracciale porta esposimetro / Pulsera\n- 2. Extension tubes 21/55 / Mellanringar 21/55 / Zwischenringe 21/55 / Bagues-allonges 21/55 / Anelli distanzia"
+    },
+    {
+      "slug": "kiev-kiev-60ttl-repair-russian",
+      "issues": [
+        [
+          "CRITICAL",
+          "EN",
+          "Texte cyrillique (russe) dans description EN"
+        ],
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"ru\" dans description EN"
+        ],
+        [
+          "CRITICAL",
+          "FR",
+          "Texte cyrillique (russe) dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- 1. Общие сведения\n- 2. Техническая характеристика фотоаппарата\n- 3. Конструкция фотоаппарата\n- 3.1. Транспортировка пленки\n- 3.2. Сброс счетчика кадров\n- 3.3. Завод затвора\n- 3.4. Работа механизма д",
+      "toc_fr_preview": "- 1. Общие сведения\n- 2. Caractéristiques techniques de l'appareil photo\n- 3. Construction d'appareils photo\n- 3.1. Транспортировка пленки\n- 3.2. Сброс счетчика кадров\n- 3.3. Завод затвора\n- 3.4. Diap"
+    },
+    {
+      "slug": "kodak-kodak-projector-pageant-av-12m6-service-manual-25",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- GENERAL INFORMATION\n- ELECTRICAL\n- MECHANISM\n- AMPLIFIER RATING (IHFM SPECIFICATIONS A-200)\n- SOUND SYSTEM\n- MAGNETIC HEAD\n- SPECIAL TOOLS AND MATERIALS\n- SPECIAL TOOLS\n- TEST FILMS\n- LUBRICATION\n- ",
+      "toc_fr_preview": "- INFORMATIONS GÉNÉRALES\n- ÉLECTRIQUE\n- MÉCANISME\n- VALEUR DE L'AMPLIFICATEUR (SPÉCIFICATIONS IHFM A-200)\n- SYSTÈME SONORE\n- TÊTE MAGNÉTIQUE\n- OUTILS ET MATÉRIAUX SPÉCIAUX\n- OUTILS SPÉCIAUX\n- FILMS TE"
+    },
+    {
+      "slug": "leica-leica-iiif-repair-manual-20",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ]
+      ],
+      "toc_en_preview": "- Einführung\n- Introduction\n- Reparaturanleitung zur Leica III f\n- Servicing Instructions for Leica III f\n- Ersatzteilliste\n- Spare Parts Lists\n- Leica III f\n- Deckkappe, Aufzugknopf, Rückwickelknopf\n",
+      "toc_fr_preview": "- Mise à jour\n- Introduction\n- Manuel de réparation du Leica III f\n- Instructions de maintenance pour Leica III f\n- Ersatzteilliste\n- Listes de pièces de rechange\n- Leica III f\n- Deckkappe, Aufzugknop"
+    },
+    {
+      "slug": "leica-leica-iiig-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "CRITICAL",
+          "FR",
+          "Texte allemand probable dans description_fr (mots: gehäuse, montage, zur)"
+        ]
+      ],
+      "toc_en_preview": "- Einführung / Introduction\n- Reparaturanleitung zur Leica IIIg / Servicing Instructions for Leica III g\n- Ersatzteilliste / Spare Parts Lists\n- Leica IIIg\n- Deckkappe, Aufzugknopf, Rückwickelknopf / ",
+      "toc_fr_preview": "- Présentation / Introduction\n- Reparaturanleitung zur Leica IIIg / Instructions d'entretien pour Leica III g\n- Ersatzteilliste / Listes de pièces de rechange\n- Leica IIIg\n- Deckkappe, Aufzugknopf, Rü"
+    },
+    {
+      "slug": "leica-leica-m3-repair-manual-25",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ]
+      ],
+      "toc_en_preview": "- Hobel\n- Lower\n- Schraubring\n- screw ring\n- Schlitzstellknopf\n- speed dial\n- Vor-chraubring\n- retaining ring\n- Verschraubring\n- retaining ring\n- Rückwickelknopf\n- rewind knob\n- cover plate, compl.\n- ",
+      "toc_fr_preview": "- Hobel\n- Inférieur\n- Schraubring\n- anneau à vis\n- Bouton Schlitzstell\n- numérotation rapide\n- Vor-chraubring\n- anneau de retenue\n- Verschraubring\n- anneau de retenue\n- Bouton de rückwicke\n- bouton de"
+    },
+    {
+      "slug": "nikon-nikon-coolpix-5600-repair",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"zh-cn\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"pt\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- VAA31001-R.3651.A\n- SPECIFICATIONS ･････････････････････････････････････････････････････････････････････････Ｍ１－Ｍ２\n- Disassembly\n- WARNING･････････････････････････････････････････････････････････････",
+      "toc_fr_preview": "- VAA31001-R.3651.A\n- SPÉCIFICATIONS ･･･････････････････ ････････････････････ ･･･････････････････ ･･･････････････Ｍ１－Ｍ２\n- Démontage\n- AVERTISSEMENT~~~~~~~~~~~~ ･･･････････････････････ ･････････････････"
+    },
+    {
+      "slug": "nikon-nikon-f4-repair-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- BODY DIBCASTING (Fig. 1)\n- SHUTTER UNIT, PD.DB.DX.FPC UNIT, SPROCKET (Fig. 2)\n- FILM ADVANCE BASE PLATE (Fig. 3)\n- REWIND MOTOR UNIT, RELEASE WG (Fig. 4)\n- SHUTTER BASE PLATE, FILM REWIND UNIT(Fig. ",
+      "toc_fr_preview": "- DIBCASTING DU CORPS (Fig. 1)\n- UNITÉ D'OBTURATION, UNITÉ PD.DB.DX.FPC, PIGNON (Fig. 2)\n- PLAQUE DE BASE D'AVANCE DU FILM (Fig. 3)\n- UNITÉ MOTEUR DE REMBOBINAGE, LIBÉRATION WG (Fig. 4)\n- PLAQUE DE BA"
+    },
+    {
+      "slug": "nikon-nikon-f90-n90-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- MARKS IN THE PARTS LIST\n- TAPES AND FILMS WITH PREFIX ALPHABETS TA\n- LEAD WIRE LIST\n- THERMAL CONSTRUCTION TUBE LIST\n- HOW TO USE EXPLOSION DRAWINGS\n- BODY DIBCASTING, SHUTTER UNIT, DB-DX CONTACT BA",
+      "toc_fr_preview": "- MARQUES DANS LA LISTE DES PIÈCES\n- BANDES ET FILMS AVEC PRÉFIXE ALPHABETS TA\n- LISTE DES FILS\n- LISTE DES TUBES DE CONSTRUCTION THERMIQUE\n- COMMENT UTILISER LES DESSINS D'EXPLOSION\n- CORPS DIBCASTIN"
+    },
+    {
+      "slug": "nikon-nikon-n55-f55-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- SEPARATION OF THE FRONT BODY FROM THE REAR BODY\n- BOTTOM COVER\n- BACK DOOR\n- FRONT COVER, GRIP COVER\n- TOP COVER\n- SEPARATION OF THE FRONT AND REAR BODY\n- FRONT BODY\n- SHUTTER\n- LCD DISPLAY\n- MAIN P",
+      "toc_fr_preview": "- SÉPARATION DE LA CORPS AVANT DE LA CORPS ARRIÈRE\n- COUVERCLE INFÉRIEUR\n- PORTE ARRIÈRE\n- COUVERCLE AVANT, COUVERCLE DE GRIP\n- COUVERCLE SUPÉRIEUR\n- SÉPARATION DE LA CARROSSERIE AVANT ET ARRIÈRE\n- CO"
+    },
+    {
+      "slug": "nikon-nikon-n70-f70-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"pt\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- Wiring Diagram — E1\n- Circuit Diagram — E2\n- PART & CHECKLANDS\n- TOP COVER FPC(ORIGINAL) — E3\n- TOP COVER FPC(REVISED) — E5\n- PENTAPRISM BOX FPC — E7\n- MAIN FPC — E10\n- TTL FPC — E12\n- CCD FPC — E13",
+      "toc_fr_preview": "- Schéma de câblage – E1\n- Schéma de circuit – E2\n- PIÈCES ET CHECKLANDS\n- COUVERCLE SUPÉRIEUR FPC (ORIGINAL) — E3\n- COUVERCLE SUPÉRIEUR FPC (RÉVISÉ) — E5\n- BOÎTE PENTAPRISME FPC — E7\n- FPC PRINCIPAL "
+    },
+    {
+      "slug": "leica-leicina-camera-service-manual-20",
+      "issues": [
+        [
+          "CRITICAL",
+          "EN",
+          "Texte allemand probable dans description EN (mots: in, für, zur, reparatur)"
+        ],
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ]
+      ],
+      "toc_en_preview": "- Einführung, Gebrauchsanleitung für Klebemittel (siehe Rep.-Unterlagen z. Leica M2)\n- Introduction, Instructions for Adhesives (see Servicing instructions for Leica M2)\n- Reparaturanleitung zur Leici",
+      "toc_fr_preview": "- Einführung, Gebrauchsanleitung für Klebemittel (siehe Rep.-Unterlagen z. Leica M2)\n- Introduction, instructions pour les adhésifs (voir instructions d'entretien pour Leica M2)\n- Manuel de réparation"
+    },
+    {
+      "slug": "elmo-elmo-16cl-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- DISASSEMBLY & ASSEMBLY\n- COVER\n- TAKE-UP REEL ARM\n- FEED REEL ARM\n- REWINDING MECHANISM\n- MACHINE FRAME - LINK\n- MACHINE FRAME - LEVER SPROCKET SHOE\n- MACHINE FRAME - LOOP RESTORER\n- MACHINE FRAME -",
+      "toc_fr_preview": "- DÉMONTAGE & MONTAGE\n- COUVERTURE\n- BRAS DE BOBINE RÉCEPTEUR\n- BRAS DE MOULINET D'ALIMENTATION\n- MÉCANISME DE REMBOBINAGE\n- CHÂSSIS DE MACHINE - LIEN\n- CHÂSSIS DE MACHINE - PIGNON À LEVIER\n- BÂTI DE "
+    },
+    {
+      "slug": "nikon-nikon-f5-repair-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- 1. AUTOFOCUS\n- 2. EXPOSURE MEASUREMENT\n- 3. EXPOSURE CONTROL\n- 4. FILM OPERATION\n- 5. FOCUSING SCREEN\n- 6. FINDER\n- 7. POWER SOURCE\n- 8. DATA BACK CONTACTS\n- 9. MODIFYING CAMERA\n- 10. TIME CHARTS",
+      "toc_fr_preview": "- 1. MISE AU POINT AUTOMATIQUE\n- 2. MESURE DE L'EXPOSITION\n- 3. CONTRÔLE DE L'EXPOSITION\n- 4. FONCTIONNEMENT DU FILM\n- 5. ÉCRAN DE MISE AU POINT\n- 6. TROUVEUR\n- 7. SOURCE D'ÉNERGIE\n- 8. CONTACTS DE RE"
+    },
+    {
+      "slug": "nikon-nikon-f90x-n90s-repair-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- FAA28052– R. 3363. A\n- F 9 0 X ( N 9 0 S ) EEF’ROM DATA\n- DATA FOR A-MCU\n- tIDRES\n- NOTE\n- AD ADJUSTMENT DATA\n- AF ADJUSTMENT OATA\n- AEAOJUSTMENT DATA Cfll\n- READJUSTMENT DATA CH2\n- READJUSTMENT oAT",
+      "toc_fr_preview": "- FAA28052– R. 3363. A\n- F 9 0 X ( N 9 0 S ) DONNÉES EEF'ROM\n- DONNÉES POUR A-MCU\n- tIDRES\n- NOTE\n- DONNÉES D'AJUSTEMENT DES AD\n- RÉGLAGE AF OATA\n- DONNÉES DE JUSTEMENT AEAO Cfll\n- DONNÉES DE RÉAJUSTE"
+    },
+    {
+      "slug": "bronica-bronica-etr-motordrive-lenses-repair-25",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"ca\" dans description EN"
+        ]
+      ],
+      "toc_en_preview": "- ETR/MOTOR DRIVE\n- PARTS LIST  1\n- REPAIR MANUAL 16\n- ETR/ZENZANON lenses\n- 75mm : Repair Manual 41\n- 40·50·150mm: Parts List & Repair Manual 79",
+      "toc_fr_preview": "- ETR/ENTRAÎNEMENT MOTEUR\n- LISTE DES PIÈCES 1\n- MANUEL DE REPARATION 16\n- Objectifs ETR/ZENZANON\n- 75mm : Manuel de réparation 41\n- 40·50·150mm : Liste des pièces et manuel de réparation 79"
+    },
+    {
+      "slug": "canon-canon-ef-28-105mm-f35-45-usm-parts",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- REF.No.C21-9701\n- P A R T S L I S T\n- PARTS NO.\n- CLASS\n- D E S C R I P T I O N\n- SPRING, COIL\n- HOLDER, FLEX\n- SCREW\n- SCREW\n- SCREW, CROSS-RECESS, PH\n- RING, RUBBER (New)\n- SCALE, FOCUSING (New)\n-",
+      "toc_fr_preview": "- RÉF.N°C21-9701\n- LISTE DES PIÈCES\n- NUMÉRO DE PIÈCES.\n- CLASSE\n- DESCRIPTION\n- RESSORT DE BOBINE\n- SUPPORT, FLEX\n- VIS\n- VIS\n- VIS À EMPLACEMENT CROIX, PH\n- ANNEAU, CAOUTCHOUC (Neuf)\n- ÉCHELLE, CONC"
+    },
+    {
+      "slug": "canon-canon-ef-50mmf14-usm-parts",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- REF.No.C21-6261\n- P A R T S L I S T\n- PARTS NO.\n- CLASS\n- D E S C R I P T I O N\n- CONTACT ASS'Y\n- SCREW, MOUNT STOPPER\n- SCREW\n- CA2-5160-000(XXX)\n- RING, SNAP\n- PCB ASS'Y, M-FLEX\n- CY1-2178-000(XXX",
+      "toc_fr_preview": "- RÉF.N°C21-6261\n- LISTE DES PIÈCES\n- NUMÉRO DE PIÈCES.\n- CLASSE\n- DESCRIPTION\n- CONTACTER ASS'Y\n- VIS DE MONTAGE DE BUTÉE\n- VIS\n- CA2-5160-000(XXX)\n- ANNEAU, PRESSION\n- PCB ASS'Y, M-FLEX\n- CY1-2178-0"
+    },
+    {
+      "slug": "canon-canon-ef-75-300mm-f4-56-iii-usm-parts",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"en\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- REF.No.C21-9862\n- P A R T S L I S T\n- PARTS NO.\n- CLASS\n- D E S C R I P T I O N\n- HOLDER, EMD-FLX\n- SHIELD, DUST\n- BRUSH, FOCUSING\n- CONTACT ASS'Y\n- RING, RUBBER\n- RING, REINFORCEMENT\n- SCREW, CROSS",
+      "toc_fr_preview": "- RÉF.N°C21-9862\n- LISTE DES PIÈCES\n- NUMÉRO DE PIÈCES.\n- CLASSE\n- DESCRIPTION\n- SUPPORT, EMD-FLX\n- BOUCLIER, POUSSIÈRE\n- PINCEAU, MISE AU POINT\n- CONTACTER ASS'Y\n- ANNEAU, CAOUTCHOUC\n- ANNEAU DE RENF"
+    },
+    {
+      "slug": "leitz-leitz-projector-pradovit-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ]
+      ],
+      "toc_en_preview": "- Einführung\n- Ersatzteilliste\n- Funktionsbeschreibung\n- Montageanleitung\n- Wartungsanleitung\n- Funktionsstörungen\n- Umbauten\n- Stromlaufpläne\n- Werkzeuge\n- Sonstiges",
+      "toc_fr_preview": "- Mise à jour\n- Ersatzteilliste\n- Description des fonctions\n- Manuel de montage\n- Manuel de maintenance\n- Fonctions\n- Umbauten\n- Plan Stromlauf\n- Travailleur\n- Sonstiges"
+    },
+    {
+      "slug": "nikon-nikon-300mm-f28ais-repair",
+      "issues": [
+        [
+          "CRITICAL",
+          "EN",
+          "Texte CJK dans description EN"
+        ],
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"ko\" dans description EN"
+        ],
+        [
+          "CRITICAL",
+          "FR",
+          "Texte CJK dans description_fr"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"ko\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- 外 観 図\n- 寸 関 図\n- 記 号 表\n- 記 号 品 表\n- 組 二 図\n- 装 置 洗 油 図\n- 分 転 子 屑 チャート\n- 組 立 要 点\n- 優 理 後 の テ ニ ック",
+      "toc_fr_preview": "- 外 観 図\n- 寸 関 図\n- 記 号 表\n- 記 号 品 表\n- 組 二 図\n- 装 置 洗 油 図\n- 分 転 子 屑 チ ャ ー ト\n- 組立要点\n- 優 理 後 の テ ニ ック"
+    },
+    {
+      "slug": "olympus-olympus-35ed-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- DRAWING AND PARTS LIST\n- FEATURE OF MECHANISM\n- INSPECTION STANDARD\n- DISASSEMBLY PROCEDURE\n- TROUBLESHOOTING\n- LIST OF LUBRICANTS AND CHEMICALS",
+      "toc_fr_preview": "- DESSIN ET LISTE DES PIÈCES\n- CARACTÉRISTIQUE DU MÉCANISME\n- NORME D'INSPECTION\n- PROCÉDURE DE DÉMONTAGE\n- DÉPANNAGE\n- LISTE DES LUBRIFIANTS ET PRODUITS CHIMIQUES"
+    },
+    {
+      "slug": "olympus-olympus-is3-is3000-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- A. PRODUCT OUTLINE\n- B. INSPECTION STANDARD\n- C. DISASSEMBLY PROCEDURE\n- D. ASSEMBLY AND ADJUSTMENT\n- E. REPAIR PROCEDURES\n- G. APPLICATION LIST OF GREASES AND CHEMICALS\n- H. SPECIAL JIGS AND TOOLS\n",
+      "toc_fr_preview": "- A. APERÇU DU PRODUIT\n- B. NORME D'INSPECTION\n- C. PROCÉDURE DE DÉMONTAGE\n- D. ASSEMBLAGE ET RÉGLAGE\n- E. PROCÉDURES DE RÉPARATION\n- G. LISTE D'APPLICATION DES GRAISSES ET PRODUITS CHIMIQUES\n- H. GAB"
+    },
+    {
+      "slug": "olympus-olympus-om-1-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- A. PARTS LIST AND EXPLODED PARTS DIAGRAM\n- B. GENERAL OUTLINE AND MECHANICAL FEATURES\n- C. CHECK POINTS (INSPECTION STANDARD)\n- D. ORDER OF DISASSEMBLY\n- E. OUTLINE OF REPAIRS\n- F. PARTS WHERE OIL, ",
+      "toc_fr_preview": "- A. LISTE DES PIÈCES ET SCHÉMA ÉCLATÉ DES PIÈCES\n- B. APERÇU GÉNÉRAL ET CARACTÉRISTIQUES MÉCANIQUES\n- C. POINTS DE CONTRÔLE (NORME D'INSPECTION)\n- D. ORDRE DE DÉMONTAGE\n- E. APERÇU DES RÉPARATIONS\n- "
+    },
+    {
+      "slug": "olympus-olympus-om-10-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- A. PARTS LIST AND EXPLODED PARTS DIAGRAM\n- B. GENERAL OUTLINE AND MECHANICAL FEATURES\n- C. CHECK POINTS (INSPECTION STANDARD)\n- D. ORDER OF DISASSEMBLY\n- E. OUTLINE OF REPAIRS\n- F. PARTS WHERE OIL, ",
+      "toc_fr_preview": "- A. LISTE DES PIÈCES ET SCHÉMA ÉCLATÉ DES PIÈCES\n- B. APERÇU GÉNÉRAL ET CARACTÉRISTIQUES MÉCANIQUES\n- C. POINTS DE CONTRÔLE (NORME D'INSPECTION)\n- D. ORDRE DE DÉMONTAGE\n- E. APERÇU DES RÉPARATIONS\n- "
+    },
+    {
+      "slug": "olympus-olympus-om-4-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- A. PARTS LIST AND EXPLODED PARTS DIAGRAM\n- B. GENERAL OUTLINE AND MECHANICAL FEATURES\n- C. CHECK POINTS (INSPECTION STANDARD)\n- D. ORDER OF DISASSEMBLY\n- E. OUTLINE OF REPAIRS\n- F. PARTS WHERE OIL, ",
+      "toc_fr_preview": "- A. LISTE DES PIÈCES ET SCHÉMA ÉCLATÉ DES PIÈCES\n- B. APERÇU GÉNÉRAL ET CARACTÉRISTIQUES MÉCANIQUES\n- C. POINTS DE CONTRÔLE (NORME D'INSPECTION)\n- D. ORDRE DE DÉMONTAGE\n- E. APERÇU DES RÉPARATIONS\n- "
+    },
+    {
+      "slug": "olympus-olympus-om2-om2n-service-manuel",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- GENERAL OUTLINE AND MECHANICAL FEATURES\n- CHECK POINTS (INSPECTION STANDARDS)\n- ORDER OF DISASSEMBLY\n- OUTLINE OF REPAIRS\n- PARTS WHERE OIL, GREASE, ETC. SHALL BE USED\n- SPECIAL TOOLS\n- OTHERS WIRIN",
+      "toc_fr_preview": "- APERÇU GÉNÉRAL ET CARACTÉRISTIQUES MÉCANIQUES\n- POINTS DE CONTRÔLE (NORMES D'INSPECTION)\n- ORDRE DE DÉMONTAGE\n- APERÇU DES RÉPARATIONS\n- PIÈCES OÙ HUILE, GRAISSE, ETC. DOIT ÊTRE UTILISÉ\n- OUTILS SPÉ"
+    },
+    {
+      "slug": "olympus-olympus-xa2-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- A. GENERAL OUTLINE AND MECHANICAL FEATURESA1~ 16\n- B. CHECK POINTS (INSPECTION STANDARD)B1~ 8\n- C. ORDER OF DISASSEMBLYC1~ 6\n- D. OUTLINE OF REPAIRD1~ 37\n- E. PARTS WHERE OIL, GREASE, ETC. SHALL BE ",
+      "toc_fr_preview": "- A. APERÇU GÉNÉRAL ET CARACTÉRISTIQUES MÉCANIQUES1~ 16\n- B. POINTS DE CONTRÔLE (NORME D'INSPECTION)B1~ 8\n- C. ORDRE DE DÉMONTAGEC1~ 6\n- D. APERÇU DE LA RÉPARATION1~ 37\n- E. PIÈCES OÙ HUILE, GRAISSE, "
+    },
+    {
+      "slug": "olympus-om-4ti-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- A. PARTS LIST AND EXPLODED PARTS DIAGRAM\n- B. GENERAL OUTLINE AND MECHANICAL FEATURES\n- C. CHECK POINTS (INSPECTION STANDARD)\n- D. ORDER OF DISASSEMBLY\n- E. OUTLINE OF REPAIRS\n- F. PARTS WHERE OIL, ",
+      "toc_fr_preview": "- A. LISTE DES PIÈCES ET SCHÉMA ÉCLATÉ DES PIÈCES\n- B. APERÇU GÉNÉRAL ET CARACTÉRISTIQUES MÉCANIQUES\n- C. POINTS DE CONTRÔLE (NORME D'INSPECTION)\n- D. ORDRE DE DÉMONTAGE\n- E. APERÇU DES RÉPARATIONS\n- "
+    },
+    {
+      "slug": "voitglander-voigtlander-bessamatic-repair",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- Blatt 2\n- 14501-50 Rückspülkopf\n- 53 Schraube\n- 67 Bremsfedern\n- 14505-25 Zyl. Ans. Schraube\n- 27 Schlitzmutter\n- 46 Schnellspannhebel\n- 48 Deckplatte\n- 14507r02 Tasthebel\n- r05 Kurve\n- r06 Schieber",
+      "toc_fr_preview": "- Blat 2\n- 14501-50 Rückspülkopf\n- 53 Schraube\n- 67 Fédération de Brems\n- 14505-25 Zyl. Rép. Schraube\n- 27 Schlitzmutter\n- 46 Schnellspannhebel\n- 48 Plaque de pont\n- 14507r02 Tasthebel\n- r05 Courbe\n- "
+    },
+    {
+      "slug": "pentax-pentax-645n-service-manual",
+      "issues": [
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "WARNING",
+          "FR",
+          "langdetect: langue détectée \"de\" dans description_fr"
+        ]
+      ],
+      "toc_en_preview": "- DISASSEMBLY PROCEDURE: 1-2\n- ASSEMBLY 1 ASSEMBLY OF BODY AND RELATED PART S: 3-11\n- ASSEMBLY 2 ASSEMBLY OF WINDING SEAT AND RTELATED PARTS: 12-21\n- ASSEMBLY 3 ASSEMBLY OF BODY AND RELATED PARTS: 22-",
+      "toc_fr_preview": "- PROCÉDURE DE DÉMONTAGE : 1-2\n- ASSEMBLAGE 1 ASSEMBLAGE DU CORPS ET PIÈCES ASSOCIÉES : 3-11\n- ASSEMBLAGE 2 ASSEMBLAGE DU SIÈGE D'ENROULEMENT ET DES PIÈCES ASSOCIÉES : 12-21\n- ASSEMBLAGE 3 ASSEMBLAGE "
+    },
+    {
+      "slug": "uher-uher-4000-report-monitor-av-service-manual",
+      "issues": [
+        [
+          "CRITICAL",
+          "EN",
+          "Texte allemand probable dans description EN (mots: für, als, von, des, einstellung)"
+        ],
+        [
+          "WARNING",
+          "EN",
+          "langdetect: langue détectée \"de\" dans description EN"
+        ],
+        [
+          "CRITICAL",
+          "FR",
+          "Texte allemand probable dans description_fr (mots: für, schmierung, zur, die, montage)"
+        ]
+      ],
+      "toc_en_preview": "- 1. Funktionsbeschreibung\n- 1.1 Laufwerk\n- 1.2 Das Prinzip des Motors\n- 1.3 Aufbau der Elektronik – 4000 Report Monitor AV\n- 1.4 Aufbau der Elektronik – 4200 und 4400 Report Monitor\n- 2. Allgemeine Z",
+      "toc_fr_preview": "- 1. Description des fonctions\n- 1.1 Laufwerk\n- 1.2 Le principe des moteurs\n- 1.3 Aufbau der Elektronik – 4000 Report Monitor AV\n- 1.4 Aufbau der Elektronik – Moniteur de rapport 4200 et 4400\n- 2. All"
+    }
+  ],
+  "errors": []
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-23T03:30:38.243Z",
-  "total": 20,
+  "generated_at": "2026-05-17T09:29:18.558Z",
+  "total": 2,
   "docs": [
     {
       "original_filename": "Monitor DINAMAP-8100 Operating Manual.pdf",
@@ -361,6 +361,42 @@
       "description_fr": "Manuel complet de service pour microscope medical Leica M320. Comprend description technique, presentation du systeme avec plusieurs configurations (variantes F12, FP12, C12, W12, LW12), emplacements et cablage, programmes de service, diagnostic des pannes, remplacement de modules, procedures d'entretien, protocols d'inspection, pieces de rechange et outils speciaux. Document inclut l'historique du produit de fevrier 2010 a septembre 2013 avec mises a jour de version.",
       "language": "en",
       "slug": "leica-leica-m320-service-manual"
+    },
+    {
+      "original_filename": "HP_Defibrillator-M1722B-CodeMaster XL+ Notice.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Biomédical\\HP\\HP_Defibrillator-M1722B-CodeMaster XL+ Notice.pdf",
+      "file_size": 804217,
+      "page_count": 141,
+      "price": 1200,
+      "status": "skipped",
+      "preview_file": "scripts\\temp_previews\\hp-hp-defibrillator-m1722b-codemaster-xl-users-guide.jpg",
+      "brand": "HP",
+      "category_fr": "Biomédical",
+      "filename_clean": "HP Defibrillator M1722B CodeMaster XL+ Users Guide",
+      "title_en": "M1722B CodeMaster XL+ Defibrillator/Monitor User's Guide",
+      "title_fr": "Guide d'utilisation du défibrillateur/moniteur M1722B CodeMaster XL+",
+      "description_en": "Complete user's guide for the Hewlett-Packard M1722B CodeMaster XL+ defibrillator/monitor. Covers operating controls, safety considerations, defibrillation procedures, patient monitoring, synchronized cardioversion, optional pacing function, optional SpO2 monitoring, optional advisory mode, troubleshooting, maintenance procedures including battery management and recorder paper handling, and installation/setup instructions.",
+      "description_fr": "Guide complet d'utilisation du défibrillateur/moniteur M1722B CodeMaster XL+ de Hewlett-Packard. Couvre les commandes de fonctionnement, les considérations de sécurité, les procédures de défibrillation, la surveillance du patient, la cardioversion synchronisée, la fonction de stimulation cardiaque optionnelle, la surveillance SpO2 optionnelle, le mode consultatif optionnel, le dépannage, les procédures de maintenance incluant la gestion de la batterie et le chargement du papier enregistreur, ainsi que les instructions d'installation et de configuration.",
+      "language": "en",
+      "slug": "hp-hp-defibrillator-m1722b-codemaster-xl-users-guide"
+    },
+    {
+      "original_filename": "SIPAP_Infant-Flow Notice.pdf",
+      "original_path": "C:\\Users\\adm\\Documents\\SHEMATHEQUE\\DOSSIER SOURCE\\Catégories\\Biomédical\\SIPAP\\SIPAP_Infant-Flow Notice.pdf",
+      "file_size": 1326952,
+      "page_count": 78,
+      "price": 1200,
+      "status": "skipped",
+      "preview_file": "scripts\\temp_previews\\sipap-infant-flow-sipap-user-manual-french.jpg",
+      "brand": "SIPAP",
+      "category_fr": "Biomédical",
+      "filename_clean": "Infant Flow SiPAP User Manual French",
+      "title_en": "Infant Flow SiPAP Operating Manual",
+      "title_fr": "Manuel d'utilisation Infant Flow SiPAP",
+      "description_en": "Complete user manual for the Infant Flow SiPAP respiratory device. Covers product description, specifications, safety warnings, setup and configuration, operation modes, alarms and indicators, maintenance, and troubleshooting. Includes step-by-step fixation procedures, control panel descriptions, user verification checklists, and approved accessories list.",
+      "description_fr": "Manuel complet d'utilisation du système respiratoire Infant Flow SiPAP. Inclut la description du produit, spécifications techniques, avertissements de sécurité, déballage et configuration, modes d'utilisation, alarmes et indicateurs, entretien et nettoyage. Comprend des procédures de fixation étape par étape, descriptions des panneaux de commande, listes de vérification et accessoires approuvés.",
+      "language": "fr",
+      "slug": "sipap-infant-flow-sipap-user-manual-french"
     }
   ]
 }
