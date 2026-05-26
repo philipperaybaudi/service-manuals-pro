@@ -37,8 +37,10 @@ function formatDescription(text: string): string {
           if (inList) { html += '</ul>'; inList = false; }
           if (trimmed === 'Table of Contents:' || trimmed === 'Table des matières :') {
             html += `<p class="font-bold mt-4 text-gray-800">${trimmed}</p>`;
-          } else {
+          } else if (trimmed === trimmed.toUpperCase() && /[A-ZÀ-Ü]/.test(trimmed)) {
             html += `<p class="font-bold mt-2">${trimmed}</p>`;
+          } else {
+            html += `<p class="mt-1">${trimmed}</p>`;
           }
         }
       }
