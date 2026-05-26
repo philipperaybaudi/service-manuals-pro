@@ -35,7 +35,11 @@ function formatDescription(text: string): string {
           html += `<li>${trimmed.slice(2)}</li>`;
         } else {
           if (inList) { html += '</ul>'; inList = false; }
-          html += `<p class="font-medium mt-2">${trimmed}</p>`;
+          if (trimmed === 'Table of Contents:' || trimmed === 'Table des matières :') {
+            html += `<p class="font-bold mt-4 text-gray-800">${trimmed}</p>`;
+          } else {
+            html += `<p class="font-medium mt-2">${trimmed}</p>`;
+          }
         }
       }
       if (inList) html += '</ul>';
