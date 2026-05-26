@@ -38,7 +38,7 @@ function formatDescription(text: string): string {
           if (trimmed === 'Table of Contents:' || trimmed === 'Table des matières :') {
             html += `<p class="font-bold mt-4 text-gray-800">${trimmed}</p>`;
           } else {
-            html += `<p class="font-medium mt-2">${trimmed}</p>`;
+            html += `<p class="font-bold mt-2">${trimmed}</p>`;
           }
         }
       }
