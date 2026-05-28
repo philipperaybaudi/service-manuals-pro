@@ -6,6 +6,7 @@ import { supabase } from '@/lib/supabase';
 import { formatPrice, fileSize } from '@/lib/utils';
 import { ChevronRight, FileText, Download, Shield, Clock } from 'lucide-react';
 import BuyButton from './BuyButton';
+import StickyBuyBar from './StickyBuyBar';
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd';
 import DownloadNotice from '@/components/DownloadNotice';
 import { getLocale, t } from '@/lib/locale';
@@ -180,8 +181,9 @@ export default async function DocumentPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <BreadcrumbJsonLd items={breadcrumbs} />
+      <StickyBuyBar documentId={doc.id} documentTitle={doc.title} price={doc.price} locale={locale} />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 lg:pb-8">
         {/* Breadcrumbs */}
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6 flex-wrap">
           <Link href="/" className="hover:text-gray-700">{t('category.home')}</Link>
