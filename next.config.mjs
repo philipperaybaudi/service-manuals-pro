@@ -73,6 +73,9 @@ const nextConfig = {
     { source: '/docs/dell-dell-inspiron-5370-service-manual-ca', destination: '/docs/dell-dell-inspiron-5370-service-manual', permanent: true },
     { source: '/docs/dell-dell-inspiron-15-3531-service-manual-sl-2', destination: '/docs/dell-dell-inspiron-15-3531-service-manual', permanent: true },
     { source: '/docs/dell-dell-inspiron-15-3555-service-manual-ca', destination: '/docs/dell-dell-inspiron-15-3555-service-manual', permanent: true },
+    // Redirects pages catégorie
+    { source: '/categories/computers-it/dell-computers-it', destination: '/categories/computers-it/dell', permanent: true },
+    { source: '/categories/computers-it/dell-computers', destination: '/categories/computers-it/dell', permanent: true },
     ];
   },
   async rewrites() {
