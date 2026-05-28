@@ -126,9 +126,9 @@ export default function RootLayout({
         />
       </head>
       <body className={bodyClass}>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-HK16FK7ZRT" strategy="afterInteractive" />
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${locale === 'fr' ? 'G-G49KM4VM2Q' : 'G-HK16FK7ZRT'}`} strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
-          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HK16FK7ZRT');`}
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${locale === 'fr' ? 'G-G49KM4VM2Q' : 'G-HK16FK7ZRT'}');`}
         </Script>
         <LanguageBanner currentLocale={locale} />
         <Header locale={locale} />
