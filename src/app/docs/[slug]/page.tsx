@@ -16,12 +16,13 @@ export const runtime = 'edge';
 
 export const revalidate = 3600;
 
-function formatDescription(text: string): string {
+function processTextBlock(text: string): string {
   if (!text) return '';
   const parts = text.split('\n\n');
   let html = '';
   for (const part of parts) {
-    const lines = part.split('\n');
+    const lines = part.split('\n').filter(l => l.trim());
+    if (lines.length === 0) continue;
     const hasListItems = lines.some(l => l.trim().startsWith('- '));
     if (!hasListItems) {
       html += `<p>${lines.join('<br>')}</p>`;
@@ -35,9 +36,7 @@ function formatDescription(text: string): string {
           html += `<li>${trimmed.slice(2)}</li>`;
         } else {
           if (inList) { html += '</ul>'; inList = false; }
-          if (trimmed === 'Table of Contents:' || trimmed === 'Table des matières :') {
-            html += `<p class="font-bold mt-4 text-gray-800">${trimmed}</p>`;
-          } else if (trimmed === trimmed.toUpperCase() && /[A-ZÀ-Ü]/.test(trimmed)) {
+          if (trimmed === trimmed.toUpperCase() && /[A-ZÀ-Ü]/.test(trimmed)) {
             html += `<p class="font-bold mt-2">${trimmed}</p>`;
           } else {
             html += `<p class="mt-1">${trimmed}</p>`;
@@ -47,6 +46,40 @@ function formatDescription(text: string): string {
       if (inList) html += '</ul>';
     }
   }
+  return html;
+}
+
+function formatDescription(text: string): string {
+  if (!text) return '';
+
+  // Detect TOC and wrap in native collapsible <details>
+  const tocMarkers = ['Table of Contents:', 'Table des matières :'];
+  let tocMarker = '';
+  let splitIdx = -1;
+
+  for (const marker of tocMarkers) {
+    const idx = text.indexOf(marker);
+    if (idx !== -1 && (splitIdx === -1 || idx < splitIdx)) {
+      tocMarker = marker;
+      splitIdx = idx;
+    }
+  }
+
+  if (splitIdx === -1) {
+    return processTextBlock(text);
+  }
+
+  const preToc = text.slice(0, splitIdx).trimEnd();
+  const tocBody = text.slice(splitIdx + tocMarker.length).trimStart();
+
+  let html = processTextBlock(preToc);
+  html += `<details class="mt-4 border border-gray-100 rounded-lg">`;
+  html += `<summary class="cursor-pointer font-bold text-gray-800 px-3 py-2 select-none hover:bg-gray-50 rounded-lg">`;
+  html += tocMarker;
+  html += `</summary>`;
+  html += `<div class="px-3 pb-3 mt-1">${processTextBlock(tocBody)}</div>`;
+  html += `</details>`;
+
   return html;
 }
 
@@ -177,7 +210,7 @@ export default async function DocumentPage({ params }: Props) {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left: Preview + Description */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 order-2 lg:order-1">
             {/* Preview */}
             <div className="bg-white rounded-xl border border-gray-200 overflow-hidden mb-6">
               <div className="aspect-[4/3] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
@@ -241,7 +274,7 @@ export default async function DocumentPage({ params }: Props) {
           </div>
 
           {/* Right: Buy card */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-1 order-1 lg:order-2">
             <div className="bg-white rounded-xl border border-gray-200 p-6 sticky top-24">
               <div className="text-3xl font-bold text-gray-900 mb-4">
                 {formatPrice(doc.price, 'USD', locale)}
