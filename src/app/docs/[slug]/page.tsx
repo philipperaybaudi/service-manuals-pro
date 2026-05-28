@@ -210,7 +210,7 @@ export default async function DocumentPage({ params }: Props) {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left: Preview + Description */}
-          <div className="lg:col-span-2 order-2 lg:order-1">
+          <div className="lg:col-span-2">
             {/* Preview */}
             <div className="bg-white rounded-xl border border-gray-200 overflow-hidden mb-6">
               <div className="aspect-[4/3] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center">
@@ -274,7 +274,7 @@ export default async function DocumentPage({ params }: Props) {
           </div>
 
           {/* Right: Buy card */}
-          <div className="lg:col-span-1 order-1 lg:order-2">
+          <div className="lg:col-span-1">
             <div className="bg-white rounded-xl border border-gray-200 p-6 sticky top-24">
               <div className="text-3xl font-bold text-gray-900 mb-4">
                 {formatPrice(doc.price, 'USD', locale)}
