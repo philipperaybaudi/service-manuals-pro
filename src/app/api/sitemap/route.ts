@@ -11,7 +11,7 @@ import { SITE_URLS } from '@/lib/i18n';
 
 export const runtime = 'edge';
 
-const PAGE_SIZE = 2000;
+const PAGE_SIZE = 1000;
 
 export async function GET(request: NextRequest) {
   const host     = request.headers.get('host') ?? '';
