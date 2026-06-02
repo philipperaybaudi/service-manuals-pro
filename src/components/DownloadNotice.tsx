@@ -1,8 +1,13 @@
 import Link from '@/components/ExternalLink';
 import { Monitor, Smartphone, Languages } from 'lucide-react';
-import { t } from '@/lib/locale';
+import { t, getLocale } from '@/lib/locale';
 
 export default function DownloadNotice() {
+  const locale = getLocale();
+  const translateUrl = locale === 'fr'
+    ? 'https://translate.google.com/intl/fr/about/'
+    : 'https://translate.google.com/intl/gb/about/';
+
   return (
     <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 space-y-3">
       <div className="flex items-start gap-3">
@@ -22,7 +27,7 @@ export default function DownloadNotice() {
         <p className="text-sm text-gray-700 leading-relaxed">
           {t('notice.translate')}{' '}
           <Link
-            href="https://translate.google.com/intl/gb/about/"
+            href={translateUrl}
             className="text-emerald-700 hover:text-emerald-800 font-semibold underline underline-offset-2"
           >
             {t('notice.google_translate')}
