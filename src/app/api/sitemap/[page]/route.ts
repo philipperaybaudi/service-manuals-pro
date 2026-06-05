@@ -54,7 +54,7 @@ export async function GET(
     for (const cat of cats ?? []) {
       urls.push({
         loc:        `${baseUrl}/categories/${cat.slug}`,
-        lastmod:    cat.created_at?.split('T')[0] ?? today,
+        lastmod:    today,
         changefreq: 'weekly',
         priority:   0.8,
       });
