@@ -143,6 +143,9 @@ export default async function CategoryPage({ params }: Props) {
   const siteUrl = SITE_URLS[locale];
   const catName = getCategoryName(category.slug, category.name, locale);
   const catDesc = getCategoryDescription(category.slug, category.description, locale);
+  const introText = locale === 'fr'
+    ? (category.intro_text_fr || category.intro_text || null)
+    : (category.intro_text || null);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -187,7 +190,10 @@ export default async function CategoryPage({ params }: Props) {
           <div className="flex-1 min-w-0">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">{catName} {t('category.service_manuals_suffix')}</h1>
             {catDesc && (
-              <p className="text-gray-500 mb-8 max-w-2xl">{catDesc}</p>
+              <p className="text-gray-500 mb-4 max-w-2xl">{catDesc}</p>
+            )}
+            {introText && (
+              <p className="text-gray-600 mb-8 max-w-2xl leading-relaxed">{introText}</p>
             )}
 
             {/* Brands grid */}
