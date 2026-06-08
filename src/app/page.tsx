@@ -42,14 +42,42 @@ async function getRecentDocs() {
   return data || [];
 }
 
+// Normalise une requête de recherche pour gérer les variantes de modèles :
+// "F-8" → "F8", "F 8" → "F8", supprime accents pour le fallback
+function normalizeQuery(raw: string): string {
+  return raw
+    .trim()
+    // Supprime les accents (pour matcher "refrigerateur" → "réfrigérateur" côté DB avec unaccent)
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    // Fusionne lettres/chiffres séparés par tiret ou espace : F-8→F8, DC-3→DC3, EOS 5D→EOS5D
+    .replace(/([A-Za-z])\s*[-–]\s*(\d)/g, '$1$2')
+    .replace(/(\d)\s*[-–]\s*([A-Za-z])/g, '$1$2')
+    .replace(/([A-Za-z])\s+(\d)/g, '$1$2')
+    .replace(/(\d)\s+([A-Za-z])/g, '$1$2')
+    .trim();
+}
+
 async function searchDocs(query: string) {
   const q = query.trim();
   if (!q) return [];
 
-  const { data: rows } = await supabase
-    .rpc('search_documents_by_title', { query_text: q });
+  const qNorm = normalizeQuery(q);
 
-  if (!rows || rows.length === 0) return [];
+  const loc = getLocale() === 'fr' ? 'fr' : 'en';
+
+  // Tentative 1 : requête originale avec locale
+  const { data: rows1 } = await supabase
+    .rpc('search_documents_by_title', { query_text: q, locale: loc });
+
+  // Tentative 2 : requête normalisée (si différente et que T1 est vide)
+  let rows = rows1 || [];
+  if (rows.length === 0 && qNorm !== q) {
+    const { data: rows2 } = await supabase
+      .rpc('search_documents_by_title', { query_text: qNorm, locale: loc });
+    rows = rows2 || [];
+  }
+
+  if (rows.length === 0) return [];
 
   const ids = (rows as { doc_id: string }[]).map(r => r.doc_id);
 

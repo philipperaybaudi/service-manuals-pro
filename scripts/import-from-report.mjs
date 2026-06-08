@@ -204,7 +204,8 @@ let errors   = 0;
 
 for (const doc of todo) {
   const { slug, brand, category_fr, original_path, file_size, page_count, price,
-          title_en, title_fr, description_en, description_fr, language, preview_file } = doc;
+          title_en, title_fr, description_en, description_fr, language, preview_file,
+          seo_tags } = doc;
 
   console.log(`\n📄 ${doc.original_filename}`);
   console.log(`   slug     : ${slug}`);
@@ -345,6 +346,7 @@ for (const doc of todo) {
     page_count:     page_count,
     preview_url:    previewUrl,
     language:       language,
+    seo_tags:       Array.isArray(seo_tags) && seo_tags.length > 0 ? seo_tags : null,
     active:         true,
     featured:       false,
     download_count: 0,

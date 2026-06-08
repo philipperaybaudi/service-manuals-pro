@@ -194,7 +194,8 @@ Lis ce PDF et réponds en JSON avec exactement ces champs :
 - **title_fr** : titre EN FRANÇAIS (60 chars max)
 - **description_en** : description EN ANGLAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
 - **description_fr** : description EN FRANÇAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
-- **language** : langue principale du document ("fr" ou "en")${prixBlock}
+- **language** : langue principale du document ("fr" ou "en")
+- **seo_tags** : tableau de chaînes (max 15) avec toutes les variantes de recherche du modèle visible dans le document — orthographes alternatives (F-8/F8/F 8), abréviations courantes, numéros de pièce principaux, synonymes du type de document (service manual/repair manual/workshop manual). Exemples : ["Widelux F8","Widelux F-8","Widelux F 8","panoramic camera service","Widelux repair"] ou ["EOS 5D","5D Mark II","5DII","5D2","Canon 5D service"]. Ne pas inclure le nom de la marque seul ni des termes génériques vides de sens.${prixBlock}
 
 RÈGLES ABSOLUES :
 - Décris UNIQUEMENT ce que tu vois dans les pages. Rien d'autre.
@@ -311,6 +312,7 @@ for (const [i, pdfPath] of pdfs.entries()) {
     entry.description_en  = meta.description_en;
     entry.description_fr  = meta.description_fr;
     entry.language        = meta.language;
+    entry.seo_tags        = Array.isArray(meta.seo_tags) ? meta.seo_tags.slice(0, 15) : [];
     // Prix Claude (Horlogerie) : écrase le prix du nom de fichier
     if (meta.price_cents && Number.isInteger(meta.price_cents) && meta.price_cents > 0) {
       entry.price = meta.price_cents;
