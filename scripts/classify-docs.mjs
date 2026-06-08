@@ -195,7 +195,13 @@ Lis ce PDF et réponds en JSON avec exactement ces champs :
 - **description_en** : description EN ANGLAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
 - **description_fr** : description EN FRANÇAIS basée STRICTEMENT sur le contenu visible. Peut être courte si le contenu est limité.
 - **language** : langue principale du document ("fr" ou "en")
-- **seo_tags** : tableau de chaînes (max 15) avec toutes les variantes de recherche du modèle visible dans le document — orthographes alternatives (F-8/F8/F 8), abréviations courantes, numéros de pièce principaux, synonymes du type de document (service manual/repair manual/workshop manual). Exemples : ["Widelux F8","Widelux F-8","Widelux F 8","panoramic camera service","Widelux repair"] ou ["EOS 5D","5D Mark II","5DII","5D2","Canon 5D service"]. Ne pas inclure le nom de la marque seul ni des termes génériques vides de sens.${prixBlock}
+- **seo_tags** : tableau de chaînes (max 15) avec toutes les variantes de recherche du modèle visible dans le document :
+  * Orthographes alternatives du modèle (F-8/F8/F 8, MkII/Mk II/Mark 2, etc.)
+  * Abréviations courantes et numéros de pièce principaux
+  * Synonymes du type de document (service manual/repair manual/workshop manual/notice/mode d'emploi)
+  * RÈGLE SYMBOLES UNICODE OBLIGATOIRE : si le titre contient des symboles (★, ★★, ©, ®, &, °, etc.), ajouter OBLIGATOIREMENT leurs équivalents texte. Exemples : ★ → "1 étoile","1 star" ; ★★ → "2 étoiles","2 stars","deux étoiles" ; & → "and","et" ; Series II → "Series 2","Série 2","Série II" ; Mk II → "Mark 2","MkII","Mark II"
+  * Exemples complets : ["Widelux F8","Widelux F-8","Widelux F 8","panoramic camera service","Widelux repair"] ou ["EOS 5D","5D Mark II","5DII","5D2","Canon 5D service"]
+  * Ne pas inclure le nom de la marque seul ni des termes génériques vides de sens.${prixBlock}
 
 RÈGLES ABSOLUES :
 - Décris UNIQUEMENT ce que tu vois dans les pages. Rien d'autre.

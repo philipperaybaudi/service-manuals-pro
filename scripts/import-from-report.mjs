@@ -92,6 +92,36 @@ function slugify(str) {
     .replace(/^-|-$/g, '');
 }
 
+// ─── Expansion automatique des symboles Unicode dans seo_tags ────────────────
+// Complète les seo_tags générés par Claude avec les équivalents texte des
+// symboles Unicode (★, &, II/III/IV…) — même logique que fix-unicode-seo-tags.mjs
+const SYMBOL_RULES = [
+  { detect: /★+/g,  expand: (m, t) => { const n=m.length, br=t.split(/[\s\-–]/)[0]; return [`${n} étoile${n>1?'s':''}`,`${n} star${n>1?'s':''}`,`${br} ${n} étoile${n>1?'s':''}`,`${br} ${n} star${n>1?'s':''}`]; } },
+  { detect: /®/g,   expand: () => ['registered','marque déposée'] },
+  { detect: /©/g,   expand: () => ['copyright'] },
+  { detect: /°/g,   expand: () => ['degré','degree'] },
+  { detect: /[№]/g, expand: () => ['numéro','number','no.'] },
+  { detect: /\bMk\s*(I{1,3}|IV|V|VI{0,3}|IX|X)\b/gi, expand: (m) => { const r=m.replace(/Mk\s*/i,'').trim(); const map={I:1,II:2,III:3,IV:4,V:5,VI:6,VII:7,VIII:8,IX:9,X:10}; const a=map[r.toUpperCase()]; return a?[`Mark ${r}`,`Mark ${a}`,`Mk${a}`]:[`Mark ${r}`]; } },
+  { detect: /\b(II|III|IV|VI|VII|VIII|IX)\b/g, expand: (m) => { const map={II:2,III:3,IV:4,VI:6,VII:7,VIII:8,IX:9}; return map[m]?[String(map[m])]:[];} },
+  { detect: /\s&\s/g, expand: () => ['and','et'] },
+];
+
+function expandUnicodeTags(title, titleFr, existingTags) {
+  const extras = new Set();
+  for (const src of [title, titleFr]) {
+    if (!src) continue;
+    for (const rule of SYMBOL_RULES) {
+      rule.detect.lastIndex = 0;
+      let m;
+      while ((m = rule.detect.exec(src)) !== null) {
+        rule.expand(m[0], src).forEach(v => v && extras.add(v.trim()));
+      }
+    }
+  }
+  const existing = new Set((existingTags||[]).map(t=>t.toLowerCase()));
+  return [...(existingTags||[]), ...[...extras].filter(t=>!existing.has(t.toLowerCase()))];
+}
+
 class NodeCanvasFactory {
   create(w, h) { const c = canvas.createCanvas(w, h); return { canvas: c, context: c.getContext('2d') }; }
   reset(cc, w, h) { cc.canvas.width = w; cc.canvas.height = h; }
@@ -346,7 +376,7 @@ for (const doc of todo) {
     page_count:     page_count,
     preview_url:    previewUrl,
     language:       language,
-    seo_tags:       Array.isArray(seo_tags) && seo_tags.length > 0 ? seo_tags : null,
+    seo_tags:       expandUnicodeTags(normalizedTitleEn, normalizedTitleFr, seo_tags) || null,
     active:         true,
     featured:       false,
     download_count: 0,
