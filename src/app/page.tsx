@@ -43,17 +43,18 @@ async function getRecentDocs() {
 }
 
 // Normalise une requête de recherche pour gérer les variantes de modèles :
-// "F-8" → "F8", "F 8" → "F8", supprime accents pour le fallback
+// "F-8" → "F8", "F 8" → "F8"
+// Les accents sont gérés par unaccent() côté DB — ne pas les supprimer ici
+// (sinon "2 étoiles" → "2etoiles" après strip accent + fusion chiffre-lettre)
 function normalizeQuery(raw: string): string {
   return raw
     .trim()
-    // Supprime les accents (pour matcher "refrigerateur" → "réfrigérateur" côté DB avec unaccent)
-    .normalize('NFD').replace(/[̀-ͯ]/g, '')
-    // Fusionne lettres/chiffres séparés par tiret ou espace : F-8→F8, DC-3→DC3, EOS 5D→EOS5D
+    // Fusionne lettre/chiffre séparés par tiret : F-8→F8, DC-3→DC3
     .replace(/([A-Za-z])\s*[-–]\s*(\d)/g, '$1$2')
     .replace(/(\d)\s*[-–]\s*([A-Za-z])/g, '$1$2')
-    .replace(/([A-Za-z])\s+(\d)/g, '$1$2')
-    .replace(/(\d)\s+([A-Za-z])/g, '$1$2')
+    // Fusionne UNIQUEMENT lettre seule + espace + chiffres : "F 4"→"F4"
+    // PAS "2 étoiles", "3 vitesses" (mot complet ≠ désignateur de modèle)
+    .replace(/\b([A-Za-z])\s+(\d+)\b/g, '$1$2')
     .trim();
 }
 
