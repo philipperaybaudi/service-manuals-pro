@@ -65,15 +65,15 @@ async function searchDocs(query: string) {
 
   const loc = getLocale() === 'fr' ? 'fr' : 'en';
 
-  // Tentative 1 : requête originale avec locale
+  // Tentative 1 : requête normalisée en priorité (F 4 → F4, F-4 → F4)
   const { data: rows1 } = await supabase
-    .rpc('search_documents_by_title', { query_text: q, locale: loc });
+    .rpc('search_documents_by_title', { query_text: qNorm, locale: loc });
 
-  // Tentative 2 : requête normalisée (si différente et que T1 est vide)
+  // Tentative 2 : requête originale en fallback (si normalisée = originale ou 0 résultat)
   let rows = rows1 || [];
   if (rows.length === 0 && qNorm !== q) {
     const { data: rows2 } = await supabase
-      .rpc('search_documents_by_title', { query_text: qNorm, locale: loc });
+      .rpc('search_documents_by_title', { query_text: q, locale: loc });
     rows = rows2 || [];
   }
 
