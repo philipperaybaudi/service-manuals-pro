@@ -516,9 +516,13 @@ const categoryDescriptionsFr: Record<string, string> = {
   'watchmaking': "Manuels de service pour Omega, Rolex, Seiko, Citizen, ETA, Zenith, Jaeger-LeCoultre — mouvements, listes de pièces et guides techniques. PDF.",
 };
 
+const categoryNamesEn: Record<string, string> = {
+  'watchmaking': 'Watchmaking',
+};
+
 export function getCategoryName(slug: string, name: string, locale: Locale): string {
   if (locale === 'fr') return categoryNamesFr[slug] ?? name;
-  return name;
+  return categoryNamesEn[slug] ?? name;
 }
 
 export function getCategoryDescription(slug: string, description: string, locale: Locale): string {
