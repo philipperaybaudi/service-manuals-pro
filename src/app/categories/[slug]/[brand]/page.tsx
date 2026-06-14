@@ -167,6 +167,14 @@ export default async function BrandPage({ params }: Props) {
           </div>
         </div>
 
+        {/* Brand description (SEO intro text) */}
+        {(() => {
+          const desc = locale === 'fr' ? (brand.description_fr || brand.description) : brand.description;
+          return desc ? (
+            <p className="text-gray-600 mb-8 max-w-2xl leading-relaxed">{desc}</p>
+          ) : null;
+        })()}
+
         {/* Documents grid */}
         {documents.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
