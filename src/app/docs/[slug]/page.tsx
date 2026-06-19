@@ -72,8 +72,17 @@ function formatDescription(text: string): string {
 
   const preToc = text.slice(0, splitIdx).trimEnd();
   const tocBody = text.slice(splitIdx + tocMarker.length).trimStart();
+  const tocItemCount = tocBody.split('\n').filter(l => l.trim().startsWith('- ')).length;
 
   let html = processTextBlock(preToc);
+
+  // TOC courte (< 10 lignes) : intégrée à la suite du descriptif, sans menu déroulant
+  if (tocItemCount > 0 && tocItemCount < 10) {
+    html += `<p class="font-bold text-gray-800 mt-4">${tocMarker}</p>`;
+    html += `<div class="mt-1">${processTextBlock(tocBody)}</div>`;
+    return html;
+  }
+
   html += `<details class="mt-4 border border-gray-100 rounded-lg">`;
   html += `<summary class="cursor-pointer font-bold text-gray-800 px-3 py-2 select-none hover:bg-gray-50 rounded-lg">`;
   html += tocMarker;
