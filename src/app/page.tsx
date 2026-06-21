@@ -46,12 +46,17 @@ async function getRecentDocs() {
 // "F-8" → "F8", "F 8" → "F8"
 // Les accents sont gérés par unaccent() côté DB — ne pas les supprimer ici
 // (sinon "2 étoiles" → "2etoiles" après strip accent + fusion chiffre-lettre)
+// \b OBLIGATOIRE : sans délimiteur de mot, la regex capture le DERNIER caractère
+// de n'importe quel mot (ex: "Helios-44M" → "s-4" matché → "Helios44M", un token
+// qui n'existe dans aucun titre). Avec \b, seuls les désignateurs à lettre/chiffre
+// ISOLÉS sont fusionnés ("F-8"→"F8"), pas les codes composés multi-caractères.
 function normalizeQuery(raw: string): string {
   return raw
     .trim()
-    // Fusionne lettre/chiffre séparés par tiret : F-8→F8, DC-3→DC3
-    .replace(/([A-Za-z])\s*[-–]\s*(\d)/g, '$1$2')
-    .replace(/(\d)\s*[-–]\s*([A-Za-z])/g, '$1$2')
+    // Fusionne UNIQUEMENT lettre seule isolée + tiret + chiffres : "F-8"→"F8"
+    // PAS "Helios-44M" (lettre "s" non isolée, fait partie du mot "Helios")
+    .replace(/\b([A-Za-z])\s*[-–]\s*(\d+)\b/g, '$1$2')
+    .replace(/\b(\d+)\s*[-–]\s*([A-Za-z])\b/g, '$1$2')
     // Fusionne UNIQUEMENT lettre seule + espace + chiffres : "F 4"→"F4"
     // PAS "2 étoiles", "3 vitesses" (mot complet ≠ désignateur de modèle)
     .replace(/\b([A-Za-z])\s+(\d+)\b/g, '$1$2')
